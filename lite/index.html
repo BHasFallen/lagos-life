@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagos Life Lite — High-Performance Sovereign Web Client</title>
+  <link rel="icon" type="image/svg+xml" href="/icon.svg">
+  <link rel="stylesheet" href="/lite/styles.css">
+  <meta name="description" content="Lagos Life Lite: Ultra-fast, zero-WebGL web dashboard for Lagos Life simulation. Manage trillions, estates, clubs, DMs, staff, and real-time APIs.">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Top Navigation Bar -->
+    <header class="top-nav">
+      <div class="brand-section">
+        <div class="brand-logo-badge">🌴</div>
+        <div class="brand-text">
+          <h1>Lagos Life <span class="brand-tag">Lite Edition</span></h1>
+          <div class="brand-sub">Sovereign High-Performance Client · Connected</div>
+        </div>
+      </div>
+
+      <!-- Quick Telemetry & Wallet -->
+      <div class="header-stats">
+        <div class="stat-chip wallet">
+          <span style="font-size:1.1rem;">💸</span>
+          <span>Wallet:</span>
+          <span id="top-wallet" class="val">₦449,555,659,822,355</span>
+        </div>
+        <div class="stat-chip">
+          <div class="pulse-dot"></div>
+          <span id="online-counter">87k Online</span>
+        </div>
+        <div class="stat-chip" id="efcc-status-chip">
+          <span>🛡️ EFCC Immunity:</span>
+          <span style="color:var(--emerald-400); font-weight:700;">Active</span>
+        </div>
+        <div class="stat-chip" id="live-connection-chip" title="Direct bidirectional bridge to lagoslife.eliysites.com">
+          <span style="color:var(--emerald-400); font-size:0.8rem;">●</span>
+          <span>Live Server:</span>
+          <span id="live-connection-status" style="color:var(--emerald-400); font-weight:700;">lagoslife.app</span>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="header-actions">
+        <button id="btn-quick-spray" class="btn btn-gold">
+          <span>💸</span> Spray ₦1M
+        </button>
+        <button id="btn-sync-cloud" class="btn btn-primary">
+          <span>☁️</span> Cloud Sync
+        </button>
+        <a href="/" class="btn btn-secondary" title="Switch to 3D Isometric View">
+          <span>🎮</span> 3D World
+        </a>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="category-nav">
+      <button class="nav-tab active" data-tab="overview"><span>📊</span> Overview</button>
+      <button class="nav-tab" data-tab="economy"><span>💰</span> Wealth & Till</button>
+      <button class="nav-tab" data-tab="forbes"><span>🏆</span> Forbes Board</button>
+      <button class="nav-tab" data-tab="estate"><span>🏝️</span> Banana Island & Land</button>
+      <button class="nav-tab" data-tab="nightlife"><span>🍾</span> Quilox VIP</button>
+      <button class="nav-tab" data-tab="messages">
+        <span>✉️</span> Messages <span class="nav-badge" id="msg-badge">156</span>
+      </button>
+      <button class="nav-tab" data-tab="crime">
+        <span>⚖️</span> Crime & Bail <span class="nav-badge" style="background:#f59e0b;" id="bail-badge">7</span>
+      </button>
+      <button class="nav-tab" data-tab="garage"><span>🏎️</span> Garage & Jets</button>
+      <button class="nav-tab" data-tab="betting"><span>⚽</span> Sports Betting & Casino</button>
+      <button class="nav-tab" data-tab="stores"><span>🛍️</span> Player Stores</button>
+      <button class="nav-tab" data-tab="savemgr"><span>💾</span> Save & Cloud</button>
+    </nav>
+
+    <!-- Main Workspace -->
+    <main class="main-content">
+
+      <!-- ========================================================
+           TAB 1: OVERVIEW DASHBOARD
+           ======================================================== -->
+      <section id="tab-overview" class="tab-pane active">
+        <!-- Hero Command Card -->
+        <div class="hero-command">
+          <div class="hero-avatar">
+            <div class="avatar-frame">
+              <span id="avatar-emoji">👑</span>
+              <div class="avatar-badge">TRIL</div>
+            </div>
+          </div>
+          <div class="hero-info">
+            <h2>
+              <span id="sim-name">bobbyhasfallen</span>
+              <span class="meta-pill highlight">Oga At The Top</span>
+              <span class="meta-pill" style="color:var(--emerald-400);">Tech Bro & Musical</span>
+            </h2>
+            <div class="hero-meta">
+              <span class="meta-pill">📍 Banana Island Waterfront Estate</span>
+              <span class="meta-pill">⚡ 100% Solar Inverter Off-Grid</span>
+              <span class="meta-pill">🚗 Current Ride: Bugatti La Voiture Noire</span>
+              <span class="meta-pill" id="health-pill" style="color:#f87171; background:rgba(239,68,68,0.15); border-color:rgba(239,68,68,0.3);">
+                🤒 Malaria Active (-35 Mood)
+              </span>
+            </div>
+
+            <!-- Needs Matrix -->
+            <div class="needs-matrix">
+              <div class="need-card" onclick="restoreNeed('hunger')">
+                <div class="need-header">
+                  <span>🍛 Hunger</span>
+                  <span id="val-hunger">68%</span>
+                </div>
+                <div class="need-bar-bg"><div id="bar-hunger" class="need-bar-fill good" style="width:68%;"></div></div>
+              </div>
+
+              <div class="need-card" onclick="restoreNeed('energy')">
+                <div class="need-header">
+                  <span>⚡ Energy</span>
+                  <span id="val-energy">61%</span>
+                </div>
+                <div class="need-bar-bg"><div id="bar-energy" class="need-bar-fill good" style="width:61%;"></div></div>
+              </div>
+
+              <div class="need-card" onclick="restoreNeed('hygiene')">
+                <div class="need-header">
+                  <span>🫧 Hygiene</span>
+                  <span id="val-hygiene">65%</span>
+                </div>
+                <div class="need-bar-bg"><div id="bar-hygiene" class="need-bar-fill good" style="width:65%;"></div></div>
+              </div>
+
+              <div class="need-card" onclick="restoreNeed('bladder')">
+                <div class="need-header">
+                  <span>🚽 Bladder</span>
+                  <span id="val-bladder" style="color:#f87171;">19%</span>
+                </div>
+                <div class="need-bar-bg"><div id="bar-bladder" class="need-bar-fill crit" style="width:19%;"></div></div>
+              </div>
+
+              <div class="need-card" onclick="restoreNeed('fun')">
+                <div class="need-header">
+                  <span>🎉 Fun</span>
+                  <span id="val-fun">78%</span>
+                </div>
+                <div class="need-bar-bg"><div id="bar-fun" class="need-bar-fill good" style="width:78%;"></div></div>
+              </div>
+
+              <div class="need-card" onclick="restoreNeed('social')">
+                <div class="need-header">
+                  <span>💬 Social</span>
+                  <span id="val-social">84%</span>
+                </div>
+                <div class="need-bar-bg"><div id="bar-social" class="need-bar-fill good" style="width:84%;"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display:flex; flex-direction:column; gap:0.65rem;">
+            <button class="btn btn-primary" onclick="cureMalaria()">
+              <span>💉</span> Clinic Malaria Injection
+            </button>
+            <button class="btn btn-secondary" onclick="restoreAllNeeds()">
+              <span>✨</span> Instant Max Needs
+            </button>
+          </div>
+        </div>
+
+        <!-- Dashboard Split Grid -->
+        <div class="dashboard-grid">
+          <!-- Active Moodlets & Quick Actions -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🌟</span> Active Moodlets & Buffs</h3>
+              <span style="font-size:0.8rem; color:var(--text-dim);" id="mood-summary">Mood: Very Happy (+112 Total)</span>
+            </div>
+            
+            <div id="moodlets-container" style="display:flex; flex-wrap:wrap; gap:0.75rem; margin-bottom:1.5rem;">
+              <!-- Dynamic moodlets inserted via app.js -->
+            </div>
+
+            <div class="section-header" style="margin-top:1.5rem;">
+              <h3><span>⚡</span> Quick Estate & Lifestyle Controls</h3>
+            </div>
+            <div class="quick-action-grid">
+              <div class="action-tile" onclick="executeLifestyle('chef')">
+                <span class="icon">🍲</span>
+                <span class="title">Chef's Jollof</span>
+                <span class="desc">+100% Hunger</span>
+              </div>
+              <div class="action-tile" onclick="executeLifestyle('vono')">
+                <span class="icon">🛏️</span>
+                <span class="title">Vono Sleep</span>
+                <span class="desc">+100% Energy</span>
+              </div>
+              <div class="action-tile" onclick="executeLifestyle('shower')">
+                <span class="icon">🚿</span>
+                <span class="title">Power Shower</span>
+                <span class="desc">+100% Hygiene</span>
+              </div>
+              <div class="action-tile" onclick="executeLifestyle('fifa')">
+                <span class="icon">🎮</span>
+                <span class="title">PS5 FIFA</span>
+                <span class="desc">+25 Fun & Win</span>
+              </div>
+              <div class="action-tile" onclick="executeLifestyle('spray')">
+                <span class="icon">💸</span>
+                <span class="title">Spray Cash</span>
+                <span class="desc">+30 Fun & Hype</span>
+              </div>
+              <div class="action-tile" onclick="executeLifestyle('gist')">
+                <span class="icon">📱</span>
+                <span class="title">Check Gist</span>
+                <span class="desc">+20 Social</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Live Passive Business Till Summary -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🏢</span> Daily Business Till</h3>
+              <button class="header-action-btn" onclick="collectTill()">Collect All ₦1.88M</button>
+            </div>
+            <div style="font-size:0.8rem; color:var(--text-dim); margin-bottom:1rem;">
+              Automated daily yields from your 8 commercial enterprises:
+            </div>
+            <div class="biz-list" id="quick-biz-list">
+              <!-- Injected by app.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 2: WEALTH & ECONOMY
+           ======================================================== -->
+      <section id="tab-economy" class="tab-pane" style="display:none;">
+        <div class="wealth-card">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start;">
+            <div>
+              <span class="brand-tag">Liquid Capital Holdings</span>
+              <div class="wealth-total" id="econ-wallet">₦449,555,659,822,355</div>
+              <div style="font-size:0.85rem; color:var(--text-dim);">
+                Verified Total Net Worth: <strong style="color:var(--gold-400);" id="econ-networth">₦449,586,211,113,116</strong>
+              </div>
+            </div>
+            <div style="display:flex; gap:0.6rem;">
+              <button class="btn btn-gold" onclick="sprayCashMultiple(10)">
+                <span>🍾</span> Spray ₦10M Parade
+              </button>
+              <button class="btn btn-primary" onclick="collectTill()">
+                <span>📥</span> Cash Out Till
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <!-- Passive Business Empire Matrix -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>📈</span> Commercial Empire & Daily Revenue</h3>
+              <span class="brand-tag">₦1,887,500 / Day</span>
+            </div>
+            <div class="biz-list" id="full-biz-list">
+              <!-- Full list from app.js -->
+            </div>
+          </div>
+
+          <!-- Central Bank & Anti-Cheat Governance -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🏦</span> Banking & EFCC Regulation</h3>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:1rem;">
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🏛️</span>
+                  <div>
+                    <div class="biz-name">Commercial Savings Account</div>
+                    <div class="biz-category">Statutory Interest Rate: 50 bps (0.5%)</div>
+                  </div>
+                </div>
+                <div class="biz-yield">₦137</div>
+              </div>
+
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">📜</span>
+                  <div>
+                    <div class="biz-name">State Treasury Bonds</div>
+                    <div class="biz-category">7-Day Lockup (Ceiling: ₦500M)</div>
+                  </div>
+                </div>
+                <div class="biz-yield">₦0 (Maxed)</div>
+              </div>
+
+              <div style="background:rgba(16,185,129,0.08); border:1px solid rgba(16,185,129,0.25); border-radius:var(--radius-md); padding:1rem;">
+                <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:0.4rem;">
+                  <strong style="color:var(--emerald-400); font-size:0.9rem;">🛡️ EFCC Immunity Cooldown</strong>
+                  <span class="meta-pill" style="color:var(--emerald-400);">ACTIVE</span>
+                </div>
+                <p style="font-size:0.75rem; color:var(--text-muted); line-height:1.4;">
+                  Guard clause <code>efccClosed: 999999999999</code> is engaged. The game simulation engine will never issue search warrants, bank freezes, or asset seizures against your trillions.
+                </p>
+                <button class="btn btn-secondary" style="margin-top:0.75rem; width:100%; font-size:0.8rem;" onclick="reapplyImmunity()">
+                  Re-Verify Anti-Raid Immunity
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Automated Wire Transfer Bureau (/api/send) -->
+        <div class="transfer-bureau-card">
+          <div class="section-header" style="border-bottom-color: rgba(16, 185, 129, 0.2);">
+            <div>
+              <h3><span>💸</span> Automated Offshore & Domestic Wire Bureau (Live Bridge)</h3>
+              <p style="font-size:0.75rem; color:var(--text-dim); margin-top:0.25rem;">
+                Execute safe, automated ₦10B batches to recipient accounts without 429 rate-limiting or 409 save conflicts.
+              </p>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.5rem;">
+              <span class="meta-pill" id="transfer-status-badge" style="color:var(--emerald-400);">READY</span>
+            </div>
+          </div>
+
+          <div class="transfer-form-grid">
+            <div class="form-group">
+              <label class="form-label">Recipient User ID</label>
+              <input type="text" id="transfer-recipient-id" class="form-input" value="35be8dd24eb34347a8c5" placeholder="Recipient account ID">
+              <span style="font-size:0.7rem; color:var(--text-dim);">Default: bannybobby (35be8dd24eb34347a8c5)</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Amount per Batch (₦)</label>
+              <input type="number" id="transfer-batch-amount" class="form-input" value="10000000000" step="1000000000" min="1000">
+              <span style="font-size:0.7rem; color:var(--text-dim);">Max limit: ₦10,000,000,000 (Fee: ₦50)</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Total Batches (Cycles)</label>
+              <input type="number" id="transfer-cycles-count" class="form-input" value="10" min="1" max="100">
+              <span style="font-size:0.7rem; color:var(--text-dim);" id="transfer-total-calc">Total to send: ₦100,000,000,000</span>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Pacing Safety Delay</label>
+              <input type="number" id="transfer-delay-sec" class="form-input" value="62" min="61" disabled>
+              <span style="font-size:0.7rem; color:var(--gold-400);">⚠️ 62s mandatory (Server limits 1 per min)</span>
+            </div>
+          </div>
+
+          <!-- Progress HUD -->
+          <div style="display:flex; justify-content:space-between; align-items:center; font-size:0.8rem; margin-top:0.5rem;">
+            <span id="transfer-progress-text" style="color:var(--text-muted);">Status: Idle · 0/10 Completed</span>
+            <span id="transfer-timer-text" style="color:var(--gold-400); font-family:var(--font-mono); font-weight:700;">Cooldown: 0s</span>
+          </div>
+          <div class="transfer-progress-bar-bg">
+            <div id="transfer-progress-bar" class="transfer-progress-bar-fill"></div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div style="display:flex; gap:0.75rem; margin-top:1rem; margin-bottom:1rem;">
+            <button class="btn btn-gold" id="btn-start-transfer" onclick="startAutomatedTransfers()">
+              <span>🚀</span> Start Automated Wire Transfers
+            </button>
+            <button class="btn btn-secondary" id="btn-stop-transfer" onclick="stopAutomatedTransfers()" disabled>
+              <span>⏹️</span> Abort / Stop Transfers
+            </button>
+            <button class="btn btn-secondary" onclick="clearTransferConsole()" style="margin-left:auto;">
+              <span>🧹</span> Clear Logs
+            </button>
+          </div>
+
+          <!-- Live Terminal Output -->
+          <div class="console-log-box" id="transfer-log-box">
+[System Ready] Wire Bureau Initialized.
+Pacing verified at 62s to bypass server rate limits (429).
+Auto-sync enabled to prevent 409 save timestamp collisions.
+Click 'Start Automated Wire Transfers' to initiate batch transfer.
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 3: FORBES LEADERBOARD
+           ======================================================== -->
+      <section id="tab-forbes" class="tab-pane" style="display:none;">
+        <div class="section-card">
+          <div class="section-header">
+            <div>
+              <h3><span>🏆</span> Lagos Life Official Forbes Richest Board</h3>
+              <p style="font-size:0.75rem; color:var(--text-dim); margin-top:0.25rem;">
+                Live global leaderboard queried from <code>/api/forbes</code> (4,964 players ranked)
+              </p>
+            </div>
+            <div style="display:flex; gap:0.5rem;">
+              <button class="btn btn-secondary" id="btn-toggle-forbes-mode" onclick="toggleForbesMode()">
+                👑 Toggle Trillionaire Crown
+              </button>
+              <button class="btn btn-primary" onclick="loadForbesData()">
+                🔄 Refresh Board
+              </button>
+            </div>
+          </div>
+
+          <table class="forbes-table">
+            <thead>
+              <tr style="text-align:left; font-size:0.75rem; color:var(--text-dim); text-transform:uppercase;">
+                <th class="forbes-cell">Rank</th>
+                <th class="forbes-cell">Player</th>
+                <th class="forbes-cell">Home Area</th>
+                <th class="forbes-cell">Career</th>
+                <th class="forbes-cell" style="text-align:right;">Net Worth</th>
+              </tr>
+            </thead>
+            <tbody id="forbes-rows">
+              <!-- Dynamically populated by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 4: REAL ESTATE & LAND BANKING
+           ======================================================== -->
+      <section id="tab-estate" class="tab-pane" style="display:none;">
+        <div class="dashboard-grid">
+          <!-- Banana Island Mansion Overview -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🏝️</span> Banana Island Waterfront Villa</h3>
+              <span class="meta-pill highlight">Primary Residence</span>
+            </div>
+            
+            <div style="background:rgba(255,255,255,0.03); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem; margin-bottom:1.25rem;">
+              <div style="display:grid; grid-template-columns:repeat(2, 1fr); gap:1rem; font-size:0.85rem;">
+                <div>
+                  <span style="color:var(--text-dim);">Weekly Maintenance:</span>
+                  <div style="font-weight:700;">₦3,500,000 / week</div>
+                </div>
+                <div>
+                  <span style="color:var(--text-dim);">Power Reliability:</span>
+                  <div style="font-weight:700; color:var(--emerald-400);">100% 24/7 (Solar Inverter Grid)</div>
+                </div>
+                <div>
+                  <span style="color:var(--text-dim);">Furniture Count:</span>
+                  <div style="font-weight:700;">29 Luxury Items Installed</div>
+                </div>
+                <div>
+                  <span style="color:var(--text-dim);">Estate Amenities:</span>
+                  <div style="font-weight:700;">Helipad, Private Marina & Pool</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="section-header">
+              <h3><span>🧑🏾‍💼</span> Domestic Staff Crew</h3>
+              <span class="brand-tag">Prepaid: ₦1.46M</span>
+            </div>
+            <div class="biz-list">
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">👨🏾‍🍳</span>
+                  <div>
+                    <div class="biz-name">Private Executive Chef</div>
+                    <div class="biz-category">Prepares gourmet Jollof, Egusi & Pepper Soup automatically</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">ON DUTY</span>
+              </div>
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🚗</span>
+                  <div>
+                    <div class="biz-name">Personal Chauffeur / Driver</div>
+                    <div class="biz-category">Navigates Bugatti fleet across Lagos traffic</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">ON DUTY</span>
+              </div>
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🛡️</span>
+                  <div>
+                    <div class="biz-name">Mallam Musa (Gate Security)</div>
+                    <div class="biz-category">Guards compound perimeter 24/7 · Provides +6 SleepEasy buff</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">ON DUTY</span>
+              </div>
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🧹</span>
+                  <div>
+                    <div class="biz-name">Mama Bisi (Domestic Househelp)</div>
+                    <div class="biz-category">Mopping, laundry & cleaning · Spotless Home (+10 buff)</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">ON DUTY</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Land Speculation Portfolio -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🗺️</span> Land Speculation Portfolio</h3>
+              <span class="brand-tag" id="land-count-badge">120+ Plots</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:0.75rem;" id="land-summary-list">
+              <!-- Injected by app.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 5: QUILOX VIP NIGHTLIFE
+           ======================================================== -->
+      <section id="tab-nightlife" class="tab-pane" style="display:none;">
+        <div class="section-card" style="background:linear-gradient(135deg, rgba(30,10,40,0.8), rgba(19,26,41,0.95)); border-color:rgba(168,85,247,0.3);">
+          <div class="section-header">
+            <div>
+              <h3><span>🍾</span> Quilox Nightclub VIP Command Lounge</h3>
+              <p style="font-size:0.75rem; color:var(--text-dim); margin-top:0.25rem;">
+                Victoria Island's premier nightclub · Lifetime spent: ₦5,018,000,000
+              </p>
+            </div>
+            <span class="brand-tag" style="background:rgba(168,85,247,0.2); color:#c084fc; border-color:rgba(168,85,247,0.4);">
+              OWNER OF THE NIGHT
+            </span>
+          </div>
+
+          <div class="quick-action-grid" style="grid-template-columns:repeat(auto-fit, minmax(180px, 1fr));">
+            <div class="action-tile" onclick="clubAction('shutdown')">
+              <span class="icon">🔒</span>
+              <span class="title">Shut Down the Club</span>
+              <span class="desc">₦1,000,000,000 · +70 Moodlet</span>
+            </div>
+            <div class="action-tile" onclick="clubAction('takeover')">
+              <span class="icon">👑</span>
+              <span class="title">Take Over for the Night</span>
+              <span class="desc">₦50,000,000 · +55 Moodlet</span>
+            </div>
+            <div class="action-tile" onclick="clubAction('parade')">
+              <span class="icon">🎆</span>
+              <span class="title">Champagne Parade</span>
+              <span class="desc">Armand de Brignac & Sparklers</span>
+            </div>
+            <div class="action-tile" onclick="clubAction('hypeman')">
+              <span class="icon">🎤</span>
+              <span class="title">Pay the Hype Man</span>
+              <span class="desc">₦1,000,000 · Global Venue Shoutout</span>
+            </div>
+            <div class="action-tile" onclick="clubAction('spray')">
+              <span class="icon">💸</span>
+              <span class="title">Spray Money in the Air</span>
+              <span class="desc">₦1,000,000 / blast · +30 Fun</span>
+            </div>
+          </div>
+
+          <div style="margin-top:1.5rem; padding:1rem; background:rgba(0,0,0,0.3); border-radius:var(--radius-md); font-family:var(--font-mono); font-size:0.8rem;">
+            <div style="color:var(--gold-400); font-weight:700; margin-bottom:0.5rem;">QUILOX RECEIPT LOG:</div>
+            <div>• 5× Shut Down the Club for Private Mega-Party (₦5,000,000,000)</div>
+            <div>• 52× Take Over Quilox for the Night (VIP ×100) (₦2,600,000,000)</div>
+            <div>• 117× Money Spray Actions (₦117,000,000 sprayed over patrons)</div>
+            <div>• 7× Armand de Brignac Champagne Hostess Parades</div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 6: MESSAGES & LIVE DMS
+           ======================================================== -->
+      <section id="tab-messages" class="tab-pane" style="display:none;">
+        <div class="chat-container">
+          <!-- Chat Threads Sidebar -->
+          <div class="chat-threads" id="chat-thread-list">
+            <!-- Populated by app.js -->
+          </div>
+
+          <!-- Active Conversation Window -->
+          <div class="chat-window">
+            <div class="chat-header">
+              <div style="display:flex; align-items:center; gap:0.6rem;">
+                <span id="active-chat-avatar" style="font-size:1.4rem;">💬</span>
+                <div>
+                  <div id="active-chat-name" style="font-weight:700; font-size:0.9rem;">Select a conversation</div>
+                  <div id="active-chat-status" style="font-size:0.7rem; color:var(--emerald-400);">● Online</div>
+                </div>
+              </div>
+              <button class="btn btn-secondary" style="font-size:0.75rem; padding:0.35rem 0.75rem;" onclick="sendCashGift()">
+                💸 Send ₦100M Gift
+              </button>
+            </div>
+
+            <div class="chat-messages" id="chat-bubble-stream">
+              <div style="text-align:center; color:var(--text-dim); font-size:0.85rem; margin-top:2rem;">
+                Select a thread from the left to read live message transcripts.
+              </div>
+            </div>
+
+            <form class="chat-input-bar" onsubmit="handleSendMessage(event)">
+              <input type="text" id="chat-text-input" class="chat-input" placeholder="Type a message to Lagosian..." required>
+              <button type="submit" class="btn btn-primary" style="padding:0.6rem 1.25rem;">
+                <span>🚀</span> Send
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 7: CRIME & BAIL BUREAU
+           ======================================================== -->
+      <section id="tab-crime" class="tab-pane" style="display:none;">
+        <div class="dashboard-grid">
+          <!-- Friends in Jail -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🚔</span> Friends in Holding Cells</h3>
+              <span class="brand-tag" style="background:rgba(239,68,68,0.2); color:#f87171;">7 JAILED</span>
+            </div>
+            <p style="font-size:0.8rem; color:var(--text-dim); margin-bottom:1rem;">
+              Associates currently detained across Lagos police commands. Pay their statutory bail to release them:
+            </p>
+            <div class="biz-list" id="jailed-friends-list">
+              <!-- Injected by app.js -->
+            </div>
+          </div>
+
+          <!-- Robbery Attempts Against You -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🕵️</span> Robbery & Pickpocket Log</h3>
+              <span class="meta-pill">Security Record</span>
+            </div>
+            <div class="biz-list">
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🚨</span>
+                  <div>
+                    <div class="biz-name">akpevwenice16 @ Quilox</div>
+                    <div class="biz-category">Attempted theft · Stolen: ₦0</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">CAUGHT & JAILED</span>
+              </div>
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🚨</span>
+                  <div>
+                    <div class="biz-name">amy_nomi @ Quilox</div>
+                    <div class="biz-category">Attempted theft · Stolen: ₦0</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">CAUGHT & JAILED</span>
+              </div>
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">🚨</span>
+                  <div>
+                    <div class="biz-name">OBAEMPEROR @ Quilox</div>
+                    <div class="biz-category">Attempted robbery · Stolen: ₦0</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:var(--emerald-400);">CAUGHT & JAILED</span>
+              </div>
+              <div class="biz-row">
+                <div class="biz-info">
+                  <span class="biz-emoji">⚠️</span>
+                  <div>
+                    <div class="biz-name">maryxo @ CcHub Yaba</div>
+                    <div class="biz-category">Pickpocket · Stolen: ₦50,000</div>
+                  </div>
+                </div>
+                <span class="meta-pill" style="color:#f87171;">ESCAPED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 8: GARAGE & JETS
+           ======================================================== -->
+      <section id="tab-garage" class="tab-pane" style="display:none;">
+        <div class="section-card">
+          <div class="section-header">
+            <h3><span>🏎️</span> Luxury Hypercar Garage & Aviation Hangar</h3>
+            <span class="brand-tag">Bespoke Fleet</span>
+          </div>
+
+          <div class="quick-action-grid" style="grid-template-columns:repeat(auto-fit, minmax(220px, 1fr));">
+            <div class="action-tile" onclick="switchCar('noire')">
+              <span class="icon">🏎️</span>
+              <span class="title">Bugatti La Voiture Noire</span>
+              <span class="desc">Top Speed: 380 km/h · Active Ride</span>
+              <span class="meta-pill highlight" style="margin-top:0.35rem;">DRIVING NOW</span>
+            </div>
+
+            <div class="action-tile" onclick="switchCar('chiron')">
+              <span class="icon">🏎️</span>
+              <span class="title">Bugatti Chiron Super Sport</span>
+              <span class="desc">Top Speed: 350 km/h · In Garage</span>
+              <button class="btn btn-secondary" style="font-size:0.7rem; padding:0.25rem 0.6rem; margin-top:0.35rem;">Switch Car</button>
+            </div>
+
+            <div class="action-tile" onclick="switchCar('jet')">
+              <span class="icon">🛩️</span>
+              <span class="title">Gulfstream G700 Ultra Jet</span>
+              <span class="desc">Private Jet Large · LOS VIP Hangar</span>
+              <span class="meta-pill" style="color:var(--cyan-500); margin-top:0.35rem;">HANGAR READY</span>
+            </div>
+
+            <div class="action-tile" onclick="buyCar('gwagon')">
+              <span class="icon">🚙</span>
+              <span class="title">Mercedes-AMG G63 G-Wagon</span>
+              <span class="desc">₦180,000,000 · Luxury SUV</span>
+              <button class="btn btn-primary" style="font-size:0.7rem; padding:0.25rem 0.6rem; margin-top:0.35rem;">Buy ₦180M</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 9: BETTING & CASINO
+           ======================================================== -->
+      <section id="tab-betting" class="tab-pane" style="display:none;">
+        <div class="dashboard-grid">
+          <!-- Viewing Centre Accumulator -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>⚽</span> Surulere Viewing Centre (NaijaBet)</h3>
+              <span class="brand-tag">500-Odds Mega Slip</span>
+            </div>
+            <p style="font-size:0.8rem; color:var(--text-dim); margin-bottom:1rem;">
+              Place 10-match Premier League accumulator slips with maximum payouts:
+            </p>
+            <div style="background:rgba(0,0,0,0.3); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem; margin-bottom:1rem;">
+              <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.4rem;">
+                <span>Arsenal vs Chelsea</span> <strong style="color:var(--emerald-400);">Pick: 1 (Arsenal Win)</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.4rem;">
+                <span>Man City vs Liverpool</span> <strong style="color:var(--gold-400);">Pick: X (Draw)</strong>
+              </div>
+              <div style="display:flex; justify-content:space-between; font-size:0.85rem; margin-bottom:0.4rem;">
+                <span>Real Madrid vs Barcelona</span> <strong style="color:var(--emerald-400);">Pick: 1 (Home)</strong>
+              </div>
+              <div style="border-top:1px solid var(--border-subtle); padding-top:0.5rem; display:flex; justify-content:space-between;">
+                <span>Total Accumulated Odds: <strong>500.0</strong></span>
+                <span style="color:var(--gold-400); font-weight:700;">Payout: ₦25,000,000</span>
+              </div>
+            </div>
+            <button class="btn btn-gold" style="width:100%;" onclick="placeBetSlip()">
+              <span>🎫</span> Stake ₦50,000 & Cash Out ₦25,000,000
+            </button>
+          </div>
+
+          <!-- Eko Casino Table Games -->
+          <div class="section-card">
+            <div class="section-header">
+              <h3><span>🎲</span> Eko Casino (Oba's VIP Table)</h3>
+              <span class="meta-pill highlight">Max Stake ₦100M</span>
+            </div>
+            <div style="display:flex; flex-direction:column; gap:0.75rem;">
+              <button class="btn btn-secondary" style="justify-content:space-between; padding:0.85rem;" onclick="playCasino('dice')">
+                <span>🎲 Roll Street Craps (50% Double)</span>
+                <strong>Stake ₦10,000,000</strong>
+              </button>
+              <button class="btn btn-secondary" style="justify-content:space-between; padding:0.85rem;" onclick="playCasino('slots')">
+                <span>🎰 High-Roller Slots (96.5% RTP)</span>
+                <strong>Stake ₦25,000,000</strong>
+              </button>
+              <button class="btn btn-secondary" style="justify-content:space-between; padding:0.85rem;" onclick="playCasino('oba')">
+                <span>👑 Oba's VIP Roulette</span>
+                <strong>Stake ₦100,000,000</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 10: PLAYER STORES DIRECTORY
+           ======================================================== -->
+      <section id="tab-stores" class="tab-pane" style="display:none;">
+        <div class="section-card">
+          <div class="section-header">
+            <h3><span>🛍️</span> Live Lagos Player Stores & Bakeries</h3>
+            <span class="brand-tag">Direct Marketplace</span>
+          </div>
+          <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(280px, 1fr)); gap:1rem;" id="player-stores-grid">
+            <!-- Populated by app.js -->
+          </div>
+        </div>
+      </section>
+
+
+      <!-- ========================================================
+           TAB 11: SAVE & CLOUD MANAGER
+           ======================================================== -->
+      <section id="tab-savemgr" class="tab-pane" style="display:none;">
+        <div class="section-card">
+          <div class="section-header">
+            <h3><span>💾</span> Save State & Cloud API Synchronizer</h3>
+            <span class="brand-tag">PUT /api/save</span>
+          </div>
+
+          <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.5rem; line-height:1.5;">
+            Manage and backup your active <code>lagos-life-save</code> JSON state. You can export your save file to a local JSON file, import a custom backup, or push your live changes to the production server.
+          </p>
+
+          <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-bottom:1.5rem;">
+            <button class="btn btn-primary" onclick="syncWithCloud()">
+              <span>☁️</span> Push Save to Cloud (/api/save)
+            </button>
+            <button class="btn btn-gold" onclick="exportSaveFile()">
+              <span>📥</span> Download Save (.json)
+            </button>
+            <label class="btn btn-secondary" style="cursor:pointer;">
+              <span>📤</span> Upload Save (.json)
+              <input type="file" id="file-import-save" accept=".json" style="display:none;" onchange="importSaveFile(event)">
+            </label>
+            <button class="btn btn-danger" onclick="resetSaveBackup()">
+              <span>🔄</span> Restore Original Backup
+            </button>
+          </div>
+
+          <div style="background:rgba(0,0,0,0.4); border:1px solid var(--border-subtle); border-radius:var(--radius-md); padding:1rem;">
+            <div style="font-size:0.75rem; color:var(--text-dim); margin-bottom:0.5rem; text-transform:uppercase;">Live JSON State Preview:</div>
+            <pre id="json-state-preview" style="font-family:var(--font-mono); font-size:0.75rem; color:#94a3b8; max-height:280px; overflow-y:auto; white-space:pre-wrap;"></pre>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Fixed Radio Station & Soundtrack Bar -->
+    <div class="radio-bar">
+      <div class="radio-info">
+        <div class="radio-cover">📻</div>
+        <div>
+          <div style="font-size:0.85rem; font-weight:700;" id="current-station-title">The Beat 99.9 FM (Lagos)</div>
+          <div style="font-size:0.7rem; color:var(--emerald-400);" id="current-song-title">Live Radio Stream · Lagos, NG</div>
+        </div>
+      </div>
+
+      <div class="radio-controls">
+        <button id="btn-radio-toggle" class="btn btn-primary" style="padding:0.45rem 1rem;" onclick="toggleAudio()">
+          <span id="radio-icon">▶️</span> <span id="radio-btn-label">Play Radio</span>
+        </button>
+
+        <select id="station-picker" class="radio-select" onchange="changeStation(event)">
+          <option value="over">Soundtrack: OVER — BigBanju</option>
+          <option value="https://stream.zeno.fm/f9w729z4c0hvv">The Beat 99.9 FM (Lagos)</option>
+          <option value="https://stream.zeno.fm/w8v03s4x8qruv">Cool FM 96.9 (Lagos)</option>
+          <option value="https://stream.zeno.fm/0vy8v7x92vhvv">Wazobia FM 95.1 (Lagos)</option>
+          <option value="https://stream.zeno.fm/bvv7e704c0hvv">Soundcity 98.5 FM</option>
+          <option value="https://stream.zeno.fm/v8v03s4x8qruv">Max FM 102.3</option>
+          <option value="https://stream.zeno.fm/s9w729z4c0hvv">Classic FM 97.3</option>
+        </select>
+      </div>
+
+      <div style="font-size:0.75rem; color:var(--text-dim);">
+        Volume: <input type="range" id="volume-slider" min="0" max="1" step="0.05" value="0.8" style="vertical-align:middle; width:80px;" onchange="setVolume(event)">
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio Element -->
+  <audio id="audio-player" preload="none"></audio>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-shelf"></div>
+
+  <!-- App Script -->
+  <script src="/lite/app.js"></script>
+</body>
+</html>

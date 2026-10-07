@@ -1,0 +1,322 @@
+[
+  {
+    "id": "nr_09b836c4-d6ce-46c3-a5e2-d057d30fdaae",
+    "name": "Beat FM",
+    "frequency": "99.9 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://beatfmlagos-atunwadigital.streamguys1.com/beatfmlagos"
+  },
+  {
+    "id": "nr_a7b95226-bf0b-472d-af55-f318818c72ec",
+    "name": "Bounce FM",
+    "frequency": "89.1 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.brainioustech.com/listen/bounce_89.1fm/radio.mp3"
+  },
+  {
+    "id": "nr_5b36e23f-ebb1-4bc3-833a-8ff9473994d6",
+    "name": "Cool FM",
+    "frequency": "96.9 FM",
+    "city": "Lagos",
+    "logo": "https://cdn.onlineradiobox.com/img/l/3/6733.v14.png",
+    "stream": "https://coolfmlagos969-atunwadigital.streamguys1.com/coolfmlagos969"
+  },
+  {
+    "id": "nr_0cb680e7-6353-47c0-86c0-f1848ad3727c",
+    "name": "Max FM",
+    "frequency": "102.3 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://audiomax.gridpapaservers.com/listen/gridpapa_streaming/maxfmlagos"
+  },
+  {
+    "id": "nr_678a49c3-66ba-4993-a5f7-35444fb19d20",
+    "name": "Naija FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://naijafmlagos-atunwadigital.streamguys1.com/naijafmlagos"
+  },
+  {
+    "id": "nr_bbe9dbb3-f25c-42a5-be33-9001b6873744",
+    "name": "Soundcity FM",
+    "frequency": "98.5 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/soundcityfmlag"
+  },
+  {
+    "id": "nr_406538cf-3bed-4bcb-833e-fc9b07103aae",
+    "name": "Urban 96 FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/urban96fmlag"
+  },
+  {
+    "id": "nr_06a5f630-33ca-45ac-934f-a8962c9f2782",
+    "name": "Wazobia FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": "https://cdn.onlineradiobox.com/img/l/4/6654.v11.png",
+    "stream": "https://wazobiafmlagos951-atunwadigital.streamguys1.com/wazobiafmlagos951"
+  },
+  {
+    "id": "nr_7d42ae27-b646-4df3-808c-0390c4d9a83a",
+    "name": "Urban Radio",
+    "frequency": "94.5 FM",
+    "city": "Enugu",
+    "logo": null,
+    "stream": "https://edge.mixlr.com/channel/cfldr"
+  },
+  {
+    "id": "nr_f4610763-959a-4a27-91b1-8d1f60f625a6",
+    "name": "Beat FM",
+    "frequency": null,
+    "city": "Abuja",
+    "logo": null,
+    "stream": "https://beatfmabuja-atunwadigital.streamguys1.com/beatfmabuja"
+  },
+  {
+    "id": "nr_74db37b8-12c3-4437-843a-1f23d4c1ec1f",
+    "name": "Cool FM",
+    "frequency": "96.9 FM",
+    "city": "Abuja",
+    "logo": null,
+    "stream": "https://coolfmabuja969-atunwadigital.streamguys1.com/coolfmabuja969"
+  },
+  {
+    "id": "nr_8a884e59-2870-40d6-9706-c2f448de3ea1",
+    "name": "Cool FM",
+    "frequency": "96.9 FM",
+    "city": "Kano",
+    "logo": null,
+    "stream": "https://coolfmkano969-atunwadigital.streamguys1.com/coolfmkano969"
+  },
+  {
+    "id": "nr_a14aeecd-6cc0-4f56-b51f-145b83962cea",
+    "name": "Max FM",
+    "frequency": "90.9 FM",
+    "city": "Abuja",
+    "logo": null,
+    "stream": "https://audiomax.gridpapaservers.com/listen/maxfm_abuja/maxfmabuja"
+  },
+  {
+    "id": "nr_1ecbeda9-01ab-4284-a30c-0b98b297b475",
+    "name": "Mob Urban Radio",
+    "frequency": null,
+    "city": null,
+    "logo": null,
+    "stream": "https://a13.asurahosting.com/listen/mob_urban_radio/radio.mp3"
+  },
+  {
+    "id": "nr_c0fc1f8c-db61-4c51-97b0-4af1e4580ab4",
+    "name": "Remo City FM",
+    "frequency": null,
+    "city": null,
+    "logo": null,
+    "stream": "https://stream.remocityfm.com/remofmlag"
+  },
+  {
+    "id": "nr_65cdace5-321c-46e2-af14-ba29c1f76d49",
+    "name": "Soundcity FM",
+    "frequency": null,
+    "city": "Abuja",
+    "logo": null,
+    "stream": "https://stream2.group8.africa/soundcityfmabj"
+  },
+  {
+    "id": "nr_65ade2c5-ba15-4f33-8826-f9d32338c80f",
+    "name": "Wazobia FM",
+    "frequency": "95.1 FM",
+    "city": "Kano",
+    "logo": null,
+    "stream": "https://wazobiafmkano951-atunwadigital.streamguys1.com/wazobiafmkano951"
+  },
+  {
+    "id": "nr_772c114d-d734-4ab9-8210-f15d97cb7d4d",
+    "name": "Wazobia FM",
+    "frequency": "93.7 FM",
+    "city": "Onitsha",
+    "logo": null,
+    "stream": "https://wazobiafmonitsha937-atunwadigital.streamguys1.com/wazobiafmonitsha937"
+  },
+  {
+    "id": "nr_8db3f013-75c3-409c-9e11-68bafa32fdb3",
+    "name": "Wazobia FM",
+    "frequency": "99.5 FM",
+    "city": "Abuja",
+    "logo": null,
+    "stream": "https://wazobiafmabuja995-atunwadigital.streamguys1.com/wazobiafmabuja995"
+  },
+  {
+    "id": "nr_ac8f2ba2-f625-4e88-bdb5-913cb3474d38",
+    "name": "Access 24 FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/access24fmlag"
+  },
+  {
+    "id": "nr_3685a944-0e83-41c1-9f1d-e7eec7ab69e3",
+    "name": "Air Radio",
+    "frequency": null,
+    "city": null,
+    "logo": "https://drive.google.com/drive/u/0/my-drive",
+    "stream": "https://stream.zeno.fm/xu7hp12tzv8uv"
+  },
+  {
+    "id": "nr_6ff10a61-941b-45d9-84dc-166d99270229",
+    "name": "Bond FM",
+    "frequency": "92.9 FM",
+    "city": "Lagos",
+    "logo": "https://cdn-radiotime-logos.tunein.com/s297865q.png",
+    "stream": "https://go.webgateready.com/bondfm"
+  },
+  {
+    "id": "nr_f8df8e91-9c9e-44ff-b027-2482b049d0d8",
+    "name": "Classic FM",
+    "frequency": "97.3 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://classicfmlagos-atunwadigital.streamguys1.com/classicfmlagos"
+  },
+  {
+    "id": "nr_423deef1-5235-412f-b52c-7ad6d1798976",
+    "name": "Correct FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/correctfmlag"
+  },
+  {
+    "id": "nr_85fa455d-a2db-412f-a426-a46e1efde652",
+    "name": "Faaji FM",
+    "frequency": "106.5 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://servidor14-2.brlogic.com:7058/live?source=app_pwa"
+  },
+  {
+    "id": "nr_2f69e3f7-f942-4750-ac59-90614080db40",
+    "name": "Irawo FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/irawofmlag"
+  },
+  {
+    "id": "nr_c9d0bdb3-816f-4740-80ed-3b773fc309c9",
+    "name": "Kids FM",
+    "frequency": "101.7 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://kids1017fmlagos-atunwadigital.streamguys1.com/kids1017fmlagos"
+  },
+  {
+    "id": "nr_4ec5f5f8-b12b-4179-ac35-5093dfcddbfc",
+    "name": "Legends Only FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/legendsfmlag"
+  },
+  {
+    "id": "nr_6e6c26aa-e33b-499d-97ed-f813b175511f",
+    "name": "Metro FM",
+    "frequency": "97.7 FM",
+    "city": "Lagos",
+    "logo": "https://radionigerialagos.gov.ng/metrofm/wp-content/uploads/2019/02/met.png",
+    "stream": "https://go.webgateready.com/metrofm"
+  },
+  {
+    "id": "nr_70c1ad31-5ec0-40b8-901e-c3668db7b99f",
+    "name": "Pidgin Radio",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.rcast.net/66702"
+  },
+  {
+    "id": "nr_e3109b82-34ff-4ae5-b856-d7b8500b7cea",
+    "name": "RadioX FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/radioxfmlag"
+  },
+  {
+    "id": "nr_7f9c999b-a882-4c80-b88a-92f164aaf62e",
+    "name": "Rewind FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://rewindfm-atunwadigital.streamguys1.com/rewindfm"
+  },
+  {
+    "id": "nr_50935b84-a72b-4a05-bf26-a77ad91951be",
+    "name": "Rhythm FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://rhythmfmlagos-atunwadigital.streamguys1.com/rhythmfmlagos"
+  },
+  {
+    "id": "nr_5a463b6b-2786-48b5-b089-359a2fefb5c2",
+    "name": "Scar Radio",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://443-1.autopo.st/189/radio.mp3"
+  },
+  {
+    "id": "nr_59f7e127-14c3-435a-a14b-b079020b2c96",
+    "name": "Smooth FM",
+    "frequency": "98.1 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://smooth981fm-atunwadigital.streamguys1.com/smooth981fm"
+  },
+  {
+    "id": "nr_694f14c9-21c6-4e07-832c-b5faa5341ae2",
+    "name": "Spice FM",
+    "frequency": null,
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://stream.group8.africa/spiceradiofmlag"
+  },
+  {
+    "id": "nr_ba2c0e20-2fd7-4bf5-86d1-3202841cb402",
+    "name": "Top Radio",
+    "frequency": "90.9 FM",
+    "city": "Lagos",
+    "logo": null,
+    "stream": "https://azstream.elektranbroadcast.com/listen/topradio909/radio.mp3"
+  },
+  {
+    "id": "nr_0e6cb818-819a-4c5e-aaae-426695f58b81",
+    "name": "Vybz FM",
+    "frequency": "94.5 FM",
+    "city": "Lagos",
+    "logo": "https://vybzfm.com/wp-content/uploads/2020/06/VYBZ-94.5-FM-YELLOW.png",
+    "stream": "https://mpc.my-control-panel.eu/stream/8138"
+  },
+  {
+    "id": "nr_ba09f829-7ee9-4b03-88a6-a7a323919744",
+    "name": "1Radio",
+    "frequency": null,
+    "city": null,
+    "logo": null,
+    "stream": "https://fm.imediaport.com/1radio"
+  },
+  {
+    "id": "nr_3575ee96-1da6-482d-afd1-3be6b9801cd3",
+    "name": "1Radio Oguta",
+    "frequency": null,
+    "city": "Oguta",
+    "logo": null,
+    "stream": "https://fm.imediaport.com/1radio.oguta"
+  }
+]

@@ -1,0 +1,332 @@
+{
+  "account": {
+    "id": "d42fb0d8c15d4b878ed7",
+    "username": "bobbyhasfallen",
+    "name": "Bobby HasFallen",
+    "admin": false,
+    "terms": true,
+    "hasEmail": true
+  },
+  "sim": {
+    "name": "bobbyhasfallen",
+    "appearance": {
+      "body": "m",
+      "style": "casual2",
+      "skin": "#8d5a3b",
+      "hair": "afro",
+      "hairColor": "#15110e",
+      "outfit": "plain",
+      "top": "#e5484d",
+      "bottom": "#f4efe6"
+    },
+    "traits": [
+      "techBro",
+      "musical"
+    ],
+    "aspiration": "ogaAtTheTop"
+  },
+  "origin": "lapo",
+  "netWorthEstimate": 449586211113116,
+  "liquidCash": 449555659822355,
+  "forbesStatus": {
+    "rank": 0,
+    "netWorth": 449586211113116,
+    "review": true
+  },
+  "efccWatch": {
+    "day": 1008,
+    "worth": 449555659822355,
+    "money": 449555659822355,
+    "earned": 449555659822355,
+    "topped": 0
+  },
+  "needs": {
+    "hunger": 68.27150390297096,
+    "energy": 61.48004605807635,
+    "hygiene": 65.58979912509105,
+    "bladder": 19.22823880575602,
+    "fun": 78.12635430294036,
+    "social": 84.38035341671115
+  },
+  "skills": {
+    "cooking": 10,
+    "charisma": 9.603067310521146,
+    "fitness": 2.476420454545455,
+    "coding": 0,
+    "music": 0,
+    "hustle": 4.209135186824511,
+    "dance": 10,
+    "comedy": 0,
+    "photography": 0
+  },
+  "moodlets": [
+    {
+      "id": "ownTheNight",
+      "label": "Owner of the Night",
+      "emoji": "\ud83d\udc51",
+      "value": 55,
+      "desc": "You took over Quilox for the night. Lagos will be talking about this for weeks.",
+      "expiresAt": 1456822.4479166667
+    },
+    {
+      "id": "shutItDown",
+      "label": "Shut It Down",
+      "emoji": "\ud83d\udd12",
+      "value": 70,
+      "desc": "You shut the whole club down for your party. Lagos will be posting the videos for days.",
+      "expiresAt": 1457904.1181
+    },
+    {
+      "id": "sleepEasy",
+      "label": "Well Guarded",
+      "emoji": "\ud83d\udee1\ufe0f",
+      "value": 6,
+      "desc": "Mallam Musa is at the gate. Nobody is coming in here.",
+      "expiresAt": 1457569.02435
+    },
+    {
+      "id": "bae",
+      "label": "In Love",
+      "emoji": "\ud83d\udc98",
+      "value": 25,
+      "desc": "You have a Bae now!",
+      "expiresAt": 1457634.4492
+    },
+    {
+      "id": "spotlessHome",
+      "label": "Spotless House",
+      "emoji": "\ud83e\uddf9",
+      "value": 10,
+      "desc": "Mama Bisi has swept, mopped and folded everything. The whole place smells of Morning Fresh.",
+      "expiresAt": 1457103.9823333332
+    },
+    {
+      "id": "cleanClothes",
+      "label": "Clean Clothes",
+      "emoji": "\ud83d\udc55",
+      "value": 8,
+      "desc": "Everything smells like fabric softener.",
+      "expiresAt": 1456743.9823333332
+    },
+    {
+      "id": "gamerWin",
+      "label": "FIFA Champion",
+      "emoji": "\ud83c\udfae",
+      "value": 10,
+      "desc": "Scored a last-minute winner. Online opponents are crying.",
+      "expiresAt": 1456576.4092333333
+    },
+    {
+      "id": "sickSerious",
+      "label": "Very Sick",
+      "emoji": "\ud83e\udd75",
+      "value": -35,
+      "desc": "You need a doctor. Go to General Hospital.",
+      "expiresAt": 1456560.0005333333
+    },
+    {
+      "id": "dyn:softlife",
+      "label": "Soft Life",
+      "emoji": "\ud83e\udd42",
+      "value": 10,
+      "desc": "Money dey. Enjoyment dey. Life is sweet.",
+      "expiresAt": null
+    },
+    {
+      "id": "dyn:fine",
+      "label": "Fine House",
+      "emoji": "\ud83c\udfe1",
+      "value": 18,
+      "desc": "Your place is looking good.",
+      "expiresAt": null
+    }
+  ],
+  "health": {
+    "sick": {
+      "kind": "malaria",
+      "level": "serious",
+      "since": 1456383.9823333332,
+      "goodHours": 0
+    },
+    "healthHour": 24274,
+    "neglect": 0
+  },
+  "taxObligations": {
+    "week": 1009,
+    "earned": 1887500,
+    "paid": 177500
+  },
+  "bankAccount": {
+    "ok": true,
+    "bank": {
+      "saved": 137,
+      "earned": 137,
+      "free": 137,
+      "bonds": [],
+      "bondsHeld": 0,
+      "restricted": false,
+      "at": 1791367065162
+    },
+    "rates": {
+      "savingsBps": 50,
+      "bondBps": 200,
+      "bondDays": 7,
+      "interestCap": 1000000000,
+      "bondMax": 500000000,
+      "setAt": 0
+    },
+    "snap": {
+      "saved": 137,
+      "bonds": 0,
+      "at": 1791367065162
+    },
+    "moves": []
+  },
+  "casinoStatus": {
+    "chips": 0,
+    "hand": null,
+    "v": 0,
+    "night": {
+      "net": 0,
+      "rounds": 0,
+      "staked": 0
+    },
+    "landed": [],
+    "table": {
+      "level": 3,
+      "name": "Oba's table",
+      "taxPct": 40,
+      "casinoMaxStake": 100000000,
+      "buyMax": 1000000000,
+      "chipsCap": 10000000000,
+      "betMax": 10000000,
+      "betDaily": 100000000
+    }
+  },
+  "vehicles": {
+    "activeCar": "noire",
+    "ownedCars": [
+      {
+        "id": "chiron",
+        "boughtAt": 1453137.0816166666
+      },
+      {
+        "id": "noire",
+        "boughtAt": 1454928.6792166666
+      }
+    ]
+  },
+  "domesticStaff": {
+    "crew": [
+      {
+        "id": "chef",
+        "since": 1453593.4088
+      },
+      {
+        "id": "driver",
+        "since": 1453593.4448
+      },
+      {
+        "id": "security",
+        "since": 1453593.4673
+      },
+      {
+        "id": "houseHelp",
+        "since": 1453593.5631833333
+      }
+    ],
+    "paidTo": 1460700,
+    "hr": 24274,
+    "moodDay": 1011,
+    "helpDay": 1011,
+    "chefAt": 1454763.0958333334,
+    "meals": {
+      "day": 1010,
+      "n": 1
+    }
+  },
+  "pantry": {
+    "rice": 2,
+    "gino": 0,
+    "maggi": 3,
+    "oil": 1,
+    "garri": 4,
+    "sugar": 5,
+    "indomie": 0,
+    "egg": 3,
+    "bread": 2,
+    "zobo": 1,
+    "plantain": 2,
+    "chicken": 1
+  },
+  "wishes": [
+    {
+      "id": "2evzfi2i",
+      "title": "Watch some TV",
+      "emoji": "\ud83d\udcfa",
+      "reward": 1,
+      "goal": {
+        "kind": "action",
+        "tag": "tv",
+        "count": 1
+      },
+      "progress": 0
+    },
+    {
+      "id": "1v2a3miz",
+      "title": "Reach Comedy 1",
+      "emoji": "\ud83d\udcc8",
+      "reward": 4,
+      "goal": {
+        "kind": "skill",
+        "key": "comedy",
+        "level": 1
+      },
+      "progress": 0
+    },
+    {
+      "id": "sltir0nw",
+      "title": "See art at Freedom Park",
+      "emoji": "\ud83c\udfad",
+      "reward": 3,
+      "goal": {
+        "kind": "visit",
+        "loc": "freedomPark"
+      },
+      "progress": 0
+    }
+  ],
+  "gameTime": {
+    "time": 1456496.903081665,
+    "day": 1008,
+    "weather": "cloudy",
+    "power": true
+  },
+  "actionsDoneLifetime": {
+    "toilet": 2,
+    "dance": 2,
+    "cookJollof": 2,
+    "bucketBath": 2,
+    "sleepVono": 4,
+    "passOut": 2,
+    "sitGist": 1,
+    "vipTable": 1,
+    "sprayMoney": 117,
+    "clubTakeover": 52,
+    "clubRound": 2,
+    "hypeMan": 8,
+    "network": 3,
+    "champagneParade": 7,
+    "clubShutdown": 5,
+    "bigRound": 3,
+    "cookIndomie": 3,
+    "washHands": 18,
+    "playFifa": 3,
+    "fryChicken": 1
+  },
+  "stats": {
+    "earnedTotal": 449555659822355
+  },
+  "efccClosed": 999999999999,
+  "efccImmunity": true
+}

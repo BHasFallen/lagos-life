@@ -1,0 +1,2025 @@
+{
+  "slots_count": 62,
+  "active_billboards_count": 38,
+  "total_queued_ads_count": 250,
+  "active_billboards": [
+    {
+      "slot": 1,
+      "id": "f22e8987015a4e5ab3f2",
+      "link": "https://heyeliy.com/",
+      "image": "/api/ads/f22e8987015a4e5ab3f2/image?v=0",
+      "endsAt": 1791427900433
+    },
+    {
+      "slot": 2,
+      "id": "4751122e8fc24902a426",
+      "link": "https://stackvion.com.ng/rms/",
+      "image": "/api/ads/4751122e8fc24902a426/image?v=1",
+      "endsAt": 1791446942953
+    },
+    {
+      "slot": 3,
+      "id": "0240c1a8460642e1b8fe",
+      "link": "https://brimble.io/",
+      "image": "/api/ads/0240c1a8460642e1b8fe/image?v=1",
+      "endsAt": 1791457526757
+    },
+    {
+      "slot": 4,
+      "id": "c7b34d5058bc447c997f",
+      "link": "https://salaryindex.ng/",
+      "image": "/api/ads/c7b34d5058bc447c997f/image?v=2",
+      "endsAt": 1791458404967
+    },
+    {
+      "slot": 5,
+      "id": "258b0dbe61804364a4a3",
+      "link": "https://www.instagram.com/concervdc/",
+      "image": "/api/ads/258b0dbe61804364a4a3/image?v=1",
+      "endsAt": 1791460077493
+    },
+    {
+      "slot": 6,
+      "id": "8e1b91e3d5ac452f8d2b",
+      "link": "https://getrensa.com/download",
+      "image": "/api/ads/8e1b91e3d5ac452f8d2b/image?v=1",
+      "endsAt": 1791463866768
+    },
+    {
+      "slot": 7,
+      "id": "332ddf6ccf3e4f90a974",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry?_r=1&_t=ZS-9AC7asKv3Nm",
+      "image": "/api/ads/332ddf6ccf3e4f90a974/image?v=1",
+      "endsAt": 1791472445317
+    },
+    {
+      "slot": 8,
+      "id": "004b71637bb743f1b03c",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/ads/004b71637bb743f1b03c/image?v=1",
+      "endsAt": 1791472956640
+    },
+    {
+      "slot": 9,
+      "id": "67571e0604ee40439463",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/ads/67571e0604ee40439463/image?v=1",
+      "endsAt": 1791479063376
+    },
+    {
+      "slot": 10,
+      "id": "7d4dc279ce78448c9653",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/ads/7d4dc279ce78448c9653/image?v=1",
+      "endsAt": 1791472224984
+    },
+    {
+      "slot": 11,
+      "id": "0f803d91a9df4fefbe20",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/ads/0f803d91a9df4fefbe20/image?v=1",
+      "endsAt": 1791474495758
+    },
+    {
+      "slot": 12,
+      "id": "1654a961050a4b8a9114",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/ads/1654a961050a4b8a9114/image?v=1",
+      "endsAt": 1791479078217
+    },
+    {
+      "slot": 13,
+      "id": "8a17960542ad436e909a",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/ads/8a17960542ad436e909a/image?v=1",
+      "endsAt": 1791479094388
+    },
+    {
+      "slot": 14,
+      "id": "22dcbe6216b14928bd7f",
+      "link": "https://awesomegames-ecru.vercel.app/",
+      "image": "/api/ads/22dcbe6216b14928bd7f/image?v=6",
+      "endsAt": 1791489903103
+    },
+    {
+      "slot": 15,
+      "id": "ca41ff93a4c24e4c80db",
+      "link": "https://thepecohub.com/",
+      "image": "/api/ads/ca41ff93a4c24e4c80db/image?v=10",
+      "endsAt": 1791488246761
+    },
+    {
+      "slot": 16,
+      "id": "7939ce1c306248f0bde5",
+      "link": "https://novaplur.com/?utm_source=lagos_life&utm_medium=banner&utm_campaign=ingame_promo",
+      "image": "/api/ads/7939ce1c306248f0bde5/image?v=0",
+      "endsAt": 1791490249298
+    },
+    {
+      "slot": 17,
+      "id": "e869bccc27fc42fcb566",
+      "link": "https://www.instagram.com/thepeoplelabconsulting/",
+      "image": "/api/ads/e869bccc27fc42fcb566/image?v=1",
+      "endsAt": 1791479759974
+    },
+    {
+      "slot": 18,
+      "id": "f8f7d6b56d634fa48904",
+      "link": "https://www.tiktok.com/@hairsbyyeye?_r=1&_t=ZS-9ACi1PkrjKT",
+      "image": "/api/ads/f8f7d6b56d634fa48904/image?v=0",
+      "endsAt": 1791502275138
+    },
+    {
+      "slot": 19,
+      "id": "cc0be0d8dcce40f594df",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/cc0be0d8dcce40f594df/image?v=1",
+      "endsAt": 1791533493143
+    },
+    {
+      "slot": 20,
+      "id": "40989f72c73d45fcbdbf",
+      "link": "https://midealabi.com/",
+      "image": "/api/ads/40989f72c73d45fcbdbf/image?v=0",
+      "endsAt": 1791893001948
+    },
+    {
+      "slot": 21,
+      "id": "afd9f64fdf4448489a76",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/afd9f64fdf4448489a76/image?v=0",
+      "endsAt": 1791546359770
+    },
+    {
+      "slot": 22,
+      "id": "3c81811617434f07a078",
+      "link": "https://www.instagram.com/wearethenew_yaba/",
+      "image": "/api/ads/3c81811617434f07a078/image?v=0",
+      "endsAt": 1791546333903
+    },
+    {
+      "slot": 23,
+      "id": "feaedc62e74949209dcd",
+      "link": "https://www.instagram.com/wealthyaloes_?stkn=MXRrcnZjcTJyanZ1Zw%3D%3D&utm_source=qr",
+      "image": "/api/ads/feaedc62e74949209dcd/image?v=6",
+      "endsAt": 1791547929623
+    },
+    {
+      "slot": 24,
+      "id": "45c20e5894a94fe58ed4",
+      "link": "https://swifthunts.com/",
+      "image": "/api/ads/45c20e5894a94fe58ed4/image?v=0",
+      "endsAt": 1791553287964
+    },
+    {
+      "slot": 25,
+      "id": "0e423e29377f4b0489ed",
+      "link": "https://www.fastdriveng.tech/",
+      "image": "/api/ads/0e423e29377f4b0489ed/image?v=0",
+      "endsAt": 1791558367345
+    },
+    {
+      "slot": 26,
+      "id": "e006abeb521343cfa788",
+      "link": "https://www.fastdriveng.tech/",
+      "image": "/api/ads/e006abeb521343cfa788/image?v=0",
+      "endsAt": 1791558375785
+    },
+    {
+      "slot": 27,
+      "id": "b317399c03bd4b7a8c6c",
+      "link": "https://koreshield.ai/",
+      "image": "/api/ads/b317399c03bd4b7a8c6c/image?v=0",
+      "endsAt": 1791559268795
+    },
+    {
+      "slot": 28,
+      "id": "dafe64c6a3a8407f8304",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/dafe64c6a3a8407f8304/image?v=0",
+      "endsAt": 1791549514707
+    },
+    {
+      "slot": 29,
+      "id": "cf0f3496246a442a83e9",
+      "link": "https://onerpm.link/413165307533",
+      "image": "/api/ads/cf0f3496246a442a83e9/image?v=1",
+      "endsAt": 1791536265535
+    },
+    {
+      "slot": 30,
+      "id": "de777835965a49e78bea",
+      "link": "https://cardron.com/",
+      "image": "/api/ads/de777835965a49e78bea/image?v=0",
+      "endsAt": 1791549196826
+    },
+    {
+      "slot": 31,
+      "id": "1cc62d3ab69e4323b527",
+      "link": "https://www.gruve.events/endofyearsalelagosdaytwo",
+      "image": "/api/ads/1cc62d3ab69e4323b527/image?v=0",
+      "endsAt": 1791554003317
+    },
+    {
+      "slot": 32,
+      "id": "4633d633f646407eb30a",
+      "link": "https://www.haqtri.com/",
+      "image": "/api/ads/4633d633f646407eb30a/image?v=0",
+      "endsAt": 1792760523461
+    },
+    {
+      "slot": 33,
+      "id": "a15095a7561a44d89378",
+      "link": "https://www.enyskinco.com/",
+      "image": "/api/ads/a15095a7561a44d89378/image?v=0",
+      "endsAt": 1792760341248
+    },
+    {
+      "slot": 34,
+      "id": "cc9355c6ab844c698bff",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/cc9355c6ab844c698bff/image?v=0",
+      "endsAt": 1791546539199
+    },
+    {
+      "slot": 35,
+      "id": "f4efda6bf6434c35b878",
+      "link": "https://chowdeck.com/store/ajah/restaurants/lucy's-kitchen-ajahcnj6m5?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+      "image": "/api/ads/f4efda6bf6434c35b878/image?v=0",
+      "endsAt": 1792156447386
+    },
+    {
+      "slot": 36,
+      "id": "0135aada2a4e45408ae3",
+      "link": "https://nestuge.com/8kz01hxg3",
+      "image": "/api/ads/0135aada2a4e45408ae3/image?v=0",
+      "endsAt": 1791549357005
+    },
+    {
+      "slot": 37,
+      "id": "62c5a1bfd8fd491eb964",
+      "link": "https://cardron.com/",
+      "image": "/api/ads/62c5a1bfd8fd491eb964/image?v=0",
+      "endsAt": 1791549397118
+    },
+    {
+      "slot": 38,
+      "id": "1a25f8d4456945b784f2",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/1a25f8d4456945b784f2/image?v=0",
+      "endsAt": 1791549686912
+    }
+  ],
+  "queued_campaigns": [
+    {
+      "slot": 1,
+      "id": "f22e8987015a4e5ab3f2",
+      "link": "https://heyeliy.com/",
+      "image": "/api/ads/f22e8987015a4e5ab3f2/image?v=0",
+      "endsAt": 1791427900433
+    },
+    {
+      "slot": 1,
+      "id": "73d31a63eaa040009b88",
+      "link": "https://wa.me/+2349130509514",
+      "image": "/api/ads/73d31a63eaa040009b88/image?v=0",
+      "endsAt": 1791852988179
+    },
+    {
+      "slot": 1,
+      "id": "2c538f51e5e34408aa65",
+      "link": "https://www.snapchat.com/add/olamideposh1?share_id=NgBT3l_oSH-CYsEbeissXg&locale=en_US",
+      "image": "/api/ads/2c538f51e5e34408aa65/image?v=2",
+      "endsAt": 1791855407996
+    },
+    {
+      "slot": 1,
+      "id": "1f6be84fcbcf4c32a104",
+      "link": "https://instagram.com/kolaomomummy",
+      "image": "/api/ads/1f6be84fcbcf4c32a104/image?v=0",
+      "endsAt": 1791867305283
+    },
+    {
+      "slot": 1,
+      "id": "a98dd5a4d9e74b84929a",
+      "link": "https://open.spotify.com/prerelease/4yIlzoeXdiBJ5AyoHVZskB?si=x7TIaHpvQE-K2mczFG2Spg&utm_source=copy-link",
+      "image": "/api/ads/a98dd5a4d9e74b84929a/image?v=0",
+      "endsAt": 1792032700433
+    },
+    {
+      "slot": 1,
+      "id": "3d452a984036416b86e7",
+      "link": "https://www.shopncns.store/",
+      "image": "/api/ads/3d452a984036416b86e7/image?v=0",
+      "endsAt": 1792637500433
+    },
+    {
+      "slot": 1,
+      "id": "55d90a19cb8d4828aa34",
+      "link": "https://aclassnexus.com/",
+      "image": "/api/ads/55d90a19cb8d4828aa34/image?v=1",
+      "endsAt": 1793242300433
+    },
+    {
+      "slot": 1,
+      "id": "0d5ea73b6b0a41fdbd90",
+      "link": "https://www.thriftyhustlehub.com.ng/",
+      "image": "/api/ads/0d5ea73b6b0a41fdbd90/image?v=0",
+      "endsAt": 1793847100433
+    },
+    {
+      "slot": 1,
+      "id": "fb97a735054344a195cb",
+      "link": "https://swiftdocsapp.com/",
+      "image": "/api/ads/fb97a735054344a195cb/image?v=0",
+      "endsAt": 1794451900433
+    },
+    {
+      "slot": 1,
+      "id": "67820db4033540c9a520",
+      "link": "https://wa.me/message/Q3KSPO4JPYEKD1",
+      "image": "/api/ads/67820db4033540c9a520/image?v=1",
+      "endsAt": 1795056700433
+    },
+    {
+      "slot": 1,
+      "id": "5b9472a3fa93459cb86b",
+      "link": "https://www.ewafrica.com/",
+      "image": "/api/ads/5b9472a3fa93459cb86b/image?v=0",
+      "endsAt": 1795661500433
+    },
+    {
+      "slot": 1,
+      "id": "ba07d8648c5842c6b832",
+      "link": "https://musics.to/lovehurt",
+      "image": "/api/ads/ba07d8648c5842c6b832/image?v=0",
+      "endsAt": 1796266300433
+    },
+    {
+      "slot": 1,
+      "id": "66bc3140a6cb4e22bd4f",
+      "link": "https://larebison.fanlink.tv/bamidele",
+      "image": "/api/ads/66bc3140a6cb4e22bd4f/image?v=0",
+      "endsAt": 1796871100433
+    },
+    {
+      "slot": 1,
+      "id": "6739b0c619a84755bacf",
+      "link": "https://tribe.lifepage.ng/events/earn-to-own-(e20)-summit-2026/OLA72P",
+      "image": "/api/ads/6739b0c619a84755bacf/image?v=2",
+      "endsAt": 1797475900433
+    },
+    {
+      "slot": 1,
+      "id": "a53ac3b923c94a74922a",
+      "link": "https://snacc.fyi/",
+      "image": "/api/ads/a53ac3b923c94a74922a/image?v=0",
+      "endsAt": 1798080700433
+    },
+    {
+      "slot": 1,
+      "id": "5268b998d9fd48568416",
+      "link": "https://czrvlr.catlog.shop/",
+      "image": "/api/ads/5268b998d9fd48568416/image?v=0",
+      "endsAt": 1798685500433
+    },
+    {
+      "slot": 1,
+      "id": "9bce5ed5ba3b449cabbc",
+      "link": "https://open.spotify.com/track/4YvwBPlyncWODzd7SpDFNO?si=1iZPAGDDS5K5uGJlsft64Q&utm_source=copy-link",
+      "image": "/api/ads/9bce5ed5ba3b449cabbc/image?v=0",
+      "endsAt": 1799290300433
+    },
+    {
+      "slot": 1,
+      "id": "75cebd4e5ded45ddbf66",
+      "link": "https://linktr.ee/mrrrxx?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZnRzaAUu0ZRleHRuA2FlbQIxMQBwZG9mAmZkaWQWUPoUTnHy00eC82vWFTMvp8hbslfOJnNydGMGYXBwX2lkDzEyNDAyNDU3NDI4NzQxNAABp6pw-XCCgwxcOvqIgV8K9vDwGrKqr-FuPGNTfyMBI4-AaIr-yRrcknh_dABz_aem_n4aSRZ1ya0250h4xZ8LSRA",
+      "image": "/api/ads/75cebd4e5ded45ddbf66/image?v=0",
+      "endsAt": 1799895100433
+    },
+    {
+      "slot": 1,
+      "id": "7eb5898a46824e8d8ae2",
+      "link": "https://brainiacc.com/",
+      "image": "/api/ads/7eb5898a46824e8d8ae2/image?v=1",
+      "endsAt": 1800499900433
+    },
+    {
+      "slot": 1,
+      "id": "93929a9151cf4bdd8d24",
+      "link": "https://muslimtechexpo.com/",
+      "image": "/api/ads/93929a9151cf4bdd8d24/image?v=1",
+      "endsAt": 1801104700433
+    },
+    {
+      "slot": 1,
+      "id": "0ed257830a474c6fa6f1",
+      "link": "https://www.glowupchannel.com/",
+      "image": "/api/ads/0ed257830a474c6fa6f1/image?v=0",
+      "endsAt": 1801709500433
+    },
+    {
+      "slot": 1,
+      "id": "17d6befe36d0455aaa7f",
+      "link": "https://www.instagram.com/precioussweetbakery?stkn=djU4OGk1cndkbGd0&utm_source=qr",
+      "image": "/api/ads/17d6befe36d0455aaa7f/image?v=0",
+      "endsAt": 1802314300433
+    },
+    {
+      "slot": 1,
+      "id": "9602d5b59cf841088203",
+      "link": "https://wa.me/message/VG5F5OHPZSYRD1",
+      "image": "/api/ads/9602d5b59cf841088203/image?v=0",
+      "endsAt": 1802919100433
+    },
+    {
+      "slot": 1,
+      "id": "57381410bfae4d0bb879",
+      "link": "https://www.tiktok.com/@oj_gadget?_r=1&_t=ZS-9AH3Q05q3gi",
+      "image": "/api/ads/57381410bfae4d0bb879/image?v=0",
+      "endsAt": 1803523900433
+    },
+    {
+      "slot": 1,
+      "id": "be17993a325643e08cad",
+      "link": "https://www.snapchat.com/add/mrstuntgo?share_id=z9MzdgmqQhCvcQd705Acuw&locale=en_NG",
+      "image": "/api/ads/be17993a325643e08cad/image?v=0",
+      "endsAt": 1804128700433
+    },
+    {
+      "slot": 1,
+      "id": "1b0af9c453f04d559b3c",
+      "link": "https://www.instagram.com/p/DG1N7tgNhq5/?stkn=MTg1M2V3dzI2b25saA==",
+      "image": "/api/ads/1b0af9c453f04d559b3c/image?v=0",
+      "endsAt": 1804733500433
+    },
+    {
+      "slot": 1,
+      "id": "1962bc860a8c42309389",
+      "link": "https://onelink.to/lagoslife",
+      "image": "/api/ads/1962bc860a8c42309389/image?v=1",
+      "endsAt": 1805338300433
+    },
+    {
+      "slot": 1,
+      "id": "e9515708bc50493ebe11",
+      "link": "https://www.instagram.com/certifitsluxury?stkn=MWhwMmRydmRxZjFqeQ%3D%3D&utm_source=qr",
+      "image": "/api/ads/e9515708bc50493ebe11/image?v=1",
+      "endsAt": 1805943100433
+    },
+    {
+      "slot": 1,
+      "id": "be1f508341ab4eba9920",
+      "link": "https://www.instagram.com/certifitsluxury?stkn=MWhwMmRydmRxZjFqeQ%3D%3D&utm_source=qr",
+      "image": "/api/ads/be1f508341ab4eba9920/image?v=1",
+      "endsAt": 1806547900433
+    },
+    {
+      "slot": 1,
+      "id": "fd577481afb24989959d",
+      "link": "https://wa.me/2348184123260",
+      "image": "/api/ads/fd577481afb24989959d/image?v=0",
+      "endsAt": 1807757500433
+    },
+    {
+      "slot": 1,
+      "id": "f33663a0a47b4298be72",
+      "link": "https://www.instagram.com/hazzylens?stkn=MTdma3JwZXQya3NpZg%3D%3D&utm_source=qr",
+      "image": "/api/ads/f33663a0a47b4298be72/image?v=0",
+      "endsAt": 1808362300433
+    },
+    {
+      "slot": 1,
+      "id": "ed84f3918fd54e07b03e",
+      "link": "https://www.tiktok.com/@tluxe.hair?_r=1&_t=ZS-9AHNUGsUHcj",
+      "image": "/api/ads/ed84f3918fd54e07b03e/image?v=0",
+      "endsAt": 1808967100433
+    },
+    {
+      "slot": 1,
+      "id": "463ddcb32b424d12bf0f",
+      "link": "https://www.chronolite.com.ng/",
+      "image": "/api/ads/463ddcb32b424d12bf0f/image?v=0",
+      "endsAt": 1809571900433
+    },
+    {
+      "slot": 1,
+      "id": "de8fd3ee572340daa07d",
+      "link": "https://www.instagram.com/reel/Dd6QfpLu_q2/?stkn=cGt2amtmYWk1eDRl",
+      "image": "/api/ads/de8fd3ee572340daa07d/image?v=0",
+      "endsAt": 1810176700433
+    },
+    {
+      "slot": 1,
+      "id": "68c738dd4a5c4c14906b",
+      "link": "https://usesubify.com/",
+      "image": "/api/ads/68c738dd4a5c4c14906b/image?v=1",
+      "endsAt": 1810781500433
+    },
+    {
+      "slot": 1,
+      "id": "ab9b8a5167f8420aa343",
+      "link": "https://www.instagram.com/_diana_garland_?stkn=MWdpdHF0YnA0ZTl0cw==",
+      "image": "/api/ads/ab9b8a5167f8420aa343/image?v=0",
+      "endsAt": 1811386300433
+    },
+    {
+      "slot": 1,
+      "id": "dcaf69242d6d456c8064",
+      "link": "https://wa.me/message/T6G6O3YLXFH3N1",
+      "image": "/api/ads/dcaf69242d6d456c8064/image?v=0",
+      "endsAt": 1813200700433
+    },
+    {
+      "slot": 1,
+      "id": "cc5706ff4eb345ab802b",
+      "link": "https://wa.me/2348153113184",
+      "image": "/api/ads/cc5706ff4eb345ab802b/image?v=0",
+      "endsAt": 1814410300433
+    },
+    {
+      "slot": 1,
+      "id": "32650ec4ddc14f728445",
+      "link": "https://lagoslife.eliysites.com/vote/senate/defmirzzz",
+      "image": "/api/ads/32650ec4ddc14f728445/image?v=0",
+      "endsAt": 1815015100433
+    },
+    {
+      "slot": 1,
+      "id": "7bf36e1fdf9646ca85d9",
+      "link": "https://ffm.to/oshey_photizo",
+      "image": "/api/ads/7bf36e1fdf9646ca85d9/image?v=2",
+      "endsAt": 1815619900433
+    },
+    {
+      "slot": 1,
+      "id": "396d3e47b1b145be8d7c",
+      "link": "https://wa.me/+2348174797809",
+      "image": "/api/ads/396d3e47b1b145be8d7c/image?v=0",
+      "endsAt": 1816224700433
+    },
+    {
+      "slot": 1,
+      "id": "8b82221c5128493cb64f",
+      "link": "https://wa.me/message/IMXJ2DJW772JG1",
+      "image": "/api/ads/8b82221c5128493cb64f/image?v=0",
+      "endsAt": 1816829500433
+    },
+    {
+      "slot": 1,
+      "id": "99fecdbace83426e9818",
+      "link": "https://houzrent.app/listings",
+      "image": "/api/ads/99fecdbace83426e9818/image?v=0",
+      "endsAt": 1817434300433
+    },
+    {
+      "slot": 2,
+      "id": "4751122e8fc24902a426",
+      "link": "https://stackvion.com.ng/rms/",
+      "image": "/api/ads/4751122e8fc24902a426/image?v=1",
+      "endsAt": 1791446942953
+    },
+    {
+      "slot": 2,
+      "id": "53d4fe5e0d9e4657bf92",
+      "link": "https://cyberladder.hacktales.com/",
+      "image": "/api/ads/53d4fe5e0d9e4657bf92/image?v=0",
+      "endsAt": 1792051742953
+    },
+    {
+      "slot": 2,
+      "id": "580280147b4a4928a9bc",
+      "link": "https://tickethub.ng/ha-summercookout",
+      "image": "/api/ads/580280147b4a4928a9bc/image?v=0",
+      "endsAt": 1793261342953
+    },
+    {
+      "slot": 2,
+      "id": "e5813e908e684d2c9a19",
+      "link": "https://awesomegames-ecru.vercel.app/",
+      "image": "/api/ads/e5813e908e684d2c9a19/image?v=1",
+      "endsAt": 1793866142953
+    },
+    {
+      "slot": 2,
+      "id": "a96de4fa713a413297d5",
+      "link": "https://wa.me/2349041456965?text=Hello%2C%20I%20would%20like%20to%20make%20an%20enquiry",
+      "image": "/api/ads/a96de4fa713a413297d5/image?v=0",
+      "endsAt": 1794470942953
+    },
+    {
+      "slot": 2,
+      "id": "7074afae4247494d8c47",
+      "link": "https://reespect.lnk.to/pimbody",
+      "image": "/api/ads/7074afae4247494d8c47/image?v=0",
+      "endsAt": 1795075742953
+    },
+    {
+      "slot": 2,
+      "id": "bffbd0e2ba1f4c9ebd8c",
+      "link": "https://open.spotify.com/album/1CGryWjcvWvGufNF2DD4kU?si=98TR0U3YTo-XiEUyiC1Lrg&utm_source=copy-link",
+      "image": "/api/ads/bffbd0e2ba1f4c9ebd8c/image?v=0",
+      "endsAt": 1795680542953
+    },
+    {
+      "slot": 2,
+      "id": "3b403f82f15747de9457",
+      "link": "https://open.spotify.com/track/00LKorc5xiOPwALbbgiLcZ?si=1AFEIfpMR-yfFQX6BwAnNw&utm_source=copy-link",
+      "image": "/api/ads/3b403f82f15747de9457/image?v=0",
+      "endsAt": 1796285342953
+    },
+    {
+      "slot": 2,
+      "id": "1449767109a84492aec7",
+      "link": "https://kwiqmatch.com/",
+      "image": "/api/ads/1449767109a84492aec7/image?v=0",
+      "endsAt": 1796890142953
+    },
+    {
+      "slot": 2,
+      "id": "75d4c70b58a548a9ad2e",
+      "link": "https://aurehairatelier.com/",
+      "image": "/api/ads/75d4c70b58a548a9ad2e/image?v=0",
+      "endsAt": 1797494942953
+    },
+    {
+      "slot": 2,
+      "id": "ca85e9831e41477da3d0",
+      "link": "https://wa.me/2348071842933",
+      "image": "/api/ads/ca85e9831e41477da3d0/image?v=0",
+      "endsAt": 1798099742953
+    },
+    {
+      "slot": 3,
+      "id": "0240c1a8460642e1b8fe",
+      "link": "https://brimble.io/",
+      "image": "/api/ads/0240c1a8460642e1b8fe/image?v=1",
+      "endsAt": 1791457526757
+    },
+    {
+      "slot": 3,
+      "id": "7aebae88206d4d189273",
+      "link": "https://www.instagram.com/mimihomes.ng?stkn=ZGk5Z2RvMnZvMmV5&utm_source=qr",
+      "image": "/api/ads/7aebae88206d4d189273/image?v=0",
+      "endsAt": 1791846824904
+    },
+    {
+      "slot": 3,
+      "id": "ab0b6c95578c407baeab",
+      "link": "https://inmessage.xyz/",
+      "image": "/api/ads/ab0b6c95578c407baeab/image?v=1",
+      "endsAt": 1791851001381
+    },
+    {
+      "slot": 3,
+      "id": "fa59ae48472a4a1890b6",
+      "link": "https://helthy.app/",
+      "image": "/api/ads/fa59ae48472a4a1890b6/image?v=0",
+      "endsAt": 1791855034724
+    },
+    {
+      "slot": 3,
+      "id": "7f6e7003cb824b61a2d0",
+      "link": "https://visapoint.ai/",
+      "image": "/api/ads/7f6e7003cb824b61a2d0/image?v=0",
+      "endsAt": 1791869592998
+    },
+    {
+      "slot": 3,
+      "id": "96b07d87d585494aaf73",
+      "link": "https://kudisms.net/?utm_source=lagoslife&utm_medium=display&utm_campaign=lagoslife_billboard3&utm_content=oneplatformkudisms_banner",
+      "image": "/api/ads/96b07d87d585494aaf73/image?v=2",
+      "endsAt": 1791870418210
+    },
+    {
+      "slot": 3,
+      "id": "f750d637c17c4a6db767",
+      "link": "https://www.bottleking.ng/",
+      "image": "/api/ads/f750d637c17c4a6db767/image?v=0",
+      "endsAt": 1791891730286
+    },
+    {
+      "slot": 3,
+      "id": "9237acd3a9e04b289683",
+      "link": "https://myhomesng.com/",
+      "image": "/api/ads/9237acd3a9e04b289683/image?v=0",
+      "endsAt": 1791899588152
+    },
+    {
+      "slot": 3,
+      "id": "3ac10fee66b8409fa46f",
+      "link": "https://getrensa.com/download",
+      "image": "/api/ads/3ac10fee66b8409fa46f/image?v=1",
+      "endsAt": 1792062326757
+    },
+    {
+      "slot": 3,
+      "id": "ce11ed904f3549128230",
+      "link": "https://popouttickets.com/",
+      "image": "/api/ads/ce11ed904f3549128230/image?v=0",
+      "endsAt": 1792667126757
+    },
+    {
+      "slot": 3,
+      "id": "4ed289df69da484b8939",
+      "link": "https://awesomegames-ecru.vercel.app/",
+      "image": "/api/ads/4ed289df69da484b8939/image?v=1",
+      "endsAt": 1793271926757
+    },
+    {
+      "slot": 3,
+      "id": "2875b5d6789e49a5b702",
+      "link": "https://ffm.to/casanova-cv2z",
+      "image": "/api/ads/2875b5d6789e49a5b702/image?v=0",
+      "endsAt": 1793876726757
+    },
+    {
+      "slot": 3,
+      "id": "f17713d743994a9db704",
+      "link": "https://www.fravellahair.com/",
+      "image": "/api/ads/f17713d743994a9db704/image?v=0",
+      "endsAt": 1794481526757
+    },
+    {
+      "slot": 3,
+      "id": "94a3ef12cb974349ba01",
+      "link": "https://duetrack.co/?ref=LagosLife",
+      "image": "/api/ads/94a3ef12cb974349ba01/image?v=0",
+      "endsAt": 1795086326757
+    },
+    {
+      "slot": 3,
+      "id": "df1bef97a4554cf29a40",
+      "link": "https://wa.me/2348075602326",
+      "image": "/api/ads/df1bef97a4554cf29a40/image?v=0",
+      "endsAt": 1795691126757
+    },
+    {
+      "slot": 3,
+      "id": "c19dd25ee1754cab8f28",
+      "link": "https://harrbeauty.netlify.app/",
+      "image": "/api/ads/c19dd25ee1754cab8f28/image?v=0",
+      "endsAt": 1796295926757
+    },
+    {
+      "slot": 3,
+      "id": "da07c81e625a4f01b14e",
+      "link": "https://wa.me/message/5LSWFQPMGDVUC1",
+      "image": "/api/ads/da07c81e625a4f01b14e/image?v=0",
+      "endsAt": 1796900726757
+    },
+    {
+      "slot": 3,
+      "id": "d8dad241c12445619bd7",
+      "link": "https://wa.me/2348161892288",
+      "image": "/api/ads/d8dad241c12445619bd7/image?v=0",
+      "endsAt": 1797505526757
+    },
+    {
+      "slot": 3,
+      "id": "1d5d6295f70145bb952f",
+      "link": "https://share.amuse.io/album/friendfrompluto-the-space-between-thinking-and-doing",
+      "image": "/api/ads/1d5d6295f70145bb952f/image?v=0",
+      "endsAt": 1798110326757
+    },
+    {
+      "slot": 3,
+      "id": "ec8892e065d447289841",
+      "link": "https://thevoucha.com/community",
+      "image": "/api/ads/ec8892e065d447289841/image?v=0",
+      "endsAt": 1799319926757
+    },
+    {
+      "slot": 4,
+      "id": "c7b34d5058bc447c997f",
+      "link": "https://salaryindex.ng/",
+      "image": "/api/ads/c7b34d5058bc447c997f/image?v=2",
+      "endsAt": 1791458404967
+    },
+    {
+      "slot": 4,
+      "id": "5b6e76b8348b4b22a48a",
+      "link": "https://inmessage.xyz/",
+      "image": "/api/ads/5b6e76b8348b4b22a48a/image?v=0",
+      "endsAt": 1791853955056
+    },
+    {
+      "slot": 4,
+      "id": "a4b7dbd2215f40d18e7a",
+      "link": "https://api.whatsapp.com/message/WN5TK5WRMDZJB1?autoload=1&app_absent=0",
+      "image": "/api/ads/a4b7dbd2215f40d18e7a/image?v=0",
+      "endsAt": 1791906940703
+    },
+    {
+      "slot": 4,
+      "id": "db01fd4277234c7c897a",
+      "link": "https://vbankng.onelink.me/FVeM/yfcydzlp",
+      "image": "/api/ads/db01fd4277234c7c897a/image?v=0",
+      "endsAt": 1791965733663
+    },
+    {
+      "slot": 4,
+      "id": "4db2120a06d04a71a31f",
+      "link": "https://cardron.com/",
+      "image": "/api/ads/4db2120a06d04a71a31f/image?v=0",
+      "endsAt": 1792063204967
+    },
+    {
+      "slot": 4,
+      "id": "29c6244c1adb4e1aa75a",
+      "link": "https://awesomegames-ecru.vercel.app/",
+      "image": "/api/ads/29c6244c1adb4e1aa75a/image?v=1",
+      "endsAt": 1792668004967
+    },
+    {
+      "slot": 4,
+      "id": "a71a0201f2c043d192a2",
+      "link": "https://wa.me/message/P3POKER4M57MJ1",
+      "image": "/api/ads/a71a0201f2c043d192a2/image?v=0",
+      "endsAt": 1793272804967
+    },
+    {
+      "slot": 4,
+      "id": "8ff39982631941e7a149",
+      "link": "https://www.instagram.com/mabsonbuildings_ng?stkn=Y3hueWh1bTZ1aXp2&utm_source=qr",
+      "image": "/api/ads/8ff39982631941e7a149/image?v=0",
+      "endsAt": 1793877604967
+    },
+    {
+      "slot": 4,
+      "id": "8761a919f07e4d5c969c",
+      "link": "https://cybervast.ng/scholarship",
+      "image": "/api/ads/8761a919f07e4d5c969c/image?v=0",
+      "endsAt": 1794482404967
+    },
+    {
+      "slot": 4,
+      "id": "90d36cb689c84dffa28f",
+      "link": "https://linktr.ee/elle.co.official?utm_source=linktree_profile_share&ltsid=85b53797-cd8d-4caf-8c8f-914aa7d844ba",
+      "image": "/api/ads/90d36cb689c84dffa28f/image?v=0",
+      "endsAt": 1795087204967
+    },
+    {
+      "slot": 4,
+      "id": "e7200e0213d741119c7f",
+      "link": "https://snapchat.com/t/bXuZPiuX",
+      "image": "/api/ads/e7200e0213d741119c7f/image?v=0",
+      "endsAt": 1795692004967
+    },
+    {
+      "slot": 4,
+      "id": "eb4ae2a43c264b6b9121",
+      "link": "https://www.tiktok.com/@inkedbytxc?_r=1&_t=ZP-9AHAq4AvScY",
+      "image": "/api/ads/eb4ae2a43c264b6b9121/image?v=0",
+      "endsAt": 1796296804967
+    },
+    {
+      "slot": 4,
+      "id": "b9f1a7954d0e4434b631",
+      "link": "https://called-it-zeta.vercel.app/",
+      "image": "/api/ads/b9f1a7954d0e4434b631/image?v=0",
+      "endsAt": 1796901604967
+    },
+    {
+      "slot": 4,
+      "id": "3a45df0c1a254d9ba9c0",
+      "link": "https://www.snapchat.com/@cocosallure.ng?invite_id=bkpByGHF&locale=en_NG&share_id=LsqbwH86RYSommd-i271EA&sid=10806a6e97924d45ae2f3022d67f9a6b&locale=en-NG",
+      "image": "/api/ads/3a45df0c1a254d9ba9c0/image?v=0",
+      "endsAt": 1797506404967
+    },
+    {
+      "slot": 4,
+      "id": "cb28d28515a248fb9e9c",
+      "link": "https://lagoslife.eliysites.com/vote/senate/Olayin16",
+      "image": "/api/ads/cb28d28515a248fb9e9c/image?v=0",
+      "endsAt": 1798111204967
+    },
+    {
+      "slot": 4,
+      "id": "9a74ebebe60945ed8948",
+      "link": "https://www.instagram.com/bg.nigeria?stkn=MWczejB4dmRtdW5pcw%3D%3D&utm_source=qr",
+      "image": "/api/ads/9a74ebebe60945ed8948/image?v=0",
+      "endsAt": 1798716004967
+    },
+    {
+      "slot": 5,
+      "id": "258b0dbe61804364a4a3",
+      "link": "https://www.instagram.com/concervdc/",
+      "image": "/api/ads/258b0dbe61804364a4a3/image?v=1",
+      "endsAt": 1791460077493
+    },
+    {
+      "slot": 5,
+      "id": "d5676c1ed3bf4a2f95a6",
+      "link": "https://wa.link/8vc2ef",
+      "image": "/api/ads/d5676c1ed3bf4a2f95a6/image?v=0",
+      "endsAt": 1791842012123
+    },
+    {
+      "slot": 5,
+      "id": "4986123194ce48068b92",
+      "link": "https://www.instagram.com/crystalwondersgroup?stkn=dDQ5NTZwYXJxMmhy",
+      "image": "/api/ads/4986123194ce48068b92/image?v=0",
+      "endsAt": 1791846589216
+    },
+    {
+      "slot": 5,
+      "id": "63d823fe92ee45d89fb3",
+      "link": "https://mysportsfind.app/",
+      "image": "/api/ads/63d823fe92ee45d89fb3/image?v=0",
+      "endsAt": 1791869214039
+    },
+    {
+      "slot": 5,
+      "id": "87ca518e29844504a527",
+      "link": "https://foodbank.ng/",
+      "image": "/api/ads/87ca518e29844504a527/image?v=0",
+      "endsAt": 1791870249738
+    },
+    {
+      "slot": 5,
+      "id": "77058e15722f4fd6ba02",
+      "link": "https://snapchat.com/t/KpgREp4n",
+      "image": "/api/ads/77058e15722f4fd6ba02/image?v=0",
+      "endsAt": 1791890933318
+    },
+    {
+      "slot": 5,
+      "id": "816c941605404c6f89ee",
+      "link": "https://www.instagram.com/poseidonscents?stkn=MWRwdms5NWcwdGNsZw%3D%3D&utm_source=qr",
+      "image": "/api/ads/816c941605404c6f89ee/image?v=1",
+      "endsAt": 1792064877493
+    },
+    {
+      "slot": 5,
+      "id": "a2e67ab9dbbe4cedb08a",
+      "link": "https://ffm.to/casanova-cv2z",
+      "image": "/api/ads/a2e67ab9dbbe4cedb08a/image?v=0",
+      "endsAt": 1792669677493
+    },
+    {
+      "slot": 5,
+      "id": "c84ac7a3cf4241dc910a",
+      "link": "https://www.facebook.com/share/1GkZ3VKiCT/?mibextid=wwXIfr",
+      "image": "/api/ads/c84ac7a3cf4241dc910a/image?v=0",
+      "endsAt": 1793274477493
+    },
+    {
+      "slot": 5,
+      "id": "91fdf27f9b9b423ab261",
+      "link": "https://tensorvest.com/",
+      "image": "/api/ads/91fdf27f9b9b423ab261/image?v=0",
+      "endsAt": 1793879277493
+    },
+    {
+      "slot": 5,
+      "id": "4bbd939ef0ea48148a43",
+      "link": "https://snapchat.com/t/yfIRdxmn",
+      "image": "/api/ads/4bbd939ef0ea48148a43/image?v=0",
+      "endsAt": 1794484077493
+    },
+    {
+      "slot": 5,
+      "id": "fba4b2ed8a8a4624bdd2",
+      "link": "https://www.instagram.com/jeanmorant_ng?stkn=YzJ1YzBoNTBkbGhk&utm_source=qr",
+      "image": "/api/ads/fba4b2ed8a8a4624bdd2/image?v=0",
+      "endsAt": 1795088877493
+    },
+    {
+      "slot": 5,
+      "id": "0e5dc11c8f5d43d99389",
+      "link": "https://wa.me/message/V24YG45KFQFFG1",
+      "image": "/api/ads/0e5dc11c8f5d43d99389/image?v=0",
+      "endsAt": 1795693677493
+    },
+    {
+      "slot": 5,
+      "id": "cd7450d92aa9405da1c8",
+      "link": "https://rawgent.com/",
+      "image": "/api/ads/cd7450d92aa9405da1c8/image?v=0",
+      "endsAt": 1796298477493
+    },
+    {
+      "slot": 5,
+      "id": "b7772cee08184b979b96",
+      "link": "https://www.snapchat.com/add/fiona_re?share_id=7KYHqWEqTACfojCV46BLkQ&locale=en_NG",
+      "image": "/api/ads/b7772cee08184b979b96/image?v=0",
+      "endsAt": 1796903277493
+    },
+    {
+      "slot": 5,
+      "id": "5be0364e061d44deacad",
+      "link": "https://www.instagram.com/itzpearl2023?stkn=MWl6bDJoejdjbzJlNQ%3D%3D&utm_source=qr",
+      "image": "/api/ads/5be0364e061d44deacad/image?v=0",
+      "endsAt": 1797508077493
+    },
+    {
+      "slot": 5,
+      "id": "8a5c2560353741d38c39",
+      "link": "https://snapchat.com/t/rXhOWnXu",
+      "image": "/api/ads/8a5c2560353741d38c39/image?v=0",
+      "endsAt": 1800532077493
+    },
+    {
+      "slot": 5,
+      "id": "af3ce6b8e8d84c18aff1",
+      "link": "https://locvilla.com/",
+      "image": "/api/ads/af3ce6b8e8d84c18aff1/image?v=0",
+      "endsAt": 1801136877493
+    },
+    {
+      "slot": 6,
+      "id": "8e1b91e3d5ac452f8d2b",
+      "link": "https://getrensa.com/download",
+      "image": "/api/ads/8e1b91e3d5ac452f8d2b/image?v=1",
+      "endsAt": 1791463866768
+    },
+    {
+      "slot": 6,
+      "id": "dcd99e39ffa642039dae",
+      "link": "https://thequickmenuapp.com/",
+      "image": "/api/ads/dcd99e39ffa642039dae/image?v=0",
+      "endsAt": 1791869709602
+    },
+    {
+      "slot": 6,
+      "id": "3d9be8097330446ea7b2",
+      "link": "https://cyberladder.hacktales.com/",
+      "image": "/api/ads/3d9be8097330446ea7b2/image?v=0",
+      "endsAt": 1792068666768
+    },
+    {
+      "slot": 6,
+      "id": "3c5b5481ce8b4be0a706",
+      "link": "https://wejapa.com/",
+      "image": "/api/ads/3c5b5481ce8b4be0a706/image?v=0",
+      "endsAt": 1793278266768
+    },
+    {
+      "slot": 6,
+      "id": "27be31c876214cf084c1",
+      "link": "https://oryzast100.nile.ng/",
+      "image": "/api/ads/27be31c876214cf084c1/image?v=0",
+      "endsAt": 1793883066768
+    },
+    {
+      "slot": 6,
+      "id": "5a12fc52966e41d98138",
+      "link": "https://www.tiktok.com/@pricelessabike1?_r=1&_t=ZS-9AH7jfXtUZh",
+      "image": "/api/ads/5a12fc52966e41d98138/image?v=0",
+      "endsAt": 1794487866768
+    },
+    {
+      "slot": 6,
+      "id": "29b76f0b74cf41dd9fd1",
+      "link": "https://wa.me/8126762831",
+      "image": "/api/ads/29b76f0b74cf41dd9fd1/image?v=0",
+      "endsAt": 1795092666768
+    },
+    {
+      "slot": 6,
+      "id": "dba3f434b7c541788947",
+      "link": "https://wa.me/2348088990852?text=Hi%20Tano%20Ventures%2C%20I%20saw%20you%20are%20a%20gadgets%20vendor%20in%20Ikeja%2C%20I%20want%20to%20buy%20a%20phone",
+      "image": "/api/ads/dba3f434b7c541788947/image?v=1",
+      "endsAt": 1795697466768
+    },
+    {
+      "slot": 6,
+      "id": "da032385e2f0441290bc",
+      "link": "https://www.tiktok.com/@starkgadget_hub",
+      "image": "/api/ads/da032385e2f0441290bc/image?v=0",
+      "endsAt": 1796302266768
+    },
+    {
+      "slot": 7,
+      "id": "332ddf6ccf3e4f90a974",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry?_r=1&_t=ZS-9AC7asKv3Nm",
+      "image": "/api/ads/332ddf6ccf3e4f90a974/image?v=1",
+      "endsAt": 1791472445317
+    },
+    {
+      "slot": 7,
+      "id": "7a1d766938574c339bf2",
+      "link": "https://wa.link/8vc2ef",
+      "image": "/api/ads/7a1d766938574c339bf2/image?v=0",
+      "endsAt": 1791840791428
+    },
+    {
+      "slot": 7,
+      "id": "cadb554a57824ee4b7d1",
+      "link": "https://awesomegames-ecru.vercel.app/",
+      "image": "/api/ads/cadb554a57824ee4b7d1/image?v=1",
+      "endsAt": 1792077245317
+    },
+    {
+      "slot": 7,
+      "id": "27bc925d7a5c4358b8a9",
+      "link": "https://1con.shop/",
+      "image": "/api/ads/27bc925d7a5c4358b8a9/image?v=0",
+      "endsAt": 1792682045317
+    },
+    {
+      "slot": 7,
+      "id": "a6e2d0332be0482fb3c8",
+      "link": "https://www.tiktok.com/@cl1cksixty3?_r=1&_t=ZS-9AHID0bqcMv",
+      "image": "/api/ads/a6e2d0332be0482fb3c8/image?v=0",
+      "endsAt": 1793286845317
+    },
+    {
+      "slot": 7,
+      "id": "a6997573018a4eb9aaf9",
+      "link": "https://www.tiktok.com/@cl1cksixty3?_r=1&_t=ZS-9AHJ8C8Hi1l",
+      "image": "/api/ads/a6997573018a4eb9aaf9/image?v=1",
+      "endsAt": 1793891645317
+    },
+    {
+      "slot": 7,
+      "id": "2a0f0e329dd745228023",
+      "link": "https://vt.tiktok.com/ZSb9PxX6G/",
+      "image": "/api/ads/2a0f0e329dd745228023/image?v=0",
+      "endsAt": 1794496445317
+    },
+    {
+      "slot": 8,
+      "id": "004b71637bb743f1b03c",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/ads/004b71637bb743f1b03c/image?v=1",
+      "endsAt": 1791472956640
+    },
+    {
+      "slot": 8,
+      "id": "27c18c316a5b45cf9456",
+      "link": "https://bottleking.onelink.me/nmB9",
+      "image": "/api/ads/27c18c316a5b45cf9456/image?v=0",
+      "endsAt": 1791890589314
+    },
+    {
+      "slot": 8,
+      "id": "8df76325bfd9443e96f5",
+      "link": "https://mydecortrade.com/",
+      "image": "/api/ads/8df76325bfd9443e96f5/image?v=0",
+      "endsAt": 1792077756640
+    },
+    {
+      "slot": 8,
+      "id": "9a04c55fb2914c1b83ec",
+      "link": "https://1con.shop/",
+      "image": "/api/ads/9a04c55fb2914c1b83ec/image?v=0",
+      "endsAt": 1792682556640
+    },
+    {
+      "slot": 8,
+      "id": "1e95d7ee21b74ddd837b",
+      "link": "https://www.tiktok.com/@kskinsential?_r=1&_t=ZS-9AHFEwcDiJ5",
+      "image": "/api/ads/1e95d7ee21b74ddd837b/image?v=0",
+      "endsAt": 1793892156640
+    },
+    {
+      "slot": 8,
+      "id": "3681cbc5813d4d64b21d",
+      "link": "https://www.tiktok.com/@decorbysms.ng?_r=1&_t=ZS-9AHqc3Tf2AO",
+      "image": "/api/ads/3681cbc5813d4d64b21d/image?v=0",
+      "endsAt": 1794496956640
+    },
+    {
+      "slot": 9,
+      "id": "67571e0604ee40439463",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/ads/67571e0604ee40439463/image?v=1",
+      "endsAt": 1791479063376
+    },
+    {
+      "slot": 9,
+      "id": "413d4f4dcf7443c5bfa7",
+      "link": "https://dano.com.ng/",
+      "image": "/api/ads/413d4f4dcf7443c5bfa7/image?v=0",
+      "endsAt": 1791896203996
+    },
+    {
+      "slot": 9,
+      "id": "e2e3be12bbaa49db8fee",
+      "link": "https://midealabi.com/",
+      "image": "/api/ads/e2e3be12bbaa49db8fee/image?v=1",
+      "endsAt": 1792083863376
+    },
+    {
+      "slot": 9,
+      "id": "26fbd0375f0c4aecb836",
+      "link": "https://wa.me/+2347012878013",
+      "image": "/api/ads/26fbd0375f0c4aecb836/image?v=0",
+      "endsAt": 1792688663376
+    },
+    {
+      "slot": 9,
+      "id": "08745d631cea42208782",
+      "link": "https://snapchat.com/t/BiVUWt8s",
+      "image": "/api/ads/08745d631cea42208782/image?v=2",
+      "endsAt": 1793293463376
+    },
+    {
+      "slot": 9,
+      "id": "35dbb5f118ce4812bd59",
+      "link": "https://www.haqtri.com/",
+      "image": "/api/ads/35dbb5f118ce4812bd59/image?v=1",
+      "endsAt": 1793898263376
+    },
+    {
+      "slot": 9,
+      "id": "8d0fedc8d99a4ed1b4d7",
+      "link": "https://wa.me/+2348174797809",
+      "image": "/api/ads/8d0fedc8d99a4ed1b4d7/image?v=0",
+      "endsAt": 1794503063376
+    },
+    {
+      "slot": 10,
+      "id": "7d4dc279ce78448c9653",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/ads/7d4dc279ce78448c9653/image?v=1",
+      "endsAt": 1791472224984
+    },
+    {
+      "slot": 10,
+      "id": "e264e55177a94f049107",
+      "link": "https://onelink.to/ftatk3",
+      "image": "/api/ads/e264e55177a94f049107/image?v=0",
+      "endsAt": 1792077024984
+    },
+    {
+      "slot": 10,
+      "id": "587a7fba55f54e2d80bd",
+      "link": "https://www.instagram.com/telexzikora?stkn=N3JtdGZxMWF5ejEz",
+      "image": "/api/ads/587a7fba55f54e2d80bd/image?v=0",
+      "endsAt": 1793286624984
+    },
+    {
+      "slot": 11,
+      "id": "0f803d91a9df4fefbe20",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/ads/0f803d91a9df4fefbe20/image?v=1",
+      "endsAt": 1791474495758
+    },
+    {
+      "slot": 11,
+      "id": "73519fc505ab4c889a03",
+      "link": "https://ybelaundry.com/",
+      "image": "/api/ads/73519fc505ab4c889a03/image?v=0",
+      "endsAt": 1792684095758
+    },
+    {
+      "slot": 11,
+      "id": "c49a1a297d6d4e9092f7",
+      "link": "https://wa.me/message/H4GU4PWJXPBHG1",
+      "image": "/api/ads/c49a1a297d6d4e9092f7/image?v=0",
+      "endsAt": 1793288895758
+    },
+    {
+      "slot": 11,
+      "id": "7075c4075db64d3ca7ac",
+      "link": "https://www.tiktok.com/@style_w_rave?_r=1&_t=ZS-9AHPgtmnqi4",
+      "image": "/api/ads/7075c4075db64d3ca7ac/image?v=0",
+      "endsAt": 1793893695758
+    },
+    {
+      "slot": 11,
+      "id": "783f5d8d3ea4402bbe39",
+      "link": "https://wa.me/2349134279341?text=Hello%20I%20would%20like%20to%20make%20an%20enquiry",
+      "image": "/api/ads/783f5d8d3ea4402bbe39/image?v=0",
+      "endsAt": 1794498495758
+    },
+    {
+      "slot": 11,
+      "id": "5144cc201dba4f4fa475",
+      "link": "https://www.ogarent.com/",
+      "image": "/api/ads/5144cc201dba4f4fa475/image?v=0",
+      "endsAt": 1795708095758
+    },
+    {
+      "slot": 12,
+      "id": "1654a961050a4b8a9114",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/ads/1654a961050a4b8a9114/image?v=1",
+      "endsAt": 1791479078217
+    },
+    {
+      "slot": 12,
+      "id": "3731a0a5ea524de7b4f8",
+      "link": "https://app.usefisco.com/signup?utm_source=lagoslife&utm_medium=display&utm_campaign=fisco_storefront&utm_content=storefront_banner%201",
+      "image": "/api/ads/3731a0a5ea524de7b4f8/image?v=0",
+      "endsAt": 1792083878217
+    },
+    {
+      "slot": 12,
+      "id": "f08411c4271b48aebb53",
+      "link": "https://www.instagram.com/mabsonbuildings_ng?stkn=MXBmMmdzNWpzODBvaQ==",
+      "image": "/api/ads/f08411c4271b48aebb53/image?v=0",
+      "endsAt": 1792688678217
+    },
+    {
+      "slot": 12,
+      "id": "d9fff552e6e3462fb98d",
+      "link": "https://omatsola-eyitemi.vercel.app/",
+      "image": "/api/ads/d9fff552e6e3462fb98d/image?v=0",
+      "endsAt": 1793293478217
+    },
+    {
+      "slot": 12,
+      "id": "3b0a1aee3fb1468eb2cc",
+      "link": "https://horlarbless.fanlink.tv/NoLoveLostTheEP",
+      "image": "/api/ads/3b0a1aee3fb1468eb2cc/image?v=0",
+      "endsAt": 1793898278217
+    },
+    {
+      "slot": 13,
+      "id": "8a17960542ad436e909a",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/ads/8a17960542ad436e909a/image?v=1",
+      "endsAt": 1791479094388
+    },
+    {
+      "slot": 13,
+      "id": "aebd97efea29475c8919",
+      "link": "https://www.xpectrumxp.com/",
+      "image": "/api/ads/aebd97efea29475c8919/image?v=1",
+      "endsAt": 1792083894388
+    },
+    {
+      "slot": 13,
+      "id": "a6e045c72c5b4935b932",
+      "link": "https://app.mytherapist.ng/lagos-life.html?utm_source=lagoslife&utm_medium=ingame&utm_campaign=billboard-oct26",
+      "image": "/api/ads/a6e045c72c5b4935b932/image?v=0",
+      "endsAt": 1793898294388
+    },
+    {
+      "slot": 14,
+      "id": "22dcbe6216b14928bd7f",
+      "link": "https://awesomegames-ecru.vercel.app/",
+      "image": "/api/ads/22dcbe6216b14928bd7f/image?v=6",
+      "endsAt": 1791489903103
+    },
+    {
+      "slot": 14,
+      "id": "0b8238b20ff74a0fa237",
+      "link": "https://novaplur.com/",
+      "image": "/api/ads/0b8238b20ff74a0fa237/image?v=0",
+      "endsAt": 1792094703103
+    },
+    {
+      "slot": 14,
+      "id": "9bad880c680043e3a9fd",
+      "link": "https://wa.me/message/DKRAMBB6ALDLM1",
+      "image": "/api/ads/9bad880c680043e3a9fd/image?v=0",
+      "endsAt": 1792699503103
+    },
+    {
+      "slot": 14,
+      "id": "dc796c5a12ef497baf8c",
+      "link": "https://wknd.canex.africa/",
+      "image": "/api/ads/dc796c5a12ef497baf8c/image?v=0",
+      "endsAt": 1793304303103
+    },
+    {
+      "slot": 14,
+      "id": "2fe81df79c844b11ac2d",
+      "link": "https://www.bmoni.com/",
+      "image": "/api/ads/2fe81df79c844b11ac2d/image?v=0",
+      "endsAt": 1793909103103
+    },
+    {
+      "slot": 15,
+      "id": "ca41ff93a4c24e4c80db",
+      "link": "https://thepecohub.com/",
+      "image": "/api/ads/ca41ff93a4c24e4c80db/image?v=10",
+      "endsAt": 1791488246761
+    },
+    {
+      "slot": 15,
+      "id": "7277c86e11f740fcb2fa",
+      "link": "https://machi-kunzult.com/trial/hrm",
+      "image": "/api/ads/7277c86e11f740fcb2fa/image?v=0",
+      "endsAt": 1791845445936
+    },
+    {
+      "slot": 15,
+      "id": "5ff05f88e50c4e8f850a",
+      "link": "https://bottleking.onelink.me/nmB9",
+      "image": "/api/ads/5ff05f88e50c4e8f850a/image?v=0",
+      "endsAt": 1791892967411
+    },
+    {
+      "slot": 15,
+      "id": "809a60da60924df8863d",
+      "link": "https://www.instagram.com/p/Dd_4fJSgW4d/",
+      "image": "/api/ads/809a60da60924df8863d/image?v=0",
+      "endsAt": 1791898533647
+    },
+    {
+      "slot": 15,
+      "id": "eac806b9a3074c5f986f",
+      "link": "https://www.scooler.ai/?utm_source=lagoslife&utm_medium=display&utm_campaign=study_abroad_oct26&utm_content=square",
+      "image": "/api/ads/eac806b9a3074c5f986f/image?v=0",
+      "endsAt": 1791899511259
+    },
+    {
+      "slot": 15,
+      "id": "ddd46f9b3982440e8c21",
+      "link": "https://yadsale.com/",
+      "image": "/api/ads/ddd46f9b3982440e8c21/image?v=0",
+      "endsAt": 1792093046761
+    },
+    {
+      "slot": 15,
+      "id": "87a391849c454f459434",
+      "link": "https://wa.me/2348161892288",
+      "image": "/api/ads/87a391849c454f459434/image?v=0",
+      "endsAt": 1792697846761
+    },
+    {
+      "slot": 15,
+      "id": "402e018d2da54d7f9de1",
+      "link": "https://pay.rexipt.com/",
+      "image": "/api/ads/402e018d2da54d7f9de1/image?v=0",
+      "endsAt": 1793302646761
+    },
+    {
+      "slot": 15,
+      "id": "66364c73bf9b4a2db0e2",
+      "link": "https://ogle.ng/",
+      "image": "/api/ads/66364c73bf9b4a2db0e2/image?v=0",
+      "endsAt": 1793907446761
+    },
+    {
+      "slot": 16,
+      "id": "7939ce1c306248f0bde5",
+      "link": "https://novaplur.com/?utm_source=lagos_life&utm_medium=banner&utm_campaign=ingame_promo",
+      "image": "/api/ads/7939ce1c306248f0bde5/image?v=0",
+      "endsAt": 1791490249298
+    },
+    {
+      "slot": 16,
+      "id": "e2ab28f0a19740048910",
+      "link": "https://www.instagram.com/flowersbycana?stkn=MWtja25wM2cyeWVwdg%3D%3D&utm_source=qr",
+      "image": "/api/ads/e2ab28f0a19740048910/image?v=0",
+      "endsAt": 1792095049298
+    },
+    {
+      "slot": 16,
+      "id": "698bfcdc6eb4452dac01",
+      "link": "https://1con.shop/",
+      "image": "/api/ads/698bfcdc6eb4452dac01/image?v=0",
+      "endsAt": 1792699849298
+    },
+    {
+      "slot": 16,
+      "id": "53808920a66a4c5e8729",
+      "link": "https://wwe.ogarent.com/",
+      "image": "/api/ads/53808920a66a4c5e8729/image?v=0",
+      "endsAt": 1793304649298
+    },
+    {
+      "slot": 16,
+      "id": "4e603bf60ab942e79384",
+      "link": "https://ditto.fm/bossed-up-icebaby-leandoer",
+      "image": "/api/ads/4e603bf60ab942e79384/image?v=1",
+      "endsAt": 1793909449298
+    },
+    {
+      "slot": 17,
+      "id": "e869bccc27fc42fcb566",
+      "link": "https://www.instagram.com/thepeoplelabconsulting/",
+      "image": "/api/ads/e869bccc27fc42fcb566/image?v=1",
+      "endsAt": 1791479759974
+    },
+    {
+      "slot": 17,
+      "id": "45f0844c5bcb47848c36",
+      "link": "https://chowdeck.com/store/ikoyi/restaurants/party-jollof-by-housepadi-ikoyi61km7w",
+      "image": "/api/ads/45f0844c5bcb47848c36/image?v=0",
+      "endsAt": 1791843375249
+    },
+    {
+      "slot": 17,
+      "id": "96c25f2e46494e4ab5b3",
+      "link": "https://mysportsfind.app/",
+      "image": "/api/ads/96c25f2e46494e4ab5b3/image?v=0",
+      "endsAt": 1791868973742
+    },
+    {
+      "slot": 17,
+      "id": "4d7d9ac9dd4f49b4a166",
+      "link": "https://bottleking.onelink.me/nmB9",
+      "image": "/api/ads/4d7d9ac9dd4f49b4a166/image?v=0",
+      "endsAt": 1791893279429
+    },
+    {
+      "slot": 17,
+      "id": "31bbcf0cd7a2494593ce",
+      "link": "https://kllivoapp.com/",
+      "image": "/api/ads/31bbcf0cd7a2494593ce/image?v=0",
+      "endsAt": 1792084559974
+    },
+    {
+      "slot": 17,
+      "id": "8d4677b842c64d0a9b01",
+      "link": "https://wa.me/c/2348144836669",
+      "image": "/api/ads/8d4677b842c64d0a9b01/image?v=0",
+      "endsAt": 1792689359974
+    },
+    {
+      "slot": 17,
+      "id": "28fb3c1c263b4b318d67",
+      "link": "https://www.honewhize.com/",
+      "image": "/api/ads/28fb3c1c263b4b318d67/image?v=0",
+      "endsAt": 1793294159974
+    },
+    {
+      "slot": 17,
+      "id": "d2bcd36dc64843409597",
+      "link": "https://www.instagram.com/jmo_shortlet?stkn=MThwNTFsNXptbDlmcw%3D%3D&utm_source=qr",
+      "image": "/api/ads/d2bcd36dc64843409597/image?v=0",
+      "endsAt": 1793898959974
+    },
+    {
+      "slot": 17,
+      "id": "e17828d387ab45bfb4d9",
+      "link": "https://scentraskin.com/",
+      "image": "/api/ads/e17828d387ab45bfb4d9/image?v=1",
+      "endsAt": 1794503759974
+    },
+    {
+      "slot": 18,
+      "id": "f8f7d6b56d634fa48904",
+      "link": "https://www.tiktok.com/@hairsbyyeye?_r=1&_t=ZS-9ACi1PkrjKT",
+      "image": "/api/ads/f8f7d6b56d634fa48904/image?v=0",
+      "endsAt": 1791502275138
+    },
+    {
+      "slot": 18,
+      "id": "f20458e845d542e9bb04",
+      "link": "https://www.instagram.com/gidicasualwear?stkn=MWZza3o4OTU4YXF2NA==",
+      "image": "/api/ads/f20458e845d542e9bb04/image?v=0",
+      "endsAt": 1791844112365
+    },
+    {
+      "slot": 18,
+      "id": "d40cf9b5ca144f9c87e4",
+      "link": "https://yadsale.com/",
+      "image": "/api/ads/d40cf9b5ca144f9c87e4/image?v=0",
+      "endsAt": 1792107075138
+    },
+    {
+      "slot": 18,
+      "id": "b4aca4df8e344895b4f5",
+      "link": "https://wa.me/2349063579887",
+      "image": "/api/ads/b4aca4df8e344895b4f5/image?v=0",
+      "endsAt": 1792711875138
+    },
+    {
+      "slot": 18,
+      "id": "d567b8b19de74172bc9a",
+      "link": "https://wa.link/zevtvh",
+      "image": "/api/ads/d567b8b19de74172bc9a/image?v=1",
+      "endsAt": 1793316675138
+    },
+    {
+      "slot": 19,
+      "id": "cc0be0d8dcce40f594df",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/cc0be0d8dcce40f594df/image?v=1",
+      "endsAt": 1791533493143
+    },
+    {
+      "slot": 19,
+      "id": "8264da5a29f943b1aaa1",
+      "link": "https://1con.shop/",
+      "image": "/api/ads/8264da5a29f943b1aaa1/image?v=0",
+      "endsAt": 1792138293143
+    },
+    {
+      "slot": 19,
+      "id": "5244a1b62a9b4d17a036",
+      "link": "https://www.instagram.com/theduchess_fabrics?stkn=MXBmZzlnM2UwaHlqbQ==",
+      "image": "/api/ads/5244a1b62a9b4d17a036/image?v=0",
+      "endsAt": 1792743093143
+    },
+    {
+      "slot": 19,
+      "id": "810ab847c8794c75ab34",
+      "link": "https://pay.rexipt.com/",
+      "image": "/api/ads/810ab847c8794c75ab34/image?v=0",
+      "endsAt": 1793347893143
+    },
+    {
+      "slot": 20,
+      "id": "40989f72c73d45fcbdbf",
+      "link": "https://midealabi.com/",
+      "image": "/api/ads/40989f72c73d45fcbdbf/image?v=0",
+      "endsAt": 1791893001948
+    },
+    {
+      "slot": 20,
+      "id": "33fdb88c6a3b4a56bd64",
+      "link": "https://duetrack.co/?ref=LagosLife",
+      "image": "/api/ads/33fdb88c6a3b4a56bd64/image?v=0",
+      "endsAt": 1792149024197
+    },
+    {
+      "slot": 20,
+      "id": "de5033190cc4459b8909",
+      "link": "https://merlin.computer/",
+      "image": "/api/ads/de5033190cc4459b8909/image?v=0",
+      "endsAt": 1793963424197
+    },
+    {
+      "slot": 21,
+      "id": "afd9f64fdf4448489a76",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/afd9f64fdf4448489a76/image?v=0",
+      "endsAt": 1791546359770
+    },
+    {
+      "slot": 21,
+      "id": "2ab4788f1f0b4fee973e",
+      "link": "https://wa.me/message/TDRFTXJE66XDN1",
+      "image": "/api/ads/2ab4788f1f0b4fee973e/image?v=0",
+      "endsAt": 1792151159770
+    },
+    {
+      "slot": 21,
+      "id": "5e3d5bf73c2d4efc8b0c",
+      "link": "https://www.ifetomarket.com/",
+      "image": "/api/ads/5e3d5bf73c2d4efc8b0c/image?v=1",
+      "endsAt": 1792755959770
+    },
+    {
+      "slot": 21,
+      "id": "d02ae5586167416bb149",
+      "link": "https://linktr.ee/elle.co.official?utm_source=linktree_profile_share&ltsid=85b53797-cd8d-4caf-8c8f-914aa7d844ba",
+      "image": "/api/ads/d02ae5586167416bb149/image?v=0",
+      "endsAt": 1793360759770
+    },
+    {
+      "slot": 22,
+      "id": "3c81811617434f07a078",
+      "link": "https://www.instagram.com/wearethenew_yaba/",
+      "image": "/api/ads/3c81811617434f07a078/image?v=0",
+      "endsAt": 1791546333903
+    },
+    {
+      "slot": 22,
+      "id": "03af2f43c1a74810912e",
+      "link": "https://helthy.app/",
+      "image": "/api/ads/03af2f43c1a74810912e/image?v=0",
+      "endsAt": 1791857491210
+    },
+    {
+      "slot": 22,
+      "id": "b9ad81b24f9841e28614",
+      "link": "https://wa.me/c/2348144836669",
+      "image": "/api/ads/b9ad81b24f9841e28614/image?v=0",
+      "endsAt": 1792151133903
+    },
+    {
+      "slot": 22,
+      "id": "5285de5d48084a3882f5",
+      "link": "https://inkcognito.xyz/music/techboyz",
+      "image": "/api/ads/5285de5d48084a3882f5/image?v=0",
+      "endsAt": 1793360733903
+    },
+    {
+      "slot": 23,
+      "id": "feaedc62e74949209dcd",
+      "link": "https://www.instagram.com/wealthyaloes_?stkn=MXRrcnZjcTJyanZ1Zw%3D%3D&utm_source=qr",
+      "image": "/api/ads/feaedc62e74949209dcd/image?v=6",
+      "endsAt": 1791547929623
+    },
+    {
+      "slot": 23,
+      "id": "de78dab0b6164e148f84",
+      "link": "https://www.instagram.com/jekahkohnnect?utm_source=qr&stkn=dW9ubHExdzU5Yzkx",
+      "image": "/api/ads/de78dab0b6164e148f84/image?v=0",
+      "endsAt": 1791939081901
+    },
+    {
+      "slot": 23,
+      "id": "485eef910fb443289d5e",
+      "link": "https://www.snapchat.com/add/et_ew1?share_id=1ROPsB23q4Q&locale=en-US",
+      "image": "/api/ads/485eef910fb443289d5e/image?v=0",
+      "endsAt": 1792757529623
+    },
+    {
+      "slot": 24,
+      "id": "45c20e5894a94fe58ed4",
+      "link": "https://swifthunts.com/",
+      "image": "/api/ads/45c20e5894a94fe58ed4/image?v=0",
+      "endsAt": 1791553287964
+    },
+    {
+      "slot": 24,
+      "id": "95ede7b7ce974a79b53d",
+      "link": "https://dohmayn.com/",
+      "image": "/api/ads/95ede7b7ce974a79b53d/image?v=0",
+      "endsAt": 1792158087964
+    },
+    {
+      "slot": 24,
+      "id": "25a48e1c49684aacada9",
+      "link": "https://www.ridefiapp.com/download",
+      "image": "/api/ads/25a48e1c49684aacada9/image?v=0",
+      "endsAt": 1792762887964
+    },
+    {
+      "slot": 25,
+      "id": "0e423e29377f4b0489ed",
+      "link": "https://www.fastdriveng.tech/",
+      "image": "/api/ads/0e423e29377f4b0489ed/image?v=0",
+      "endsAt": 1791558367345
+    },
+    {
+      "slot": 25,
+      "id": "c396e5bcf60c40b2a1a4",
+      "link": "https://veraafrica.com/",
+      "image": "/api/ads/c396e5bcf60c40b2a1a4/image?v=0",
+      "endsAt": 1791947109286
+    },
+    {
+      "slot": 25,
+      "id": "5ad25f216b3746978d52",
+      "link": "https://www.instagram.com/blinks_n_bloom?stkn=MTF0eWszYmhlaWU3cw==",
+      "image": "/api/ads/5ad25f216b3746978d52/image?v=0",
+      "endsAt": 1792163167345
+    },
+    {
+      "slot": 26,
+      "id": "e006abeb521343cfa788",
+      "link": "https://www.fastdriveng.tech/",
+      "image": "/api/ads/e006abeb521343cfa788/image?v=0",
+      "endsAt": 1791558375785
+    },
+    {
+      "slot": 26,
+      "id": "9f8883c04b1747549059",
+      "link": "https://famspendy.com/",
+      "image": "/api/ads/9f8883c04b1747549059/image?v=0",
+      "endsAt": 1791851903497
+    },
+    {
+      "slot": 26,
+      "id": "5bcc9dd7570f4e02bc4c",
+      "link": "https://dohmayn.com/",
+      "image": "/api/ads/5bcc9dd7570f4e02bc4c/image?v=0",
+      "endsAt": 1792163175785
+    },
+    {
+      "slot": 26,
+      "id": "1948892f4c1d4286805e",
+      "link": "https://www.instagram.com/ayron_cole?stkn=MWNhNWU5eHF3enVvOA==",
+      "image": "/api/ads/1948892f4c1d4286805e/image?v=0",
+      "endsAt": 1792767975785
+    },
+    {
+      "slot": 27,
+      "id": "b317399c03bd4b7a8c6c",
+      "link": "https://koreshield.ai/",
+      "image": "/api/ads/b317399c03bd4b7a8c6c/image?v=0",
+      "endsAt": 1791559268795
+    },
+    {
+      "slot": 27,
+      "id": "00662c26726b4ea4a97d",
+      "link": "https://thepecohub.com/",
+      "image": "/api/ads/00662c26726b4ea4a97d/image?v=2",
+      "endsAt": 1792164068795
+    },
+    {
+      "slot": 27,
+      "id": "a875477c79804ad6a5f4",
+      "link": "https://wa.me/2348153361264?text=Hi%20EKOHOMESNG,%20I%20saw%20your%20billboard%20in%20Lagos%20Life!%20I%27m%20looking%20for%20a%20shortlet",
+      "image": "/api/ads/a875477c79804ad6a5f4/image?v=0",
+      "endsAt": 1792768868795
+    },
+    {
+      "slot": 28,
+      "id": "dafe64c6a3a8407f8304",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/dafe64c6a3a8407f8304/image?v=0",
+      "endsAt": 1791549514707
+    },
+    {
+      "slot": 28,
+      "id": "2355b857046a4615a17e",
+      "link": "https://owambeplanner.com/",
+      "image": "/api/ads/2355b857046a4615a17e/image?v=0",
+      "endsAt": 1791851370120
+    },
+    {
+      "slot": 28,
+      "id": "3bedad22a8e4474ab085",
+      "link": "https://hallowng.labeld.app/",
+      "image": "/api/ads/3bedad22a8e4474ab085/image?v=0",
+      "endsAt": 1792154314707
+    },
+    {
+      "slot": 28,
+      "id": "907ea815aae24dc3933e",
+      "link": "https://www.instagram.com/homebits_ng?stkn=MTQ3cWgyajdxODRnOA%3D%3D&utm_source=qr",
+      "image": "/api/ads/907ea815aae24dc3933e/image?v=0",
+      "endsAt": 1792759114707
+    },
+    {
+      "slot": 28,
+      "id": "febd39c3d8d048d599fb",
+      "link": "https://wa.me/2348153361264?text=Hi%20EKOHOMESNG,%20I%20saw%20your%20billboard%20in%20Lagos%20Life!%20I%27m%20looking%20for%20a%20shortlet",
+      "image": "/api/ads/febd39c3d8d048d599fb/image?v=0",
+      "endsAt": 1793363914707
+    },
+    {
+      "slot": 29,
+      "id": "cf0f3496246a442a83e9",
+      "link": "https://onerpm.link/413165307533",
+      "image": "/api/ads/cf0f3496246a442a83e9/image?v=1",
+      "endsAt": 1791536265535
+    },
+    {
+      "slot": 29,
+      "id": "260e08f96ff040f1975a",
+      "link": "https://wa.me/message/RZTH3BNCXLUNC1",
+      "image": "/api/ads/260e08f96ff040f1975a/image?v=0",
+      "endsAt": 1791839575977
+    },
+    {
+      "slot": 29,
+      "id": "a5bdbb7d2a99442885b9",
+      "link": "https://famspendy.com/",
+      "image": "/api/ads/a5bdbb7d2a99442885b9/image?v=0",
+      "endsAt": 1791851635395
+    },
+    {
+      "slot": 29,
+      "id": "6c6a7a01e6dd45318db6",
+      "link": "https://www.facebook.com/share/1DeYdiDp8q/?mibextid=wwXIfr",
+      "image": "/api/ads/6c6a7a01e6dd45318db6/image?v=0",
+      "endsAt": 1792141065535
+    },
+    {
+      "slot": 29,
+      "id": "de690671bf8c4b1aae83",
+      "link": "https://www.instagram.com/giftingcenterng?stkn=ZzFuNG9xeXo3NGs5&utm_source=qr",
+      "image": "/api/ads/de690671bf8c4b1aae83/image?v=2",
+      "endsAt": 1793350665535
+    },
+    {
+      "slot": 30,
+      "id": "de777835965a49e78bea",
+      "link": "https://cardron.com/",
+      "image": "/api/ads/de777835965a49e78bea/image?v=0",
+      "endsAt": 1791549196826
+    },
+    {
+      "slot": 30,
+      "id": "bbd27bd6e5054e30a351",
+      "link": "https://wa.me/message/ZXVN6ILFIQWTA1",
+      "image": "/api/ads/bbd27bd6e5054e30a351/image?v=0",
+      "endsAt": 1792758796826
+    },
+    {
+      "slot": 30,
+      "id": "c7924a50a9e249ec9e2b",
+      "link": "https://www.snapchat.com/add/bigmamichulo?share_id=ZNxC_uVKQyKtvfXZHunTKg&locale=en_NG",
+      "image": "/api/ads/c7924a50a9e249ec9e2b/image?v=0",
+      "endsAt": 1793363596826
+    },
+    {
+      "slot": 31,
+      "id": "1cc62d3ab69e4323b527",
+      "link": "https://www.gruve.events/endofyearsalelagosdaytwo",
+      "image": "/api/ads/1cc62d3ab69e4323b527/image?v=0",
+      "endsAt": 1791554003317
+    },
+    {
+      "slot": 31,
+      "id": "e7d4cb03ac46468e8341",
+      "link": "https://www.tiktok.com/@teecattery?_r=1&_t=ZS-9AH0Al5GI1H",
+      "image": "/api/ads/e7d4cb03ac46468e8341/image?v=0",
+      "endsAt": 1792158803317
+    },
+    {
+      "slot": 31,
+      "id": "2618855ac7b5476c9fc2",
+      "link": "https://share.amuse.io/album/friendfrompluto-the-space-between-thinking-and-doing",
+      "image": "/api/ads/2618855ac7b5476c9fc2/image?v=0",
+      "endsAt": 1792763603317
+    },
+    {
+      "slot": 32,
+      "id": "4633d633f646407eb30a",
+      "link": "https://www.haqtri.com/",
+      "image": "/api/ads/4633d633f646407eb30a/image?v=0",
+      "endsAt": 1792760523461
+    },
+    {
+      "slot": 33,
+      "id": "a15095a7561a44d89378",
+      "link": "https://www.enyskinco.com/",
+      "image": "/api/ads/a15095a7561a44d89378/image?v=0",
+      "endsAt": 1792760341248
+    },
+    {
+      "slot": 33,
+      "id": "b35ea7b684e3454c9385",
+      "link": "https://www.instagram.com/iseoluwaprimerealty?stkn=NW94MXg3dXllaW02&utm_source=qr",
+      "image": "/api/ads/b35ea7b684e3454c9385/image?v=0",
+      "endsAt": 1793365141248
+    },
+    {
+      "slot": 34,
+      "id": "cc9355c6ab844c698bff",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/cc9355c6ab844c698bff/image?v=0",
+      "endsAt": 1791546539199
+    },
+    {
+      "slot": 34,
+      "id": "3d4f65e805104b149447",
+      "link": "https://muslimtechexpo.com/",
+      "image": "/api/ads/3d4f65e805104b149447/image?v=0",
+      "endsAt": 1792151339199
+    },
+    {
+      "slot": 34,
+      "id": "f181dedf12ac4c58a222",
+      "link": "https://fb4tsf.short.gy/PMDB",
+      "image": "/api/ads/f181dedf12ac4c58a222/image?v=0",
+      "endsAt": 1793360939199
+    },
+    {
+      "slot": 35,
+      "id": "f4efda6bf6434c35b878",
+      "link": "https://chowdeck.com/store/ajah/restaurants/lucy's-kitchen-ajahcnj6m5?utm_source=ig&utm_medium=social&utm_content=link_in_bio",
+      "image": "/api/ads/f4efda6bf6434c35b878/image?v=0",
+      "endsAt": 1792156447386
+    },
+    {
+      "slot": 35,
+      "id": "c573f580ad0a43e2a7e8",
+      "link": "https://www.instagram.com/certifitsluxury?stkn=MWhwMmRydmRxZjFqeQ%3D%3D&utm_source=qr",
+      "image": "/api/ads/c573f580ad0a43e2a7e8/image?v=0",
+      "endsAt": 1792761247386
+    },
+    {
+      "slot": 35,
+      "id": "b684a67b475d4af98d9e",
+      "link": "https://www.instagram.com/giftingcenterng?stkn=ZzFuNG9xeXo3NGs5&utm_source=qr",
+      "image": "/api/ads/b684a67b475d4af98d9e/image?v=1",
+      "endsAt": 1793366047386
+    },
+    {
+      "slot": 36,
+      "id": "0135aada2a4e45408ae3",
+      "link": "https://nestuge.com/8kz01hxg3",
+      "image": "/api/ads/0135aada2a4e45408ae3/image?v=0",
+      "endsAt": 1791549357005
+    },
+    {
+      "slot": 36,
+      "id": "37437695645741c5abb2",
+      "link": "https://sensationalrubrand.org/",
+      "image": "/api/ads/37437695645741c5abb2/image?v=1",
+      "endsAt": 1793363757005
+    },
+    {
+      "slot": 37,
+      "id": "62c5a1bfd8fd491eb964",
+      "link": "https://cardron.com/",
+      "image": "/api/ads/62c5a1bfd8fd491eb964/image?v=0",
+      "endsAt": 1791549397118
+    },
+    {
+      "slot": 37,
+      "id": "3d25311fa35a4d8fa035",
+      "link": "https://wa.me/2349025801494?s=p",
+      "image": "/api/ads/3d25311fa35a4d8fa035/image?v=0",
+      "endsAt": 1792758997118
+    },
+    {
+      "slot": 37,
+      "id": "c616e24fbc8d44fe95c5",
+      "link": "https://open.spotify.com/track/7mJw1nehfKFAwd2JqREuGa?si=Lmdy8Wh_TjiBJfjw0RrGyw&utm_source=copy-link",
+      "image": "/api/ads/c616e24fbc8d44fe95c5/image?v=0",
+      "endsAt": 1793363797118
+    },
+    {
+      "slot": 38,
+      "id": "1a25f8d4456945b784f2",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/ads/1a25f8d4456945b784f2/image?v=0",
+      "endsAt": 1791549686912
+    },
+    {
+      "slot": 38,
+      "id": "5ad61f415ebe485fb547",
+      "link": "https://heylink.me/Shadowthewave/",
+      "image": "/api/ads/5ad61f415ebe485fb547/image?v=0",
+      "endsAt": 1793364086912
+    }
+  ]
+}

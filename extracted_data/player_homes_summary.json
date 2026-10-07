@@ -1,0 +1,382 @@
+{
+  "total_homes": 400,
+  "occupied_count": 400,
+  "vacant_count": 0,
+  "sample_occupied": [
+    {
+      "id": "10a1bd2aa50d4155a18a",
+      "username": "shallyr",
+      "home": "bananaIsland",
+      "look": {
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#1d2433",
+        "bottom": "#1d2433",
+        "body": "m",
+        "style": "party"
+      },
+      "items": 44,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "015f1effa32d4f09a197",
+      "username": "owee",
+      "home": "mushin",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#7a4a2c",
+        "hair": "gele",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#22b573",
+        "bottom": "#22b573"
+      },
+      "items": 9,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "f9a0a3b77b9043828b8f",
+      "username": "adam",
+      "home": "yaba",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "items": 10,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "946b3642775244b7b877",
+      "username": "Vibesayo",
+      "home": "abjAsokoro",
+      "look": {
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#1d2433",
+        "bottom": "#2f4a7a",
+        "body": "m",
+        "style": "casual2",
+        "shoes": "slides",
+        "shoeColor": "#2b2b2b"
+      },
+      "items": 0,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "2ffdefdbd5754fd4afc5",
+      "username": "t1jani738",
+      "home": "bananaIsland",
+      "look": {
+        "skin": "#8d5a3b",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "jersey",
+        "top": "#1f8a4c",
+        "bottom": "#1d2433",
+        "body": "m",
+        "style": "casual",
+        "shoes": "whiteSneakers"
+      },
+      "items": 47,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "ae3d64f7e3394e88b84e",
+      "username": "tomfrank",
+      "home": "lekki",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#2f7de1",
+        "bottom": "#1d2433"
+      },
+      "items": 9,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "80eeac5e495742c48a13",
+      "username": "james",
+      "home": "bananaIsland",
+      "look": {
+        "skin": "#a86f4c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#1d2433",
+        "bottom": "#1d2433",
+        "body": "m",
+        "style": "casual",
+        "shoes": "tanLoafers",
+        "shoeColor": "#111111"
+      },
+      "items": 47,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "e235ead69ade40debd6e",
+      "username": "ydktomi",
+      "home": "abjAsokoro",
+      "look": {
+        "skin": "#8d5a3b",
+        "hair": "pixie",
+        "hairColor": "#141414",
+        "outfit": "plain",
+        "top": "#f4f4f2",
+        "bottom": "#2f4a7a",
+        "body": "f",
+        "style": "casual",
+        "shoes": "whiteSneakers",
+        "shoeColor": "#f4f4f2",
+        "bag": "ankaraTote",
+        "bagColor": "#e8721c"
+      },
+      "items": 41,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "cb70034df0e84127832c",
+      "username": "Salame",
+      "home": "lekki",
+      "look": {
+        "skin": "#7a4a2c",
+        "hair": "bald",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#f59e42",
+        "bottom": "#1d2433",
+        "body": "m",
+        "style": "casual"
+      },
+      "items": 36,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "97507093067b49258120",
+      "username": "ebenices",
+      "home": "bananaIsland",
+      "look": {
+        "skin": "#c68a62",
+        "hair": "braids",
+        "hairColor": "#2e1f16",
+        "outfit": "ankara",
+        "top": "#ec4899",
+        "bottom": "#2f7de1",
+        "body": "m",
+        "style": "smart"
+      },
+      "items": 35,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "18eb0baca1f54a9199ef",
+      "username": "tianah",
+      "home": "bananaIsland",
+      "look": {
+        "skin": "#8d5a3b",
+        "hair": "braids",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#f4f4f2",
+        "bottom": "#2f4a7a",
+        "body": "f",
+        "style": "casual"
+      },
+      "items": 49,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "4126cfb34cc74b6fb274",
+      "username": "fucker",
+      "home": "yaba",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "items": 10,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "4549569d285549c99913",
+      "username": "ngozi",
+      "home": "bananaIsland",
+      "look": {
+        "skin": "#8d5a3b",
+        "hair": "curly",
+        "hairColor": "#c8913a",
+        "outfit": "adire",
+        "top": "#1f3b8f",
+        "bottom": "#1f3b8f",
+        "body": "f",
+        "style": "casual",
+        "shoes": "crystalHeels",
+        "shoeColor": "#111111"
+      },
+      "items": 77,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "f1d14fcf88f44f22ab17",
+      "username": "pinto",
+      "home": "ikoyi",
+      "look": {
+        "skin": "#7a4a2c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433",
+        "body": "m",
+        "style": "smart"
+      },
+      "items": 20,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "56dcf9fbc7b1410da300",
+      "username": "callacob",
+      "home": "yaba",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#a86f4c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#2f7de1",
+        "bottom": "#f4efe6"
+      },
+      "items": 10,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "971629240f5c433b8915",
+      "username": "unclebigbay",
+      "home": "lekki",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "items": 17,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "cdc92e8b385647598d47",
+      "username": "diekolanurudeen257",
+      "home": "phOldGra",
+      "look": {
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433",
+        "body": "m",
+        "style": "casual",
+        "wear": {
+          "work": "suit:#1d2433"
+        }
+      },
+      "items": 4,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "37184228b0354551a71a",
+      "username": "bindone",
+      "home": "yaba",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "items": 11,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "adfa813285e04f468035",
+      "username": "crevtr",
+      "home": "lekki",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "asooke",
+        "top": "#f4efe6",
+        "bottom": "#1d2433"
+      },
+      "items": 9,
+      "online": false,
+      "atHome": false
+    },
+    {
+      "id": "2dda05dcca144c1ea97a",
+      "username": "reallaide",
+      "home": "yaba",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "items": 10,
+      "online": false,
+      "atHome": false
+    }
+  ],
+  "sample_vacant": []
+}

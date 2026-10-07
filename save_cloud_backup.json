@@ -1,0 +1,47 @@
+{
+  "game": {
+    "money": 449426759826485,
+    "efccClosed": 999999999999,
+    "bank": {
+      "saved": 137,
+      "bonds": 0,
+      "at": 1791367340127
+    },
+    "biz": {
+      "till": 0,
+      "day": 1010,
+      "at": 1791367414092,
+      "companies": [
+        {
+          "id": "co_df18a5265e8b463e9852",
+          "name": "Bobby and Co.",
+          "ind": "tech",
+          "emoji": "\ud83d\udcbb",
+          "color": 0,
+          "hq": "lagos:yaba",
+          "units": 3,
+          "rating": 3.3,
+          "last": 3001688,
+          "value": 0,
+          "sale": 579600000,
+          "closed": 0
+        }
+      ]
+    },
+    "family": {
+      "sent": [
+        "1cc59dc1242442f4a68c",
+        "e25b48eb40ee4c839e87",
+        "0d123ebeced14f12a293",
+        "ac0edb9f0ac547478dea",
+        "11dd5d9c80a04c32afdc",
+        "d88b898dd3fc47669381",
+        "d181d3c318f940ff9313",
+        "8a9ab7c5641b4a3db9c9",
+        "22dfe2c8b39d4eaaa6bc"
+      ]
+    }
+  },
+  "updatedAt": 1791382012148,
+  "now": 1791383259576
+}

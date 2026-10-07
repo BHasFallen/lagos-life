@@ -1,0 +1,3933 @@
+{
+  "5e22e3df1d41489b8e52": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "06a6201bc78841c98367",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791311604110,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a492b8b24a0347f0b04a",
+        "mine": false,
+        "social": false,
+        "body": "\ud83c\udf46\ud83c\udf46",
+        "at": 1791311832665,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "46fe26fbed3248378898",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791312191736,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ca33e335be1f470c9c62",
+        "mine": true,
+        "social": false,
+        "body": "Wetin dey happen?",
+        "at": 1791312199698,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6b1be199eee041ab8e36",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791349571765,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c2ffcc81ba1141229670",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791353204960,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "fb9d4271a2b04b8abf96",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791353242437,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9084385e571c4cf6b873",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791353324306,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5a76e349b2bb4d76ae3a",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791353907111,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e1a673d502c24cc3aceb",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791355189416,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "27c08a15c45542ffad20",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791355235043,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4c859a93adf24c69a4d3",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791356374545,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "50c2dd83e5fb4b3d8a64",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791358399630,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "f8f887b6ece24484ae4c",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791358441403,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c36ceaa50f04409f8053",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791358476528,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "683895de023246149e2c",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791358510522,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "56bf45ea9acf4afc8a90",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791358612926,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9ed6bff785554aa4952e",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791358726940,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "102c7deaff6541829286",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791362144425,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5e2b48255771454e8c41",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791362235057,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5314176e40214180a6cf",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a6720,690,969 \ud83d\udcb8",
+        "at": 1791364021818,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "076c441d9f10461cafab",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791364248939,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "39935c75a20740f1a09b",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a6200 \ud83d\udcb8",
+        "at": 1791364307408,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ca55d29345dc4c3fb528",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791366208186,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "77dfc02096134d10bb8b",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a65,000,000,000 \ud83d\udcb8",
+        "at": 1791366249469,
+        "fresh": false,
+        "seen": true
+      }
+    ]
+  },
+  "69b7002175784e4fb1fe": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "1ba5ef7790a24c428e14",
+        "mine": false,
+        "social": false,
+        "body": "Hey bro pls help me with money",
+        "at": 1791349011120,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "49a534a950dd4082a425",
+        "mine": false,
+        "social": false,
+        "body": "Please",
+        "at": 1791349014106,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "37b41c729002411989a3",
+        "mine": true,
+        "social": false,
+        "body": "I Dey sell am",
+        "at": 1791349027567,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "07df5e02037f45098089",
+        "mine": true,
+        "social": false,
+        "body": "1T 2k",
+        "at": 1791349030392,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ea720c613de148bb8df5",
+        "mine": false,
+        "social": false,
+        "body": "I trillion 2k",
+        "at": 1791349111833,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "ffb1232b3c3842dbbf07",
+        "mine": true,
+        "social": false,
+        "body": "Text me on snap @bobbyhasfallen",
+        "at": 1791349122859,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "286593ecb9ba4634923d",
+        "mine": false,
+        "social": false,
+        "body": "Ok",
+        "at": 1791349154049,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4a21772a8e774dc18ab8",
+        "mine": false,
+        "social": false,
+        "body": "I added u in snap",
+        "at": 1791364704184,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b2aa318d149c42bf99d6",
+        "mine": true,
+        "social": false,
+        "body": "Aiit",
+        "at": 1791364796463,
+        "fresh": false,
+        "seen": false
+      }
+    ]
+  },
+  "91dcc7ae96b34049965c": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "91f878c4e8e247b3bb9a",
+        "mine": false,
+        "social": false,
+        "body": "Are u fr send am first",
+        "at": 1791207516862,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "7c5a84e1057b44d69690",
+        "mine": true,
+        "social": false,
+        "body": "Nothing like that. Them don reap me like that befor",
+        "at": 1791207529057,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6b0c088ba5c142d19b78",
+        "mine": true,
+        "social": false,
+        "body": "I get proof for you if you want sha",
+        "at": 1791207535885,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b02c3603b63a4588ae91",
+        "mine": true,
+        "social": false,
+        "body": "Na why I said text on snap",
+        "at": 1791207542599,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "413c985e58474379ae50",
+        "mine": false,
+        "social": false,
+        "body": "Snap name Kaz_30",
+        "at": 1791207574906,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d6121623b0754134b677",
+        "mine": true,
+        "social": false,
+        "body": "You add me broski. @bobbyhasfallen",
+        "at": 1791207599969,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "00cfd809e84d48df9bad",
+        "mine": false,
+        "social": false,
+        "body": "Wassup na me send u that 1500",
+        "at": 1791208213379,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "f65eb84b3cce4746a5d3",
+        "mine": true,
+        "social": false,
+        "body": "Aiit",
+        "at": 1791208272358,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "7870f8116fc34c998950",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208291346,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "0820659858d84225bdae",
+        "mine": true,
+        "social": false,
+        "body": "I can send only 10b at a time",
+        "at": 1791208300794,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ee205bdaff5649358fa4",
+        "mine": false,
+        "social": false,
+        "body": "Oya now I go text u for the rest later",
+        "at": 1791208324909,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "718ddfc922314d359d9e",
+        "mine": false,
+        "social": false,
+        "body": "Thanks bro",
+        "at": 1791208334034,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4c9966c77ee34a4ba67a",
+        "mine": true,
+        "social": false,
+        "body": "No p man. Tell your friends",
+        "at": 1791208346374,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a3d080ba75a042d4a2c3",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208367343,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1179e87bd2864b2090c8",
+        "mine": false,
+        "social": false,
+        "body": "No problem",
+        "reply": {
+          "id": "4c9966c77ee34a4ba67a",
+          "mine": true,
+          "body": "No p man. Tell your friends"
+        },
+        "at": 1791208465133,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4300806a06834577a5de",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208480569,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "bf1180b0a8ea46b8a85c",
+        "mine": false,
+        "social": false,
+        "body": "Can u send another 30b now?",
+        "at": 1791218048620,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "7d0391edf7f04496a8ac",
+        "mine": true,
+        "social": false,
+        "body": "Yea lemme try",
+        "at": 1791218117012,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e97f6e470f3e4c098eca",
+        "mine": false,
+        "social": false,
+        "body": "Aii",
+        "at": 1791218130725,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "a57a6bde43384c1ba43e",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791218132419,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2d63f8271d8445079476",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791218162698,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "aa5cec04da6341dc9354",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791218194380,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "d599102bbae342bebb63",
+        "mine": false,
+        "social": false,
+        "body": "Thanks",
+        "at": 1791218506154,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "20e033ed35a041af8ee6",
+        "mine": false,
+        "social": false,
+        "body": "Can u try another now?",
+        "at": 1791229153324,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "8631eb9c499e4c4484dc",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791229201474,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ba164b267c4348418fd6",
+        "mine": false,
+        "social": false,
+        "body": "",
+        "unsent": true,
+        "at": 1791232767919,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9b425c1f4a684c9ba7b8",
+        "mine": false,
+        "social": false,
+        "body": "Good morning",
+        "at": 1791274646548,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "86874e5c95a54fa19a91",
+        "mine": true,
+        "social": false,
+        "body": "Wsgg",
+        "at": 1791274658966,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6dbdf2e8b7f04410b2d9",
+        "mine": false,
+        "social": false,
+        "body": "Abeg can u send another 30b now",
+        "at": 1791274660844,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "43205f6e37f84afd8969",
+        "mine": true,
+        "social": false,
+        "body": "No p",
+        "at": 1791274690148,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c8b7278475dc46929bc8",
+        "mine": false,
+        "social": false,
+        "body": "Aii thanks",
+        "at": 1791274778342,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "1ffa8d4f2a36407babd2",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791274901432,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "04b672516ede418c8f70",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791274979758,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "856273fe3136421bbd7e",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791275042196,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "04d414f711414f329855",
+        "mine": true,
+        "social": false,
+        "body": "Done",
+        "at": 1791275047970,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9a1ee563f22649b19a10",
+        "mine": false,
+        "social": false,
+        "body": "Thank u",
+        "at": 1791275065710,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "52c4e293dd6942368d10",
+        "mine": true,
+        "social": false,
+        "body": "Tell your friends",
+        "at": 1791275091901,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6ecb890db7f34e2ab284",
+        "mine": false,
+        "social": false,
+        "body": "Sure",
+        "at": 1791275100463,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "18956514a43a4ed099ec",
+        "mine": false,
+        "social": false,
+        "body": "Can u do another 30b now?",
+        "at": 1791300576460,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b491d59889da4e1980bd",
+        "mine": false,
+        "social": false,
+        "body": "??",
+        "at": 1791311352559,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d050e7de248a45f29a76",
+        "mine": false,
+        "social": false,
+        "body": "How far bro",
+        "at": 1791364440914,
+        "fresh": false,
+        "seen": false
+      }
+    ]
+  },
+  "4be716e06747498b89f6": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "2ee2fd962f074e0fa9a3",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791213740086,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "32b08523f777479e851e",
+        "mine": true,
+        "social": false,
+        "body": "Enjoy yourself baby girl",
+        "at": 1791213766703,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "85a46ebdddde49289e59",
+        "mine": false,
+        "social": false,
+        "body": "Wetin dey happen?",
+        "at": 1791215871216,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "6d737dda48d042e598fb",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791222220185,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4b476241740245a5af92",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a6100,000,000 \ud83d\udcb8",
+        "at": 1791227049359,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "861da5584fb242c3b7b0",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791229160107,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "0f7403e3f9e44a6a9a30",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791252778772,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "88d2a6c621bc4de5b5af",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791279130471,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "8fadfd09ba794bf68429",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791279163500,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5871835570e743b283f8",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791279879419,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4c838b14d71c4cceb5c7",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791280063341,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e7a6ab726a4f4f4eadba",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791302832383,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ffd5620d83894507a341",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791311557448,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "d7b65e1b71734c9dab50",
+        "mine": false,
+        "social": true,
+        "ask": {
+          "amount": 10000000,
+          "note": null,
+          "status": "sent",
+          "until": 1791429523034
+        },
+        "body": "Asked you for \u20a610,000,000 \ud83d\ude4f\ud83c\udffe",
+        "at": 1791343123034,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "fd1427cba8ed41239f5c",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791345103015,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "63eedd4893da4435ae79",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791348891992,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "31bd82243e5e424b98a5",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000 \ud83d\udcb8",
+        "at": 1791364210955,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "3993a68be3494aa1aecb",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791364369467,
+        "fresh": false,
+        "seen": false
+      }
+    ]
+  },
+  "7b48a26f3b9840e78620": {
+    "unread": 175,
+    "blocked": false,
+    "messages": [
+      {
+        "id": "85c3d112f6b74af1a0d0",
+        "mine": false,
+        "social": false,
+        "body": "Hello",
+        "at": 1791361005115,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "22e27b7a07c44eadb44a",
+        "mine": true,
+        "social": false,
+        "body": "Hey",
+        "at": 1791361017396,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "333f925e20b34ce19d4f",
+        "mine": false,
+        "social": false,
+        "body": "20B for 1k right",
+        "at": 1791361019615,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "24fcb1a419e549de9ff7",
+        "mine": true,
+        "social": false,
+        "body": "Yeah",
+        "at": 1791361077934,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9dca8ec9aede4941a5bf",
+        "mine": false,
+        "social": false,
+        "body": "Oya send na",
+        "at": 1791361091578,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b79ff3132da54c43a76a",
+        "mine": true,
+        "social": false,
+        "body": "Should I send my account number?",
+        "at": 1791361104792,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "f95e4e9843d641cf8823",
+        "mine": false,
+        "social": false,
+        "body": "Yes ,but you will have to send the 20B first ooo",
+        "at": 1791361150416,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "163b9df772c3427e9e14",
+        "mine": false,
+        "social": false,
+        "body": "Make you no go scam me abeg",
+        "at": 1791361185436,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4ee2650eac0544d4816b",
+        "mine": true,
+        "social": false,
+        "body": "No. We can do half half sha if it\u2019s better for you",
+        "at": 1791361193212,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ccb3c981ef994d8c95d2",
+        "mine": true,
+        "social": false,
+        "body": "Send 500 and I\u2019ll send 10b",
+        "at": 1791361199908,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "107b2cb6d875414fbf12",
+        "mine": true,
+        "social": false,
+        "body": "Like that",
+        "at": 1791361201535,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c8feb2feb2e941508965",
+        "mine": false,
+        "social": false,
+        "body": "Any how you want it ,my own is let me see the billion in my account first , before I do any transactions",
+        "at": 1791361265248,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "02b647ea190c434f88e8",
+        "mine": true,
+        "social": false,
+        "body": "Let me send 10b first then you send 500 deal?",
+        "at": 1791361294850,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "89dc1580cbd146b6a4cf",
+        "mine": false,
+        "social": false,
+        "body": "Deal , that's what have been saying since na",
+        "at": 1791361499328,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "848aa7c113f849119953",
+        "mine": true,
+        "social": false,
+        "body": "Okay",
+        "at": 1791361507901,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5f4a57d1abbb45b0911c",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361516055,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2d653ee62a7540308ae1",
+        "mine": true,
+        "social": false,
+        "body": "0450776539 wema",
+        "at": 1791361521822,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "bc6cd7fb2f14410e8fe6",
+        "mine": false,
+        "social": false,
+        "body": "Ok let me tell my brother to send it",
+        "at": 1791361599447,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "06c43bfff51e4b9b8af2",
+        "mine": false,
+        "social": false,
+        "body": "Put the name that will appear na , make I no go send money give person",
+        "at": 1791361630451,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "197e7605f34042409f75",
+        "mine": true,
+        "social": false,
+        "body": "David",
+        "at": 1791361709364,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "58bbcb86c71e4c4f989d",
+        "mine": false,
+        "social": false,
+        "body": "His on it",
+        "at": 1791361771527,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "54421b7bc30246a4af77",
+        "mine": true,
+        "social": false,
+        "body": "Aiit",
+        "at": 1791361799394,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c082d19409304ea4bfbe",
+        "mine": true,
+        "social": false,
+        "body": "Seen",
+        "at": 1791361896148,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ef2e761397804fb59e21",
+        "mine": false,
+        "social": false,
+        "body": "Alright",
+        "at": 1791361902923,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "52cc459fe2af49dbb710",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361910954,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "29e0dd8dd80d4fcdb8c9",
+        "mine": true,
+        "social": false,
+        "body": "Now the next 500 \ud83e\udee0",
+        "at": 1791361922460,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "029000cf73414a308429",
+        "mine": false,
+        "social": false,
+        "body": "See send another one but this time ,you will send 20B and I will pay 500",
+        "at": 1791361952767,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "ea06369bc4b44bf38709",
+        "mine": true,
+        "social": false,
+        "body": "No nau. That\u2019s not what we agreed",
+        "at": 1791361970640,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1876da31ca604bffaca4",
+        "mine": true,
+        "social": false,
+        "body": "You see why I didn\u2019t want to send first now \ud83e\udee9",
+        "at": 1791361985099,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3eec4fa776ca482b903f",
+        "mine": false,
+        "social": false,
+        "body": "Have send you your 500 na",
+        "at": 1791362009968,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "cb9b4c414bc54c698725",
+        "mine": true,
+        "social": false,
+        "body": "500 for the 10b",
+        "at": 1791362020124,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "010d6d12bd2445fe9bb6",
+        "mine": true,
+        "social": false,
+        "body": "Send the 2nd 500 for the other 10b",
+        "at": 1791362027834,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ac5f74bfefc94a0bb484",
+        "mine": false,
+        "social": false,
+        "body": "Oya do 15B for the 500",
+        "at": 1791362044653,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "fa8d3235329649b89cdf",
+        "mine": true,
+        "social": false,
+        "body": "Not what we agreed sha.",
+        "at": 1791362060748,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "44271a8c6a504d24bd8d",
+        "mine": true,
+        "social": false,
+        "body": "Not cool",
+        "at": 1791362063509,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "247bc932e1ac47f094ab",
+        "mine": false,
+        "social": false,
+        "body": "This is business na",
+        "at": 1791362097577,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "0d36758b15f4428c985e",
+        "mine": false,
+        "social": false,
+        "body": "Talk fast ,let do this and be done",
+        "at": 1791362123734,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "cc0d7a46ede84104ac1b",
+        "mine": true,
+        "social": false,
+        "body": "Yes but we agreed 20b for 1000 not 25b for 1000. I did my own part now do yours",
+        "at": 1791362123754,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "fa453cdc7ded4aa6baa5",
+        "mine": true,
+        "social": false,
+        "body": "Send the remaining 500",
+        "at": 1791362132956,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1dc4f124851f4e36a099",
+        "mine": true,
+        "social": false,
+        "body": "?",
+        "at": 1791362244211,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "894123e5672a4213be86",
+        "mine": false,
+        "social": false,
+        "body": "Oh ok , you have already send the remaining 10B , i did not know ooo , sorry about that , I thought you have not done it , I was thinking to prise it first ,",
+        "at": 1791362293911,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d7ec44d541654e879be0",
+        "mine": true,
+        "social": false,
+        "body": "Yeah I forgive you",
+        "at": 1791362334514,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "de46a8e8e68946a4a435",
+        "mine": false,
+        "social": false,
+        "body": "But no problem his on it now",
+        "at": 1791362339445,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "8639bab787a84cccb931",
+        "mine": false,
+        "social": false,
+        "body": "He has done it",
+        "at": 1791362390121,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "6bea1b59df6348af88db",
+        "mine": false,
+        "social": false,
+        "body": "Do you still have",
+        "at": 1791362473508,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "7f5305c4c6a74eb6aad2",
+        "mine": true,
+        "social": false,
+        "body": "Yeahh",
+        "at": 1791362489112,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "07f506edba584f43b1cc",
+        "mine": true,
+        "social": false,
+        "body": "I have up to 400T in my account",
+        "at": 1791362495924,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "dbdae49f0d80409cb84f",
+        "mine": true,
+        "social": false,
+        "body": "You want more",
+        "at": 1791362500425,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e6494bca15e7426ea66c",
+        "mine": false,
+        "social": false,
+        "body": "How did u get all those money",
+        "at": 1791362524288,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "a0d8af0d0ad940a08143",
+        "mine": false,
+        "social": false,
+        "body": "You have that amount and am begging you to give me 20B for 500 you refuse , why",
+        "at": 1791362591365,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4fba01a4a2034c55812c",
+        "mine": true,
+        "social": false,
+        "body": "Because I\u2019m selling",
+        "at": 1791362712788,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ee6f47ef83d84d10a59c",
+        "mine": true,
+        "social": false,
+        "body": "I hacked it when I first started the game before they stopped allowing the hacks",
+        "at": 1791362741209,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "8e981de3b475450ab252",
+        "mine": false,
+        "social": false,
+        "body": "How did you do that",
+        "at": 1791362887740,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9f30db2257884bc7aa75",
+        "mine": true,
+        "social": false,
+        "body": "I know how to code",
+        "at": 1791363207107,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "80615917d41a4c999976",
+        "mine": false,
+        "social": false,
+        "body": "Pls teach me \ud83d\ude2d\ud83d\ude2d\ud83d\ude4f\ud83d\ude4f",
+        "at": 1791363364447,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b00ed5f75447414a9f0e",
+        "mine": true,
+        "social": false,
+        "body": "Doesn\u2019t work anymore if not I would\u2019ve charged to teach you \ud83d\ude02\ud83e\udd72",
+        "at": 1791363394663,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a32b4f61d30f4e609dda",
+        "mine": false,
+        "social": false,
+        "body": "No I mean the coding it's self",
+        "at": 1791363527872,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "6f7ed482eb07486db5b6",
+        "mine": false,
+        "social": false,
+        "body": "Charge keh , you too like money ooo",
+        "reply": {
+          "id": "b00ed5f75447414a9f0e",
+          "mine": true,
+          "body": "Doesn\u2019t work anymore if not I would\u2019ve charged to teach you \ud83d\ude02\ud83e\udd72"
+        },
+        "at": 1791363562427,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "6c6773054d2b47659c14",
+        "mine": true,
+        "social": false,
+        "body": "Oh. Where u based?",
+        "at": 1791363576173,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3be52466db894e8ba4eb",
+        "mine": false,
+        "social": false,
+        "body": "Lagos",
+        "at": 1791363655318,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4251444ece9b45a79d80",
+        "mine": true,
+        "social": false,
+        "body": "I\u2019m in Enugu",
+        "at": 1791363716286,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "883269092cf84bec9e95",
+        "mine": false,
+        "social": false,
+        "body": "Can't you teach me online like this",
+        "at": 1791363752223,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5ab187e8dee248b8b0b6",
+        "mine": true,
+        "social": false,
+        "body": "I think there a better free courses online that me \ud83e\udee0",
+        "at": 1791363783061,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "412a2d32194d48a28111",
+        "mine": false,
+        "social": false,
+        "body": "Ok , u will teach me",
+        "at": 1791364035668,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "10ed03ddcf3f449db3ac",
+        "mine": true,
+        "social": false,
+        "body": "Why?",
+        "at": 1791364060254,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "08e1089db6ce43a29616",
+        "mine": false,
+        "social": false,
+        "body": "Pls I want too learn",
+        "reply": {
+          "id": "10ed03ddcf3f449db3ac",
+          "mine": true,
+          "body": "Why?"
+        },
+        "at": 1791364100161,
+        "fresh": true,
+        "seen": false
+      }
+    ]
+  },
+  "eead5fe322484f1583a0": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "041c8768c4524a809040",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208155571,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "7ee87266396c45cfb100",
+        "mine": true,
+        "social": false,
+        "body": "Fuck I can only send 10b at a time",
+        "at": 1791208166817,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b2d3f94c938b49df87d6",
+        "mine": false,
+        "social": false,
+        "body": "Okay later you will send the remaining ones",
+        "at": 1791208281514,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5320ec0313b34d5a9ccd",
+        "mine": true,
+        "social": false,
+        "body": "Yeah I will for sure",
+        "at": 1791208310032,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "eb6bd7ca62034fafba27",
+        "mine": true,
+        "social": false,
+        "body": "Tell your friends",
+        "at": 1791208314097,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9ce267a162cd4f86ab78",
+        "mine": false,
+        "social": false,
+        "body": "Okay I will",
+        "at": 1791208364156,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d33683162a9846598f57",
+        "mine": false,
+        "social": false,
+        "body": "Please can you send me the 10b now",
+        "at": 1791208514104,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "81caefea6ba2414fb5c8",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208526863,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "8aab41d999ca4fbbb586",
+        "mine": true,
+        "social": false,
+        "body": "I will be sending slowly",
+        "at": 1791208535762,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "49f93999a7b742b6b92f",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208643016,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "d9e94aac9cc943b1b31b",
+        "mine": false,
+        "social": false,
+        "body": "Okay",
+        "reply": {
+          "id": "8aab41d999ca4fbbb586",
+          "mine": true,
+          "body": "I will be sending slowly"
+        },
+        "at": 1791208671007,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "7d54af0b09d741359356",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791208873333,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "83817a81c16549a9928f",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791209071782,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b830605856cd41d1ba3e",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361613878,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "214ad48c407b43ca98f4",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361650094,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1b8589e4f827484aabba",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361686330,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a71981eff2b94d718cda",
+        "mine": true,
+        "social": false,
+        "body": "Done",
+        "at": 1791361690783,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6696b50475754343a280",
+        "mine": false,
+        "social": false,
+        "body": "Thank you",
+        "at": 1791362601093,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "3f712f5f2a3c4825b83c",
+        "mine": true,
+        "social": false,
+        "body": "Welcome. Tell your friends",
+        "at": 1791362702203,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "cfae5e1f25dc44519c4d",
+        "mine": false,
+        "social": false,
+        "body": "I wil",
+        "at": 1791363301199,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "2d779a98ef95495da8be",
+        "mine": true,
+        "social": false,
+        "body": "\u2764\ufe0f",
+        "at": 1791363309597,
+        "fresh": false,
+        "seen": true
+      }
+    ]
+  },
+  "d3ecd8ee315549f98bcb": {
+    "unread": 167,
+    "blocked": false,
+    "messages": [
+      {
+        "id": "ddc7b6739e8f4a8697a5",
+        "mine": false,
+        "social": false,
+        "body": "Bro 1trilli for 1k fr ?? You go show me proof ??",
+        "at": 1791224526731,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "76ef9c139f9348ada8cd",
+        "mine": true,
+        "social": false,
+        "body": "Yeah gee enter snap",
+        "at": 1791224534411,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b5853b70b65948369c71",
+        "mine": false,
+        "social": false,
+        "body": "No p",
+        "at": 1791224541731,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "8d4ddf14ebbf4b5c9855",
+        "mine": false,
+        "social": false,
+        "body": "Na your name be that ba ??",
+        "at": 1791224546634,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "48044f7ba9fd4b408ff6",
+        "mine": false,
+        "social": false,
+        "body": "For snap ??",
+        "at": 1791224549120,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "13d8469228274610b790",
+        "mine": true,
+        "social": false,
+        "body": "Yeah @bobbyhasfallen",
+        "at": 1791224554301,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "43c0a377b0b64f76910e",
+        "mine": false,
+        "social": false,
+        "body": "Added",
+        "at": 1791224581113,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "463bb5cc726f4e22ab42",
+        "mine": true,
+        "social": false,
+        "body": "Yeah",
+        "at": 1791224639133,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "df0ce68c802347758332",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791224996636,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "bd5c30b145514cc28b9f",
+        "mine": true,
+        "social": false,
+        "body": "I can only send 10b at a time wtf",
+        "at": 1791225011410,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9a185b3f3b864ab08041",
+        "mine": false,
+        "social": false,
+        "body": "Omo this game don mad",
+        "at": 1791225033665,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "20bfa7e4b48e4d5a8495",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791225103121,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2cbe176b2f984de9ba6c",
+        "mine": true,
+        "social": false,
+        "body": "Omo mehn this thing go take time",
+        "at": 1791225115135,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "42b7422c16ec4e7ea1c2",
+        "mine": false,
+        "social": false,
+        "body": "Real but we dey together na",
+        "at": 1791225125633,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "f4eaca4485de41dcb6c9",
+        "mine": false,
+        "social": false,
+        "body": "Just dey send when you tire we take break",
+        "at": 1791225137280,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9fed686bc9ff4aedb31b",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791225151058,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4094c29232234fd19ec1",
+        "mine": true,
+        "social": false,
+        "body": "Aiit man",
+        "at": 1791225158150,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "fa5b6667fc3e48dda90c",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791225221113,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "09557411feb043e48165",
+        "mine": true,
+        "social": false,
+        "body": "Or see anything you need money I go wire you till the 1T is up",
+        "at": 1791225381810,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "668e17b3cc124121bdd1",
+        "mine": true,
+        "social": false,
+        "body": "Good?",
+        "at": 1791225385078,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5076c02df580481da5da",
+        "mine": false,
+        "social": false,
+        "body": "Oya nau",
+        "at": 1791225477878,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "0c7e633ddf4145e98084",
+        "mine": false,
+        "social": false,
+        "body": "I think say we dey do 2T \ud83d\ude2d",
+        "at": 1791225486303,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "a191afd5fc8c4141b486",
+        "mine": false,
+        "social": false,
+        "body": "That 2T plenty sha",
+        "at": 1791225496204,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "ce41dbc41063406ab540",
+        "mine": false,
+        "social": false,
+        "body": "Fawkkk",
+        "at": 1791225497503,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "2cb0ce2f56da42978194",
+        "mine": true,
+        "social": false,
+        "body": "Oh 2T bro mb",
+        "at": 1791225522474,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a5776b66455e401abbf3",
+        "mine": false,
+        "social": false,
+        "body": "\ud83e\udee1",
+        "at": 1791225566648,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9aa141a9b203473ab9a1",
+        "mine": false,
+        "social": false,
+        "body": "Bro you go active for clubbings for night ba ??",
+        "at": 1791227979756,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "20595a86c8344529b46c",
+        "mine": true,
+        "social": false,
+        "body": "Yeah I go Dey active",
+        "at": 1791228197016,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "759d5cac720843bb9673",
+        "mine": false,
+        "social": false,
+        "body": "Bet",
+        "at": 1791228267577,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "3488f01cb09f42169780",
+        "mine": false,
+        "social": false,
+        "body": "My bro",
+        "at": 1791276100046,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b61bad49a00e42699f63",
+        "mine": true,
+        "social": false,
+        "body": "Wsg",
+        "at": 1791276113644,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ce22cb4582dd4e098f9c",
+        "mine": false,
+        "social": false,
+        "body": "All good",
+        "at": 1791276129326,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "875e4d48193549d0b472",
+        "mine": false,
+        "social": false,
+        "body": "You good ??",
+        "at": 1791276131845,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d50f3aae14974a5596fc",
+        "mine": true,
+        "social": false,
+        "body": "Yeah yeah",
+        "at": 1791276187716,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b7344ce6c7b04f149d69",
+        "mine": false,
+        "social": false,
+        "body": "Sharp",
+        "at": 1791276240947,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5613b8f546f347fd861c",
+        "mine": false,
+        "social": false,
+        "body": "If you no too busy we fit do 400-500b ?? Or till anytime you tire ??",
+        "at": 1791276265725,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "63f27e45df0b43969094",
+        "mine": true,
+        "social": false,
+        "body": "Fahh. Thats like 50times \ud83d\ude2d",
+        "at": 1791276283469,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4c218b4f40c54d05b7fe",
+        "mine": false,
+        "social": false,
+        "body": "\ud83d\ude2d\ud83d\ude2d me sef dey feel weird to allow you do am see work Jesus",
+        "at": 1791276329164,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b74f4ffe78884d469cc5",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791276380087,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6b661ee797ae45a69c04",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791276467959,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "96bad2be2e3a4291996d",
+        "mine": false,
+        "social": false,
+        "body": "\ud83d\udd7a",
+        "at": 1791278286080,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "0e88c1c1c6e147279e67",
+        "mine": false,
+        "social": false,
+        "body": "My phone been die",
+        "at": 1791278292571,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "81ff5f9d28bd40d4932a",
+        "mine": false,
+        "social": false,
+        "body": "When you ready I active",
+        "at": 1791278896170,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "d502d6288d91498db88a",
+        "mine": false,
+        "social": false,
+        "body": "Bro Abi you busy ? You fit just lmk oh",
+        "at": 1791297605993,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "15b137c38b214d1c87cd",
+        "mine": false,
+        "social": false,
+        "body": "Bro Abi deal dey off ?? Watin con dey sup you na",
+        "at": 1791309769669,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "d81dae4c28304dffa79c",
+        "mine": false,
+        "social": false,
+        "body": "Omo no be lie sha",
+        "at": 1791362315429,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "d0d41ad614f148b385e6",
+        "mine": false,
+        "social": false,
+        "body": "1500 oh bro no be like say na 5k you use run",
+        "at": 1791362411115,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "7c8f7e13ecdf4b7fada5",
+        "mine": false,
+        "social": false,
+        "body": "Na why e dey burst my head, I no wan believe say Nigeria don hard reach like that",
+        "at": 1791362427492,
+        "fresh": true,
+        "seen": false
+      }
+    ]
+  },
+  "a45cf2d1a03e42a5a771": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "67568505bb3b4b51a85c",
+        "mine": false,
+        "social": false,
+        "body": "Awfar",
+        "at": 1791360922871,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "e50c30d76c8a43f99cec",
+        "mine": false,
+        "social": false,
+        "body": "Send the 20 billion and drop account",
+        "at": 1791360935821,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "f2ab1227bb7a486aa511",
+        "mine": true,
+        "social": false,
+        "body": "Half bro. Send 500 I\u2019ll send 10b then you send another 500 I\u2019ll send 10b",
+        "at": 1791360985105,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "88dc414b2ac44c37b14d",
+        "mine": false,
+        "social": false,
+        "body": "Send account",
+        "at": 1791361328147,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "2b9d30f795cf45d7bea9",
+        "mine": false,
+        "social": false,
+        "body": "Send the 10b",
+        "at": 1791361337814,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "f4ab918e556b43239db4",
+        "mine": true,
+        "social": false,
+        "body": "Aiit",
+        "at": 1791361364814,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "d3139a81967a4482aaa7",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361372636,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "032cbb05e5dd4b46bd63",
+        "mine": true,
+        "social": false,
+        "body": "0450776539 wema",
+        "at": 1791361377946,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e17f543da9e24f00807f",
+        "mine": false,
+        "social": false,
+        "body": "Sent",
+        "at": 1791361443615,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d7236e65e3f94421bc16",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361455800,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "86e0f035640d4bf3bb3c",
+        "mine": true,
+        "social": false,
+        "body": "Seen the first 500",
+        "at": 1791361462544,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e78e6a2496f44eba80f4",
+        "mine": true,
+        "social": false,
+        "body": "Send the second now",
+        "at": 1791361468934,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a8ffdf909e564020a595",
+        "mine": false,
+        "social": false,
+        "body": "Sent",
+        "at": 1791361539381,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "cd9e4ac4ffa8466baa12",
+        "mine": true,
+        "social": false,
+        "body": "Seen thanks man",
+        "at": 1791361545758,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "0454a16867b741ed993f",
+        "mine": false,
+        "social": false,
+        "body": "You get trillions",
+        "at": 1791361552126,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "e190120f640d402c9165",
+        "mine": false,
+        "social": false,
+        "body": "Na that one I need",
+        "at": 1791361555580,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "6567a7e6f3874f218fce",
+        "mine": true,
+        "social": false,
+        "body": "I get 400T but I no fit send am at once",
+        "at": 1791361569924,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5298a775e856441587da",
+        "mine": false,
+        "social": false,
+        "body": "Omo \ud83d\ude2dif you one send am I Dey active",
+        "at": 1791361603919,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "cfa5df8e0d6345009f9f",
+        "mine": false,
+        "social": false,
+        "body": "Nice doing business with you",
+        "at": 1791361619277,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "252fbd3fc1364c749eec",
+        "mine": true,
+        "social": false,
+        "body": "I wan send am but omo I gats send like 10bn like 1000 times \ud83d\udc94",
+        "at": 1791361731826,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "fdfce92ef1074c17a434",
+        "mine": true,
+        "social": false,
+        "body": "No p man. Remember me for next time",
+        "at": 1791361740115,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "abc274f8be894a7eaf8d",
+        "mine": false,
+        "social": false,
+        "body": "Active",
+        "at": 1791361801003,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "686102a59f2a4f8f8033",
+        "mine": true,
+        "social": false,
+        "body": "",
+        "sticker": "odogwu",
+        "at": 1791361808798,
+        "fresh": false,
+        "seen": false
+      }
+    ]
+  },
+  "d297153a895f449a8567": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "d3d1ea9f594643dab24c",
+        "mine": true,
+        "social": false,
+        "body": "How much you want",
+        "at": 1791360362286,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ff592a15740143e3ba86",
+        "mine": false,
+        "social": false,
+        "body": "20 billion sir",
+        "at": 1791360537406,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b4c6982227ca4feebf48",
+        "mine": false,
+        "social": false,
+        "body": "\ud83d\ude4c\ud83c\udffb\ud83d\ude4c\ud83c\udffb",
+        "at": 1791360540463,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "e3f3d0a734af423dbb2f",
+        "mine": true,
+        "social": false,
+        "body": "1k",
+        "at": 1791360842958,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "7a4d52ccdbd241daae6d",
+        "mine": true,
+        "social": false,
+        "body": "Should I send my account number?",
+        "at": 1791360854485,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "047d09d07b614583ac1f",
+        "mine": false,
+        "social": false,
+        "body": "Ok",
+        "at": 1791360910610,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "96504a34eda5468ab31a",
+        "mine": true,
+        "social": false,
+        "body": "0450776539 wema",
+        "at": 1791360953288,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3bd65d9fff1a4f56af61",
+        "mine": false,
+        "social": false,
+        "body": "Sent",
+        "at": 1791361018382,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "ad9495be9920419b9432",
+        "mine": true,
+        "social": false,
+        "body": "Lemme check real quick",
+        "at": 1791361026975,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "f61f589a01ce4fa5b028",
+        "mine": true,
+        "social": false,
+        "body": "Haven\u2019t seen it yet.",
+        "at": 1791361071212,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4eacf75a71af4167a9fd",
+        "mine": false,
+        "social": false,
+        "body": "Check now",
+        "at": 1791361079526,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "1c55fd32a971476c94b1",
+        "mine": true,
+        "social": false,
+        "body": "What name did you see",
+        "at": 1791361087070,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "8fa2ea588ef44145a669",
+        "mine": false,
+        "social": false,
+        "body": "David",
+        "at": 1791361105553,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "954822c5f10940948d3e",
+        "mine": true,
+        "social": false,
+        "body": "Seen",
+        "at": 1791361122883,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "543d8ac4160447bf8768",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361133919,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3916acb36d234a6f8d1f",
+        "mine": false,
+        "social": false,
+        "body": "I thought it\u2019s 20 boss",
+        "at": 1791361159239,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "749b1917d6f7484fad68",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791361167824,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "d28d0f9b7e2d43f8b9d5",
+        "mine": true,
+        "social": false,
+        "body": "Yeahh done",
+        "at": 1791361173735,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3e4534192f784d2a9446",
+        "mine": true,
+        "social": false,
+        "body": "Tell your friends bro \ud83d\udcaa",
+        "at": 1791361225451,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e60fe4cbba9b4dc2adce",
+        "mine": false,
+        "social": false,
+        "body": "Okay if I need more should I text you",
+        "at": 1791361243488,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "a78dddb267fb4d399dae",
+        "mine": true,
+        "social": false,
+        "body": "Yes ofc. Your sure plug",
+        "at": 1791361252448,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "bfc308a5101a4327b962",
+        "mine": false,
+        "social": false,
+        "body": "Bet \ud83e\udd1d",
+        "at": 1791361260725,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "527eac670c1a463eb725",
+        "mine": true,
+        "social": false,
+        "body": "",
+        "sticker": "odogwu",
+        "at": 1791361275982,
+        "fresh": false,
+        "seen": false
+      }
+    ]
+  },
+  "d5f6e3e3b5314bc3a3b6": {
+    "unread": 166,
+    "blocked": false,
+    "messages": [
+      {
+        "id": "1505b63f84f74ea6b3f3",
+        "mine": false,
+        "social": false,
+        "body": "Brr",
+        "at": 1791351362802,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "2085c190d7b545098a78",
+        "mine": true,
+        "social": false,
+        "body": "Wsg",
+        "at": 1791351428160,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "97c4f0173fc247c5aae7",
+        "mine": false,
+        "social": false,
+        "body": "Help me life brr abeg",
+        "at": 1791360938590,
+        "fresh": true,
+        "seen": false
+      }
+    ]
+  },
+  "f3407c3d592e47079397": {
+    "blocked": false,
+    "messages": [
+      {
+        "id": "8393894447ab49028862",
+        "mine": true,
+        "social": false,
+        "body": "Wsg",
+        "at": 1791348866654,
+        "fresh": false,
+        "seen": true
+      }
+    ]
+  },
+  "8c589bc722cd412c83fd": {
+    "blocked": false,
+    "messages": []
+  },
+  "ece56a4bb90c46908507": {
+    "unread": 164,
+    "blocked": false,
+    "messages": [
+      {
+        "id": "756e6eb134904aeeb7d6",
+        "mine": false,
+        "social": true,
+        "body": "machala sent you \u20a65,000 Use am order babe \ud83d\udcb8",
+        "at": 1791112559577,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "e6a48db9050d47c0a584",
+        "mine": false,
+        "social": false,
+        "body": "Hey babe",
+        "at": 1791112575648,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d0bb3bb8b3914c39ac05",
+        "mine": true,
+        "social": false,
+        "body": "\ud83e\udd23me wey get mansion",
+        "at": 1791112579595,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b66c31382b2745ff92bf",
+        "mine": true,
+        "social": true,
+        "invite": true,
+        "body": "You invited them over \ud83c\udfe0",
+        "at": 1791112582849,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5715a4a19df544b88a25",
+        "mine": false,
+        "social": false,
+        "body": "I dey face me i face you",
+        "at": 1791112593177,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "bfdb988c494049188368",
+        "mine": true,
+        "social": false,
+        "body": "Poor boy \ud83d\udc94",
+        "at": 1791112604661,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "994a08f30f994ece8bab",
+        "mine": true,
+        "social": false,
+        "body": "Make I help your life?",
+        "at": 1791112611355,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "052bc41ad7cf4b3cbe62",
+        "mine": true,
+        "social": true,
+        "body": "You served them small chops \ud83c\udf64",
+        "at": 1791112619037,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1c49b4cca05c40c1a8ae",
+        "mine": true,
+        "social": true,
+        "body": "You served them small chops \ud83c\udf64",
+        "at": 1791112621439,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "7ab783067dcc4bc586da",
+        "mine": true,
+        "social": true,
+        "body": "You served them small chops \ud83c\udf64",
+        "at": 1791112622044,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "289d094bb0bc4ffa9df1",
+        "mine": false,
+        "social": true,
+        "body": "machala hyped you up \ud83d\ude4c",
+        "at": 1791112641655,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5317765c2a0245ab839a",
+        "mine": false,
+        "social": true,
+        "body": "machala said hello \ud83d\udc4b",
+        "at": 1791112698461,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "6e1046c3edcb4bc2ae6e",
+        "mine": false,
+        "social": true,
+        "body": "machala watched Nollywood at your place \ud83d\udcfa",
+        "at": 1791112703838,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "72482bf4749a4d24b329",
+        "mine": false,
+        "social": false,
+        "body": "Guy drop update",
+        "at": 1791112720161,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "19caaf976b6c469fa597",
+        "mine": false,
+        "social": false,
+        "body": "I be nepo baby sha",
+        "at": 1791112738324,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "05afdb39a4494c1d8eb2",
+        "mine": true,
+        "social": false,
+        "body": "Fr?",
+        "at": 1791112777238,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ba68e07d642f499086b9",
+        "mine": false,
+        "social": true,
+        "body": "machala asked you to be their Bae \ud83d\udc98 Answer in Phone \u2192 Family",
+        "at": 1791112779360,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "7324cd03c63c496f8c88",
+        "mine": true,
+        "social": false,
+        "body": "How much you get",
+        "at": 1791112782262,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "56c1f0eba06e4e73857d",
+        "mine": true,
+        "social": true,
+        "body": "You said YES! You're officially an item \ud83d\udc98",
+        "at": 1791112789303,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "92696e6b68f84f60b94a",
+        "mine": false,
+        "social": false,
+        "body": "5m",
+        "at": 1791112789999,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4e4ee918d9a246e19b4e",
+        "mine": true,
+        "social": false,
+        "body": "Small boy \ud83d\ude02\ud83d\ude2d",
+        "at": 1791112803257,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "6ad8fbc78a0f4cf29854",
+        "mine": true,
+        "social": false,
+        "body": "How did you get nepo baby sef",
+        "at": 1791112810780,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "66687092d6bd4e2da85d",
+        "mine": true,
+        "social": false,
+        "body": "I tried and tried omo",
+        "at": 1791112814674,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "86871af3505c43f59757",
+        "mine": false,
+        "social": false,
+        "body": "I get 9m before I buy properties",
+        "at": 1791112817956,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "224bfdd0626c45c38596",
+        "mine": false,
+        "social": false,
+        "body": "You be last na lapo baby",
+        "at": 1791112830516,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "73283e0936974d49b0b8",
+        "mine": true,
+        "social": false,
+        "body": "I bought quilox share sha",
+        "at": 1791112831387,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ae132580e76e4a4fb24f",
+        "mine": false,
+        "social": false,
+        "body": "Your chair is not set right",
+        "at": 1791112893724,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "1751abfe8dd141a8bfb6",
+        "mine": false,
+        "social": true,
+        "body": "machala hyped you up \ud83d\ude4c",
+        "at": 1791112940919,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "05ba5175f92e460da2a9",
+        "mine": false,
+        "social": true,
+        "body": "machala said hello \ud83d\udc4b",
+        "at": 1791112969852,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "f91d1f6172c8481e924a",
+        "mine": false,
+        "social": true,
+        "body": "machala danced to Afrobeats \ud83d\udc83\ud83c\udffe",
+        "at": 1791112974987,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "65cae7084b164ac1a660",
+        "mine": false,
+        "social": false,
+        "body": "Drop update now \ud83d\ude2d",
+        "at": 1791112999885,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9238132f03a04e23b216",
+        "mine": false,
+        "social": true,
+        "body": "machala hung out \ud83c\udf79",
+        "at": 1791113022804,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "e8225208b1044af0996c",
+        "mine": false,
+        "social": true,
+        "bail": {
+          "id": "226a91f49e47495cb826",
+          "amount": 259000,
+          "paid": false
+        },
+        "body": "machala is in the cell at Eko Police Division \ud83d\ude93 Bail is \u20a6259,000. Can you bail them out?",
+        "at": 1791113431919,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "46c5ab787b46443780f4",
+        "mine": true,
+        "social": false,
+        "body": "i cant send moneyy",
+        "at": 1791113463112,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "abd36fda98d84c058f73",
+        "mine": true,
+        "social": false,
+        "body": "theif",
+        "at": 1791113474529,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "69bd6ade49b140bc83e4",
+        "mine": false,
+        "social": false,
+        "body": "\ud83d\ude2d\ud83d\ude2d",
+        "at": 1791113652282,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "1bbf909d4be142dbb057",
+        "mine": false,
+        "social": false,
+        "body": "Guy im going all in if I lose my money your in trouble",
+        "at": 1791113669305,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "a77e9445e6344b5c9d32",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a61,000,000,000,000 \ud83d\udcb8",
+        "at": 1791154347563,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b148efb4a0634042a173",
+        "mine": false,
+        "social": false,
+        "body": "I'm cummming",
+        "at": 1791156678857,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "17fa084eafff42cf9351",
+        "mine": false,
+        "social": true,
+        "body": "machala threw shade \ud83d\ude12",
+        "at": 1791158848886,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "0cc20e04bb014fccae66",
+        "mine": true,
+        "social": false,
+        "body": "Idiot how do I make someone my girlfriend",
+        "at": 1791158895826,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "7dcb3816ab3d45bda7e1",
+        "mine": false,
+        "social": false,
+        "body": "Call me daddy\ud83d\ude14\ud83e\udd30",
+        "at": 1791158919343,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "56bdbb48e5e249b99fc0",
+        "mine": false,
+        "social": true,
+        "body": "machala ended things \ud83d\udc94",
+        "at": 1791158933927,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5fa22722f28643b39d04",
+        "mine": true,
+        "social": false,
+        "body": "I\u2019ll report your account",
+        "reply": {
+          "id": "7dcb3816ab3d45bda7e1",
+          "mine": false,
+          "body": "Call me daddy\ud83d\ude14\ud83e\udd30"
+        },
+        "at": 1791158937082,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ed45275d6eb84a4aa1d3",
+        "mine": false,
+        "social": false,
+        "body": "You maggot",
+        "at": 1791158970026,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b4c4c1441ef14a6fb87a",
+        "mine": true,
+        "social": false,
+        "body": "Guy I\u2019m in love with crystal bro",
+        "at": 1791159024210,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "bb946b4091fe4acaa349",
+        "mine": true,
+        "social": false,
+        "body": "She\u2019s different",
+        "at": 1791159027781,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b88c6228f08d44eaa3ad",
+        "mine": false,
+        "social": false,
+        "body": "You be fool guy\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83d\ude2d\ud83e\udd23",
+        "at": 1791159060033,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "76077671e8754a38a9f3",
+        "mine": false,
+        "social": false,
+        "body": "Go here profile and ask her out when una born name am Ugo \ud83d\ude14",
+        "at": 1791159084451,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "aad13ffa7c2e446ab48c",
+        "mine": true,
+        "social": false,
+        "body": "Profile where",
+        "at": 1791159188151,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "fc767245bfea4a38a5a2",
+        "mine": false,
+        "social": false,
+        "body": "I think she gats come over first",
+        "at": 1791159251565,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "dc9b89afa84343719b8f",
+        "mine": true,
+        "social": false,
+        "body": "She doesn\u2019t wanna come over she keeps saying tmr",
+        "at": 1791159292429,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "447e2c5f635e43f7b2fc",
+        "mine": false,
+        "social": false,
+        "body": "You never baff na why",
+        "at": 1791159310932,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "adac29822bd443969456",
+        "mine": true,
+        "social": false,
+        "body": "Bastard",
+        "at": 1791159362696,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2474f9e192be4bae94be",
+        "mine": false,
+        "social": false,
+        "body": "\ud83d\ude14\ud83d\ude14",
+        "at": 1791159445730,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "1edf7d8fde51447bb658",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a6100,000,000 \ud83d\udcb8",
+        "at": 1791161204045,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3fe0ac0d4e2841259d44",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a61,000,000,000,000 \ud83d\udcb8",
+        "at": 1791162115500,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ebe37f0eceb646a6bcbc",
+        "mine": false,
+        "social": false,
+        "body": "",
+        "sticker": "enjoy",
+        "at": 1791162359538,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "55e6394bfb854c1f9583",
+        "mine": true,
+        "social": false,
+        "body": "Bro this club song isn\u2019t that bad tho",
+        "at": 1791162381479,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "41cc85140ae04e0a9386",
+        "mine": false,
+        "social": false,
+        "body": "Bro ppl dey my dm\ud83e\udd23\ud83e\udd23\ud83d\ude2d",
+        "at": 1791162408000,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "c4ac3a309b0d4514aaa4",
+        "mine": true,
+        "social": false,
+        "body": "Dem they beg for money Abi \ud83e\udd23",
+        "at": 1791162430518,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c847fbe4d3f041058ee5",
+        "mine": false,
+        "social": false,
+        "body": "Iswr",
+        "at": 1791162461946,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "ea5c42ec3fae4225a0fe",
+        "mine": true,
+        "social": false,
+        "body": "Why u not sleeping bro",
+        "at": 1791165027056,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "a4df3c95876d4ab5ac21",
+        "mine": false,
+        "social": false,
+        "body": "I dey hunt",
+        "at": 1791165080484,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d27cf85a44994f968fc1",
+        "mine": false,
+        "social": true,
+        "body": "machala sent you \u20a61,000 Broke boy \ud83d\udcb8",
+        "at": 1791165093786,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d4f8bdb2a2be484e9b99",
+        "mine": true,
+        "social": false,
+        "body": "Totomus prime",
+        "at": 1791165100820,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "14aaa36a72ad4f8298dd",
+        "mine": true,
+        "social": false,
+        "body": "Niggas try to rage bait me so I\u2019ll send money \ud83d\ude02",
+        "at": 1791165113593,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2aa90d17b3c54c39b16f",
+        "mine": false,
+        "social": false,
+        "body": "Na you brokie",
+        "at": 1791165184003,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d543784e12c84739a0ef",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a61,000 \ud83d\udcb8",
+        "at": 1791165206483,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "41bf344ec16c4c11a878",
+        "mine": false,
+        "social": false,
+        "body": "Poor boy \ud83d\ude2d",
+        "at": 1791165246170,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "30fb93cc32a24ddba11d",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a61,600 \ud83d\udcb8",
+        "at": 1791165249868,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "32ace9e204f940f284d1",
+        "mine": true,
+        "social": false,
+        "body": "I don pay you your 1600 sha",
+        "at": 1791165263482,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1685c51383e34609aee0",
+        "mine": false,
+        "social": false,
+        "body": "Guy make I no meet you one on one for real life fool\ud83d\ude2d\ud83d\ude2d\ud83e\udd23\ud83e\udd23",
+        "at": 1791165530406,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "be107b357ae9482db48e",
+        "mine": false,
+        "social": false,
+        "body": "You dey here\ud83d\ude05",
+        "at": 1791293904451,
+        "fresh": true,
+        "seen": false
+      }
+    ]
+  },
+  "e292674515dc4a029fdb": {
+    "unread": 159,
+    "blocked": false,
+    "messages": [
+      {
+        "id": "be1bf8aa22ae4fdbb448",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a61,000,000,000,000 \ud83d\udcb8",
+        "at": 1791155441778,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "7d73d0b4a4404a1592db",
+        "mine": false,
+        "social": false,
+        "body": "My Odogwu\ud83d\ude02\ud83d\ude2d\ud83d\ude2d",
+        "at": 1791155485413,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "d7de8ed4ff684c509249",
+        "mine": false,
+        "social": true,
+        "body": "amy_nomi says you're their sibling \ud83d\udc6a Answer in Phone \u2192 Family",
+        "at": 1791157738894,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "fd337d1ebbee46429e3b",
+        "mine": false,
+        "social": false,
+        "body": "So you have a babe here\ud83e\udd23\ud83e\udd23",
+        "at": 1791157751260,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "0441cfc56b584d8facc2",
+        "mine": true,
+        "social": false,
+        "body": "Jesus how do you know",
+        "at": 1791157767200,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "65abe8908f174622b12a",
+        "mine": false,
+        "social": false,
+        "body": "You're in quilox and I clicked tou and saw\ud83d\ude02\ud83d\ude02",
+        "at": 1791157793492,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "1ec86ccac2924ab69a95",
+        "mine": true,
+        "social": false,
+        "body": "Fuck",
+        "at": 1791157802892,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ee40d19c78034f5da4f5",
+        "mine": true,
+        "social": false,
+        "body": "Guy girls are just begging me ehh",
+        "at": 1791157811425,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "d606384082764fc0987e",
+        "mine": false,
+        "social": false,
+        "body": "Guyy, even me. How do they know I have money now?",
+        "at": 1791157832006,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9cc84c026763441a859a",
+        "mine": false,
+        "social": false,
+        "body": "They never used to text me before",
+        "at": 1791157839737,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5662ae17bd504b3f8d46",
+        "mine": true,
+        "social": false,
+        "body": "You\u2019re spraying money nau",
+        "at": 1791157872919,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "b6021548d15f42559286",
+        "mine": true,
+        "social": false,
+        "body": "Obviously they know \ud83d\ude02",
+        "at": 1791157879012,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3b92b540646a42178133",
+        "mine": false,
+        "social": false,
+        "body": "Ohhh, so they're typing my @ as soon as they see I spray\ud83e\udd23\ud83d\ude02",
+        "at": 1791157908442,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "ea08b17b548c4108b98a",
+        "mine": false,
+        "social": false,
+        "body": "People are too serious with this begging thing\ud83d\ude02",
+        "at": 1791157926679,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "fe506f6e7e534368a1fd",
+        "mine": true,
+        "social": false,
+        "body": "Istg",
+        "at": 1791158643023,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "1703975d1ede41c2b68a",
+        "mine": false,
+        "social": true,
+        "body": "amy_nomi gisted \ud83d\udcac",
+        "at": 1791158678809,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "5261426981324f27b9d2",
+        "mine": true,
+        "social": false,
+        "body": "How do I make people my girlfriend",
+        "at": 1791158688057,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "c55e6251d1e346b282e4",
+        "mine": true,
+        "social": false,
+        "body": "There\u2019s this girl I met",
+        "at": 1791158692895,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4d71a09f497a4fb9bfa5",
+        "mine": true,
+        "social": false,
+        "body": "Crystal",
+        "at": 1791158695365,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2bb883ed42d740a5a934",
+        "mine": true,
+        "social": false,
+        "body": "And I think I\u2019m in love \ud83d\ude14",
+        "at": 1791158702084,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "e8ef5332ef4f418c94fc",
+        "mine": false,
+        "social": false,
+        "body": "Talk to her, and visit her or invite her over",
+        "at": 1791158711283,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "385566efe07640db877f",
+        "mine": false,
+        "social": false,
+        "body": "Then you guys hang out and talk",
+        "at": 1791158721710,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "a0b4852c268041a6ba21",
+        "mine": false,
+        "social": false,
+        "body": "You'll see the bae part show up",
+        "at": 1791158727618,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9b26aa47581547789dca",
+        "mine": false,
+        "social": false,
+        "body": "But beware they'll tell your current babe oh",
+        "at": 1791158736801,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b1a4a95dc73e493088ff",
+        "mine": true,
+        "social": false,
+        "body": "Fuck",
+        "at": 1791158750736,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "f2c999f619244f86bf3d",
+        "mine": false,
+        "social": false,
+        "body": "Oga, answer my subling request",
+        "at": 1791158752831,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "63ddb18e304849079641",
+        "mine": true,
+        "social": false,
+        "body": "She\u2019ll understand she\u2019s open minded",
+        "at": 1791158759314,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "ce1193e6661e45739738",
+        "mine": true,
+        "social": false,
+        "body": "Eww no",
+        "at": 1791158764364,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "999ef0cd5fe74ad7933b",
+        "mine": false,
+        "social": false,
+        "body": "Are we not siblings \ud83d\ude2d\ud83d\ude2d",
+        "at": 1791158838979,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "791f24a5f11b4a6db15c",
+        "mine": false,
+        "social": false,
+        "body": "Hmm",
+        "reply": {
+          "id": "63ddb18e304849079641",
+          "mine": true,
+          "body": "She\u2019ll understand she\u2019s open minded"
+        },
+        "at": 1791158848578,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b793d9bcad2b4671b063",
+        "mine": true,
+        "social": false,
+        "body": "You can reply jesus",
+        "at": 1791158915409,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3e2feed0b68a424681a6",
+        "mine": true,
+        "social": false,
+        "body": "I didn\u2019t even know",
+        "at": 1791158919937,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "3fb65a6cc16e4215a68b",
+        "mine": false,
+        "social": false,
+        "body": "I told you, it just keeps getting better",
+        "at": 1791158962790,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4e7da858929544bb9525",
+        "mine": true,
+        "social": false,
+        "body": "Stinking thief",
+        "at": 1791161258906,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "dd91aedec0294bcd84a9",
+        "mine": false,
+        "social": false,
+        "body": "Jesus",
+        "at": 1791161265628,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "9ae1494d90094000b25f",
+        "mine": false,
+        "social": false,
+        "body": "They notified you?\ud83d\ude02\ud83e\udd23",
+        "at": 1791161273108,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "f0e3c91854eb44c7bbd9",
+        "mine": false,
+        "social": false,
+        "body": "Show me",
+        "at": 1791161295111,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "263c9232d4724006bda7",
+        "mine": false,
+        "social": false,
+        "body": "I'll sha win the case\ud83d\ude02",
+        "at": 1791161308866,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "fe5cc8528fbb44b0b8d7",
+        "mine": true,
+        "social": false,
+        "body": "Yes",
+        "at": 1791161561305,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "bb759c91472b45389124",
+        "mine": true,
+        "social": false,
+        "body": "How dare you",
+        "at": 1791161565958,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2274f81acf694748b107",
+        "mine": false,
+        "social": false,
+        "body": "Sorry boss, I just like going to court",
+        "at": 1791161741812,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "88c31fc5e03f4a42a315",
+        "mine": false,
+        "social": false,
+        "body": "I won the case\ud83d\ude1d",
+        "at": 1791161959009,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b8e156b2e8cb4968953d",
+        "mine": true,
+        "social": false,
+        "body": "lol",
+        "at": 1791161967514,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "4e208a81d204479f988d",
+        "mine": true,
+        "social": false,
+        "body": "This party radio isn\u2019t that bad tho",
+        "at": 1791162082910,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "8920a59f875447f28686",
+        "mine": false,
+        "social": false,
+        "body": "It's because of it I'm even in the club",
+        "reply": {
+          "id": "4e208a81d204479f988d",
+          "mine": true,
+          "body": "This party radio isn\u2019t that bad tho"
+        },
+        "at": 1791162101123,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "90c0275229e64cdab6ad",
+        "mine": false,
+        "social": false,
+        "body": "Plus the spraying money and people texting me is funny\ud83e\udd23",
+        "at": 1791162120695,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "38dcd30da9bf424cb566",
+        "mine": true,
+        "social": false,
+        "body": "Fr fr",
+        "at": 1791162132882,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "9232a8a2d17b408a9458",
+        "mine": true,
+        "social": false,
+        "body": "I hate that shake your bumbum song tho \ud83d\udc94\ud83d\udc94",
+        "at": 1791162143738,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "90d96c1c81eb488ca78d",
+        "mine": false,
+        "social": false,
+        "body": "It's catchy \ud83e\udd23",
+        "reply": {
+          "id": "9232a8a2d17b408a9458",
+          "mine": true,
+          "body": "I hate that shake your bumbum song tho \ud83d\udc94\ud83d\udc94"
+        },
+        "at": 1791162160831,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "92f17d92bdae42dfbb72",
+        "mine": true,
+        "social": false,
+        "body": "I added it to my Spotify already btw \ud83d\ude2d",
+        "at": 1791162182300,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "2f8ead5e99524074b6b8",
+        "mine": false,
+        "social": false,
+        "body": "Exactly \ud83d\ude2d\ud83d\ude02",
+        "at": 1791162269971,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b53bb0167e4f429fa232",
+        "mine": true,
+        "social": true,
+        "body": "You said yes \ud83d\udc6a You're family now: they're your sibling",
+        "at": 1791227396724,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "252bcbd264e14a798440",
+        "mine": false,
+        "social": false,
+        "body": "Since",
+        "at": 1791229704065,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "0c56afe8cb47487c8d25",
+        "mine": false,
+        "social": false,
+        "body": "How much have yiu made",
+        "at": 1791229710392,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "8a4d8cb1883b4e86b868",
+        "mine": false,
+        "social": false,
+        "body": "Send me as much as you can please",
+        "at": 1791252653025,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "704e83871701465ab263",
+        "mine": false,
+        "social": false,
+        "body": "If it's possible to send up to 50bn, send",
+        "at": 1791252668305,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "4075145113814fd69efa",
+        "mine": false,
+        "social": false,
+        "body": "Cuz this people have found way to reduce our money",
+        "at": 1791252678815,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b138ce258e4540e38205",
+        "mine": false,
+        "social": false,
+        "body": "And there's plenty things to play in the game",
+        "at": 1791252688856,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "91a6c89a25f944cf8dd4",
+        "mine": false,
+        "social": false,
+        "body": "Say na big man spending is x10",
+        "at": 1791252700985,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "46d59d57ddb1491e9d3d",
+        "mine": true,
+        "social": true,
+        "body": "You sent them \u20a610,000,000,000 \ud83d\udcb8",
+        "at": 1791272576617,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "5d5d8dac5e624801bb73",
+        "mine": false,
+        "social": false,
+        "body": "Send more boo",
+        "at": 1791293754422,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "b43cba28242b43e5b055",
+        "mine": false,
+        "social": false,
+        "body": "Thanks for the one you've sent",
+        "at": 1791293763712,
+        "fresh": false,
+        "seen": false
+      },
+      {
+        "id": "c1634f1f962848f99a26",
+        "mine": true,
+        "social": false,
+        "body": "Lmao no",
+        "at": 1791293785687,
+        "fresh": false,
+        "seen": true
+      },
+      {
+        "id": "adeae9f92ef945399f03",
+        "mine": false,
+        "social": false,
+        "body": "Are you not in 400 trillion oga",
+        "at": 1791293806683,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "a8e066a672a345bfb3be",
+        "mine": false,
+        "social": false,
+        "body": "Send nah",
+        "at": 1791293809983,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "54dd355450e847a3b4db",
+        "mine": false,
+        "social": false,
+        "body": "Let my money at least reach 100 billion",
+        "at": 1791293820049,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "c4f6c78a9836480aa420",
+        "mine": false,
+        "social": false,
+        "body": "\ud83d\udecd\ufe0f Visit my shop: Best Buy Mart [[shop:e292674515dc4a029fdb.co_cec8cf0afd6047619518]]",
+        "at": 1791298061063,
+        "fresh": true,
+        "seen": false
+      },
+      {
+        "id": "2af0d4a5b59b43f9b22a",
+        "mine": false,
+        "social": true,
+        "ask": {
+          "amount": 10000000,
+          "note": null,
+          "status": "open",
+          "until": 1791384471066
+        },
+        "body": "Asked you for \u20a610,000,000 \ud83d\ude4f\ud83c\udffe",
+        "at": 1791298071066,
+        "fresh": true,
+        "seen": false
+      }
+    ]
+  },
+  "1f9ccfb599064108b441": {
+    "unread": 158,
+    "blocked": false,
+    "messages": [
+      {
+        "id": "876286e31e9d4a419b2a",
+        "mine": false,
+        "social": false,
+        "body": "How far? \ud83d\udc4b\ud83c\udffe",
+        "at": 1791193010328,
+        "fresh": true,
+        "seen": false
+      }
+    ]
+  }
+}

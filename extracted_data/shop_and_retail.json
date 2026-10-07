@@ -1,0 +1,138 @@
+{
+  "foodsAndDining": [
+    {
+      "id": "f-iceCream",
+      "name": "Vanilla Soft-Serve Ice Cream",
+      "price": 820,
+      "hunger": 15,
+      "fun": 25
+    },
+    {
+      "id": "f-shawarma",
+      "name": "Lekki Double Sausage Beef Shawarma",
+      "price": 8050,
+      "hunger": 55,
+      "fun": 30
+    },
+    {
+      "id": "f-smallChops",
+      "name": "VIP Party Small Chops Pack",
+      "price": 12000,
+      "hunger": 45,
+      "fun": 40
+    },
+    {
+      "id": "f-zobo",
+      "name": "Chilled Hibiscus Zobo Drink",
+      "price": 231,
+      "hunger": 10,
+      "energy": 20
+    },
+    {
+      "id": "f-chapman",
+      "name": "Signature Nigerian Chapman Cocktail",
+      "price": 645,
+      "hunger": 12,
+      "fun": 18
+    },
+    {
+      "id": "f-puffPuff",
+      "name": "Street Fried Sweet Puff-Puff (6pcs)",
+      "price": 500,
+      "hunger": 25,
+      "fun": 15
+    },
+    {
+      "id": "f-amala",
+      "name": "Amala with Gbegiri, Ewedu & Goat Meat",
+      "price": 2505,
+      "hunger": 85,
+      "fun": 35
+    },
+    {
+      "id": "f-jollof",
+      "name": "Party Smoked Jollof Rice with Fried Chicken",
+      "price": 3720,
+      "hunger": 90,
+      "fun": 50
+    },
+    {
+      "id": "f-partyPack",
+      "name": "Mega Party Catering Food Pack",
+      "price": 30450,
+      "hunger": 100,
+      "fun": 70
+    },
+    {
+      "id": "f-pepperSoup",
+      "name": "Catfish & Goat Meat Pepper Soup",
+      "price": 3888,
+      "hunger": 70,
+      "health": 20
+    }
+  ],
+  "appliancesAndFurniture": [
+    {
+      "id": "generator",
+      "name": "I-Pass-My-Neighbor Tiger Generator",
+      "price": 85000,
+      "category": "Appliances",
+      "powerOutput": "Basic lighting & fans"
+    },
+    {
+      "id": "generatorBig",
+      "name": "Lister Soundproof Heavy Generator",
+      "price": 1250000,
+      "category": "Appliances",
+      "powerOutput": "ACs & full compound"
+    },
+    {
+      "id": "solar",
+      "name": "Solar Inverter 5kVA Grid System",
+      "price": 3500000,
+      "category": "Appliances",
+      "powerOutput": "24/7 Off-Grid silent"
+    },
+    {
+      "id": "vono",
+      "name": "Classic Vono Orthopedic Mattress",
+      "price": 45000,
+      "category": "Furniture",
+      "comfort": 70
+    },
+    {
+      "id": "kingBed",
+      "name": "Executive King-Size Mahogany Bed",
+      "price": 280000,
+      "category": "Furniture",
+      "comfort": 100
+    },
+    {
+      "id": "television",
+      "name": "65-inch 4K Smart OLED TV",
+      "price": 650000,
+      "category": "Electronics",
+      "fun": 80
+    },
+    {
+      "id": "soundSystem",
+      "name": "Surround Sound Afrobeats Subwoofer",
+      "price": 220000,
+      "category": "Electronics",
+      "fun": 65
+    }
+  ],
+  "pricingMechanics": {
+    "bandMultiplierMin": 0.85,
+    "bandMultiplierMax": 1.45,
+    "districtInflation": {
+      "bananaIsland": 1.5,
+      "ikoyi": 1.35,
+      "victoriaIsland": 1.3,
+      "lekki": 1.2,
+      "yaba": 1.0,
+      "surulere": 0.9,
+      "ikeja": 0.95
+    }
+  }
+}

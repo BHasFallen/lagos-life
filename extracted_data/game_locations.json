@@ -1,0 +1,258 @@
+[
+  {
+    "id": "afrika_shrine",
+    "name": "Afrika Shrine",
+    "emoji": "\ud83c\udfb7",
+    "category": "Nightlife & Culture",
+    "area": "Ikeja",
+    "description": "The legendary home of Afrobeat founded by Fela Kuti. Live brass bands, palm wine, and high energy."
+  },
+  {
+    "id": "viewing_centre",
+    "name": "Viewing Centre",
+    "emoji": "\u26bd",
+    "category": "Entertainment & Sports",
+    "area": "Surulere",
+    "description": "Watch Premier League matches, place instant bets, banter with fans, and drink cold drinks."
+  },
+  {
+    "id": "amala_shitta",
+    "name": "Amala Shitta",
+    "emoji": "\ud83c\udf72",
+    "category": "Food & Dining",
+    "area": "Surulere",
+    "description": "Lagos's most famous amala joint. Steaming amala, ewedu, gbegiri, goat meat, and round fish."
+  },
+  {
+    "id": "cchub",
+    "name": "CcHub",
+    "emoji": "\ud83d\udca1",
+    "category": "Tech & Work",
+    "area": "Yaba",
+    "description": "Co-Creation Hub in the Silicon Lagoon. Startup pitches, tech meetups, coding sessions, and steady power."
+  },
+  {
+    "id": "market",
+    "name": "Tejuosho / Balogun Market",
+    "emoji": "\ud83e\uddfa",
+    "category": "Commerce",
+    "area": "Yaba / Island",
+    "description": "Bustling open-air marketplace for fabrics, foodstuff, shoes, and street bargains."
+  },
+  {
+    "id": "freedom_park",
+    "name": "Freedom Park",
+    "emoji": "\ud83c\udfad",
+    "category": "Culture & Arts",
+    "area": "Lagos Island",
+    "description": "Colonial prison turned arts hub. Live jazz, drama plays, art exhibitions, and open-air greenery."
+  },
+  {
+    "id": "ifitness",
+    "name": "i-Fitness Gym",
+    "emoji": "\ud83c\udfcb\ufe0f",
+    "category": "Health & Fitness",
+    "area": "Lekki",
+    "description": "Modern fitness center. Build stamina, workout with friends, and boost health stats."
+  },
+  {
+    "id": "office",
+    "name": "Corporate Office",
+    "emoji": "\ud83c\udfe2",
+    "category": "Work & Careers",
+    "area": "Victoria Island",
+    "description": "High-rise corporate headquarters. Clock in for shifts, earn salaries, and climb the ladder."
+  },
+  {
+    "id": "quilox",
+    "name": "Quilox Nightclub",
+    "emoji": "\ud83e\udea9",
+    "category": "Nightlife",
+    "area": "Victoria Island",
+    "description": "Ultra-luxury nightclub on Ozumba Mbadiwe. VIP tables, bottle service, and money spraying."
+  },
+  {
+    "id": "canopy_walk",
+    "name": "Lekki Conservation Centre",
+    "emoji": "\ud83c\udf09",
+    "category": "Nature & Tourism",
+    "area": "Lekki",
+    "description": "Africa's longest canopy walkway through wetlands, nature trails, and monkey habitats."
+  },
+  {
+    "id": "the_palms",
+    "name": "The Palms Mall",
+    "emoji": "\ud83d\udecd\ufe0f",
+    "category": "Shopping",
+    "area": "Lekki",
+    "description": "Premier shopping mall. Cinema, designer fashion stores, electronics, and food court."
+  },
+  {
+    "id": "library",
+    "name": "The Main Library",
+    "emoji": "\ud83d\udcda",
+    "category": "Education",
+    "area": "Yaba",
+    "description": "Quiet study desks, archives, research texts, and book clubs."
+  },
+  {
+    "id": "beach",
+    "name": "Elegushi / Landmark Beach",
+    "emoji": "\ud83c\udfd6\ufe0f",
+    "category": "Leisure",
+    "area": "Victoria Island",
+    "description": "Atlantic ocean breeze, beach soccer, jet skis, and seaside grills."
+  },
+  {
+    "id": "hospital",
+    "name": "General Hospital",
+    "emoji": "\ud83c\udfe5",
+    "category": "Healthcare",
+    "area": "Lagos Island",
+    "description": "State medical center for treatments, health recovery, checkups, and emergencies."
+  },
+  {
+    "id": "salon",
+    "name": "Mama Bisi's Salon",
+    "emoji": "\ud83d\udc87\ud83c\udffe\u200d\u2640\ufe0f",
+    "category": "Personal Care",
+    "area": "Surulere",
+    "description": "Hair braiding, fades, gossip (gist), and fresh grooming."
+  },
+  {
+    "id": "rooftop",
+    "name": "Ivory Rooftop",
+    "emoji": "\ud83d\udd6f\ufe0f",
+    "category": "Dining & Romance",
+    "area": "Victoria Island",
+    "description": "Candlelit dining overlooking the Lagos skyline and lagoon."
+  },
+  {
+    "id": "police",
+    "name": "Police Station",
+    "emoji": "\ud83d\ude93",
+    "category": "Civic & Law",
+    "area": "Mainland",
+    "description": "Local station for reporting crimes, bail hearings, and settlement."
+  },
+  {
+    "id": "church",
+    "name": "Church",
+    "emoji": "\u26ea",
+    "category": "Faith & Community",
+    "area": "Mainland",
+    "description": "Sunday worship, choir practice, thanksgiving services, and community support."
+  },
+  {
+    "id": "mosque",
+    "name": "Central Mosque",
+    "emoji": "\ud83d\udd4c",
+    "category": "Faith & Community",
+    "area": "Lagos Island",
+    "description": "Juma'at prayers, Ramadan lectures, and peaceful reflection."
+  },
+  {
+    "id": "radio",
+    "name": "Naija Radio Station",
+    "emoji": "\ud83d\udcfb",
+    "category": "Media",
+    "area": "Ikoyi",
+    "description": "Broadcast studio playing top Afrobeats hits and live on-air banter."
+  },
+  {
+    "id": "polling",
+    "name": "Polling Unit",
+    "emoji": "\ud83d\uddf3\ufe0f",
+    "category": "Politics",
+    "area": "Civic Centre",
+    "description": "Vote in the Governor and Senate elections, review candidate slogans and ballots."
+  },
+  {
+    "id": "eko_hotels",
+    "name": "Eko Hotels & Suites",
+    "emoji": "\ud83c\udfe8",
+    "category": "Hospitality & Hub",
+    "area": "Victoria Island",
+    "description": "World-famous hotel hosting the biggest concerts, awards, and conferences in West Africa."
+  },
+  {
+    "id": "polanco",
+    "name": "Polanco Motors",
+    "emoji": "\ud83d\ude98",
+    "category": "Automotive",
+    "area": "Victoria Island",
+    "description": "Luxury car dealership selling Sedans, SUVs, Taxis, Vans, and Toyota Prados."
+  },
+  {
+    "id": "boat_cruise",
+    "name": "Lagos Boat Cruise",
+    "emoji": "\u26f5",
+    "category": "Transport & Leisure",
+    "area": "Lagos Lagoon",
+    "description": "Ferry and luxury boat trips across the lagoon between Island and Mainland."
+  },
+  {
+    "id": "golf",
+    "name": "Ikoyi Golf Club 1938",
+    "emoji": "\u26f3",
+    "category": "Exclusive Sports",
+    "area": "Ikoyi",
+    "description": "Historic golf course for high-net-worth networking and leisure tournaments."
+  },
+  {
+    "id": "court",
+    "name": "Lagos High Court",
+    "emoji": "\u2696\ufe0f",
+    "category": "Justice",
+    "area": "Tafawa Balewa Square",
+    "description": "Legal trials, dispute resolution, contract enforcement, and civil suits."
+  },
+  {
+    "id": "unilag",
+    "name": "University of Lagos (UNILAG)",
+    "emoji": "\ud83c\udf93",
+    "category": "Academics",
+    "area": "Akoka, Yaba",
+    "description": "University of First Choice. Lectures, Senate building, hostels, and lagoon front."
+  },
+  {
+    "id": "casino",
+    "name": "Eko Casino",
+    "emoji": "\ud83c\udfb0",
+    "category": "Gaming",
+    "area": "Victoria Island",
+    "description": "Roulette, card tables, slots, and high-stakes gambling."
+  },
+  {
+    "id": "mindspace",
+    "name": "MindSpace Wellness",
+    "emoji": "\ud83e\udef6\ud83c\udffe",
+    "category": "Mental Wellness",
+    "area": "Lekki",
+    "description": "Therapy sessions, stress reduction, relaxation, and mental health recharge."
+  },
+  {
+    "id": "stadium",
+    "name": "Teslim Balogun Stadium",
+    "emoji": "\ud83c\udfdf\ufe0f",
+    "category": "Sports",
+    "area": "Surulere",
+    "description": "National league football matches, athletic tournaments, and youth festivals."
+  },
+  {
+    "id": "airport",
+    "name": "Murtala Muhammed International Airport (MMIA)",
+    "emoji": "\u2708\ufe0f",
+    "category": "Travel",
+    "area": "Ikeja",
+    "description": "Domestic and international terminal. Air Peace flights to Abuja and Port Harcourt."
+  },
+  {
+    "id": "refinery",
+    "name": "Dangote Petroleum Refinery",
+    "emoji": "\ud83d\udee2\ufe0f",
+    "category": "Industry",
+    "area": "Lekki Free Zone",
+    "description": "Massive petrochemical and industrial complex producing refined energy products."
+  }
+]

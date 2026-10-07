@@ -1,0 +1,1361 @@
+{
+  "registeredCompany": [
+    {
+      "id": "co_df18a5265e8b463e9852",
+      "name": "Bobby and Co.",
+      "ind": "tech",
+      "emoji": "\ud83d\udcbb",
+      "color": 0,
+      "hq": "lagos:yaba",
+      "units": 3,
+      "rating": 3.3,
+      "last": 3001688,
+      "value": 0,
+      "sale": 579600000,
+      "closed": 0
+    }
+  ],
+  "companyMarketInfo": {
+    "ok": true,
+    "open": true,
+    "demand": 1,
+    "snap": {
+      "till": 0,
+      "day": 1010,
+      "at": 1791367414092,
+      "companies": [
+        {
+          "id": "co_df18a5265e8b463e9852",
+          "name": "Bobby and Co.",
+          "ind": "tech",
+          "emoji": "\ud83d\udcbb",
+          "color": 0,
+          "hq": "lagos:yaba",
+          "units": 3,
+          "rating": 3.3,
+          "last": 3001688,
+          "value": 0,
+          "sale": 579600000,
+          "closed": 0
+        }
+      ]
+    },
+    "view": {
+      "companies": [
+        {
+          "ind": "tech",
+          "emoji": "\ud83d\udcbb",
+          "color": 0,
+          "units": [
+            {
+              "id": "u1",
+              "district": "lagos:yaba",
+              "size": 2,
+              "staff": 24,
+              "manager": false,
+              "price": "premium",
+              "gen": true,
+              "rating": 3.26,
+              "shut": 0,
+              "paid": 138000000,
+              "rentDue": 135714.2857142857,
+              "wagesDue": 641142.8571428572,
+              "take": 453134,
+              "opened": 1010,
+              "last": {
+                "d": 1010,
+                "cust": 2517,
+                "served": 2517,
+                "sales": 453134,
+                "profit": 453134
+              }
+            },
+            {
+              "id": "u2",
+              "district": "lagos:banana",
+              "size": 2,
+              "staff": 22,
+              "manager": true,
+              "price": "premium",
+              "gen": true,
+              "rating": 3.26,
+              "shut": 0,
+              "paid": 414000000,
+              "rentDue": 407142.85714285716,
+              "wagesDue": 1001785.7142857143,
+              "take": 1158764,
+              "opened": 1010,
+              "last": {
+                "d": 1010,
+                "cust": 6438,
+                "served": 6438,
+                "sales": 1158764,
+                "profit": 1158764,
+                "ev": [
+                  "inspection"
+                ],
+                "fees": 4140000
+              }
+            },
+            {
+              "id": "u3",
+              "district": "lagos:ikoyi",
+              "size": 2,
+              "staff": 19,
+              "manager": true,
+              "price": "premium",
+              "gen": true,
+              "rating": 3.26,
+              "shut": 0,
+              "paid": 414000000,
+              "rentDue": 407142.85714285716,
+              "wagesDue": 881571.4285714285,
+              "take": 1389790,
+              "opened": 1010,
+              "last": {
+                "d": 1010,
+                "cust": 7721,
+                "served": 7721,
+                "sales": 1389790,
+                "profit": 1389790,
+                "ev": [
+                  "outageGen"
+                ]
+              }
+            }
+          ],
+          "hist": [
+            [
+              1010,
+              -1138312
+            ]
+          ],
+          "boost": {
+            "kind": "influencer",
+            "f": 0.6,
+            "until": 1012
+          },
+          "month": [
+            33,
+            0
+          ],
+          "id": "co_df18a5265e8b463e9852",
+          "name": "Bobby and Co.",
+          "created": 1791303946429
+        }
+      ],
+      "ledger": [
+        {
+          "id": "fees-1010",
+          "kind": "fees",
+          "ref": "",
+          "amount": 3001688,
+          "wallet": 0,
+          "till": -3001688,
+          "at": 1791345564686
+        },
+        {
+          "id": "night-1010",
+          "kind": "takings",
+          "ref": "",
+          "amount": 3001688,
+          "wallet": 0,
+          "till": 3001688,
+          "at": 1791345564686
+        },
+        {
+          "id": "biz-hire-05ff8f5d0a20426d8097",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304100862
+        },
+        {
+          "id": "biz-hire-9777b3fd658f4276bbd5",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304100103
+        },
+        {
+          "id": "biz-hire-8847f73142b5431d97f5",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304099304
+        },
+        {
+          "id": "biz-hire-6734936af95b4a118706",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304098320
+        },
+        {
+          "id": "biz-hire-3e5510aa01a940f38b73",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304097540
+        },
+        {
+          "id": "biz-hire-cbe60995055b4359811f",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304096726
+        },
+        {
+          "id": "biz-hire-75455af283dd430195f9",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304095943
+        },
+        {
+          "id": "biz-hire-4b481b59ccc0411d89af",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304095138
+        },
+        {
+          "id": "biz-hire-8a0449cf87d34193825d",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304094162
+        },
+        {
+          "id": "biz-hire-0914ad9f2eab44d199ee",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304093132
+        },
+        {
+          "id": "biz-hire-008bfd43d430441b88e4",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304092355
+        },
+        {
+          "id": "biz-hire-746f5dc5e7964ef298e0",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304091658
+        },
+        {
+          "id": "biz-hire-c3e08fb6744a40ec98dd",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304090927
+        },
+        {
+          "id": "biz-hire-d0bea0be5cf54abfb615",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304090071
+        },
+        {
+          "id": "biz-gen-ea1aac7c821640bb9f97",
+          "kind": "generator",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 24000000,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304087964
+        },
+        {
+          "id": "biz-upgrade-a513e66c0fc84a918098",
+          "kind": "upgrade",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 270000000,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304085808
+        },
+        {
+          "id": "biz-upgrade-6c4afb3e40114e46963a",
+          "kind": "upgrade",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 90000000,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304085096
+        },
+        {
+          "id": "biz-manager-3d10cdd279a14fc8ade8",
+          "kind": "manager",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 841500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304083327
+        },
+        {
+          "id": "biz-hire-8a66496a19f74905a8b8",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304078723
+        },
+        {
+          "id": "biz-hire-84573fc75b44464a9046",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304077782
+        },
+        {
+          "id": "biz-branch-661fb1864c5a4d5aa9e1",
+          "kind": "branch",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 30000000,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304071175
+        },
+        {
+          "id": "biz-hire-543b28c4ef52475296e3",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304058679
+        },
+        {
+          "id": "biz-hire-8cc727ea9cf44898a6fa",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304057396
+        },
+        {
+          "id": "biz-hire-22f24481fa7544718716",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304054308
+        },
+        {
+          "id": "biz-hire-d6a87c8d116a428f8c1f",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304052714
+        },
+        {
+          "id": "biz-hire-1a6c3b84e0a24389a895",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304051590
+        },
+        {
+          "id": "biz-hire-2bbfe8b681ac45618b17",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304050832
+        },
+        {
+          "id": "biz-hire-8ca8cca40bb546548356",
+          "kind": "hire",
+          "ref": "co_df18a5265e8b463e9852",
+          "amount": 280500,
+          "wallet": -1,
+          "till": 0,
+          "at": 1791304050036
+        }
+      ],
+      "day": 1010,
+      "t": 1456503.5682
+    },
+    "moves": [],
+    "news": [
+      {
+        "at": 1791345564686,
+        "day": 1010,
+        "emoji": "\ud83c\udf19",
+        "text": "Evening takings: \u20a63m from 3 shops"
+      },
+      {
+        "at": 1791345564686,
+        "day": 1010,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83e\uddfe",
+        "text": "Bobby and Co. Banana Island: Health inspection fee"
+      },
+      {
+        "at": 1791345564686,
+        "day": 1010,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83e\udd76",
+        "text": "Bobby and Co.: dry month \ud83e\udd76"
+      },
+      {
+        "at": 1791304085808,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83c\udfec",
+        "text": "Bobby and Co. Ikoyi is now a plaza \ud83c\udfec"
+      },
+      {
+        "at": 1791304085096,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83c\udfea",
+        "text": "Bobby and Co. Ikoyi is now a shop \ud83c\udfea"
+      },
+      {
+        "at": 1791304071175,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83d\udccd",
+        "text": "Bobby and Co. opened in Ikoyi \ud83d\udccd"
+      },
+      {
+        "at": 1791304026906,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83c\udfec",
+        "text": "Bobby and Co. Banana Island is now a plaza \ud83c\udfec"
+      },
+      {
+        "at": 1791304026039,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83c\udfea",
+        "text": "Bobby and Co. Banana Island is now a shop \ud83c\udfea"
+      },
+      {
+        "at": 1791304017161,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83d\udccd",
+        "text": "Bobby and Co. opened in Banana Island \ud83d\udccd"
+      },
+      {
+        "at": 1791303981691,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83e\udd33\ud83c\udffe",
+        "text": "Bobby and Co.: influencer push running \ud83e\udd33\ud83c\udffe"
+      },
+      {
+        "at": 1791303975375,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83c\udfec",
+        "text": "Bobby and Co. is now a plaza \ud83c\udfec"
+      },
+      {
+        "at": 1791303972984,
+        "day": 1009,
+        "co": "co_df18a5265e8b463e9852",
+        "emoji": "\ud83c\udfea",
+        "text": "Bobby and Co. is now a shop \ud83c\udfea"
+      }
+    ],
+    "nights": 0
+  },
+  "topCompaniesLeaderboard": {
+    "top": [
+      {
+        "id": "co_99373244479d4c86b918",
+        "owner": "36d830ee6a9a467ba07b",
+        "value": 60000000,
+        "name": "AMBRE",
+        "emoji": "\ud83d\udcbb",
+        "color": 5,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "amber0"
+      },
+      {
+        "id": "co_ab688cde18e54fc2809d",
+        "owner": "959868d386004f919240",
+        "value": 60000000,
+        "name": "SONIA\ud83e\uddcc",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "SONIA_112"
+      },
+      {
+        "id": "co_2810418d8d064dd6be48",
+        "owner": "58d483d1ec0e4a709bd6",
+        "value": 60000000,
+        "name": "Cyber security program",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "henryjohn44"
+      },
+      {
+        "id": "co_a59e5f25d8c9465bb69f",
+        "owner": "bf9b8ad9146d4e00a4f6",
+        "value": 60000000,
+        "name": "Dgbright tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "dgbright"
+      },
+      {
+        "id": "co_5354b2db287d4410a36f",
+        "owner": "2a31f88e8401435fbf98",
+        "value": 60000000,
+        "name": "Abeni ltd",
+        "emoji": "\ud83d\udcbb",
+        "color": 4,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Abeniii_"
+      },
+      {
+        "id": "co_56ecf61ced7d439e8127",
+        "owner": "1faab77065fe4848a516",
+        "value": 60000000,
+        "name": "LagOS Inc.",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "fw_lanrex"
+      },
+      {
+        "id": "co_975f12e1d83d4b018641",
+        "owner": "ca932861b51742c28e82",
+        "value": 60000000,
+        "name": "PRAISE_SMITH TECH\ud83d\udda5\ufe0f",
+        "emoji": "\ud83d\udcbb",
+        "color": 6,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Praise_Smith"
+      },
+      {
+        "id": "co_11c73be04073437c8507",
+        "owner": "4722c45c4aa74b95b24b",
+        "value": 60000000,
+        "name": "RENDER",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "mr_ERC"
+      },
+      {
+        "id": "co_b775f7804a6645db8811",
+        "owner": "1f20fb682c9a48a29f50",
+        "value": 60000000,
+        "name": "Xavi Tech hub",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Xaviiiii77"
+      },
+      {
+        "id": "co_9daa4e6cb61042339bb9",
+        "owner": "0a881e7f6a744f569a2d",
+        "value": 60000000,
+        "name": "Dice0 tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:ikoyi",
+        "units": 1,
+        "username": "el_dice0"
+      },
+      {
+        "id": "co_deaad13e7ad44088a492",
+        "owner": "f67bc78fb7df4cee838c",
+        "value": 60000000,
+        "name": "Emaculate hk",
+        "emoji": "\ud83d\udcbb",
+        "color": 6,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "emaculate"
+      },
+      {
+        "id": "co_89ed8d914d7d4104b5ed",
+        "owner": "fee056bf9a744352b255",
+        "value": 60000000,
+        "name": "whareverdamnit",
+        "emoji": "\ud83d\udcbb",
+        "color": 4,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "whatEver01"
+      },
+      {
+        "id": "co_cb5b6414c652489bb832",
+        "owner": "71505f10b53c495ea68c",
+        "value": 60000000,
+        "name": "Judiee game studio",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "sheisjudiee"
+      },
+      {
+        "id": "co_a824c854e2ca4bcab288",
+        "owner": "330c193aac364f72bd98",
+        "value": 60000000,
+        "name": "OOM LMT",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "shadowXM"
+      },
+      {
+        "id": "co_349f3741a52b4aa6b260",
+        "owner": "035cf784cc2c4103a970",
+        "value": 60000000,
+        "name": "BillionBucks",
+        "emoji": "\ud83d\udcbb",
+        "color": 5,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "theakinrinmola"
+      },
+      {
+        "id": "co_7dc6d4ea059a476c9503",
+        "owner": "f8ad47e6d2734339b5c8",
+        "value": 60000000,
+        "name": "31Grey",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "abuja:asokoro",
+        "units": 1,
+        "username": "Davidtz"
+      },
+      {
+        "id": "co_07ecdd82deb147c4999b",
+        "owner": "dac1647d8587407292ec",
+        "value": 60000000,
+        "name": "Seki's tech hub",
+        "emoji": "\ud83d\udcbb",
+        "color": 3,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Sekiontt"
+      },
+      {
+        "id": "co_b0071d79782848648042",
+        "owner": "1e6eba081c354ce1baca",
+        "value": 60000000,
+        "name": "MrTomiwa Solutions",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:ikoyi",
+        "units": 1,
+        "username": "MrTomiwa"
+      },
+      {
+        "id": "co_3c459bc9976040dc8270",
+        "owner": "40f41d1c0edd4cd59926",
+        "value": 60000000,
+        "name": "Tune Tech (TT)",
+        "emoji": "\ud83d\udcbb",
+        "color": 2,
+        "ind": "tech",
+        "hq": "lagos:vi",
+        "units": 1,
+        "username": "Tunechi217"
+      },
+      {
+        "id": "co_f5ef4f95906441eba023",
+        "owner": "cfc52898cc194d41bb96",
+        "value": 60000000,
+        "name": "Ominidev Center",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "lagos:lekki",
+        "units": 1,
+        "username": "onyi_david"
+      },
+      {
+        "id": "co_d838ba86cdcd48768cc3",
+        "owner": "d21fb725d17841bfbdcf",
+        "value": 60000000,
+        "name": "JowiHub",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "JowiHub"
+      },
+      {
+        "id": "co_1c37a9b682664f18bb6a",
+        "owner": "e470dc34e5da4418a6b4",
+        "value": 60000000,
+        "name": "OhhGee gadgets",
+        "emoji": "\ud83d\udcbb",
+        "color": 2,
+        "ind": "tech",
+        "hq": "lagos:lekki",
+        "units": 1,
+        "username": "realohhgee"
+      },
+      {
+        "id": "co_db4d1b21453f40b2b3f5",
+        "owner": "fcc71fd506c241b8b4ec",
+        "value": 60000000,
+        "name": "Hybee tech&co",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "hybee214"
+      },
+      {
+        "id": "co_5381aaff57e14506bedf",
+        "owner": "ee0b0b7924e34788a606",
+        "value": 60000000,
+        "name": "Xemiz Place",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "bad_ass44"
+      },
+      {
+        "id": "co_041fcea60f6d48739ee6",
+        "owner": "f5e46c57774847308597",
+        "value": 60000000,
+        "name": "Emmy Tech support \ud83e\udee9\ud83d\udcbb",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "heis_emmy00"
+      },
+      {
+        "id": "co_89ff18a02644441aaa76",
+        "owner": "d8f836396f1e42c492d9",
+        "value": 60000000,
+        "name": "Enox Tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 5,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Enox_11"
+      },
+      {
+        "id": "co_fd85edf1a6294d81880d",
+        "owner": "ff2c89f21653477f944e",
+        "value": 60000000,
+        "name": "Cheeks enterprise",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "abuja:asokoro",
+        "units": 1,
+        "username": "_cheeks_"
+      },
+      {
+        "id": "co_21b5d4c67fcd4c0680c8",
+        "owner": "20d9bbe6b22343ff83f8",
+        "value": 60000000,
+        "name": "Suwi tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 5,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "suwi"
+      },
+      {
+        "id": "co_b2faf64100944ff5aa79",
+        "owner": "8e0360ffa8c2477f8120",
+        "value": 60000000,
+        "name": "Christec computers LTD",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "abuja:asokoro",
+        "units": 1,
+        "username": "ChrisWanted"
+      },
+      {
+        "id": "co_3595734e53a442e389e1",
+        "owner": "6195719b85a64826b742",
+        "value": 60000000,
+        "name": "ASMO TECH HUB",
+        "emoji": "\ud83d\udcbb",
+        "color": 4,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "asmo"
+      },
+      {
+        "id": "co_4684238c8a974ea6bcbd",
+        "owner": "8e8e13ec3f6c42119ccc",
+        "value": 60000000,
+        "name": "FLAVOUR TECH",
+        "emoji": "\ud83d\udcbb",
+        "color": 4,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "edeowede"
+      },
+      {
+        "id": "co_05cd640678c84ee4bb11",
+        "owner": "c9d27dfeb06949ada8fb",
+        "value": 60000000,
+        "name": "Ty'solutions",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "abuja:maitama",
+        "units": 1,
+        "username": "tiffany_t"
+      },
+      {
+        "id": "co_9b8c078b4ba0424e9d5e",
+        "owner": "5f404a1bfff44ef28dda",
+        "value": 60000000,
+        "name": "Buike tech limited",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "buike666"
+      },
+      {
+        "id": "co_5456596cbec04db2a5c8",
+        "owner": "3d178df1d57447e3ac33",
+        "value": 60000000,
+        "name": "FT hub",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:vi",
+        "units": 1,
+        "username": "toffs_ak"
+      },
+      {
+        "id": "co_3fcbe93da1894f779940",
+        "owner": "f05ebe2a78f346baa0a5",
+        "value": 60000000,
+        "name": "Didi hub",
+        "emoji": "\ud83d\udcbb",
+        "color": 5,
+        "ind": "tech",
+        "hq": "lagos:ikoyi",
+        "units": 1,
+        "username": "Diya8"
+      },
+      {
+        "id": "co_bef798a6e6af489d8a38",
+        "owner": "5234ee31e1614014a744",
+        "value": 60000000,
+        "name": "B2BR Tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:vi",
+        "units": 1,
+        "username": "Born2bRich"
+      },
+      {
+        "id": "co_16c358be95df44b6a08c",
+        "owner": "4a74f77ddea64ea2a48a",
+        "value": 60000000,
+        "name": "Akande Tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Debowale04"
+      },
+      {
+        "id": "co_5c0c52a3bfd64675ad91",
+        "owner": "678897ea4cc045f78fe6",
+        "value": 60000000,
+        "name": "Santa\u2019s Technology",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "santa_0"
+      },
+      {
+        "id": "co_cb4980e7b40441a99e20",
+        "owner": "706d829e7dae49d59e94",
+        "value": 60000000,
+        "name": "VGC Cyber",
+        "emoji": "\ud83d\udcbb",
+        "color": 2,
+        "ind": "tech",
+        "hq": "lagos:vi",
+        "units": 1,
+        "username": "AST001"
+      },
+      {
+        "id": "co_c2ea13fc9da74bfe9423",
+        "owner": "47b4334ffd764dac95bb",
+        "value": 60000000,
+        "name": "Teclife",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Ku_ruki"
+      },
+      {
+        "id": "co_329ae949eb0241478d09",
+        "owner": "790dbdfa0ae449b8810a",
+        "value": 60000000,
+        "name": "FINTECH.INC\ud83d\udcc8\ud83d\udcca",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "ph:oldgra",
+        "units": 1,
+        "username": "Efe_T"
+      },
+      {
+        "id": "co_5553f889fe3b4270a1ae",
+        "owner": "363f285692ed47718919",
+        "value": 60000000,
+        "name": "Sketch tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 1,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "sketch"
+      },
+      {
+        "id": "co_e3fc1ec31ada4fc99cd9",
+        "owner": "c75953bf0dcd4e39a460",
+        "value": 60000000,
+        "name": "Nigerian Wizard tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "testimony13"
+      },
+      {
+        "id": "co_33dd773773ac46c68058",
+        "owner": "bfd7e8724c12444e9194",
+        "value": 60000000,
+        "name": "LIldath",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "Lildath"
+      },
+      {
+        "id": "co_faf75728cdb34d73852c",
+        "owner": "f59b3f735dc44fe79777",
+        "value": 60000000,
+        "name": "GLAUDx",
+        "emoji": "\ud83d\udcbb",
+        "color": 7,
+        "ind": "tech",
+        "hq": "lagos:vi",
+        "units": 1,
+        "username": "vmoore"
+      },
+      {
+        "id": "co_97c32be20f1746ca9b5c",
+        "owner": "c828d4091db9478fa188",
+        "value": 60000000,
+        "name": "MOTYTECH",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "motun_rayoo"
+      },
+      {
+        "id": "co_136b83a132e64d63bb5d",
+        "owner": "73f3c64acca54f45b360",
+        "value": 60000000,
+        "name": "luu tech",
+        "emoji": "\ud83d\udcbb",
+        "color": 4,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "mandi_luu"
+      },
+      {
+        "id": "co_6a2e93f3de72415291d4",
+        "owner": "d6ef3cc3ae9f4d198354",
+        "value": 60000000,
+        "name": "Ish Hub",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:ikoyi",
+        "units": 1,
+        "username": "ishola_312"
+      },
+      {
+        "id": "co_0768decfad474807a87c",
+        "owner": "79e2dadd6e6e4c8283a3",
+        "value": 60000000,
+        "name": "Come and make money",
+        "emoji": "\ud83d\udcbb",
+        "color": 0,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "muftau1"
+      },
+      {
+        "id": "co_919d5995ec5c477c8f2b",
+        "owner": "224f6560405f4e64aabb",
+        "value": 60000000,
+        "name": "HUX OF TECH",
+        "emoji": "\ud83d\udcbb",
+        "color": 4,
+        "ind": "tech",
+        "hq": "lagos:banana",
+        "units": 1,
+        "username": "tiwapearl25"
+      }
+    ]
+  },
+  "passiveBusinesses": {
+    "activeTypes": [
+      "clubShare",
+      "eventCentre",
+      "carwash",
+      "barber",
+      "buka",
+      "pos",
+      "zobo",
+      "kiosk"
+    ],
+    "dailyRevenueLog": [
+      {
+        "d": 1010,
+        "by": {
+          "haul": 230000,
+          "clubShare": 868000,
+          "eventCentre": 578000,
+          "carwash": 128000,
+          "barber": 31500,
+          "buka": 37000,
+          "pos": 7500,
+          "zobo": 5500,
+          "kiosk": 2000
+        },
+        "tax": 177500
+      }
+    ],
+    "cumulativeRevenue": {
+      "haul": 230000,
+      "clubShare": 868000,
+      "eventCentre": 578000,
+      "carwash": 128000,
+      "barber": 31500,
+      "buka": 37000,
+      "pos": 7500,
+      "zobo": 5500,
+      "kiosk": 2000
+    },
+    "tillBalance": 0
+  },
+  "jobBoardListingsPosted": [
+    {
+      "id": "a8aad7c15bad49c8a1a0",
+      "kind": "decorate",
+      "title": "Decorate my house",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "refunded",
+      "workerId": "8c589bc722cd412c83fd",
+      "held": 10000050,
+      "hiredAt": 1791350698293,
+      "dueAt": 1791372298293,
+      "doneAt": 1791350737743,
+      "settledAt": 1791352786709,
+      "sentBack": true,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791350662043,
+      "worker": "Ghostrider001_1",
+      "workerStars": {
+        "stars": 3.8,
+        "reviews": 6,
+        "jobs": 17
+      },
+      "applicants": []
+    },
+    {
+      "id": "51ece724792a43db89f6",
+      "kind": "decorate",
+      "title": "Decorate my house",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "refunded",
+      "workerId": "f3407c3d592e47079397",
+      "held": 10000050,
+      "hiredAt": 1791348819661,
+      "dueAt": 1791370419661,
+      "doneAt": null,
+      "settledAt": 1791350634596,
+      "sentBack": false,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791348801610,
+      "worker": "T_Amoke",
+      "workerStars": {
+        "stars": 4.5,
+        "reviews": 8,
+        "jobs": 15
+      },
+      "applicants": []
+    },
+    {
+      "id": "cd08eb0d99494673a98f",
+      "kind": "custom",
+      "title": "1K OPAY FOR 1TRILLION",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "expired",
+      "workerId": null,
+      "held": 0,
+      "hiredAt": null,
+      "dueAt": null,
+      "doneAt": null,
+      "settledAt": 1791348770528,
+      "sentBack": false,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791206476532,
+      "worker": null,
+      "workerStars": null,
+      "applicants": []
+    },
+    {
+      "id": "c8c5ab6672b941e0bf7b",
+      "kind": "decorate",
+      "title": "1k for 1 trillion",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "cancelled",
+      "workerId": null,
+      "held": 0,
+      "hiredAt": null,
+      "dueAt": null,
+      "doneAt": null,
+      "settledAt": 1791206445492,
+      "sentBack": false,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791206290170,
+      "worker": null,
+      "workerStars": null,
+      "applicants": []
+    },
+    {
+      "id": "fa655fb156674914aa33",
+      "kind": "custom",
+      "title": "1Trillion Lagos life money for 1K Opay money",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "cancelled",
+      "workerId": null,
+      "held": 0,
+      "hiredAt": null,
+      "dueAt": null,
+      "doneAt": null,
+      "settledAt": 1791206447628,
+      "sentBack": false,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791206171100,
+      "worker": null,
+      "workerStars": null,
+      "applicants": []
+    },
+    {
+      "id": "c5930edb25394c489f7f",
+      "kind": "decorate",
+      "title": "Decorate my house and buy materials",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "refunded",
+      "workerId": "1f9ccfb599064108b441",
+      "held": 10000050,
+      "hiredAt": 1791192935086,
+      "dueAt": 1791214535086,
+      "doneAt": null,
+      "settledAt": 1791206455254,
+      "sentBack": true,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791192859311,
+      "worker": "dreamchaser01",
+      "workerStars": {
+        "stars": 4,
+        "reviews": 1,
+        "jobs": 5
+      },
+      "applicants": []
+    },
+    {
+      "id": "5276f5d612be492a917d",
+      "kind": "decorate",
+      "title": "Decorate my room and buy materials",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "refunded",
+      "workerId": "e7d05de059a746b5bd42",
+      "held": 10000050,
+      "hiredAt": 1791192668059,
+      "dueAt": 1791214268059,
+      "doneAt": null,
+      "settledAt": 1791192834942,
+      "sentBack": false,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791192639348,
+      "worker": "Vee_dal",
+      "workerStars": {
+        "stars": 3.7,
+        "reviews": 3,
+        "jobs": 6
+      },
+      "applicants": []
+    },
+    {
+      "id": "c390146893354f5c90ca",
+      "kind": "decorate",
+      "title": "Decorate my house",
+      "fee": 10000000,
+      "charge": 50,
+      "startsAt": null,
+      "status": "refunded",
+      "workerId": "10b908e58ce144588c59",
+      "held": 10000050,
+      "hiredAt": 1791192252680,
+      "dueAt": 1791213852680,
+      "doneAt": null,
+      "settledAt": 1791192839392,
+      "sentBack": false,
+      "decorUntil": 0,
+      "rating": null,
+      "hasLayout": false,
+      "at": 1791192214425,
+      "worker": "Duchess_lilian",
+      "workerStars": {
+        "stars": 3.7,
+        "reviews": 3,
+        "jobs": 3
+      },
+      "applicants": []
+    }
+  ]
+}

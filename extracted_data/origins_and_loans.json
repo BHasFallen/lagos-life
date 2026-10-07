@@ -1,0 +1,73 @@
+{
+  "origins": [
+    {
+      "id": "lapo",
+      "name": "LAPO Microfinance Borrower",
+      "startingCash": 25000,
+      "startingDebt": 150000,
+      "interestRate": "15% weekly",
+      "description": "Arrived in Lagos with microfinance debt. Daily pressure to make payments before loan sharks arrive.",
+      "traits": [
+        "hustler",
+        "streetSmart"
+      ]
+    },
+    {
+      "id": "nepoBaby",
+      "name": "Nepo Baby / Island Born",
+      "startingCash": 500000,
+      "startingDebt": 0,
+      "allowance": 25000,
+      "description": "Born into an affluent Ikoyi or Victoria Island family. High starting capital, luxury contacts, lower grit.",
+      "traits": [
+        "connected",
+        "softLife"
+      ]
+    },
+    {
+      "id": "techBro",
+      "name": "Yaba Tech Bro",
+      "startingCash": 100000,
+      "startingDebt": 0,
+      "description": "Self-taught coder from Yaba with a MacBook and a remote contract in USD.",
+      "traits": [
+        "techBro",
+        "remoteWorker"
+      ]
+    },
+    {
+      "id": "graduate",
+      "name": "Fresh UNILAG Graduate",
+      "startingCash": 45000,
+      "startingDebt": 0,
+      "description": "Armed with a degree, looking for corporate entry or NYSC placement.",
+      "traits": [
+        "academic",
+        "ambitious"
+      ]
+    },
+    {
+      "id": "streetHustler",
+      "name": "Oshodi Boy / Agbero Apprentice",
+      "startingCash": 15000,
+      "startingDebt": 0,
+      "description": "Grinding the streets from bus stops to local markets, immune to street intimidation.",
+      "traits": [
+        "fearless",
+        "rugged"
+      ]
+    }
+  ],
+  "loans": {
+    "lapo": {
+      "principal": 150000,
+      "weeklyRepayment": 22500,
+      "penalty": "Harassment at home/work"
+    },
+    "bankLoan": {
+      "minNetWorth": 5000000,
+      "interestBps": 1200,
+      "tenure": "30 days"
+    }
+  }
+}

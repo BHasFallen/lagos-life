@@ -1,0 +1,341 @@
+{
+  "term": {
+    "id": 1,
+    "ends": 1791745200000
+  },
+  "current_governor": {
+    "username": "Franka",
+    "slogan": "Good Lagos ahead",
+    "policy": "light",
+    "votes": 9543,
+    "announcement": null
+  },
+  "election": {
+    "closes": 1791745200000,
+    "candidates_count": 3081,
+    "top_candidates": [
+      {
+        "id": "d2ef28ae7d004fa9a0a8",
+        "username": "ministeroftrapaffair",
+        "name": "Bblifestyle",
+        "slogan": "Dm me for 20b after voting",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "lowcut",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#c8102e",
+          "bottom": "#1f1f1f",
+          "body": "m",
+          "style": "street",
+          "shoes": "oxfords",
+          "shoeColor": "#3b2314",
+          "bag": "pinkMini",
+          "bagColor": "#f08bb0"
+        },
+        "votes": 22054
+      },
+      {
+        "id": "0403046c194a415680e2",
+        "username": "Aphrodyte",
+        "name": "Aphrodyte$$",
+        "slogan": "\"FOR A BRIGHTER LAGOS LIFE\" #FBLL",
+        "look": {
+          "skin": "#8d5a3b",
+          "hair": "fringe",
+          "hairColor": "#6b1424",
+          "outfit": "plain",
+          "top": "#6b1424",
+          "bottom": "#6b1424",
+          "body": "f",
+          "style": "street",
+          "shoes": "goldHeels",
+          "shoeColor": "#111111",
+          "bag": "pinkMini",
+          "bagColor": "#f08bb0",
+          "wear": {
+            "date": "eveningGown:#c8102e",
+            "party": "designerTracksuit:#111111"
+          }
+        },
+        "votes": 15291
+      },
+      {
+        "id": "04c9566fcea04598a816",
+        "username": "quantum",
+        "name": "Quantum",
+        "slogan": "The Squad Party",
+        "look": {
+          "skin": "#8d5a3b",
+          "hair": "afro",
+          "hairColor": "#15110e",
+          "outfit": "adire",
+          "top": "#0d0d0d",
+          "bottom": "#0d0d0d",
+          "body": "m",
+          "style": "casual",
+          "shoes": "redSneakers",
+          "shoeColor": "#f4f4f2"
+        },
+        "votes": 13681
+      },
+      {
+        "id": "7642632b67d246608d0d",
+        "username": "TER9",
+        "name": "\ud835\udd7f\u0190\u211f \ud83d\udcb2",
+        "slogan": "VOTE AND DM FOR 100B",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "lowcut",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#0b6e4f",
+          "bottom": "#0b6e4f",
+          "body": "m",
+          "style": "party",
+          "shoes": "slides",
+          "shoeColor": "#2b2b2b"
+        },
+        "votes": 2475
+      },
+      {
+        "id": "ecd275bba2b54d4b948c",
+        "username": "michelitezeh",
+        "name": "Micheal",
+        "slogan": "DM FOR PAY AFTER VOTING",
+        "look": {
+          "skin": "#c68a62",
+          "hair": "lowcut",
+          "hairColor": "#4a2f1f",
+          "outfit": "plain",
+          "top": "#0b6e4f",
+          "bottom": "#2f4a7a",
+          "body": "m",
+          "style": "casual",
+          "shoes": "oxfords",
+          "shoeColor": "#3b2314",
+          "wear": {
+            "date": "tuxedo:#f4f4f2",
+            "home": "designerTracksuit:#111111",
+            "sleep": "asookeAgbada:#7c3aed",
+            "party": "hoodieJeans:#0b6e4f",
+            "work": "suit:#0d0d0d",
+            "gym": "designerTracksuit:#d4a93a"
+          }
+        },
+        "votes": 790
+      },
+      {
+        "id": "ec3aaeac332243568027",
+        "username": "Styrl",
+        "name": "\ud835\udcd7\ud835\udcea\ud835\udceb\ud835\udcee\ud835\udcee\ud835\udceb\ud835\udcfe\ud835\udcf5\ud835\udcf5\ud835\udcea\ud835\udcf1\ud835\udcf2",
+        "slogan": "100 million each for who votes",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "locs",
+          "hairColor": "#6b2f8c",
+          "outfit": "plain",
+          "top": "#f4efe6",
+          "bottom": "#f4efe6",
+          "body": "m",
+          "style": "party",
+          "shoes": "diamondSneakers",
+          "shoeColor": "#f4f4f2",
+          "wear": {
+            "home": "designerTracksuit:#0b6e4f",
+            "sleep": "designerTracksuit:#111111",
+            "date": "tuxedo:#0d0d0d",
+            "party": "asookeAgbada:#6b1424",
+            "work": "tuxedo:#0d0d0d"
+          }
+        },
+        "votes": 587
+      },
+      {
+        "id": "62871f0983c344199f7b",
+        "username": "froshflex",
+        "name": "Froshflex",
+        "slogan": "Emilokan\ud83d\ude02. 100M per votes",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "short",
+          "hairColor": "#4a2f1f",
+          "outfit": "plain",
+          "top": "#1d2433",
+          "bottom": "#1d2433",
+          "body": "m",
+          "style": "smart",
+          "wear": {
+            "date": "designerTracksuit:#111111"
+          }
+        },
+        "votes": 499
+      },
+      {
+        "id": "80eeac5e495742c48a13",
+        "username": "james",
+        "name": "James the gov",
+        "slogan": "1bn for 1vote. txt me",
+        "look": {
+          "skin": "#a86f4c",
+          "hair": "lowcut",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#1d2433",
+          "bottom": "#1d2433",
+          "body": "m",
+          "style": "casual",
+          "shoes": "tanLoafers",
+          "shoeColor": "#111111"
+        },
+        "votes": 358
+      },
+      {
+        "id": "4dddfe7954cc4007a41d",
+        "username": "Suci",
+        "name": "Suci",
+        "slogan": "Free Cana and Os with 100m monthly allowance",
+        "look": {
+          "skin": "#a86f4c",
+          "hair": "long",
+          "hairColor": "#161616",
+          "outfit": "plain",
+          "top": "#1d2433",
+          "bottom": "#1d2433",
+          "body": "m",
+          "style": "smart",
+          "shoes": "redSneakers",
+          "shoeColor": "#c8102e"
+        },
+        "votes": 309
+      },
+      {
+        "id": "02b3ae647076458fb6f2",
+        "username": "biggyburetta",
+        "name": "Peter Obi",
+        "slogan": "Dm me for 50b after voting",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "locs",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#1d2433",
+          "bottom": "#1d2433",
+          "body": "m",
+          "style": "smart",
+          "shoes": "oxfords",
+          "shoeColor": "#3b2314",
+          "bag": "duffel",
+          "bagColor": "#8b5a2b"
+        },
+        "votes": 267
+      },
+      {
+        "id": "e5519939e43f4cb7a4db",
+        "username": "Yolex",
+        "name": "Ogunleye Abayomi",
+        "slogan": "BETTER LIVING, 1B each for every voter!",
+        "look": {
+          "skin": "#653c24",
+          "hair": "lowcut",
+          "hairColor": "#2e1f16",
+          "outfit": "plain",
+          "top": "#6b1424",
+          "bottom": "#0d0d0d",
+          "body": "m",
+          "style": "smart",
+          "shoes": "diamondSneakers",
+          "shoeColor": "#f4f4f2",
+          "bag": "duffel",
+          "bagColor": "#8b5a2b",
+          "wear": {
+            "work": "suit:#1d2433",
+            "date": "designerTracksuit:#0b6e4f"
+          }
+        },
+        "votes": 240
+      },
+      {
+        "id": "50f5474c31934810ad1d",
+        "username": "livogbaji",
+        "name": "Livogbaji",
+        "slogan": "5b for all",
+        "look": {
+          "skin": "#c68a62",
+          "hair": "bonestraight",
+          "hairColor": "#c8913a",
+          "outfit": "jersey",
+          "top": "#1f8a4c",
+          "bottom": "#1d2433",
+          "body": "f",
+          "style": "casual",
+          "shoes": "goldHeels",
+          "shoeColor": "#c8102e",
+          "bag": "pinkMini",
+          "bagColor": "#f08bb0"
+        },
+        "votes": 161
+      },
+      {
+        "id": "1cdffe22193e40df9af8",
+        "username": "prince_jese",
+        "name": "Chike",
+        "slogan": "Chike4Governor!",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "afro",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#f4efe6",
+          "bottom": "#1d2433",
+          "body": "m",
+          "style": "casual2"
+        },
+        "votes": 127
+      },
+      {
+        "id": "290b8a504cc04aee8b93",
+        "username": "Hakimi",
+        "name": "Hakimi",
+        "slogan": "Billionaires club A.k.A Mr Barry",
+        "look": {
+          "skin": "#8d5a3b",
+          "hair": "afro",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#1d2433",
+          "bottom": "#1d2433",
+          "body": "m",
+          "style": "smart",
+          "shoes": "redSneakers",
+          "shoeColor": "#111111",
+          "bag": "goldClutch",
+          "bagColor": "#d4a93a",
+          "wear": {
+            "home": "tuxedo:#0d0d0d"
+          }
+        },
+        "votes": 116
+      },
+      {
+        "id": "43eb35ea2b7344e59fe9",
+        "username": "toxicjay",
+        "name": "Toxic Jay",
+        "slogan": "Make Lagos better for everyone",
+        "look": {
+          "skin": "#7a4a2c",
+          "hair": "braids",
+          "hairColor": "#15110e",
+          "outfit": "plain",
+          "top": "#0d0d0d",
+          "bottom": "#0d0d0d",
+          "body": "m",
+          "style": "smart",
+          "shoes": "suedeLoafers",
+          "shoeColor": "#111111"
+        },
+        "votes": 113
+      }
+    ]
+  }
+}

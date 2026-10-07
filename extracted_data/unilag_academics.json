@@ -1,0 +1,99 @@
+{
+  "acceptanceFee": 15000,
+  "allowance": 3000,
+  "minClassesRequired": 3,
+  "packOutDays": 7,
+  "schoolFees": 20000,
+  "semesterUnits": 18,
+  "cgpaGrades": {
+    "firstClass": "4.50 - 5.00 (+25% starting salary bonus, 'firstClass' prestige moodlet)",
+    "secondClassUpper": "3.50 - 4.49 (+10% starting salary bonus)",
+    "secondClassLower": "2.40 - 3.49 (Standard entry)",
+    "thirdClass": "1.50 - 2.39 (Employment penalty)",
+    "pass": "1.00 - 1.49"
+  },
+  "campusHostels": [
+    {
+      "name": "Moremi Hall",
+      "gender": "Female",
+      "rent": 15000,
+      "vibe": "Campus elite"
+    },
+    {
+      "name": "Jaja Hall",
+      "gender": "Male",
+      "rent": 12000,
+      "vibe": "Lively & chaotic"
+    },
+    {
+      "name": "Mariere Hall",
+      "gender": "Male",
+      "rent": 10000,
+      "vibe": "Budget friendly"
+    },
+    {
+      "name": "Madam Tinubu Hall",
+      "gender": "Female",
+      "rent": 14000,
+      "vibe": "Academic focus"
+    }
+  ],
+  "degrees": [
+    {
+      "dept": "Computer Science",
+      "faculty": "Science",
+      "tuition": 20000,
+      "acceptanceFee": 15000.0,
+      "careerBoost": "techBro / Software Engineer"
+    },
+    {
+      "dept": "Medicine & Surgery",
+      "faculty": "College of Medicine",
+      "tuition": 45000,
+      "acceptanceFee": 25000.0,
+      "careerBoost": "Doctor / Consultant"
+    },
+    {
+      "dept": "Law",
+      "faculty": "Law",
+      "tuition": 30000,
+      "acceptanceFee": 20000.0,
+      "careerBoost": "Lawyer / SAN / Magistrate"
+    },
+    {
+      "dept": "Accounting",
+      "faculty": "Management Sciences",
+      "tuition": 20000,
+      "acceptanceFee": 15000.0,
+      "careerBoost": "Investment Banker / Auditor"
+    },
+    {
+      "dept": "Economics",
+      "faculty": "Social Sciences",
+      "tuition": 20000,
+      "acceptanceFee": 15000.0,
+      "careerBoost": "Policy Analyst / Banker"
+    },
+    {
+      "dept": "Creative Arts / Music",
+      "faculty": "Arts",
+      "tuition": 18000,
+      "acceptanceFee": 12000.0,
+      "careerBoost": "Artist / Producer / DJ"
+    },
+    {
+      "dept": "Mass Communication",
+      "faculty": "Social Sciences",
+      "tuition": 20000,
+      "acceptanceFee": 15000.0,
+      "careerBoost": "Journalist / PR / Hype Man"
+    },
+    {
+      "dept": "Civil Engineering",
+      "faculty": "Engineering",
+      "tuition": 25000,
+      "acceptanceFee": 18000.0,
+      "careerBoost": "Site Engineer / Contractor"
+    }
+  ]
+}

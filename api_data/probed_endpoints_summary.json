@@ -1,0 +1,107 @@
+{
+  "/api/forbes": {
+    "status": 200,
+    "length": 15839,
+    "type": "application/json"
+  },
+  "/api/sponsors": {
+    "status": 200,
+    "length": 8998,
+    "type": "application/json"
+  },
+  "/api/players": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/jobs": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/politics/cabinet": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/politics/manager": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/campus": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/casino": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/bank": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/flights": {
+    "status": 200,
+    "length": 46,
+    "type": "application/json"
+  },
+  "/api/shop": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/food-gift": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/gist": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/music": {
+    "status": 200,
+    "length": 1345,
+    "type": "application/json"
+  },
+  "/api/music/slots": {
+    "status": 200,
+    "length": 1506,
+    "type": "application/json"
+  },
+  "/api/party": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/venue": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/world": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/squads": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/ask": {
+    "status": 405,
+    "error": "Method Not Allowed"
+  },
+  "/api/crime": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/court": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/my-ads": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/live": {
+    "status": 401,
+    "error": "Unauthorized"
+  },
+  "/api/room": {
+    "status": 401,
+    "error": "Unauthorized"
+  }
+}

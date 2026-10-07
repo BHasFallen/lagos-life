@@ -1,0 +1,228 @@
+{
+  "price": 500,
+  "days": 7,
+  "holds_count": 149,
+  "ads_count": 595,
+  "ads": [
+    {
+      "id": "24a2950d59684629bff5",
+      "x": 17,
+      "y": 80,
+      "w": 7,
+      "h": 7,
+      "title": "Know your worth by Salary Index",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/sea/24a2950d59684629bff5/image?v=2",
+      "endsAt": 1793449340832
+    },
+    {
+      "id": "7d5e2c2f92cc43ba9c7e",
+      "x": 12,
+      "y": 81,
+      "w": 3,
+      "h": 3,
+      "title": "ROAM CO. GO KART RACING EVENT",
+      "link": "https://www.tiktok.com/@roamers_connect?_r=1&_t=ZS-9ABuB37sO6D",
+      "image": "/api/sea/7d5e2c2f92cc43ba9c7e/image?v=0",
+      "endsAt": 1793450801861
+    },
+    {
+      "id": "e6ff19782f5e4fc09bd0",
+      "x": 22,
+      "y": 92,
+      "w": 2,
+      "h": 2,
+      "title": "Salem for Lagos State Governor",
+      "link": "https://x.com/justt_salem?s=11",
+      "image": "/api/sea/e6ff19782f5e4fc09bd0/image?v=0",
+      "endsAt": 1793452213027
+    },
+    {
+      "id": "8e836f6bab7d473ab9cc",
+      "x": 27,
+      "y": 93,
+      "w": 2,
+      "h": 2,
+      "title": "Event and Community TOol",
+      "link": "https://usebyro.com/",
+      "image": "/api/sea/8e836f6bab7d473ab9cc/image?v=2",
+      "endsAt": 1793455277378
+    },
+    {
+      "id": "13335854f9fd4b1cbd7b",
+      "x": 0,
+      "y": 100,
+      "w": 4,
+      "h": 4,
+      "title": "Live catfish,Smoked catfish,Plantain etc",
+      "link": "https://wa.link/seezru",
+      "image": "/api/sea/13335854f9fd4b1cbd7b/image?v=0",
+      "endsAt": 1793462235135
+    },
+    {
+      "id": "ec6618aab42b4a389842",
+      "x": 5,
+      "y": 89,
+      "w": 6,
+      "h": 3,
+      "title": "\u2728\ufe0fTimeless jewelries and accessories",
+      "link": "https://www.tiktok.com/@theofficialyellowjerry",
+      "image": "/api/sea/ec6618aab42b4a389842/image?v=1",
+      "endsAt": 1793462227217
+    },
+    {
+      "id": "c051033cce3041c2a498",
+      "x": 27,
+      "y": 81,
+      "w": 12,
+      "h": 12,
+      "title": "PlotWeaver",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/sea/c051033cce3041c2a498/image?v=1",
+      "endsAt": 1793466367537
+    },
+    {
+      "id": "94ae81ca39334b4ba55e",
+      "x": 39,
+      "y": 85,
+      "w": 12,
+      "h": 12,
+      "title": "PlotWeaver",
+      "link": "https://www.plotweaver.app/",
+      "image": "/api/sea/94ae81ca39334b4ba55e/image?v=1",
+      "endsAt": 1793466375722
+    },
+    {
+      "id": "1079adc62de544c081c0",
+      "x": 43,
+      "y": 78,
+      "w": 6,
+      "h": 5,
+      "title": "Digital NFC Business Cards",
+      "link": "https://www.instagram.com/tapeett.hq",
+      "image": "/api/sea/1079adc62de544c081c0/image?v=1",
+      "endsAt": 1793467113947
+    },
+    {
+      "id": "2f066b8be14347779708",
+      "x": 14,
+      "y": 96,
+      "w": 2,
+      "h": 2,
+      "title": "Vendora Inventory Management App",
+      "link": "https://www.vendora.click/",
+      "image": "/api/sea/2f066b8be14347779708/image?v=3",
+      "endsAt": 1793468619224
+    },
+    {
+      "id": "19e27b381a4347db8a6e",
+      "x": 16,
+      "y": 94,
+      "w": 11,
+      "h": 10,
+      "title": "Find out if you're underpaid",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/sea/19e27b381a4347db8a6e/image?v=3",
+      "endsAt": 1793471964672
+    },
+    {
+      "id": "30f739e87b7f4f73a69d",
+      "x": 39,
+      "y": 97,
+      "w": 12,
+      "h": 7,
+      "title": "Know what you should be getting paid",
+      "link": "https://salaryindex.ng/worth",
+      "image": "/api/sea/30f739e87b7f4f73a69d/image?v=1",
+      "endsAt": 1793472780514
+    },
+    {
+      "id": "c9c113bcadc64173a524",
+      "x": 1,
+      "y": 61,
+      "w": 9,
+      "h": 9,
+      "title": "Leadway Lifestyle Fair",
+      "link": "https://tix.africa/discover/leadwaylifestylefair",
+      "image": "/api/sea/c9c113bcadc64173a524/image?v=0",
+      "endsAt": 1793474550261
+    },
+    {
+      "id": "00b5ffe8cc8d43a28bee",
+      "x": 150,
+      "y": 69,
+      "w": 12,
+      "h": 11,
+      "title": "CARS\u2026 Import, Buy, Sell, Swap",
+      "link": "https://tiktok.com/@provi_autos_ventures",
+      "image": "/api/sea/00b5ffe8cc8d43a28bee/image?v=0",
+      "endsAt": 1791722817468
+    },
+    {
+      "id": "2d3ab75e4eea4511ae98",
+      "x": 2,
+      "y": 57,
+      "w": 2,
+      "h": 2,
+      "title": "A rave",
+      "link": "https://novaplur.com/",
+      "image": "/api/sea/2d3ab75e4eea4511ae98/image?v=0",
+      "endsAt": 1793475967018
+    },
+    {
+      "id": "33a73dd98b0f45a4b33c",
+      "x": 0,
+      "y": 70,
+      "w": 12,
+      "h": 8,
+      "title": "Social media audit",
+      "link": "https://x.com/_geenha_?s=11",
+      "image": "/api/sea/33a73dd98b0f45a4b33c/image?v=0",
+      "endsAt": 1793476032784
+    },
+    {
+      "id": "feb96f8673c241f8b9ca",
+      "x": 1,
+      "y": 94,
+      "w": 6,
+      "h": 6,
+      "title": "Chris Autos",
+      "link": "https://www.instagram.com/chrisafricanltd?stkn=aTZxcHh3Zm92aXFn",
+      "image": "/api/sea/feb96f8673c241f8b9ca/image?v=1",
+      "endsAt": 1793479193658
+    },
+    {
+      "id": "071cfd64f2b34c79b6cc",
+      "x": 3,
+      "y": 85,
+      "w": 2,
+      "h": 2,
+      "title": "Builtrly - Create your online store",
+      "link": "https://builtrly.app/?utm_source=lagos_life",
+      "image": "/api/sea/071cfd64f2b34c79b6cc/image?v=0",
+      "endsAt": 1793480701276
+    },
+    {
+      "id": "8d7c1658400b4208a23a",
+      "x": 33,
+      "y": 78,
+      "w": 3,
+      "h": 3,
+      "title": "Web development Bootcamp",
+      "link": "https://forms.gle/pELaWoCtHuEy6d1A8",
+      "image": "/api/sea/8d7c1658400b4208a23a/image?v=0",
+      "endsAt": 1793481212552
+    },
+    {
+      "id": "0c48d65aa95b4278b243",
+      "x": 23,
+      "y": 90,
+      "w": 1,
+      "h": 1,
+      "title": "UNIQUE FOOTIES",
+      "link": "https://wa.me/message/GN2GC4BX65DJE1",
+      "image": "/api/sea/0c48d65aa95b4278b243/image?v=0",
+      "endsAt": 1793484950266
+    }
+  ]
+}

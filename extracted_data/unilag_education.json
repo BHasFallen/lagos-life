@@ -1,0 +1,41 @@
+{
+  "university": "University of Lagos (UNILAG)",
+  "location": "Akoka, Yaba, Lagos",
+  "faculties": [
+    "Faculty of Law",
+    "Faculty of Engineering",
+    "College of Medicine",
+    "Faculty of Business Administration",
+    "Faculty of Arts",
+    "Faculty of Science",
+    "Faculty of Social Sciences"
+  ],
+  "grading_tiers": {
+    "first_class": {
+      "label": "First Class Honours",
+      "bonus_pay": 0.2,
+      "emoji": "\ud83e\udd47"
+    },
+    "second_upper": {
+      "label": "Second Class Upper (2:1)",
+      "bonus_pay": 0.12,
+      "emoji": "\ud83e\udd48"
+    },
+    "second_lower": {
+      "label": "Second Class Lower (2:2)",
+      "bonus_pay": 0.06,
+      "emoji": "\ud83e\udd49"
+    },
+    "third_class": {
+      "label": "Third Class",
+      "bonus_pay": 0.03,
+      "emoji": "\ud83c\udf93"
+    }
+  },
+  "asuu_strike_mechanic": "Periodic Academic Staff Union of Universities (ASUU) strikes halt classes, examinations, and graduations until negotiations conclude.",
+  "hostel_living": {
+    "name": "UNILAG Hall of Residence",
+    "weekly_rent": 1200,
+    "culture": "Bunk space, reading desks, kerosene stove cooking, hall gossips, water bucket lines"
+  }
+}

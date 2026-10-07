@@ -1,0 +1,67 @@
+{
+  "cities": {
+    "lagos": {
+      "name": "Lagos",
+      "state": "Lagos State",
+      "type": "Metropolis & Port",
+      "hub": "Eko Hotels & MMIA"
+    },
+    "abuja": {
+      "name": "Abuja",
+      "state": "Federal Capital Territory",
+      "type": "Federal Capital",
+      "hub": "Nnamdi Azikiwe Airport"
+    },
+    "ph": {
+      "name": "Port Harcourt",
+      "state": "Rivers State",
+      "type": "Garden City / Oil Hub",
+      "hub": "Port Harcourt International Airport"
+    }
+  },
+  "transit_modes": [
+    {
+      "mode": "Danfo",
+      "cost": 500,
+      "speed": "Medium",
+      "vibe": "Conductor calling stops, yellow bus hustle"
+    },
+    {
+      "mode": "BRT Bus",
+      "cost": 800,
+      "speed": "Fast (dedicated lane)",
+      "vibe": "Organized transit, card tap"
+    },
+    {
+      "mode": "Private Car (Sedan / SUV / Prado)",
+      "cost": "Fuel",
+      "speed": "Variable with Lagos traffic",
+      "status": "Personal comfort"
+    },
+    {
+      "mode": "Water Ferry / Boat Cruise",
+      "cost": 2500,
+      "speed": "Very fast",
+      "route": "Lagoon bypass around Third Mainland Bridge traffic"
+    },
+    {
+      "mode": "GIG Night Bus",
+      "fare": 25000,
+      "duration_hours": 3,
+      "destinations": [
+        "Lagos <-> Abuja",
+        "Lagos <-> Port Harcourt"
+      ]
+    },
+    {
+      "mode": "Air Peace Flight",
+      "fare": 90000,
+      "duration_hours": 1,
+      "staff_discount": 0.5,
+      "destinations": [
+        "Lagos <-> Abuja",
+        "Lagos <-> Port Harcourt"
+      ]
+    }
+  ]
+}

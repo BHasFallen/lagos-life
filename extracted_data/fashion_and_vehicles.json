@@ -1,0 +1,167 @@
+{
+  "vehicles": [
+    {
+      "id": "danfo",
+      "name": "Commercial Yellow Danfo Bus",
+      "price": 3200000,
+      "type": "commercial",
+      "speed": 65,
+      "fuelKm": 12
+    },
+    {
+      "id": "keke",
+      "name": "Tricycle Keke Napep",
+      "price": 1400000,
+      "type": "commercial",
+      "speed": 45,
+      "fuelKm": 6
+    },
+    {
+      "id": "corolla",
+      "name": "Toyota Corolla 'Muscle'",
+      "price": 5500000,
+      "type": "sedan",
+      "speed": 110,
+      "fuelKm": 10
+    },
+    {
+      "id": "camry",
+      "name": "Toyota Camry 'Spider'",
+      "price": 4800000,
+      "type": "sedan",
+      "speed": 105,
+      "fuelKm": 10
+    },
+    {
+      "id": "prado",
+      "name": "Toyota Land Cruiser Prado TXL",
+      "price": 45000000,
+      "type": "suv",
+      "speed": 140,
+      "fuelKm": 16
+    },
+    {
+      "id": "gWagon",
+      "name": "Mercedes-AMG G63 G-Wagon",
+      "price": 180000000,
+      "type": "luxurySuv",
+      "speed": 180,
+      "prestige": "Billionaire"
+    },
+    {
+      "id": "chiron",
+      "name": "Bugatti Chiron Super Sport",
+      "price": 2500000000,
+      "type": "hypercar",
+      "speed": 350,
+      "prestige": "Oligarch"
+    },
+    {
+      "id": "noire",
+      "name": "Bugatti La Voiture Noire",
+      "price": 8500000000,
+      "type": "hypercar",
+      "speed": 380,
+      "prestige": "Unique"
+    },
+    {
+      "id": "privateJetMid",
+      "name": "Bombardier Challenger 350 Private Jet",
+      "price": 12000000000,
+      "type": "aviation",
+      "hangar": "LOS VIP"
+    },
+    {
+      "id": "privateJetLarge",
+      "name": "Gulfstream G700 Ultra-Long Jet",
+      "price": 35000000000,
+      "type": "aviation",
+      "hangar": "LOS VIP"
+    }
+  ],
+  "fashion": {
+    "fits": [
+      {
+        "id": "ankara",
+        "name": "Traditional Tailored Ankara",
+        "prestige": "Cultural Classic"
+      },
+      {
+        "id": "adire",
+        "name": "Hand-Dyed Abeokuta Adire",
+        "prestige": "Artisanal Chic"
+      },
+      {
+        "id": "asooke",
+        "name": "Handwoven Metallic Aso-Oke Agbada",
+        "prestige": "High Society / Owambe"
+      },
+      {
+        "id": "designerTracksuit",
+        "name": "Imported Designer Silk Tracksuit",
+        "prestige": "Island Streetwear"
+      },
+      {
+        "id": "eveningGown",
+        "name": "Velvet Silhouette Evening Gown",
+        "prestige": "Gala / Red Carpet"
+      }
+    ],
+    "shoes": [
+      {
+        "id": "slides",
+        "name": "Leather Island Slides",
+        "comfort": 90
+      },
+      {
+        "id": "whiteSneakers",
+        "name": "Classic White Designer Sneakers",
+        "comfort": 85
+      },
+      {
+        "id": "pinkHeels",
+        "name": "Stiletto High Heels",
+        "comfort": 40,
+        "prestige": 80
+      },
+      {
+        "id": "crystalHeels",
+        "name": "Diamond Crystal Encrusted Heels",
+        "comfort": 35,
+        "prestige": 100
+      },
+      {
+        "id": "tanLoafers",
+        "name": "Italian Handcrafted Tan Loafers",
+        "comfort": 75,
+        "prestige": 90
+      }
+    ],
+    "wigs": [
+      {
+        "id": "bonestraight",
+        "name": "30-inch Raw Vietnamese Bone Straight",
+        "price": 650000,
+        "status": "Island Baddie"
+      },
+      {
+        "id": "braids",
+        "name": "Goddess Knotless Box Braids",
+        "price": 45000,
+        "status": "Everyday Chic"
+      },
+      {
+        "id": "curly",
+        "name": "Deep Wave Burmese Curly Unit",
+        "price": 420000,
+        "status": "Glamour"
+      },
+      {
+        "id": "bob",
+        "name": "Blonde Blunt Cut Bob",
+        "price": 280000,
+        "status": "Corporate Power"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1039 @@
+{
+  "at": 1791365018298,
+  "total": 61888,
+  "top": [
+    {
+      "rank": 1,
+      "id": "4dde05d13789490ca37c",
+      "username": "ObaOfLagos",
+      "name": "Oba \ud83d\udc51",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 5000000000,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 2,
+      "id": "e46cfb0abd354d338189",
+      "username": "tinuke101",
+      "name": "Tinuke",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#c68a62",
+        "hair": "afro",
+        "hairColor": "#6b1424",
+        "outfit": "asooke",
+        "top": "#8b5cf6",
+        "bottom": "#1d2433",
+        "shoes": "patentBlack",
+        "shoeColor": "#0d0d0d",
+        "bag": "birkin",
+        "bagColor": "#e8721c"
+      },
+      "netWorth": 5000000000,
+      "home": "bananaIsland",
+      "job": "doctor"
+    },
+    {
+      "rank": 3,
+      "id": "0ec47228dfd6430e9c54",
+      "username": "papi_K",
+      "name": "Papi Whales",
+      "look": null,
+      "netWorth": 4999999999,
+      "home": "lekki",
+      "job": null
+    },
+    {
+      "rank": 4,
+      "id": "1d1761de538046769c63",
+      "username": "simdino",
+      "name": "Simdi williams",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#c68a62",
+        "hair": "locs",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#0d0d0d",
+        "bottom": "#0d0d0d"
+      },
+      "netWorth": 4999982832,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 5,
+      "id": "2a6eea6a1cce491982ea",
+      "username": "septorch",
+      "name": "septorch",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4999979684,
+      "home": "bananaIsland",
+      "job": null
+    },
+    {
+      "rank": 6,
+      "id": "dd707a7c8efd4807bb4d",
+      "username": "kism37",
+      "name": "Your boo",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "asooke",
+        "top": "#8b5cf6",
+        "bottom": "#1d2433",
+        "shoes": "redSneakers",
+        "shoeColor": "#7c3aed"
+      },
+      "netWorth": 4999840744,
+      "home": "lekki",
+      "job": "banking"
+    },
+    {
+      "rank": 7,
+      "id": "6fc5d7511e474963b9c5",
+      "username": "Marvelous868",
+      "name": "NOJOYOHH \ud83c\udf39",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#6b2f8c",
+        "outfit": "plain",
+        "top": "#f59e42",
+        "bottom": "#2f4a7a",
+        "shoes": "redSneakers",
+        "shoeColor": "#1f3b8f"
+      },
+      "netWorth": 4999408796,
+      "home": "bananaIsland",
+      "job": "doctor"
+    },
+    {
+      "rank": 8,
+      "id": "41a00ef1ea8f4bed9969",
+      "username": "kenzy02",
+      "name": "Kenny black",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#8b5cf6",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4999062132,
+      "home": "ikoyi",
+      "job": "tech"
+    },
+    {
+      "rank": 9,
+      "id": "0c0a8c12a1a5437db1fb",
+      "username": "urgurll_kosi",
+      "name": "K\u00f5si",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#c68a62",
+        "hair": "braids",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#ec4899",
+        "bottom": "#ec4899"
+      },
+      "netWorth": 4999029194,
+      "home": "ikoyi",
+      "job": "banking"
+    },
+    {
+      "rank": 10,
+      "id": "f2f81bdbb6884fd6a28b",
+      "username": "ayomide_leo",
+      "name": "Ayomide Sulaiman",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#a5652d",
+        "outfit": "plain",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4998835676,
+      "home": "bananaIsland",
+      "job": null
+    },
+    {
+      "rank": 11,
+      "id": "bbc058200fb64f13a95b",
+      "username": "spincy211",
+      "name": "Olatunji",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#7a4a2c",
+        "hair": "braids",
+        "hairColor": "#2e1f16",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4998673493,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 12,
+      "id": "4097e79ed58a4884ae3e",
+      "username": "niyix",
+      "name": "Niyix log",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#7a4a2c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#1d2433",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4998307000,
+      "home": "yaba",
+      "job": "tech"
+    },
+    {
+      "rank": 13,
+      "id": "81f45c4b73004d0caae6",
+      "username": "cah_meh_savage",
+      "name": "Udom treasure",
+      "look": {
+        "body": "f",
+        "style": "smart",
+        "skin": "#c68a62",
+        "hair": "bob",
+        "hairColor": "#141414",
+        "outfit": "plain",
+        "top": "#f4a6c0",
+        "bottom": "#2f4a7a",
+        "bag": "pinkMini",
+        "bagColor": "#111111",
+        "wear": {
+          "date": "cropJeans:#f4a6c0"
+        }
+      },
+      "netWorth": 4997995951,
+      "home": "phOldGra",
+      "job": "doctor"
+    },
+    {
+      "rank": 14,
+      "id": "cb84fab67b6a4d978315",
+      "username": "king_iyinoluwa",
+      "name": "Praise",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#7a4a2c",
+        "hair": "fringe",
+        "hairColor": "#e7c9a0",
+        "outfit": "ankara",
+        "top": "#c8102e",
+        "bottom": "#c8102e",
+        "shoes": "whiteSneakers",
+        "shoeColor": "#f4f4f2",
+        "bag": "pinkMini",
+        "bagColor": "#f4f4f2"
+      },
+      "netWorth": 4997990253,
+      "home": "bananaIsland",
+      "job": "product"
+    },
+    {
+      "rank": 15,
+      "id": "e644e055249042a9aa0d",
+      "username": "charmy5",
+      "name": "Charmy",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#2f7de1",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4997869751,
+      "home": "ikoyi",
+      "job": "banking"
+    },
+    {
+      "rank": 16,
+      "id": "ae570463408747539988",
+      "username": "wil_son01",
+      "name": "\u0175\u0129\u0142\u015f\u00f8\u00f1",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "locs",
+        "hairColor": "#15110e",
+        "outfit": "adire",
+        "top": "#1f3b8f",
+        "bottom": "#1f3b8f",
+        "shoes": "whiteSneakers",
+        "shoeColor": "#f4f4f2"
+      },
+      "netWorth": 4997359006,
+      "home": "bananaIsland",
+      "job": "product"
+    },
+    {
+      "rank": 17,
+      "id": "ed0bb62692b1400b805a",
+      "username": "np187",
+      "name": "N",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#7a4a2c",
+        "hair": "braids",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4996918027,
+      "home": "lekki",
+      "job": "music"
+    },
+    {
+      "rank": 18,
+      "id": "b759d894da5044028155",
+      "username": "AydnSales",
+      "name": "Treasure",
+      "look": {
+        "body": "m",
+        "style": "party",
+        "skin": "#7a4a2c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4996731841,
+      "home": "yaba",
+      "job": null
+    },
+    {
+      "rank": 19,
+      "id": "764a574ef8584e15bcf1",
+      "username": "preyexo21",
+      "name": "Preyexo",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4996153842,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 20,
+      "id": "a7cc66401c6140cfb7e8",
+      "username": "Elohooho",
+      "name": "Eloho",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#2f7de1",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4995987804,
+      "home": "bananaIsland",
+      "job": "tech"
+    },
+    {
+      "rank": 21,
+      "id": "02da0494265241db8ff2",
+      "username": "nastyemmyness",
+      "name": "EmmyNess",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#8d5a3b",
+        "hair": "default",
+        "hairColor": "#4a2f1f",
+        "outfit": "adire",
+        "top": "#1f3b8f",
+        "bottom": "#1f3b8f"
+      },
+      "netWorth": 4995797844,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 22,
+      "id": "7c1daaa9d95b4f34b7e8",
+      "username": "debby_chris11",
+      "name": "Debby Christopher",
+      "look": {
+        "body": "f",
+        "style": "street",
+        "skin": "#7a4a2c",
+        "hair": "braids",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#c8102e",
+        "bottom": "#1f1f1f",
+        "shoes": "pinkHeels",
+        "shoeColor": "#111111"
+      },
+      "netWorth": 4995646246,
+      "home": "ikoyi",
+      "job": "banking"
+    },
+    {
+      "rank": 23,
+      "id": "4871cd0759f543dfbbd0",
+      "username": "pw4gur1",
+      "name": "Pwaguri Vunobolki",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#2f7de1",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4995310249,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 24,
+      "id": "b29df01ce28948aaa81e",
+      "username": "skipperrr001",
+      "name": "Aliyu Kabiru",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#c68a62",
+        "hair": "afro",
+        "hairColor": "#7a4a2a",
+        "outfit": "plain",
+        "top": "#f4f4f2",
+        "bottom": "#2f4a7a",
+        "shoes": "whiteSneakers",
+        "shoeColor": "#f4f4f2"
+      },
+      "netWorth": 4995296287,
+      "home": "abjAsokoro",
+      "job": null
+    },
+    {
+      "rank": 25,
+      "id": "c905fc8c99ac48f982b1",
+      "username": "harrisonop_0",
+      "name": "Harrison",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#0d0d0d",
+        "bottom": "#0d0d0d",
+        "wear": {
+          "party": "tuxedo:#0d0d0d"
+        }
+      },
+      "netWorth": 4995114770,
+      "home": "abjAsokoro",
+      "job": "civilService"
+    },
+    {
+      "rank": 26,
+      "id": "d335427fe34b4311a878",
+      "username": "Onyi_love",
+      "name": "Samson Gift",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#a86f4c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "jersey",
+        "top": "#1f8a4c",
+        "bottom": "#f4efe6",
+        "bag": "toteBlack",
+        "bagColor": "#1f1f1f",
+        "shoes": "goldHeels",
+        "shoeColor": "#d4a93a",
+        "wear": {
+          "date": "streetwear:#c8102e",
+          "home": "designerTracksuit:#111111"
+        }
+      },
+      "netWorth": 4995034983,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 27,
+      "id": "dcdf149656d84ae68c41",
+      "username": "emini_naka",
+      "name": "Ikebe 3000",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#51301d",
+        "hair": "short",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#0d0d0d",
+        "bottom": "#0d0d0d",
+        "wear": {
+          "home": "suit:#1d2433",
+          "party": "designerTracksuit:#111111"
+        }
+      },
+      "netWorth": 4995010257,
+      "home": "lekki",
+      "job": "banking"
+    },
+    {
+      "rank": 28,
+      "id": "2e6cd1d5a2164e11a7e7",
+      "username": "Mayana_Dc",
+      "name": "Adebowale",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#8d5a3b",
+        "hair": "short",
+        "hairColor": "#c9a26b",
+        "outfit": "plain",
+        "top": "#1d2433",
+        "bottom": "#f4efe6"
+      },
+      "netWorth": 4994441962,
+      "home": "ikoyi",
+      "job": "tech"
+    },
+    {
+      "rank": 29,
+      "id": "8d7f82bd50ba48eda150",
+      "username": "hey_zhed",
+      "name": "Heyzhed",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#a86f4c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#e5484d",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4993750600,
+      "home": "lekki",
+      "job": "banking"
+    },
+    {
+      "rank": 30,
+      "id": "0757e37deba044dea879",
+      "username": "sammjr",
+      "name": "ABUBAKAR ABDULSAMAD",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#c68a62",
+        "hair": "braids",
+        "hairColor": "#a5652d",
+        "outfit": "plain",
+        "top": "#1d2433",
+        "bottom": "#2f4a7a",
+        "shoes": "whiteSneakers",
+        "shoeColor": "#1f3b8f"
+      },
+      "netWorth": 4993278726,
+      "home": "bananaIsland",
+      "job": "doctor"
+    },
+    {
+      "rank": 31,
+      "id": "5521ce79f55b4ce68cd5",
+      "username": "thatmffrommars",
+      "name": "Cornelius Andrea Ebadan",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#7a4a2c",
+        "hair": "braids",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433",
+        "shoes": "whiteSneakers",
+        "shoeColor": "#f4f4f2",
+        "wear": {
+          "work": "suit:#f4efe6",
+          "home": "hoodieJeans:#f4f4f2",
+          "party": "suit:#0f2557"
+        }
+      },
+      "netWorth": 4993197881,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 32,
+      "id": "21dc41bc7dbc4db4a019",
+      "username": "simmy",
+      "name": "Simmy",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#c8102e",
+        "bottom": "#2f4a7a",
+        "shoes": "redSneakers",
+        "shoeColor": "#111111"
+      },
+      "netWorth": 4993157630,
+      "home": "bananaIsland",
+      "job": "doctor"
+    },
+    {
+      "rank": 33,
+      "id": "b8c92b2645b44c1087f9",
+      "username": "bigevil",
+      "name": "Big evil",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "default",
+        "hairColor": "#7a4a2a",
+        "outfit": "plain",
+        "top": "#f4f4f2",
+        "bottom": "#2f4a7a",
+        "shoes": "redSneakers",
+        "shoeColor": "#c8102e",
+        "bag": "birkin",
+        "bagColor": "#e8721c"
+      },
+      "netWorth": 4992878935,
+      "home": "bananaIsland",
+      "job": "aviation"
+    },
+    {
+      "rank": 34,
+      "id": "3e20eea76e99431e8349",
+      "username": "Amalachimiaa",
+      "name": "Nothando",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#a86f4c",
+        "hair": "braids",
+        "hairColor": "#4a2f1f",
+        "outfit": "asooke",
+        "top": "#ec4899",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4992675983,
+      "home": "bananaIsland",
+      "job": "product"
+    },
+    {
+      "rank": 35,
+      "id": "e601a8861a45408d8e5d",
+      "username": "saboh",
+      "name": "Abba Sabo",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#c68a62",
+        "hair": "lowcut",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f4efe6",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4992301750,
+      "home": "abjGwarinpa",
+      "job": "abjKeke"
+    },
+    {
+      "rank": 36,
+      "id": "577d2fe2c5504f969c87",
+      "username": "Ellie_baebi",
+      "name": "Barbie",
+      "look": {
+        "skin": "#c68a62",
+        "hair": "long",
+        "hairColor": "#b5501f",
+        "outfit": "plain",
+        "top": "#111111",
+        "bottom": "#111111",
+        "body": "f",
+        "style": "street",
+        "shoes": "pinkHeels",
+        "shoeColor": "#c9a27a",
+        "bag": "greenCroc",
+        "bagColor": "#c9a27a",
+        "wear": {
+          "date": "designerTracksuit:#111111"
+        }
+      },
+      "netWorth": 4992142187,
+      "home": "yaba",
+      "job": "nurse"
+    },
+    {
+      "rank": 37,
+      "id": "43bcb9b967dc4d678350",
+      "username": "Diana_ab",
+      "name": "Diana \ud83d\udc8b",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "curly",
+        "hairColor": "#6b1424",
+        "outfit": "plain",
+        "top": "#1f3b8f",
+        "bottom": "#1f3b8f"
+      },
+      "netWorth": 4991724124,
+      "home": "lekki",
+      "job": "banking"
+    },
+    {
+      "rank": 38,
+      "id": "c7e72ccbe6e0496b9844",
+      "username": "frenzy_01",
+      "name": "Franklin",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#7a4a2c",
+        "hair": "braids",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#f4f4f2",
+        "bottom": "#0d0d0d",
+        "bag": "duffel",
+        "bagColor": "#8b5a2b",
+        "shoes": "suedeLoafers",
+        "shoeColor": "#1f3b8f"
+      },
+      "netWorth": 4991515384,
+      "home": "bananaIsland",
+      "job": "lawyer"
+    },
+    {
+      "rank": 39,
+      "id": "8d8962266aa44f9d893e",
+      "username": "ellababy114",
+      "name": "Tina",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#c68a62",
+        "hair": "curly",
+        "hairColor": "#db2777",
+        "outfit": "ankara",
+        "top": "#2f7de1",
+        "bottom": "#14b8a6"
+      },
+      "netWorth": 4991288315,
+      "home": "bananaIsland",
+      "job": "nurse"
+    },
+    {
+      "rank": 40,
+      "id": "5bdec4c996c8467489e4",
+      "username": "Denir01",
+      "name": "Adeoye Michael",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#c68a62",
+        "hair": "short",
+        "hairColor": "#15110e",
+        "outfit": "adire",
+        "top": "#e5484d",
+        "bottom": "#f59e42"
+      },
+      "netWorth": 4991270387,
+      "home": "bananaIsland",
+      "job": "refinery"
+    },
+    {
+      "rank": 41,
+      "id": "b2f4d4a4dfc4469e8a08",
+      "username": "KOREDE19",
+      "name": "Koreded",
+      "look": {
+        "body": "f",
+        "style": "street",
+        "skin": "#7a4a2c",
+        "hair": "bonestraight",
+        "hairColor": "#101010",
+        "outfit": "plain",
+        "top": "#c8102e",
+        "bottom": "#1f1f1f",
+        "bag": "goldClutch",
+        "bagColor": "#d4a93a",
+        "shoes": "redSneakers",
+        "shoeColor": "#c8102e",
+        "wear": {
+          "date": "eveningGown:#c8102e",
+          "party": "designerTracksuit:#111111",
+          "home": "cropJeans:#f4a6c0",
+          "work": "suit:#1d2433"
+        }
+      },
+      "netWorth": 4991130082,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 42,
+      "id": "ecd24d1f30b14c2bbc47",
+      "username": "Brighte",
+      "name": "King bright",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#c68a62",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "plain",
+        "top": "#c8102e",
+        "bottom": "#2f4a7a",
+        "shoes": "redSneakers",
+        "shoeColor": "#c8102e"
+      },
+      "netWorth": 4990844691,
+      "home": "yaba",
+      "job": "banking"
+    },
+    {
+      "rank": 43,
+      "id": "9f6e1c9f65854d58b60d",
+      "username": "Sammypoland",
+      "name": "Sammy of poland",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#c68a62",
+        "hair": "braids",
+        "hairColor": "#101010",
+        "outfit": "asooke",
+        "top": "#8b5cf6",
+        "bottom": "#0d0d0d",
+        "shoes": "redSneakers",
+        "shoeColor": "#c8102e",
+        "bag": "messenger",
+        "bagColor": "#3b2314"
+      },
+      "netWorth": 4990774558,
+      "home": "bananaIsland",
+      "job": "aviation"
+    },
+    {
+      "rank": 44,
+      "id": "78f1e42a52f94df9bb67",
+      "username": "davidobo699",
+      "name": "David Molar",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#a86f4c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#8b5cf6"
+      },
+      "netWorth": 4990657267,
+      "home": "lekki",
+      "job": null
+    },
+    {
+      "rank": 45,
+      "id": "52b271c940a04b02856e",
+      "username": "feranmioye",
+      "name": "Feranmi Oyelaja",
+      "look": {
+        "body": "m",
+        "style": "smart",
+        "skin": "#8d5a3b",
+        "hair": "bald",
+        "hairColor": "#4a2f1f",
+        "outfit": "asooke",
+        "top": "#22b573",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4990228330,
+      "home": "bananaIsland",
+      "job": "banking"
+    },
+    {
+      "rank": 46,
+      "id": "075431478cc94408990f",
+      "username": "desti898",
+      "name": "Desty",
+      "look": {
+        "body": "m",
+        "style": "casual",
+        "skin": "#7a4a2c",
+        "hair": "afro",
+        "hairColor": "#15110e",
+        "outfit": "ankara",
+        "top": "#f59e42",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4990015380,
+      "home": "yaba",
+      "job": null
+    },
+    {
+      "rank": 47,
+      "id": "e718ce752530430494d5",
+      "username": "dian2",
+      "name": "Krystal",
+      "look": {
+        "body": "f",
+        "style": "casual",
+        "skin": "#c68a62",
+        "hair": "braids",
+        "hairColor": "#7a4a2a",
+        "outfit": "ankara",
+        "top": "#ec4899",
+        "bottom": "#f4efe6"
+      },
+      "netWorth": 4989695390,
+      "home": "mushin",
+      "job": "banking"
+    },
+    {
+      "rank": 48,
+      "id": "ba16af389d4d47e38b63",
+      "username": "Emillian",
+      "name": "Emillian",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#c68a62",
+        "hair": "braids",
+        "hairColor": "#a5652d",
+        "outfit": "ankara",
+        "top": "#ec4899",
+        "bottom": "#ec4899"
+      },
+      "netWorth": 4989423264,
+      "home": "bananaIsland",
+      "job": "nurse"
+    },
+    {
+      "rank": 49,
+      "id": "fa8819b98b444c47986b",
+      "username": "HarryXXX",
+      "name": "Harry XXX",
+      "look": {
+        "body": "f",
+        "style": "party",
+        "skin": "#7a4a2c",
+        "hair": "bonestraight",
+        "hairColor": "#101010",
+        "outfit": "plain",
+        "top": "#c8102e",
+        "bottom": "#c8102e",
+        "bag": "diamondBag",
+        "bagColor": "#f4f4f2",
+        "shoes": "crystalHeels",
+        "shoeColor": "#e8eefc",
+        "wear": {
+          "date": "eveningGown:#c8102e",
+          "gym": "cropJeans:#f4a6c0",
+          "party": "designerTracksuit:#111111",
+          "sleep": "streetwear:#c8102e",
+          "home": "suit:#1d2433"
+        }
+      },
+      "netWorth": 4989224409,
+      "home": "yaba",
+      "job": "banking"
+    },
+    {
+      "rank": 50,
+      "id": "b9de32e9d3054c9697f2",
+      "username": "rowyal_dave",
+      "name": "King David",
+      "look": {
+        "body": "m",
+        "style": "casual2",
+        "skin": "#7a4a2c",
+        "hair": "default",
+        "hairColor": "#15110e",
+        "outfit": "adire",
+        "top": "#e5484d",
+        "bottom": "#1d2433"
+      },
+      "netWorth": 4989001687,
+      "home": "bananaIsland",
+      "job": "product"
+    }
+  ],
+  "mine": null
+}

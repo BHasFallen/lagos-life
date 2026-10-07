@@ -1,0 +1,95 @@
+{
+  "systemDescription": "Comprehensive catalog of passive businesses, commercial investments, land plots, and casino mechanics.",
+  "businesses": [
+    {
+      "id": "clubShare",
+      "name": "Nightclub Ownership Share",
+      "cost": 50000000,
+      "dailyYield": 868000,
+      "category": "Nightlife"
+    },
+    {
+      "id": "eventCentre",
+      "name": "Victoria Island Event Centre",
+      "cost": 35000000,
+      "dailyYield": 578000,
+      "category": "Hospitality"
+    },
+    {
+      "id": "haulage",
+      "name": "Interstate Logistics & Haulage",
+      "cost": 15000000,
+      "dailyYield": 230000,
+      "category": "Logistics"
+    },
+    {
+      "id": "carwash",
+      "name": "Automated Lekki Car Wash",
+      "cost": 8000000,
+      "dailyYield": 128000,
+      "category": "Automotive"
+    },
+    {
+      "id": "buka",
+      "name": "Mama Put Buka Eatery",
+      "cost": 2500000,
+      "dailyYield": 37000,
+      "category": "Food & Beverage"
+    },
+    {
+      "id": "barber",
+      "name": "Executive Barbershop",
+      "cost": 2000000,
+      "dailyYield": 31500,
+      "category": "Personal Care"
+    },
+    {
+      "id": "pos",
+      "name": "POS Cash Agent Kiosk",
+      "cost": 500000,
+      "dailyYield": 7500,
+      "category": "Fintech"
+    },
+    {
+      "id": "zobo",
+      "name": "Zobo & Hibiscus Drink Brand",
+      "cost": 350000,
+      "dailyYield": 5500,
+      "category": "Beverage"
+    },
+    {
+      "id": "kiosk",
+      "name": "Roadside Street Kiosk",
+      "cost": 150000,
+      "dailyYield": 2000,
+      "category": "Retail"
+    }
+  ],
+  "landsCatalog": [],
+  "casinoMechanics": {
+    "slots": {
+      "rtp": "96.5%",
+      "pepperOdds": "High volatility payout"
+    },
+    "tables": [
+      {
+        "name": "Street Dice",
+        "minBet": 500,
+        "maxBet": 50000,
+        "tax": "10%"
+      },
+      {
+        "name": "VIP Table",
+        "minBet": 500000,
+        "maxBet": 10000000,
+        "tax": "25%"
+      },
+      {
+        "name": "Oba's Table",
+        "minBet": 10000000,
+        "maxBet": 100000000,
+        "tax": "40%"
+      }
+    ]
+  }
+}

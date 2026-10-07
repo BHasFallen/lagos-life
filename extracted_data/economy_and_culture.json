@@ -1,0 +1,78 @@
+{
+  "currency": "Nigerian Naira (\u20a6)",
+  "net_worth_components": [
+    "Liquid cash",
+    "Bank savings",
+    "Furniture value",
+    "Vehicles",
+    "Real estate (homes/lands)",
+    "Company shares",
+    "Trailers"
+  ],
+  "starting_origins": [
+    {
+      "id": "ajegunle",
+      "name": "Ajegunle Hustler",
+      "cash": 5000,
+      "perk": "High street smarts and resilience, lower initial cash"
+    },
+    {
+      "id": "surulere",
+      "name": "Surulere Middle Class",
+      "cash": 25000,
+      "perk": "Balanced start with decent family safety net"
+    },
+    {
+      "id": "yaba_tech",
+      "name": "Yaba Tech Bro",
+      "cash": 50000,
+      "perk": "Laptop and CcHub access, remote earning capacity"
+    },
+    {
+      "id": "nepo_baby",
+      "name": "Ikoyi Nepo Baby",
+      "cash": 500000,
+      "perk": "Inherited cash, Prado access, high societal status"
+    }
+  ],
+  "banking": {
+    "institution": "Lagos Life Bank",
+    "loans": {
+      "lapo": {
+        "name": "LAPO Microfinance Loan",
+        "limit": 100000,
+        "interest_weekly": 0.05,
+        "desc": "Quick collateral-free emergency cash with weekly repayment"
+      }
+    }
+  },
+  "power_grid_system": {
+    "grid_name": "NEPA / EKEDC / IBEDC",
+    "blackout_mechanic": "Regular power outages affect unpowered homes. Food in unpowered fridges spoils; TVs and computers shut down.",
+    "backup_solutions": [
+      {
+        "item": "Tiger Generator ('I pass my neighbor')",
+        "fuel": "Petrol",
+        "noise": "High",
+        "cost": "Budget"
+      },
+      {
+        "item": "Lister / Big Gen",
+        "fuel": "Diesel",
+        "noise": "Medium",
+        "cost": "Mid-tier"
+      },
+      {
+        "item": "Solar Inverter System",
+        "fuel": "Solar clean",
+        "noise": "Silent",
+        "cost": "High-end"
+      }
+    ]
+  },
+  "social_culture": {
+    "money_spraying": "At parties (Quilox, weddings, clubs), players can spray Naira bills on others. Spectators can pick sprayed notes from the floor.",
+    "police_and_bail": "Police stops, checks, and citations. Bails can be settled at police stations or argued in High Court.",
+    "sports_betting": "Instant bets on live match odds at Viewing Centres across the mainland."
+  }
+}

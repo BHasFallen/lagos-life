@@ -1,0 +1,2402 @@
+{
+  "currentResidence": {
+    "homeId": "bananaIsland",
+    "location": "Banana Island, Ikoyi, Lagos",
+    "rentOwed": 0,
+    "rentPaidUntil": 1023,
+    "furnitureItemsCount": 28,
+    "furnitureInventory": [
+      {
+        "uid": "kccizlp8",
+        "type": "vono",
+        "x": 0,
+        "y": 0
+      },
+      {
+        "uid": "a6lrqe0p",
+        "type": "radio",
+        "x": 1,
+        "y": 0
+      },
+      {
+        "uid": "6ee9rzj1",
+        "type": "calendar",
+        "x": -1,
+        "y": 2
+      },
+      {
+        "uid": "abn11sui",
+        "type": "plant",
+        "x": 6,
+        "y": 0
+      },
+      {
+        "uid": "md8qyg9n",
+        "type": "chair",
+        "x": 2,
+        "y": 3
+      },
+      {
+        "uid": "ghxtd2wl",
+        "type": "solar",
+        "x": 3,
+        "y": 3,
+        "rot": 0
+      },
+      {
+        "uid": "8orah2tg",
+        "type": "keroStove",
+        "x": 7,
+        "y": 0
+      },
+      {
+        "uid": "29y0gp09",
+        "type": "cooler",
+        "x": 8,
+        "y": 0
+      },
+      {
+        "uid": "9ve0hay1",
+        "type": "waterDrum",
+        "x": 9,
+        "y": 6
+      },
+      {
+        "uid": "402m6fii",
+        "type": "bucket",
+        "x": 10,
+        "y": 6
+      },
+      {
+        "uid": "t83mls4q",
+        "type": "toilet",
+        "x": 10,
+        "y": 7
+      },
+      {
+        "uid": "wmogoszy",
+        "type": "ac",
+        "x": -1,
+        "y": 0,
+        "rot": 0
+      },
+      {
+        "uid": "pift1pob",
+        "type": "royalSofa",
+        "x": 6,
+        "y": 7,
+        "rot": 0
+      },
+      {
+        "uid": "dyt04b1o",
+        "type": "leatherSofa",
+        "x": 7,
+        "y": 8,
+        "rot": 0
+      },
+      {
+        "uid": "7x4fj1de",
+        "type": "royalSofa",
+        "x": 6,
+        "y": 6,
+        "rot": 0
+      },
+      {
+        "uid": "fxbx7zil",
+        "type": "royalSofa",
+        "x": 7,
+        "y": 9,
+        "rot": 0
+      },
+      {
+        "uid": "18annm36",
+        "type": "kingBed",
+        "x": 4,
+        "y": 7,
+        "rot": 0
+      },
+      {
+        "uid": "xrh81u79",
+        "type": "kingBed",
+        "x": 7,
+        "y": 10,
+        "rot": 0
+      },
+      {
+        "uid": "7tmao1lg",
+        "type": "fridge",
+        "x": 6,
+        "y": 8,
+        "rot": 0
+      },
+      {
+        "uid": "tmc9jus1",
+        "type": "fridge",
+        "x": 7,
+        "y": 5,
+        "rot": 0
+      },
+      {
+        "uid": "x4wx5plv",
+        "type": "counter",
+        "x": 5,
+        "y": 6,
+        "rot": 0
+      },
+      {
+        "uid": "wo5ra7ul",
+        "type": "sink",
+        "x": 6,
+        "y": 5,
+        "rot": 0
+      },
+      {
+        "uid": "n0xomamk",
+        "type": "gasCooker",
+        "x": 6,
+        "y": 9,
+        "rot": 0
+      },
+      {
+        "uid": "tezhkl4p",
+        "type": "washer",
+        "x": 7,
+        "y": 4,
+        "rot": 0
+      },
+      {
+        "uid": "et8nrj6d",
+        "type": "shower",
+        "x": 9,
+        "y": 8,
+        "rot": 0
+      },
+      {
+        "uid": "nxi8cyh3",
+        "type": "bathtub",
+        "x": 7,
+        "y": 3,
+        "rot": 0
+      },
+      {
+        "uid": "ixwzwam9",
+        "type": "ps5",
+        "x": 3,
+        "y": 7,
+        "rot": 0
+      },
+      {
+        "uid": "cce1pzo6",
+        "type": "privateJetLarge",
+        "x": -2,
+        "y": -2,
+        "rot": 0
+      }
+    ]
+  },
+  "landPortfolio": {
+    "totalPlotsOwned": 156,
+    "summaryByLocation": {
+      "banana": {
+        "count": 99,
+        "totalPaid": 14850000000
+      },
+      "lekki2": {
+        "count": 42,
+        "totalPaid": 630000000
+      },
+      "ibeju": {
+        "count": 13,
+        "totalPaid": 52000000
+      },
+      "epe": {
+        "count": 2,
+        "totalPaid": 5000000
+      }
+    },
+    "plots": [
+      {
+        "uid": "bcfuiudf",
+        "id": "banana",
+        "boughtAt": 1453118.2761833332,
+        "paid": 150000000
+      },
+      {
+        "uid": "e5q2oyie",
+        "id": "banana",
+        "boughtAt": 1453118.2902,
+        "paid": 150000000
+      },
+      {
+        "uid": "soz8ooqj",
+        "id": "banana",
+        "boughtAt": 1453118.2902,
+        "paid": 150000000
+      },
+      {
+        "uid": "b8hzs58r",
+        "id": "banana",
+        "boughtAt": 1453118.2950833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "il7t4j3p",
+        "id": "banana",
+        "boughtAt": 1453118.2995833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "bt5xa0sy",
+        "id": "banana",
+        "boughtAt": 1453118.2995833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "v7eb8k20",
+        "id": "banana",
+        "boughtAt": 1453118.3044333332,
+        "paid": 150000000
+      },
+      {
+        "uid": "mkzfao67",
+        "id": "banana",
+        "boughtAt": 1453118.3044333332,
+        "paid": 150000000
+      },
+      {
+        "uid": "4uaya67i",
+        "id": "banana",
+        "boughtAt": 1453118.3089,
+        "paid": 150000000
+      },
+      {
+        "uid": "pdup6rm8",
+        "id": "banana",
+        "boughtAt": 1453118.3089,
+        "paid": 150000000
+      },
+      {
+        "uid": "ugk8g3uz",
+        "id": "banana",
+        "boughtAt": 1453118.31535,
+        "paid": 150000000
+      },
+      {
+        "uid": "n3z247yz",
+        "id": "banana",
+        "boughtAt": 1453118.32035,
+        "paid": 150000000
+      },
+      {
+        "uid": "e40kj4k5",
+        "id": "banana",
+        "boughtAt": 1453118.3255,
+        "paid": 150000000
+      },
+      {
+        "uid": "fnzg2bdb",
+        "id": "banana",
+        "boughtAt": 1453118.3307666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "cmut28j7",
+        "id": "banana",
+        "boughtAt": 1453118.3307666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "mrw1t8t2",
+        "id": "banana",
+        "boughtAt": 1453118.3369833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "2ietw6p8",
+        "id": "banana",
+        "boughtAt": 1453118.3369833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "i0se2cs2",
+        "id": "banana",
+        "boughtAt": 1453118.3434,
+        "paid": 150000000
+      },
+      {
+        "uid": "1odkhdbb",
+        "id": "banana",
+        "boughtAt": 1453118.3486666668,
+        "paid": 150000000
+      },
+      {
+        "uid": "41we0yp8",
+        "id": "banana",
+        "boughtAt": 1453118.3533166666,
+        "paid": 150000000
+      },
+      {
+        "uid": "34vabg4m",
+        "id": "banana",
+        "boughtAt": 1453118.3533166666,
+        "paid": 150000000
+      },
+      {
+        "uid": "e3f9x9yq",
+        "id": "banana",
+        "boughtAt": 1453118.3585333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "iyc5pxkt",
+        "id": "banana",
+        "boughtAt": 1453118.3585333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "znhwikj4",
+        "id": "banana",
+        "boughtAt": 1453118.3647833334,
+        "paid": 150000000
+      },
+      {
+        "uid": "cjh9b314",
+        "id": "banana",
+        "boughtAt": 1453118.3647833334,
+        "paid": 150000000
+      },
+      {
+        "uid": "xnt8p8m7",
+        "id": "banana",
+        "boughtAt": 1453118.3696333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "jw7z8pjr",
+        "id": "banana",
+        "boughtAt": 1453118.3696333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "ioo2itvk",
+        "id": "banana",
+        "boughtAt": 1453118.3696333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "33m0g9cj",
+        "id": "banana",
+        "boughtAt": 1453118.37645,
+        "paid": 150000000
+      },
+      {
+        "uid": "26xscxzl",
+        "id": "banana",
+        "boughtAt": 1453118.37645,
+        "paid": 150000000
+      },
+      {
+        "uid": "t6l3rvp3",
+        "id": "banana",
+        "boughtAt": 1453118.3815333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "tupsvoni",
+        "id": "banana",
+        "boughtAt": 1453118.3815333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "gdbgud72",
+        "id": "banana",
+        "boughtAt": 1453118.3815333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "qot9qfi2",
+        "id": "banana",
+        "boughtAt": 1453118.3879,
+        "paid": 150000000
+      },
+      {
+        "uid": "994p2226",
+        "id": "banana",
+        "boughtAt": 1453118.3879,
+        "paid": 150000000
+      },
+      {
+        "uid": "ua8uudbs",
+        "id": "banana",
+        "boughtAt": 1453118.39385,
+        "paid": 150000000
+      },
+      {
+        "uid": "pltjih2j",
+        "id": "banana",
+        "boughtAt": 1453118.39385,
+        "paid": 150000000
+      },
+      {
+        "uid": "z1ef4goo",
+        "id": "banana",
+        "boughtAt": 1453118.4004833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "v36kg71n",
+        "id": "banana",
+        "boughtAt": 1453118.4004833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "zaw7aaz1",
+        "id": "banana",
+        "boughtAt": 1453118.4004833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "5xemg8mq",
+        "id": "banana",
+        "boughtAt": 1453118.4004833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "q253tvrk",
+        "id": "banana",
+        "boughtAt": 1453118.4096833332,
+        "paid": 150000000
+      },
+      {
+        "uid": "imgiv7cf",
+        "id": "banana",
+        "boughtAt": 1453118.4096833332,
+        "paid": 150000000
+      },
+      {
+        "uid": "xiimsd37",
+        "id": "banana",
+        "boughtAt": 1453118.4096833332,
+        "paid": 150000000
+      },
+      {
+        "uid": "up8onpzd",
+        "id": "banana",
+        "boughtAt": 1453118.4176166668,
+        "paid": 150000000
+      },
+      {
+        "uid": "x7j0z5q0",
+        "id": "banana",
+        "boughtAt": 1453118.4176166668,
+        "paid": 150000000
+      },
+      {
+        "uid": "393lhrlz",
+        "id": "banana",
+        "boughtAt": 1453118.4176166668,
+        "paid": 150000000
+      },
+      {
+        "uid": "1lsi43pz",
+        "id": "banana",
+        "boughtAt": 1453118.4249333334,
+        "paid": 150000000
+      },
+      {
+        "uid": "z3lxsdd2",
+        "id": "banana",
+        "boughtAt": 1453118.4249333334,
+        "paid": 150000000
+      },
+      {
+        "uid": "wxse0acf",
+        "id": "banana",
+        "boughtAt": 1453118.4490333332,
+        "paid": 150000000
+      },
+      {
+        "uid": "v0w804bw",
+        "id": "banana",
+        "boughtAt": 1453118.4490333332,
+        "paid": 150000000
+      },
+      {
+        "uid": "dy6srvbf",
+        "id": "banana",
+        "boughtAt": 1453118.4538833334,
+        "paid": 150000000
+      },
+      {
+        "uid": "b04kymk6",
+        "id": "banana",
+        "boughtAt": 1453118.45935,
+        "paid": 150000000
+      },
+      {
+        "uid": "nf0si8hv",
+        "id": "banana",
+        "boughtAt": 1453118.45935,
+        "paid": 150000000
+      },
+      {
+        "uid": "mpg1wwpi",
+        "id": "banana",
+        "boughtAt": 1453118.4652833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "bsjgaks7",
+        "id": "banana",
+        "boughtAt": 1453118.4652833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "nz5bcrwo",
+        "id": "banana",
+        "boughtAt": 1453118.4705666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "6e9qdvp1",
+        "id": "banana",
+        "boughtAt": 1453118.4705666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "fvi5jw2e",
+        "id": "banana",
+        "boughtAt": 1453118.4757333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "xp4urgfb",
+        "id": "banana",
+        "boughtAt": 1453118.4757333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "p6s4ovfi",
+        "id": "banana",
+        "boughtAt": 1453118.4809166666,
+        "paid": 150000000
+      },
+      {
+        "uid": "09de2icb",
+        "id": "banana",
+        "boughtAt": 1453118.4809166666,
+        "paid": 150000000
+      },
+      {
+        "uid": "zyyuymn7",
+        "id": "banana",
+        "boughtAt": 1453118.4865333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "gracjd7c",
+        "id": "banana",
+        "boughtAt": 1453118.4865333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "m9uzbnu2",
+        "id": "banana",
+        "boughtAt": 1453118.4865333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "bazvwga2",
+        "id": "banana",
+        "boughtAt": 1453118.4932333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "s5zjdpvh",
+        "id": "banana",
+        "boughtAt": 1453118.4932333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "2rf3iqo2",
+        "id": "banana",
+        "boughtAt": 1453118.5000666666,
+        "paid": 150000000
+      },
+      {
+        "uid": "vpee1p8z",
+        "id": "banana",
+        "boughtAt": 1453118.5000666666,
+        "paid": 150000000
+      },
+      {
+        "uid": "7keuqilz",
+        "id": "banana",
+        "boughtAt": 1453118.5000666666,
+        "paid": 150000000
+      },
+      {
+        "uid": "8cvfjtca",
+        "id": "banana",
+        "boughtAt": 1453118.5069833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "xmo3vr8c",
+        "id": "banana",
+        "boughtAt": 1453118.5069833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "rkzfnbbc",
+        "id": "banana",
+        "boughtAt": 1453118.5069833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "5y2ff7xr",
+        "id": "banana",
+        "boughtAt": 1453118.5141666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "vqf9iwsw",
+        "id": "banana",
+        "boughtAt": 1453118.5141666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "e0btq4jo",
+        "id": "banana",
+        "boughtAt": 1453118.5141666667,
+        "paid": 150000000
+      },
+      {
+        "uid": "ha95ka74",
+        "id": "banana",
+        "boughtAt": 1453118.52175,
+        "paid": 150000000
+      },
+      {
+        "uid": "74ngpzdn",
+        "id": "banana",
+        "boughtAt": 1453118.52175,
+        "paid": 150000000
+      },
+      {
+        "uid": "jo5k9lwk",
+        "id": "banana",
+        "boughtAt": 1453118.52175,
+        "paid": 150000000
+      },
+      {
+        "uid": "uw9jaqh5",
+        "id": "banana",
+        "boughtAt": 1453118.52175,
+        "paid": 150000000
+      },
+      {
+        "uid": "eoctz5yy",
+        "id": "banana",
+        "boughtAt": 1453118.5308333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "6z0r5da1",
+        "id": "banana",
+        "boughtAt": 1453118.5308333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "mwfwuo78",
+        "id": "banana",
+        "boughtAt": 1453118.5308333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "9ggfeldj",
+        "id": "banana",
+        "boughtAt": 1453118.5308333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "e9fqm442",
+        "id": "banana",
+        "boughtAt": 1453118.5308333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "l0md9bmx",
+        "id": "banana",
+        "boughtAt": 1453118.5432166667,
+        "paid": 150000000
+      },
+      {
+        "uid": "x207o122",
+        "id": "banana",
+        "boughtAt": 1453118.5432166667,
+        "paid": 150000000
+      },
+      {
+        "uid": "x38zq1b0",
+        "id": "banana",
+        "boughtAt": 1453118.5432166667,
+        "paid": 150000000
+      },
+      {
+        "uid": "s2nrittw",
+        "id": "banana",
+        "boughtAt": 1453118.5558833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "07qtydau",
+        "id": "banana",
+        "boughtAt": 1453118.5558833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "7svj7x5n",
+        "id": "banana",
+        "boughtAt": 1453118.5558833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "97v514uo",
+        "id": "banana",
+        "boughtAt": 1453118.5558833333,
+        "paid": 150000000
+      },
+      {
+        "uid": "jjtjywhf",
+        "id": "banana",
+        "boughtAt": 1453118.5655,
+        "paid": 150000000
+      },
+      {
+        "uid": "bxpla4hs",
+        "id": "banana",
+        "boughtAt": 1453118.5655,
+        "paid": 150000000
+      },
+      {
+        "uid": "v9uz14sr",
+        "id": "banana",
+        "boughtAt": 1453118.5655,
+        "paid": 150000000
+      },
+      {
+        "uid": "xgwfja17",
+        "id": "banana",
+        "boughtAt": 1453118.5737333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "h4rsansm",
+        "id": "banana",
+        "boughtAt": 1453118.5737333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "6qu6sg42",
+        "id": "banana",
+        "boughtAt": 1453118.5737333333,
+        "paid": 150000000
+      },
+      {
+        "uid": "7lbu3spa",
+        "id": "lekki2",
+        "boughtAt": 1453118.5814,
+        "paid": 15000000
+      },
+      {
+        "uid": "folcuowg",
+        "id": "lekki2",
+        "boughtAt": 1453118.5875666668,
+        "paid": 15000000
+      },
+      {
+        "uid": "mz666vng",
+        "id": "lekki2",
+        "boughtAt": 1453118.5875666668,
+        "paid": 15000000
+      },
+      {
+        "uid": "1vwbyman",
+        "id": "lekki2",
+        "boughtAt": 1453118.59385,
+        "paid": 15000000
+      },
+      {
+        "uid": "byoia08t",
+        "id": "lekki2",
+        "boughtAt": 1453118.59385,
+        "paid": 15000000
+      },
+      {
+        "uid": "un2k4hjz",
+        "id": "banana",
+        "boughtAt": 1453118.6049,
+        "paid": 150000000
+      },
+      {
+        "uid": "vw02lhjy",
+        "id": "lekki2",
+        "boughtAt": 1453118.6092333333,
+        "paid": 15000000
+      },
+      {
+        "uid": "190aqxxj",
+        "id": "lekki2",
+        "boughtAt": 1453118.6154166667,
+        "paid": 15000000
+      },
+      {
+        "uid": "wcdomkip",
+        "id": "lekki2",
+        "boughtAt": 1453118.62065,
+        "paid": 15000000
+      },
+      {
+        "uid": "9m6zupbh",
+        "id": "lekki2",
+        "boughtAt": 1453118.62065,
+        "paid": 15000000
+      },
+      {
+        "uid": "co0sp233",
+        "id": "lekki2",
+        "boughtAt": 1453118.62065,
+        "paid": 15000000
+      },
+      {
+        "uid": "s5h09zto",
+        "id": "lekki2",
+        "boughtAt": 1453118.6290833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "9cyexd4b",
+        "id": "lekki2",
+        "boughtAt": 1453118.6290833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "fjvapgwd",
+        "id": "lekki2",
+        "boughtAt": 1453118.6290833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "se8mava4",
+        "id": "lekki2",
+        "boughtAt": 1453118.6382833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "whsgqgeh",
+        "id": "lekki2",
+        "boughtAt": 1453118.6382833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "m75xpyoq",
+        "id": "lekki2",
+        "boughtAt": 1453118.6382833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "lrz0ih4k",
+        "id": "lekki2",
+        "boughtAt": 1453118.6474833332,
+        "paid": 15000000
+      },
+      {
+        "uid": "owibgv6o",
+        "id": "lekki2",
+        "boughtAt": 1453118.6474833332,
+        "paid": 15000000
+      },
+      {
+        "uid": "qvakz3md",
+        "id": "lekki2",
+        "boughtAt": 1453118.6474833332,
+        "paid": 15000000
+      },
+      {
+        "uid": "r8dmqgl1",
+        "id": "lekki2",
+        "boughtAt": 1453118.6474833332,
+        "paid": 15000000
+      },
+      {
+        "uid": "8gyclevm",
+        "id": "lekki2",
+        "boughtAt": 1453118.6474833332,
+        "paid": 15000000
+      },
+      {
+        "uid": "acc7hc5e",
+        "id": "lekki2",
+        "boughtAt": 1453118.6654,
+        "paid": 15000000
+      },
+      {
+        "uid": "sbmp75no",
+        "id": "lekki2",
+        "boughtAt": 1453118.6654,
+        "paid": 15000000
+      },
+      {
+        "uid": "ldznt4d9",
+        "id": "lekki2",
+        "boughtAt": 1453118.6654,
+        "paid": 15000000
+      },
+      {
+        "uid": "dapg6cyk",
+        "id": "lekki2",
+        "boughtAt": 1453118.6731833334,
+        "paid": 15000000
+      },
+      {
+        "uid": "wy7upjew",
+        "id": "lekki2",
+        "boughtAt": 1453118.6731833334,
+        "paid": 15000000
+      },
+      {
+        "uid": "g58xnbqy",
+        "id": "lekki2",
+        "boughtAt": 1453118.6806166666,
+        "paid": 15000000
+      },
+      {
+        "uid": "fterjodo",
+        "id": "lekki2",
+        "boughtAt": 1453118.6806166666,
+        "paid": 15000000
+      },
+      {
+        "uid": "3j4uryqa",
+        "id": "lekki2",
+        "boughtAt": 1453118.6806166666,
+        "paid": 15000000
+      },
+      {
+        "uid": "ri2hpi8d",
+        "id": "lekki2",
+        "boughtAt": 1453118.6806166666,
+        "paid": 15000000
+      },
+      {
+        "uid": "owy6b6s3",
+        "id": "lekki2",
+        "boughtAt": 1453118.6896333334,
+        "paid": 15000000
+      },
+      {
+        "uid": "c9s4p41j",
+        "id": "lekki2",
+        "boughtAt": 1453118.6952833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "dzbbextd",
+        "id": "lekki2",
+        "boughtAt": 1453118.6952833333,
+        "paid": 15000000
+      },
+      {
+        "uid": "u7vsqn19",
+        "id": "lekki2",
+        "boughtAt": 1453118.7008666666,
+        "paid": 15000000
+      },
+      {
+        "uid": "sdaqidiw",
+        "id": "lekki2",
+        "boughtAt": 1453118.7008666666,
+        "paid": 15000000
+      },
+      {
+        "uid": "nek92na7",
+        "id": "lekki2",
+        "boughtAt": 1453118.7113833334,
+        "paid": 15000000
+      },
+      {
+        "uid": "pwjvhghp",
+        "id": "lekki2",
+        "boughtAt": 1453118.7113833334,
+        "paid": 15000000
+      },
+      {
+        "uid": "hm3vywcd",
+        "id": "lekki2",
+        "boughtAt": 1453118.7113833334,
+        "paid": 15000000
+      },
+      {
+        "uid": "6100orec",
+        "id": "lekki2",
+        "boughtAt": 1453118.7177,
+        "paid": 15000000
+      },
+      {
+        "uid": "fg6qxd4m",
+        "id": "lekki2",
+        "boughtAt": 1453118.7177,
+        "paid": 15000000
+      },
+      {
+        "uid": "yhxc8a62",
+        "id": "lekki2",
+        "boughtAt": 1453118.725,
+        "paid": 15000000
+      },
+      {
+        "uid": "54yz3llm",
+        "id": "lekki2",
+        "boughtAt": 1453118.73925,
+        "paid": 15000000
+      },
+      {
+        "uid": "wxmc0z4w",
+        "id": "ibeju",
+        "boughtAt": 1453118.7584,
+        "paid": 4000000
+      },
+      {
+        "uid": "hnwbihh6",
+        "id": "epe",
+        "boughtAt": 1453118.76285,
+        "paid": 2500000
+      },
+      {
+        "uid": "tfs291nx",
+        "id": "epe",
+        "boughtAt": 1453118.7675833334,
+        "paid": 2500000
+      },
+      {
+        "uid": "uq450385",
+        "id": "ibeju",
+        "boughtAt": 1453118.7771,
+        "paid": 4000000
+      },
+      {
+        "uid": "gtkl9zid",
+        "id": "ibeju",
+        "boughtAt": 1453118.7817333334,
+        "paid": 4000000
+      },
+      {
+        "uid": "xf6jygo1",
+        "id": "ibeju",
+        "boughtAt": 1453118.7867166668,
+        "paid": 4000000
+      },
+      {
+        "uid": "ouwmnlli",
+        "id": "ibeju",
+        "boughtAt": 1453118.7916333333,
+        "paid": 4000000
+      },
+      {
+        "uid": "ozy8fw20",
+        "id": "ibeju",
+        "boughtAt": 1453118.7916333333,
+        "paid": 4000000
+      },
+      {
+        "uid": "mtqu1ou2",
+        "id": "ibeju",
+        "boughtAt": 1453118.7978,
+        "paid": 4000000
+      },
+      {
+        "uid": "1pytk925",
+        "id": "ibeju",
+        "boughtAt": 1453118.8041333333,
+        "paid": 4000000
+      },
+      {
+        "uid": "pu8tbwnd",
+        "id": "ibeju",
+        "boughtAt": 1453118.80985,
+        "paid": 4000000
+      },
+      {
+        "uid": "oy0450bl",
+        "id": "ibeju",
+        "boughtAt": 1453118.80985,
+        "paid": 4000000
+      },
+      {
+        "uid": "jlhbtsfm",
+        "id": "ibeju",
+        "boughtAt": 1453118.8154833333,
+        "paid": 4000000
+      },
+      {
+        "uid": "1sxbtz5r",
+        "id": "ibeju",
+        "boughtAt": 1453118.8202833333,
+        "paid": 4000000
+      },
+      {
+        "uid": "5cjogd25",
+        "id": "ibeju",
+        "boughtAt": 1453118.8255666667,
+        "paid": 4000000
+      }
+    ]
+  },
+  "commercialPropertySystem": {
+    "open": true,
+    "me": "d42fb0d8c15d4b878ed7",
+    "props": [],
+    "leases": [],
+    "max": 5,
+    "till": 0,
+    "at": 1791367412909,
+    "made": [],
+    "moves": [],
+    "biz": {
+      "till": 0,
+      "day": 1010,
+      "at": 1791367412669,
+      "companies": [
+        {
+          "id": "co_df18a5265e8b463e9852",
+          "name": "Bobby and Co.",
+          "ind": "tech",
+          "emoji": "\ud83d\udcbb",
+          "color": 0,
+          "hq": "lagos:yaba",
+          "units": 3,
+          "rating": 3.3,
+          "last": 3001688,
+          "value": 0,
+          "sale": 579600000,
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "marketListingsLagos": {
+    "open": true,
+    "city": "lagos",
+    "listings": [
+      {
+        "prop": "p4715a9706c084a0db794",
+        "landlordId": "a880b79985fb43df9010",
+        "landlord": "Datamayor",
+        "home": "mushin",
+        "city": "lagos",
+        "rent": 1680,
+        "at": 1791367407957,
+        "freeAt": 1793786607915
+      },
+      {
+        "prop": "p475cfb70e8fc4f959756",
+        "landlordId": "95728b75998e45938c58",
+        "landlord": "peppjnr",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791367395822,
+        "freeAt": 1792576996317
+      },
+      {
+        "prop": "p3ab5f2cd8abf4bb9a19c",
+        "landlordId": "5b97ba60eb184e4bac22",
+        "landlord": "remi_885",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791367388022,
+        "freeAt": 1793181699656
+      },
+      {
+        "prop": "p8f4a4b0e7d5849d69d14",
+        "landlordId": "2238c1712f9c45bf8f62",
+        "landlord": "oremma",
+        "home": "lekki",
+        "city": "lagos",
+        "rent": 11900,
+        "at": 1791367386745,
+        "freeAt": 1792576987024
+      },
+      {
+        "prop": "p283d044e9a334b34bc60",
+        "landlordId": "da9c3f6fd4094f23879f",
+        "landlord": "tifemi240",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791367381331,
+        "freeAt": 1792576981436
+      },
+      {
+        "prop": "p5b20f503c73e4e12ad40",
+        "landlordId": "365094bd0ac04d298a36",
+        "landlord": "Tboyriches",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791367356137,
+        "freeAt": 1792576956093
+      },
+      {
+        "prop": "pc94db4805c1143a29d40",
+        "landlordId": "1fa8f678cd2f49e3ae39",
+        "landlord": "ianwal",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791367303323,
+        "freeAt": 1792576903559
+      },
+      {
+        "prop": "p0c6f4588097841cdb6a6",
+        "landlordId": "bba55eb0f10b4082a885",
+        "landlord": "ayinkeloluwa",
+        "home": "lekki",
+        "city": "lagos",
+        "rent": 11900,
+        "at": 1791367298386,
+        "freeAt": 1794984962687
+      },
+      {
+        "prop": "pa36f6fb028b24b0bbdbf",
+        "landlordId": "06a0e3d0bbc14f049aaa",
+        "landlord": "imdavidyh",
+        "home": "lekki",
+        "city": "lagos",
+        "rent": 11900,
+        "at": 1791367279095,
+        "freeAt": 1793785828009
+      },
+      {
+        "prop": "p8b594536f3434fcba5e3",
+        "landlordId": "862e37a9b5c64af4837c",
+        "landlord": "thatjoelguy",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791367152899,
+        "freeAt": 1792576752923
+      },
+      {
+        "prop": "pe33b558af83049f5a652",
+        "landlordId": "36736e30b35349779441",
+        "landlord": "vamp1",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791367088627,
+        "freeAt": 1793135214163
+      },
+      {
+        "prop": "paf655ba7407444d185ad",
+        "landlordId": "07b2b829f5a84d3bbc54",
+        "landlord": "kayla_288",
+        "home": "lekki",
+        "city": "lagos",
+        "rent": 11900,
+        "at": 1791367043486,
+        "freeAt": 1791971843497
+      },
+      {
+        "prop": "p2352f983c2734eae9d44",
+        "landlordId": "f3733925f4e142078aa0",
+        "landlord": "kyle_williams",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791367011537,
+        "freeAt": 1793786169929
+      },
+      {
+        "prop": "pf74dbe60d2754a639054",
+        "landlordId": "f3733925f4e142078aa0",
+        "landlord": "kyle_williams",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366979814,
+        "freeAt": 1792576580415
+      },
+      {
+        "prop": "pac5051ef75b840948863",
+        "landlordId": "567998b030d84c029412",
+        "landlord": "nakak",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366977744,
+        "freeAt": 1793180655714
+      },
+      {
+        "prop": "p51c8d654b07643ab9bbe",
+        "landlordId": "f3733925f4e142078aa0",
+        "landlord": "kyle_williams",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366967456,
+        "freeAt": 1792576567467
+      },
+      {
+        "prop": "p48e4c983932f49fdb968",
+        "landlordId": "0abeb250a1e440d7a220",
+        "landlord": "ayoomidet",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366949012,
+        "freeAt": 1795598418886
+      },
+      {
+        "prop": "p4bddf51e72a6439fae12",
+        "landlordId": "bb90161809c44fe7af4e",
+        "landlord": "Bonfreyy",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366932511,
+        "freeAt": 1795600422494
+      },
+      {
+        "prop": "pe71f445bf0ec424ab69a",
+        "landlordId": "d8c27f5a940b4ccb9eaf",
+        "landlord": "tyn0",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366914061,
+        "freeAt": 1792576514106
+      },
+      {
+        "prop": "p6dc8eb2a18234119adc1",
+        "landlordId": "5b97ba60eb184e4bac22",
+        "landlord": "remi_885",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366896227,
+        "freeAt": 1792576496317
+      },
+      {
+        "prop": "p0fa4940dab8c48b19bd8",
+        "landlordId": "e20b9b95009c431a9273",
+        "landlord": "iykeplaydirty",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366883814,
+        "freeAt": 1792576483895
+      },
+      {
+        "prop": "p8461f312eb5342dbb151",
+        "landlordId": "5b97ba60eb184e4bac22",
+        "landlord": "remi_885",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366871642,
+        "freeAt": 1793786071460
+      },
+      {
+        "prop": "p02da061469f647fba5d9",
+        "landlordId": "b89418da37d449d38f12",
+        "landlord": "emmanueloluwasemilor",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366870684,
+        "freeAt": 1792576470547
+      },
+      {
+        "prop": "p2338470af2c9496590ce",
+        "landlordId": "5b97ba60eb184e4bac22",
+        "landlord": "remi_885",
+        "home": "yaba",
+        "city": "lagos",
+        "rent": 4200,
+        "at": 1791366858762,
+        "freeAt": 1792576458705
+      },
+      {
+        "prop": "p5e9cf0571c97430cac79",
+        "landlordId": "862e37a9b5c64af4837c",
+        "landlord": "thatjoelguy",
+        "home": "lekki",
+        "city": "lagos",
+        "rent": 11900,
+        "at": 1791366808677,
+        "freeAt": 1793785333801
+      },
+      {
+        "prop": "p4beb04ba2b494be9a0f3",
+        "landlordId": "57aa140f5a624549a58a",
+        "landlord": "Cephas",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366721370,
+        "freeAt": 1792576321470
+      },
+      {
+        "prop": "p3ce49469d59a487bb639",
+        "landlordId": "7e8e9e40e862486591b4",
+        "landlord": "Na_than",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366666030,
+        "freeAt": 1794995403900
+      },
+      {
+        "prop": "p7248d352c2f54823a317",
+        "landlordId": "29202cc862384ed5bd13",
+        "landlord": "menabet89",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366664177,
+        "freeAt": 1794987008992
+      },
+      {
+        "prop": "pf3721d35913b4181bdfb",
+        "landlordId": "96b12a17c9184b449a2d",
+        "landlord": "iceyyboii01",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366639427,
+        "freeAt": 1792576239398
+      },
+      {
+        "prop": "p407e9d67499b4e49b997",
+        "landlordId": "9bb05fba7afa47698389",
+        "landlord": "Calebb",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366590518,
+        "freeAt": 1793180954634
+      },
+      {
+        "prop": "p358b41533b8a42bba49b",
+        "landlordId": "1c9d24a5dfda44b191c4",
+        "landlord": "_mohha",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366490337,
+        "freeAt": 1793175923626
+      },
+      {
+        "prop": "paf3366486a2e4093a527",
+        "landlordId": "5f5ca7ae09d4459d8599",
+        "landlord": "yoski",
+        "home": "yaba",
+        "city": "lagos",
+        "rent": 4200,
+        "at": 1791366457016,
+        "freeAt": 1792576057106
+      },
+      {
+        "prop": "p620fe0ce99904ff38e2c",
+        "landlordId": "d5e628ee4e554c618425",
+        "landlord": "royalty_iswanted",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366453353,
+        "freeAt": 1793785653954
+      },
+      {
+        "prop": "p779f88e443a34276afab",
+        "landlordId": "d5e628ee4e554c618425",
+        "landlord": "royalty_iswanted",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366449873,
+        "freeAt": 1791971250060
+      },
+      {
+        "prop": "pcf56f30ef419451ca049",
+        "landlordId": "d5e628ee4e554c618425",
+        "landlord": "royalty_iswanted",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366401045,
+        "freeAt": 1792576001197
+      },
+      {
+        "prop": "p9096447b456b4f468da7",
+        "landlordId": "862e37a9b5c64af4837c",
+        "landlord": "thatjoelguy",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366339137,
+        "freeAt": 1794994929448
+      },
+      {
+        "prop": "p3111ef8fdd1442faaef0",
+        "landlordId": "7d6402df19c54fed8af9",
+        "landlord": "celestine_eazi",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366296433,
+        "freeAt": 1793180629647
+      },
+      {
+        "prop": "p29e20f8720614acc90b2",
+        "landlordId": "5c8b143b521d460b93b1",
+        "landlord": "Ade_",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366292065,
+        "freeAt": 1796204659535
+      },
+      {
+        "prop": "pa7ccb2c6d4054d38a557",
+        "landlordId": "7e8e9e40e862486591b4",
+        "landlord": "Na_than",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366264438,
+        "freeAt": 1795599790126
+      },
+      {
+        "prop": "p53152043e23f4694bc9f",
+        "landlordId": "a80455e037a2480dbbcf",
+        "landlord": "th3n1tgotraver",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366257749,
+        "freeAt": 1794330613395
+      },
+      {
+        "prop": "pa72dfcdc8acf4a5fa473",
+        "landlordId": "4b4e1bf48d9d43148fe8",
+        "landlord": "magnitude02",
+        "home": "lekki",
+        "city": "lagos",
+        "rent": 11900,
+        "at": 1791366249629,
+        "freeAt": 1794389942644
+      },
+      {
+        "prop": "p81505333bf93418cadf2",
+        "landlordId": "7e8e9e40e862486591b4",
+        "landlord": "Na_than",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366225603,
+        "freeAt": 1793180625541
+      },
+      {
+        "prop": "pa19eaf6312854638b1c8",
+        "landlordId": "5c8b143b521d460b93b1",
+        "landlord": "Ade_",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366217987,
+        "freeAt": 1793785418492
+      },
+      {
+        "prop": "pe34eeb93f188470997e8",
+        "landlordId": "862e37a9b5c64af4837c",
+        "landlord": "thatjoelguy",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366206274,
+        "freeAt": 1793180540632
+      },
+      {
+        "prop": "p71152988bb074801a1e9",
+        "landlordId": "7e8e9e40e862486591b4",
+        "landlord": "Na_than",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366197553,
+        "freeAt": 1793785397580
+      },
+      {
+        "prop": "pa30d96a2c1584f3a9b68",
+        "landlordId": "7e8e9e40e862486591b4",
+        "landlord": "Na_than",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366181847,
+        "freeAt": 1792575781789
+      },
+      {
+        "prop": "pf698c08fb18e4f559911",
+        "landlordId": "95d333c8af1b488e8c2f",
+        "landlord": "op_waya",
+        "home": "yaba",
+        "city": "lagos",
+        "rent": 4200,
+        "at": 1791366161873,
+        "freeAt": 1792575761974
+      },
+      {
+        "prop": "p7f04f37f109244f98db7",
+        "landlordId": "95d333c8af1b488e8c2f",
+        "landlord": "op_waya",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366159799,
+        "freeAt": 1796204510784
+      },
+      {
+        "prop": "p757be1a2a090434997cf",
+        "landlordId": "c5fab273ba5244ff812e",
+        "landlord": "levi_fgs",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366159223,
+        "freeAt": 1796163560552
+      },
+      {
+        "prop": "pb39a55b66347435aa198",
+        "landlordId": "862e37a9b5c64af4837c",
+        "landlord": "thatjoelguy",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366096657,
+        "freeAt": 1792575696445
+      },
+      {
+        "prop": "p904d68efca0f4a6dada8",
+        "landlordId": "03b155101ea8400a88a2",
+        "landlord": "biyigold",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791366087123,
+        "freeAt": 1792575686948
+      },
+      {
+        "prop": "pd3bca2902120496bbb4e",
+        "landlordId": "782ceca88ee6410da1d1",
+        "landlord": "Feranbanks",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366037862,
+        "freeAt": 1792575637766
+      },
+      {
+        "prop": "p34641a2c69ef46bca39e",
+        "landlordId": "07b2b829f5a84d3bbc54",
+        "landlord": "kayla_288",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366028399,
+        "freeAt": 1792575628734
+      },
+      {
+        "prop": "p387e6d203f374804a198",
+        "landlordId": "78790c4151404b568b0d",
+        "landlord": "octavian",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791366010953,
+        "freeAt": 1793785210610
+      },
+      {
+        "prop": "p215a6497169e452b9f84",
+        "landlordId": "d1c932e171114344a6c7",
+        "landlord": "H3nrY_",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791365861286,
+        "freeAt": 1792575461051
+      },
+      {
+        "prop": "pa95e75151c704563b335",
+        "landlordId": "31ef4d6c63c54482add1",
+        "landlord": "Jamil_1",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791365839710,
+        "freeAt": 1792575439701
+      },
+      {
+        "prop": "pf6c3cef68b824e019667",
+        "landlordId": "52e9a09d0d32446eae84",
+        "landlord": "_maryamaliyu",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791365835430,
+        "freeAt": 1792575435359
+      },
+      {
+        "prop": "p010c822c66f84b93ba82",
+        "landlordId": "d8f559273bcd48f29d23",
+        "landlord": "jayden_campbell",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791365818703,
+        "freeAt": 1792575418653
+      },
+      {
+        "prop": "pee1eab2d73274f1da414",
+        "landlordId": "be6c2eba26f441eb9423",
+        "landlord": "baeca",
+        "home": "bananaIsland",
+        "city": "lagos",
+        "rent": 1050000,
+        "at": 1791365786006,
+        "freeAt": 1793112263798
+      },
+      {
+        "prop": "pf4ebb30d631f400583d1",
+        "landlordId": "ad470d1a8edb4bc28435",
+        "landlord": "pelumi_gnd",
+        "home": "ikoyi",
+        "city": "lagos",
+        "rent": 175000,
+        "at": 1791365785696,
+        "freeAt": 1793784984398
+      }
+    ],
+    "at": 1791367413110
+  },
+  "marketListingsAbuja": {
+    "open": true,
+    "city": "abuja",
+    "listings": [
+      {
+        "prop": "pfb6d4481384f4f479301",
+        "landlordId": "f3733925f4e142078aa0",
+        "landlord": "kyle_williams",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791366988022,
+        "freeAt": 1792576588200
+      },
+      {
+        "prop": "pc2fb10ba2de64925a7a2",
+        "landlordId": "727b025cbe944023bb4d",
+        "landlord": "Temiti",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791366837429,
+        "freeAt": 1793786037267
+      },
+      {
+        "prop": "p7ad61749575b45589a16",
+        "landlordId": "03b155101ea8400a88a2",
+        "landlord": "biyigold",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791366763095,
+        "freeAt": 1794926417662
+      },
+      {
+        "prop": "pb8763dec844848f8b434",
+        "landlordId": "acd7c2c1bffa45ecb697",
+        "landlord": "Poison",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791366431274,
+        "freeAt": 1793785631164
+      },
+      {
+        "prop": "pdf620aa7825a4582bcc4",
+        "landlordId": "b64510daae2f467ea1c6",
+        "landlord": "big_manny",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791366130314,
+        "freeAt": 1792575730317
+      },
+      {
+        "prop": "pd88c9143f40443e094a9",
+        "landlordId": "705252f38aa448bc9826",
+        "landlord": "jjk",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791366094630,
+        "freeAt": 1792575693992
+      },
+      {
+        "prop": "p9adbf75f500e4df3a6bd",
+        "landlordId": "782ceca88ee6410da1d1",
+        "landlord": "Feranbanks",
+        "home": "abjKubwa",
+        "city": "abuja",
+        "rent": 1960,
+        "at": 1791366067880,
+        "freeAt": 1794994703842
+      },
+      {
+        "prop": "pe1ab806b44ed4ef79621",
+        "landlordId": "782ceca88ee6410da1d1",
+        "landlord": "Feranbanks",
+        "home": "abjKubwa",
+        "city": "abuja",
+        "rent": 1960,
+        "at": 1791366020372,
+        "freeAt": 1792575620527
+      },
+      {
+        "prop": "p6ce438f15d7e4150b60f",
+        "landlordId": "782ceca88ee6410da1d1",
+        "landlord": "Feranbanks",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791365896174,
+        "freeAt": 1792575496652
+      },
+      {
+        "prop": "pbe5176b0a75a48bf8350",
+        "landlordId": "782ceca88ee6410da1d1",
+        "landlord": "Feranbanks",
+        "home": "abjKubwa",
+        "city": "abuja",
+        "rent": 1960,
+        "at": 1791365884072,
+        "freeAt": 1793785084051
+      },
+      {
+        "prop": "pb3f5dcd1516c4cc09872",
+        "landlordId": "31ef4d6c63c54482add1",
+        "landlord": "Jamil_1",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791365813687,
+        "freeAt": 1792575413641
+      },
+      {
+        "prop": "p630c5d8cfefc4ed6aed3",
+        "landlordId": "dc824f8bb0e44161aa97",
+        "landlord": "Lupin",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791365667670,
+        "freeAt": 1793146695212
+      },
+      {
+        "prop": "pf1e0b5acd59e420c9414",
+        "landlordId": "28c06800ad774fb7a56e",
+        "landlord": "Mayfair1",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791365615624,
+        "freeAt": 1796153072550
+      },
+      {
+        "prop": "p82ddcb9bf3f644b18b38",
+        "landlordId": "2bca7cf006174df0b290",
+        "landlord": "bigsevilla",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791365434262,
+        "freeAt": 1794389089559
+      },
+      {
+        "prop": "p1a5c7f521c3c4d62aeef",
+        "landlordId": "504fd1ef5ed0430d83b3",
+        "landlord": "Warm_eba",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791365236559,
+        "freeAt": 1796139633841
+      },
+      {
+        "prop": "p9fb439bf62f9458d94c8",
+        "landlordId": "2bca7cf006174df0b290",
+        "landlord": "bigsevilla",
+        "home": "abjWuse2",
+        "city": "abuja",
+        "rent": 23800,
+        "at": 1791365083319,
+        "freeAt": 1793784283057
+      },
+      {
+        "prop": "p83a9247147f4489083b5",
+        "landlordId": "a154959b2e084695a678",
+        "landlord": "dord",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791365001856,
+        "freeAt": 1794388963873
+      },
+      {
+        "prop": "p5b4f1c85bf9849a8a78b",
+        "landlordId": "d44d9e76ae9f4f378573",
+        "landlord": "Thavlad",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791364931110,
+        "freeAt": 1792574531114
+      },
+      {
+        "prop": "p4fb62237b31745249155",
+        "landlordId": "e31849c5b0944dd5b928",
+        "landlord": "kaia",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791364904612,
+        "freeAt": 1792574503470
+      },
+      {
+        "prop": "pa3fb826fe97c4f1898fb",
+        "landlordId": "5706e51b2df34565b164",
+        "landlord": "showhiz",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791364333969,
+        "freeAt": 1792573933914
+      },
+      {
+        "prop": "pb99d5cd27351451684c5",
+        "landlordId": "b10df0ca59d642e09811",
+        "landlord": "pomofc1",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791364152534,
+        "freeAt": 1796196833384
+      },
+      {
+        "prop": "pe82c310a2254491cac37",
+        "landlordId": "3b5a684b94be40478a17",
+        "landlord": "ipeluwa",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791363936363,
+        "freeAt": 1793770728028
+      },
+      {
+        "prop": "pf22e5946d06e4b3c8ccb",
+        "landlordId": "1d4a8dee59a2422192b9",
+        "landlord": "Oyindasupremacy",
+        "home": "abjKubwa",
+        "city": "abuja",
+        "rent": 1960,
+        "at": 1791363641893,
+        "freeAt": 1794363054483
+      },
+      {
+        "prop": "p299722c92a3e40ec89de",
+        "landlordId": "115373f555444ded86bd",
+        "landlord": "Cunha",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791362508119,
+        "freeAt": 1792572108094
+      },
+      {
+        "prop": "pabe7a65aa3c844e3a1d3",
+        "landlordId": "dd6e08380cc741f890d7",
+        "landlord": "elder45",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791362506590,
+        "freeAt": 1792572106128
+      },
+      {
+        "prop": "p4b96a302cc814ba7b641",
+        "landlordId": "3ba93a7e200a4e079193",
+        "landlord": "tolani__o",
+        "home": "abjWuse2",
+        "city": "abuja",
+        "rent": 23800,
+        "at": 1791362249048,
+        "freeAt": 1793781448921
+      },
+      {
+        "prop": "pf4e856607961423dbb57",
+        "landlordId": "3ba93a7e200a4e079193",
+        "landlord": "tolani__o",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791361725862,
+        "freeAt": 1794385696456
+      },
+      {
+        "prop": "pbd83e5cc9bd94bd1b8ce",
+        "landlordId": "3ba93a7e200a4e079193",
+        "landlord": "tolani__o",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791361069396,
+        "freeAt": 1792570669278
+      },
+      {
+        "prop": "p5d4a0ea3162d4572a66a",
+        "landlordId": "52e9a09d0d32446eae84",
+        "landlord": "_maryamaliyu",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791360959541,
+        "freeAt": 1793779669804
+      },
+      {
+        "prop": "pffa55f12156c45bab444",
+        "landlordId": "486a6ff775454e33bdaf",
+        "landlord": "vctrokfr",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791360939877,
+        "freeAt": 1793780139774
+      },
+      {
+        "prop": "p28a35a1a26ca415aa612",
+        "landlordId": "bd5ceb901fcc4fbd8edc",
+        "landlord": "0martins1",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791360623609,
+        "freeAt": 1793731389792
+      },
+      {
+        "prop": "pfd0d72e4750544dfa643",
+        "landlordId": "52e9a09d0d32446eae84",
+        "landlord": "_maryamaliyu",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791360455119,
+        "freeAt": 1792570055167
+      },
+      {
+        "prop": "p0ea8c94162c840c4af70",
+        "landlordId": "b8a5bec7f3fe451b88fd",
+        "landlord": "jacksaint",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791360333729,
+        "freeAt": 1793174671661
+      },
+      {
+        "prop": "p6c8ed60af39d4c39a0eb",
+        "landlordId": "f6d47b25a20a41f3ac98",
+        "landlord": "wdeals",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791360188735,
+        "freeAt": 1796198427924
+      },
+      {
+        "prop": "p8c45c922493148fbaf38",
+        "landlordId": "e5196c17144c40a1a02e",
+        "landlord": "ucheO",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791360103058,
+        "freeAt": 1792569703066
+      },
+      {
+        "prop": "pd71687113e11413c827b",
+        "landlordId": "14ec80530acf44389ca6",
+        "landlord": "Bernie12",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791359837378,
+        "freeAt": 1794383795061
+      },
+      {
+        "prop": "p10402e5a8dc545a08036",
+        "landlordId": "89e7fc88ebf94642bb4c",
+        "landlord": "conso_gta",
+        "home": "abjKubwa",
+        "city": "abuja",
+        "rent": 1960,
+        "at": 1791359521877,
+        "freeAt": 1791964322017
+      },
+      {
+        "prop": "p54ac2c58bcfc40689493",
+        "landlordId": "2355bc6694eb494fa7f1",
+        "landlord": "komski",
+        "home": "abjWuse2",
+        "city": "abuja",
+        "rent": 23800,
+        "at": 1791359497723,
+        "freeAt": 1792569097782
+      },
+      {
+        "prop": "p079fd2a945a5425bae11",
+        "landlordId": "855bfeae3e5049ceb6ee",
+        "landlord": "alkilary",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791359122226,
+        "freeAt": 1794356902773
+      },
+      {
+        "prop": "paac6a99c2fd4489789f9",
+        "landlordId": "8bbbdc422bfe48e1bad5",
+        "landlord": "Siggyyy",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791358830514,
+        "freeAt": 1794987526348
+      },
+      {
+        "prop": "p89aa92ceeff64a31bb73",
+        "landlordId": "af9e80c2bbd24b7fad4b",
+        "landlord": "jaykay",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791358425673,
+        "freeAt": 1796196784394
+      },
+      {
+        "prop": "p3682613eb00342828115",
+        "landlordId": "0f0ee94176414a1697d0",
+        "landlord": "Ugoo_is_king",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791357890024,
+        "freeAt": 1792567489978
+      },
+      {
+        "prop": "p823ad8952420434ca9a6",
+        "landlordId": "68fdd2be2cb54e1d94c2",
+        "landlord": "Enny_niceguy",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791357632271,
+        "freeAt": 1793776831402
+      },
+      {
+        "prop": "p23dfd27afa8142b0a86f",
+        "landlordId": "7ea52b517878427fa97e",
+        "landlord": "Elon",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791357546167,
+        "freeAt": 1793776745833
+      },
+      {
+        "prop": "p7a21f49d605046a2a024",
+        "landlordId": "365094bd0ac04d298a36",
+        "landlord": "Tboyriches",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791357397437,
+        "freeAt": 1793171186358
+      },
+      {
+        "prop": "p2f7d671ddd0a4991ac57",
+        "landlordId": "365094bd0ac04d298a36",
+        "landlord": "Tboyriches",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791356770017,
+        "freeAt": 1793775970020
+      },
+      {
+        "prop": "p4456832ff856404e94d8",
+        "landlordId": "e1c9f37b994f43b5a733",
+        "landlord": "themonnitey",
+        "home": "abjMaitama",
+        "city": "abuja",
+        "rent": 168000,
+        "at": 1791356404783,
+        "freeAt": 1796145858724
+      },
+      {
+        "prop": "pa5c1190436a64bb28b50",
+        "landlordId": "54c4bdd602f44832a80d",
+        "landlord": "angelo_lie",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791356381883,
+        "freeAt": 1792565979765
+      },
+      {
+        "prop": "pe343c84c04654ab98765",
+        "landlordId": "30914d7d6b1f401c8d7a",
+        "landlord": "Turnerp",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791356053870,
+        "freeAt": 1793775253688
+      },
+      {
+        "prop": "p7e6c379685b14afba252",
+        "landlordId": "30914d7d6b1f401c8d7a",
+        "landlord": "Turnerp",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791356047192,
+        "freeAt": 1792565647127
+      },
+      {
+        "prop": "p7495bd39b6994d08897f",
+        "landlordId": "83fc29f0017146a6ab6f",
+        "landlord": "SilentThunder22",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791356011106,
+        "freeAt": 1793170277934
+      },
+      {
+        "prop": "pfd00df8516d04af2bdf9",
+        "landlordId": "24c59ad6876b47cea7e5",
+        "landlord": "Revy01",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791353639918,
+        "freeAt": 1791958439544
+      },
+      {
+        "prop": "p2263b6d2a5474b6ab866",
+        "landlordId": "5c3c0b7de2d2420a9815",
+        "landlord": "Mubstar",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791353597831,
+        "freeAt": 1794345954554
+      },
+      {
+        "prop": "p3e8aec6d97604f0896bb",
+        "landlordId": "24c59ad6876b47cea7e5",
+        "landlord": "Revy01",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791353486657,
+        "freeAt": 1793167886549
+      },
+      {
+        "prop": "p12a58b3a3dce4207b0bb",
+        "landlordId": "fe80699da04043fea851",
+        "landlord": "kaneki",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791352655449,
+        "freeAt": 1793771855265
+      },
+      {
+        "prop": "p1b30fedb88e54d049083",
+        "landlordId": "8434895b450b4d39aad7",
+        "landlord": "ihatecaprison",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791352507470,
+        "freeAt": 1793718858011
+      },
+      {
+        "prop": "p2d350d063a1f4ef397bc",
+        "landlordId": "3b5a684b94be40478a17",
+        "landlord": "ipeluwa",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791351575918,
+        "freeAt": 1793165934877
+      },
+      {
+        "prop": "pf88a7daa5c0c4879b864",
+        "landlordId": "3b5a684b94be40478a17",
+        "landlord": "ipeluwa",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791351565603,
+        "freeAt": 1796189897570
+      },
+      {
+        "prop": "p17d613256e2140fe96fa",
+        "landlordId": "3b5a684b94be40478a17",
+        "landlord": "ipeluwa",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791351489055,
+        "freeAt": 1792561088653
+      },
+      {
+        "prop": "p156411d3190945688a31",
+        "landlordId": "3b5a684b94be40478a17",
+        "landlord": "ipeluwa",
+        "home": "abjAsokoro",
+        "city": "abuja",
+        "rent": 980000,
+        "at": 1791351472635,
+        "freeAt": 1792561072513
+      }
+    ],
+    "at": 1791367413296
+  }
+}
