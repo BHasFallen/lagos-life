@@ -1,0 +1,19 @@
+{
+  "name": "laviator-lagos-aviator",
+  "version": "1.0.0",
+  "description": "Laviator (Lagos Aviator) - Crash Game built for Lagos Life / Vatar Games SDK platform",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "aviator",
+    "crash-game",
+    "vatar",
+    "lagos-life"
+  ],
+  "author": "",
+  "license": "MIT"
+}

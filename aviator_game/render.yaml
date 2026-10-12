@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: laviator-lagos-aviator
+    runtime: node
+    buildCommand: ""
+    startCommand: "node server.js"
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: VATAR_SECRET
+        sync: false
+      - key: VATAR_WEBHOOK_SECRET
+        sync: false
+      - key: VATAR_RESULTS_SECRET
+        sync: false
