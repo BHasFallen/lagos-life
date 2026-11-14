@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>Ghana Boarding Life: School Days</title>
+<meta name="theme-color" content="#10243a">
+<style>
+:root{--gold:#ffd477;--glass:rgba(9,22,37,.86);--muted:#b8c8d7}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#9bc9d0;color:#fff;font-family:Inter,system-ui,Arial,sans-serif}#game{position:fixed;inset:0}canvas{display:block}.hud{position:fixed;z-index:2;pointer-events:none}.top{top:15px;left:18px;right:18px;display:flex;justify-content:space-between;align-items:center;gap:14px}.panel,.stats,.mission,.help,.dialog,.schedule{background:rgba(14,25,39,.28);border:1px solid rgba(255,255,255,.24);backdrop-filter:blur(24px) saturate(175%);-webkit-backdrop-filter:blur(24px) saturate(175%);box-shadow:0 10px 36px rgba(5,14,24,.18),inset 0 1px rgba(255,255,255,.15);border-radius:18px}.brand{padding:10px 16px;border-radius:999px;background:linear-gradient(110deg,rgba(11,30,49,.52),rgba(28,58,68,.25))}.brand strong{display:block;font-size:12px;letter-spacing:.13em;text-shadow:0 1px 8px #0005}.brand small{color:#e3edf1;font-size:9px;letter-spacing:.06em}.stats{padding:9px 17px;display:flex;gap:20px;font-size:9px;color:#e1eaf0;border-radius:999px;background:linear-gradient(110deg,rgba(10,27,43,.45),rgba(38,55,64,.25))}.stats>div{min-width:42px}.stats b{display:block;color:#fff;font-size:15px;margin-top:2px;font-weight:750;text-shadow:0 1px 9px #0007}.mission{left:19px;top:86px;padding:13px 16px;width:min(270px,calc(100vw - 38px));border-radius:17px;background:linear-gradient(135deg,rgba(13,35,49,.42),rgba(32,61,62,.20))}.eyebrow{font-size:9px;letter-spacing:.17em;color:#ffe2a0;font-weight:900}.mission h2{font-size:15px;margin:5px 0;text-shadow:0 2px 12px #0005}.mission p{font-size:11px;line-height:1.5;color:#e0eaf0;margin:0}.schedule{right:18px;top:86px;padding:12px 15px;width:196px;font-size:10px;max-height:58vh;overflow-y:auto;border-radius:17px;background:rgba(11,27,43,.29)}.schedule strong{display:block;color:#ffe0a0;margin-bottom:7px;letter-spacing:.08em;font-size:9px}.schedule div{padding:5px 2px;border-bottom:1px solid rgba(255,255,255,.12);color:#e0e9ee}.schedule .current{color:#fff;font-weight:900;border-left:2px solid #f6d28a;padding-left:8px;background:linear-gradient(90deg,rgba(255,219,149,.16),transparent)}.help{right:18px;bottom:17px;padding:10px 14px;color:#e1eaf0;font-size:10px;line-height:1.7;border-radius:15px;background:rgba(10,25,40,.25)}.help b{color:#ffe0a0}.dialog{position:fixed;z-index:5;left:50%;bottom:22px;transform:translateX(-50%);width:min(440px,calc(100vw - 28px));padding:17px 19px;display:none;pointer-events:auto}.dialog h3{margin:0 0 7px;color:var(--gold)}.dialog p{font-size:13px;line-height:1.5;color:#d5e0e9;margin:0 0 12px}.dialog button,.start button{border:0;border-radius:10px;padding:11px 16px;background:var(--gold);color:#1b2936;font-weight:900;cursor:pointer}.dialog .secondary{background:#34485b;color:white;margin-left:7px}#start{position:fixed;inset:0;z-index:10;display:grid;place-items:center;background:linear-gradient(90deg,#0715238c 0%,#0d334244 58%,#0d33420a 100%);pointer-events:none}#start .start{pointer-events:auto;background:#0b1a2acb;backdrop-filter:blur(8px);margin:18px;max-width:460px}.start{width:min(490px,calc(100vw - 30px));padding:28px;border:1px solid #ffffff2c;border-radius:23px;background:#0b1a2aef;box-shadow:0 30px 100px #0009}.start .tag{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.18em}.start h1{font-size:clamp(34px,7vw,55px);line-height:.98;margin:12px 0}.start p{color:#c0cfda;line-height:1.6;font-size:14px}.start small{display:block;color:#93a8b9;margin-top:13px}.toast{position:fixed;z-index:4;left:50%;top:18%;transform:translateX(-50%);background:#10283beF;border:1px solid #ffffff25;padding:10px 15px;border-radius:12px;font-size:12px;opacity:0;transition:opacity .2s;pointer-events:none}.toast.show{opacity:1}#start{background:linear-gradient(180deg,#07152322,#07152318 55%,#07152355);align-items:end;justify-items:start;padding:18px}#start .start{max-width:390px;padding:22px;background:#091a2bdc}
+#phoneToggle{position:fixed;z-index:7;right:14px;bottom:16px;padding:12px 15px;border:1px solid #ffffff55;border-radius:14px;background:#172b3eef;color:white;font-weight:900}
+#phonePanel{display:none;position:fixed;z-index:9;right:14px;bottom:72px;width:230px;padding:12px;border:7px solid #17202a;border-radius:25px;background:#b8cbbb;color:#17252c;box-shadow:0 18px 55px #0009}
+#phonePanel.open{display:block}.phone-screen{border:2px solid #4b5a55;border-radius:12px;padding:12px;background:#d0dfc9;min-height:220px}.phone-head{display:flex;justify-content:space-between;font-weight:900;font-size:12px}.phone-time{font-size:28px;font-weight:900;margin:14px 0}.phone-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.phone-grid button{padding:10px 3px;border:1px solid #718879;border-radius:8px;background:#edf2e4;color:#17252c;font-weight:800;font-size:11px}
+#teacherAlert{display:none;position:fixed;z-index:8;left:50%;top:72px;transform:translateX(-50%);background:#7d2828f2;border:1px solid #ffc3a9;border-radius:12px;padding:10px 14px;font-size:12px;font-weight:900}#teacherAlert.show{display:block}
+#mobile{position:fixed;z-index:6;bottom:18px;left:14px;display:none;grid-template-columns:repeat(3,52px);gap:6px;touch-action:none}#mobile button{height:52px;border:1px solid #ffffff55;border-radius:15px;background:#10243be8;color:white;font-size:20px;font-weight:800;touch-action:none;user-select:none}#mobile button:nth-child(1){grid-column:2}#mobile button:nth-child(2){grid-column:1;grid-row:2}#mobile button:nth-child(3){grid-column:2;grid-row:2}#mobile button:nth-child(4){grid-column:3;grid-row:2}#mobile button[data-action=interact]{grid-column:2;grid-row:3;background:#ffd477;color:#1b2936;font-size:13px}#mobile button:active{transform:scale(.96)}@media(max-width:720px){.schedule{top:auto;right:10px;bottom:15px;width:155px;font-size:9px;max-height:48vh;overflow-y:auto}#phoneToggle{top:150px;right:12px;bottom:auto}#phonePanel{top:198px;right:12px;bottom:auto;max-height:55vh;overflow:auto}.help{display:none}.stats{gap:8px;padding:8px}.stats b{font-size:13px}.mission{top:77px}.brand{padding:9px}.dialog{bottom:130px}#mobile{display:grid}}
+
+/* Original Ghana Boarding Life sign-in and age eligibility screen */
+#authGate{position:fixed;inset:0;z-index:30;display:grid;place-items:center;padding:22px;background:radial-gradient(ellipse at 78% 18%,#28566b 0%,transparent 42%),linear-gradient(145deg,#071523 0%,#102b3c 58%,#152e35 100%);overflow-y:auto}
+.auth-card{width:min(440px,100%);padding:clamp(22px,5vw,34px);border:1px solid #ffffff2b;border-radius:25px;background:rgba(7,20,33,.91);box-shadow:0 28px 90px #0008;backdrop-filter:blur(18px)}
+.auth-brand{display:flex;align-items:center;gap:13px;margin-bottom:27px}
+.auth-logo{width:54px;height:54px;display:grid;place-items:center;border-radius:16px;background:linear-gradient(145deg,#f5c96d,#a86d28);font-size:27px;box-shadow:0 8px 24px #e3a83b35}
+.auth-brand strong{display:block;font-size:13px;letter-spacing:.12em}
+.auth-brand small{display:block;margin-top:4px;color:#d9bd7d;font-size:10px;font-weight:800;letter-spacing:.19em}
+.auth-eyebrow{color:#ffd477;font-size:10px;font-weight:900;letter-spacing:.19em}
+.auth-card h1{font-size:clamp(28px,6vw,39px);line-height:1.04;margin:10px 0}
+.auth-intro{font-size:13px;line-height:1.6;color:#bdcbd6;margin:0 0 22px}
+.auth-form{display:grid;gap:13px}
+.auth-field{display:grid;gap:6px;color:#d9e3e9;font-size:11px;font-weight:800}
+.auth-field input{width:100%;min-height:45px;padding:11px 13px;border-radius:11px;border:1px solid #ffffff30;background:#102638;color:white;font:inherit;font-size:14px;outline:none}
+.auth-field input:focus{border-color:#ffd477;box-shadow:0 0 0 3px #ffd47720}
+.auth-submit,.auth-demo{width:100%;min-height:46px;border:0;border-radius:11px;font-weight:900;cursor:pointer}
+.auth-submit{margin-top:3px;background:linear-gradient(100deg,#ffd477,#e9b955);color:#192a35}
+.auth-demo{margin-top:10px;border:1px solid #ffffff35;background:#ffffff0c;color:#f3f6f8}
+.auth-age-note{margin:15px 0 0;color:#a9bbc8;font-size:10px;line-height:1.55}
+.auth-message{min-height:18px;margin-top:10px;color:#ffd477;font-size:12px;line-height:1.5}
+.auth-disclaimer{display:block;margin-top:13px;color:#8097a8;font-size:10px;line-height:1.5}
+@media(max-width:480px){#authGate{padding:14px}.auth-card{border-radius:20px}.auth-brand{margin-bottom:22px}}
+
+ .auth-switch{width:100%;margin-top:8px;padding:10px;border:0;background:transparent;color:#ffd477;font-weight:800;cursor:pointer}
+
+/* Floating glass HUD: a translucent macOS-inspired control strip, not stacked opaque cards */
+.top{pointer-events:none}
+.brand,.stats,.mission,.schedule,.help{pointer-events:auto}
+.brand{border-color:rgba(255,255,255,.22);box-shadow:0 8px 30px #06152325,inset 0 1px #ffffff2b}
+.stats{gap:clamp(10px,2vw,22px)}
+.mission{border-color:rgba(255,255,255,.19)}
+.schedule{scrollbar-width:thin;scrollbar-color:#ffffff55 transparent}
+#phoneToggle{border-radius:999px;padding:12px 18px;background:rgba(15,34,52,.34);border:1px solid #ffffff65;backdrop-filter:blur(22px) saturate(180%);box-shadow:0 8px 28px #06152335,inset 0 1px #ffffff40;letter-spacing:.04em}
+#mobile button{background:rgba(12,29,46,.32);backdrop-filter:blur(18px) saturate(160%);border-color:#ffffff65;box-shadow:0 6px 22px #06152330,inset 0 1px #ffffff35}
+#mobile button[data-action=interact]{background:linear-gradient(135deg,rgba(255,221,153,.96),rgba(235,178,85,.88));color:#1b2936}
+.dialog{background:rgba(10,25,40,.64);border-color:#ffffff38;backdrop-filter:blur(25px) saturate(170%)}
+@media(max-width:720px){.top{left:9px;right:9px;top:9px;gap:6px}.stats{gap:7px;padding:8px 10px}.brand strong{font-size:10px}.brand small{font-size:7px}.mission{left:9px;top:66px;width:min(210px,calc(100vw - 18px));padding:10px 12px}.schedule{right:9px;bottom:12px;width:148px;top:auto;padding:9px 10px;background:rgba(11,27,43,.26)}.schedule div{padding:4px 1px}.help{display:none}#phoneToggle{right:10px;top:124px;bottom:auto;padding:10px 13px;font-size:11px}#phonePanel{top:168px;right:10px;bottom:auto}}
+
+</style>
+</head>
+<body>
+
+<section id="authGate" aria-label="Ghana Boarding Life sign in">
+  <div class="auth-card">
+    <div class="auth-brand">
+      <div class="auth-logo" aria-hidden="true">🎓</div>
+      <div><strong>GHANA BOARDING LIFE</strong><small>HIGH SCHOOL EDITION</small></div>
+    </div>
+    <div class="auth-eyebrow">AKWAABA · WELCOME BACK</div>
+    <h1>Sign in to your school life.</h1>
+    <p class="auth-intro">Sign in to continue your boarding-school journey. Age eligibility is checked before access.</p>
+    <form class="auth-form" id="authForm">
+      <label class="auth-field">Username
+        <input id="authUsername" name="username" autocomplete="username" maxlength="24" placeholder="Enter your username" required>
+      </label>
+      <label class="auth-field">Password
+        <input id="authPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+      </label>
+      <label class="auth-field">Date of birth
+        <input id="authDob" name="birthDate" type="date" autocomplete="bday" required>
+      </label>
+      <button class="auth-submit" type="submit">SIGN IN</button>
+    </form>
+    <p class="auth-age-note">Minimum age: 13 years. Players under 13 cannot access the game. Your date of birth is checked for this prototype and is not saved.</p>
+    <div class="auth-message" id="authMessage" role="status" aria-live="polite"></div>
+    <button class="auth-demo" id="authDemo" type="button">TRY THE SCHOOL DEMO</button>
+    <button class="auth-switch" id="authSwitch" type="button">New here? Create an account</button>
+    <small class="auth-disclaimer">Prototype notice: secure account sign-in and registration still need a server-side authentication service. Demo access does not create or save an account.</small>
+  </div>
+</section>
+
+<div id="game"></div>
+<div class="hud top"><div class="panel brand"><strong>GHANA BOARDING LIFE</strong><small>BOARDING SCHOOL DAYS · 3D SIMULATION</small></div><div class="stats"><div>DAY<b id="day">MON</b></div><div>TIME<b id="time">08:00</b></div><div>GRADE<b id="grade">A</b></div><div>REPUTATION<b id="rep">0</b></div></div></div>
+<section class="hud mission"><div class="eyebrow">TODAY'S MISSION</div><h2 id="missionTitle">Welcome to school!</h2><p id="missionText">Explore campus and meet your classmates. Walk up to a highlighted place or person and press E.</p></section>
+<div class="hud schedule"><strong>GHANA SHS TIMETABLE</strong><div id="slot0">05:00 · Wake-up & devotion</div><div id="slot1">05:30 · Dorm duties</div><div id="slot2">06:00 · Personal prep</div><div id="slot3">06:30 · Breakfast</div><div id="slot4">07:15 · Assembly</div><div id="slot5">07:45 · Period 1</div><div id="slot6">08:35 · Period 2</div><div id="slot7">09:25 · Break</div><div id="slot8">09:45 · Period 3</div><div id="slot9">10:35 · Period 4</div><div id="slot10">11:25 · Period 5</div><div id="slot11">12:15 · Lunch</div><div id="slot12">13:00 · Period 6</div><div id="slot13">13:50 · Period 7 / clubs</div><div id="slot14">15:00 · Sports & activities</div><div id="slot15">17:00 · Supper</div><div id="slot16">19:00 · Evening prep</div><div id="slot17">21:00 · Roll call & lights out</div><small style="color:#b8c8d7">Sample SHS routine — schools vary</small></div>
+<div class="hud help"><b>MOVE</b> WASD / arrows<br><b>INTERACT</b> E / touch button<br><b>SPRINT</b> Shift<br><b>LOOK</b> Mouse drag / touch-drag</div>
+<div id="toast" class="toast"></div><button id="phoneToggle">▣ MY PHONE</button><div id="teacherAlert">⚠ TEACHER NEARBY — PHONE CLOSED</div><div id="phonePanel"><div class="phone-screen"><div class="phone-head"><span>GH BOARDER</span><span>▮▮▮ ▰</span></div><div class="phone-time" id="phoneClock">05:00</div><div id="phonePage"><b>Small phone · Home</b><p style="font-size:11px">Your in-game feature phone.</p><div class="phone-grid"><button data-phone="Messages">✉ Messages</button><button data-phone="Notes">▤ Notes</button><button data-phone="Timetable">▦ Timetable</button><button data-phone="Clock">◷ Clock</button></div></div></div><button id="phoneClose" style="width:100%;margin-top:8px;padding:8px;border:0;border-radius:8px;background:#243d35;color:white;font-weight:900">CLOSE PHONE</button></div><div id="dialog" class="dialog"><h3 id="dialogTitle">Welcome</h3><p id="dialogText"></p><button id="dialogAction">Continue</button><button id="dialogClose" class="secondary">Close</button></div>
+<div id="mobile" aria-label="Touch game controls"><button data-key="w" aria-label="Move forward">▲</button><button data-key="a" aria-label="Move left">◀</button><button data-key="s" aria-label="Move backward">▼</button><button data-key="d" aria-label="Move right">▶</button><button data-action="interact">INTERACT</button></div>
+<div id="start"><div class="start"><div class="tag">AKWAABA · YOUR NEW TERM STARTS NOW</div><h1>Welcome to<br>boarding school.</h1><p>Experience a Ghanaian boarding-school week: morning devotion, dorm duties, roll call, lessons, dining-hall queues, prep, house competitions, football and Our Day. Make friends and earn house points.</p><button id="play">ENTER THE SCHOOL →</button><small>Keyboard: WASD to move · E to interact · Shift to sprint. On mobile, use the left movement pad and the gold INTERACT button.</small></div></div>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.161.0/examples/jsm/"}}</script>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const root=document.querySelector('#game'),scene=new THREE.Scene();scene.background=new THREE.Color(0x9acbd0);scene.fog=new THREE.Fog(0x9acbd0,110,420);
+const camera=new THREE.PerspectiveCamera(58,innerWidth/innerHeight,.1,850),renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;root.appendChild(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xe1f6ff,0x52634f,2));const sun=new THREE.DirectionalLight(0xffe4bd,3);sun.position.set(-35,55,30);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);scene.add(sun);
+const mat=(c,r=.85)=>new THREE.MeshStandardMaterial({color:c,roughness:r});
+const grass=mat(0x65a078),road=mat(0x39464d),cream=mat(0xe6ddc8),wall=mat(0xe5c99c),roof=mat(0x9c5744),blue=mat(0x3e7892),dark=mat(0x263642),wood=mat(0x8b6245),glass=mat(0x6aa5b3,.35),white=mat(0xf4f0df);
+function box(x,y,z,sx,sy,sz,m,cast=true){const o=new THREE.Mesh(new THREE.BoxGeometry(sx,sy,sz),m);o.position.set(x,y,z);o.castShadow=cast;o.receiveShadow=true;scene.add(o);return o}
+const ground=box(0,-.2,0,520,.3,300,grass,false);
+box(0,-.02,0,13,.12,150,road,false);box(0,-.01,0,110,.12,10,road,false);box(95,-.02,0,190,.12,10,road,false);
+for(let z=-65;z<70;z+=10)box(0,.05,z,.16,.03,4,mat(0xe5d6a8),false);
+const buildingBounds=[],dormWallBounds=[];
+function dormWall(x,z,sx,sz,h,color=0xe9d3ad){box(x,h/2,z,sx,h,sz,mat(color));dormWallBounds.push({x,z,w:sx,d:sz})}
+function dormBunk(x,z){
+ for(const y of [.62,2.42]){
+  box(x,y,z,3.1,.16,1.05,dark);box(x,y+.14,z,2.92,.22,.94,blue);box(x+.04,y+.27,z-.16,2.7,.035,.58,white);box(x+1.12,y+.32,z+.22,.48,.14,.46,white);
+ }
+ for(const dx of [-1.42,1.42])for(const dz of [-.42,.42])box(x+dx,1.52,z+dz,.1,2.9,.1,dark);
+ box(x-1.62,1.55,z-.48,.07,2.55,.08,dark);
+ for(const y of [.58,1.08,1.58,2.08,2.48])box(x-1.62,y,z-.5,.5,.07,.09,mat(0x9e8351));
+}
+function building(x,z,w,d,h,color,windows=true){
+ if(x===-36&&z===29){
+  box(x,.12,z,w,.24,d,mat(0xc9c2ad),false);
+  const front=z-d/2,back=z+d/2;
+  dormWall(x,back,w,.3,h,0xe9d3ad);dormWall(x-w/2,z,.3,d,h,0xe9d3ad);dormWall(x+w/2,z,.3,d,h,0xe9d3ad);
+  dormWall(x-6.3,front,5.4,.3,h,0xe9d3ad);dormWall(x+6.3,front,5.4,.3,h,0xe9d3ad);
+  box(x,6.65,front,7.2,.3,2.7,mat(0xe9d3ad));
+  // Open entrance and a clear route into the dorm.
+  box(x-1.8,1.5,front+.1,.16,3,.22,mat(0x31543d));box(x+1.8,1.5,front+.1,.16,3,.22,mat(0x31543d));
+  box(x-1.8,1.5,front+1.15,.1,3,2.5,wood);
+  // Four back-wall louvre windows.
+  for(const wx of [-5.8,-1.95,1.95,5.8]){
+   box(x+wx,4.55,back-.17,2.05,1.65,.08,dark,false);box(x+wx,4.55,back-.24,1.85,1.42,.04,glass,false);
+   for(const wy of [4.15,4.5,4.85])box(x+wx,wy,back-.28,1.8,.045,.05,white,false);
+  }
+  // Two rows of double-decker student bunks.
+  for(const dz of [-6.2,-1.4,3.4,8]){dormBunk(x-5.55,z+dz);dormBunk(x+5.55,z+dz)}
+  // Personal lockers along both side aisles.
+  for(const sx of [-8.05,8.05])for(const dz of [-5.8,-2,1.8,5.6]){
+   box(x+sx,1.08,z+dz,.62,2.05,.82,mat(0x244c37));box(x+sx,1.08,z+dz-.43,.54,1.93,.035,mat(0x315b43));box(x+sx+.18,1.08,z+dz-.47,.04,.13,.04,mat(0xd3ae60));
+  }
+  // Dormitory stays open for movement: no study tables or benches inside.
+  for(const sx of [-5,0,5])for(const dz of [-6,2,8])box(x+sx,7.65,z+dz,1.2,.12,.35,white,false);
+  box(x,5.25,front-.18,4.5,.72,.12,mat(0x244c37),false);
+  return;
+ }
+ buildingBounds.push({x,z,w,d});box(x,h/2,z,w,h,d,mat(color));box(x,h+.18,z,w+.5,.35,d+.5,roof);if(windows)for(let y=2;y<h-1;y+=2.5)for(let xx=-w/2+1.5;xx<w/2-1;xx+=3)box(x+xx,y,z+d/2+.03,1.1,1.15,.08,glass,false)
+}
+// Main school block
+building(-25,-4,25,30,12,0xe9d3ad);building(25,-4,25,30,12,0xd9e0d4);building(0,-28,34,13,9,0xd9c49d);building(-36,29,18,22,8,0xd6b58d);building(36,29,18,22,8,0xc8d3c4);building(-19,62,25,12,7,0xe0c49b);
+box(0,.12,-4,12,.3,11,cream);box(0,6.2,11,14,1.4,.8,roof);
+function label(text,x,y,z,color='#16354a'){const c=document.createElement('canvas');c.width=512;c.height=128;const ctx=c.getContext('2d');ctx.fillStyle='#f2d7a6';ctx.fillRect(0,0,512,128);ctx.fillStyle=color;ctx.font='bold 48px Arial';ctx.textAlign='center';ctx.fillText(text,256,82);const t=new THREE.CanvasTexture(c);const m=new THREE.Mesh(new THREE.PlaneGeometry(10,2.5),new THREE.MeshBasicMaterial({map:t}));m.position.set(x,y,z);scene.add(m)}
+label('GHANA BOARDING SCHOOL',0,9,11);label('LIBRARY',-25,7,11);label('SCIENCE LAB',25,7,11);label('DINING HALL',0,6,-19);label('BOYS HOUSE',-36,6,40);label('GIRLS HOUSE',36,6,40);label('ASSEMBLY & CHAPEL',-19,5,68);
+function tree(x,z){const t=new THREE.Mesh(new THREE.CylinderGeometry(.2,.32,3,7),wood);t.position.set(x,1.5,z);t.castShadow=true;scene.add(t);const crown=new THREE.Mesh(new THREE.SphereGeometry(1.5,9,7),mat(0x347c50));crown.position.set(x,3.8,z);crown.castShadow=true;scene.add(crown)}
+for(let z=-65;z<=65;z+=13){tree(-49,z);tree(49,z)}for(let x=-40;x<=40;x+=13){tree(x,45);tree(x,-45)}
+// sports field and markings
+box(0,.01,53,43,.12,29,mat(0x4b9a62),false);for(let x=-18;x<=18;x+=36)box(x,.1,53,.3,.08,25,white,false);box(0,.12,53,0.25,.08,25,white,false);
+for(let x of [-17,17]){box(x,1,53,.3,2,.3,white,false);box(x,2,53,4,.25,.3,white,false)}
+// benches, tables, cafeteria
+for(let x of [-8,8]){box(x,.65,0,5,.3,1.5,wood);for(let z of [-.6,.6])box(x,.3,z,4.6,.5,.15,dark)}
+for(let x=-9;x<=9;x+=6){box(x,.7,-22,3,.3,2,wood);for(let z of [-22.7,-21.3])box(x,.35,z,2.7,.4,.15,dark)}
+// character creator
+function person(x,z,shirt=0x235c70,scale=1){const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CapsuleGeometry(.38,.75,4,8),mat(shirt));body.position.y=1.05;body.castShadow=true;g.add(body);const head=new THREE.Mesh(new THREE.SphereGeometry(.29,12,10),mat(0x87583e));head.position.y=1.85;head.castShadow=true;g.add(head);const legs=new THREE.Mesh(new THREE.BoxGeometry(.48,.55,.35),mat(0x293846));legs.position.y=.28;g.add(legs);g.position.set(x,0,z);g.scale.setScalar(scale);scene.add(g);return g}
+const player=person(0,20,0x244e70,1);
+const npcs=[{name:'Amara',role:'Student · Form 1',x:-9,z:6,shirt:0x9b5a7c,done:false,student:true},{name:'Tunde',role:'Student · Form 2',x:9,z:6,shirt:0x3d8b78,done:false,student:true},{name:'Ms. Okafor',role:'Teacher',x:-24,z:4,shirt:0x8b6642,done:false,teacher:true},{name:'Coach Ade',role:'Sports coach',x:0,z:42,shirt:0x397a4b,done:false},{name:'Kojo',role:'Student · DBee Baby',x:13,z:12,shirt:0x254f76,done:false,student:true},{name:'Mr. Mensah',role:'Housemaster',x:-36,z:27,shirt:0x694c35,done:false},{name:'Auntie Efua',role:'Dining hall staff',x:3,z:-23,shirt:0x9b6a42,done:false},{name:'Mr. Boateng',role:'Security officer',x:0,z:69,shirt:0x343f52,done:false}];
+npcs.forEach(n=>{n.mesh=person(n.x,n.z,n.shirt,.95)});
+function makeCar(x,z,color){const g=new THREE.Group();const body=new THREE.Mesh(new THREE.BoxGeometry(3.5,.85,6),mat(color));body.position.y=.85;body.castShadow=true;g.add(body);const cabin=new THREE.Mesh(new THREE.BoxGeometry(2.65,.9,2.8),glass);cabin.position.set(0,1.65,-.25);g.add(cabin);for(const wx of [-1.55,1.55])for(const wz of [-1.9,1.9]){const wheel=new THREE.Mesh(new THREE.CylinderGeometry(.48,.48,.28,12),dark);wheel.rotation.z=Math.PI/2;wheel.position.set(wx,.48,wz);g.add(wheel)}g.position.set(x,0,z);scene.add(g);return g}
+makeCar(-43,17,0x263f5b);makeCar(43,17,0x9c573d);label('STAFF PARKING',-43,3,21);label('STUDENT PARKING',43,3,21);
+const tasks=[
+{id:'devotion',name:'Morning devotion',x:-19,z:62,title:'Morning devotion',desc:'The school gathers for a respectful morning reflection, prayer or quiet moment. Students from different backgrounds are welcome to participate in a way that feels right for them.',reward:10,done:false},{id:'chores',name:'Dormitory duties',x:-36,z:29,title:'Dormitory duties',desc:'Tidy your bunk area, sweep the dorm common room and help keep shared spaces clean. Your housemates work together to get the dorm ready for the day.',reward:10,done:false},{id:'rollcall',name:'House roll call',x:36,z:29,title:'House roll call',desc:'Meet your house prefect for morning roll call. Check that your dorm group is present and ready to head to the assembly ground.',reward:10,done:false},{id:'assembly',name:'Assembly ground',x:0,z:-4,title:'Morning assembly',desc:'The headteacher shares announcements, celebrates student achievements and reminds everyone about the inter-house events coming up.',reward:10,done:false},
+{id:'math',name:'Mathematics classroom',x:-25,z:5,title:'Mathematics lesson',desc:'Quick class challenge: What is 12 × 8?',reward:20,done:false,quiz:true},
+{id:'english',name:'English classroom',x:25,z:5,title:'English lesson',desc:'Quick class challenge: Which word is a synonym for “brave”?',reward:20,done:false,quiz:true},
+{id:'library',name:'School library',x:-25,z:-5,title:'Quiet time in the library',desc:'You spend time reading and researching a topic for your next project. Knowledge grows one page at a time.',reward:15,done:false},
+{id:'lunch',name:'Dining hall',x:0,z:-22,title:'Dining hall queue',desc:'Join your housemates in the dining-hall queue. Collect your meal, make room for others and enjoy lunch together.',reward:10,done:false},{id:'ourday',name:'Our Day celebration',x:8,z:-22,title:'Our Day!',desc:'It is Our Day: enjoy a school celebration with music, games, shared snacks and time with friends. Keep it welcoming and remember that everyone can join in.',reward:20,done:false},
+{id:'science',name:'Science laboratory',x:25,z:-5,title:'Science practical',desc:'You explore a safe classroom experiment about plants and how sunlight helps them grow.',reward:20,done:false},
+{id:'sports',name:'Sports field',x:0,z:53,title:'Inter-house football',desc:'Play a friendly inter-house football match. Communicate, pass to teammates and show good sportsmanship.',reward:15,done:false},{id:'cadets',name:'Cadet parade ground',x:-19,z:50,title:'Cadet corps practice',desc:'Take part in a supervised marching and teamwork session. The focus is discipline, coordination and supporting your group.',reward:15,done:false},{id:'choir',name:'Choir and drama club',x:18,z:50,title:'Choir & drama club',desc:'Join a music and drama rehearsal. Practise a rhythm, share ideas and help your group prepare a performance.',reward:15,done:false},{id:'prep',name:'Evening prep hall',x:0,z:38,title:'Evening prep',desc:'Settle into supervised evening study. Review your notes, complete a short revision task and help keep the study hall quiet for everyone.',reward:20,done:false}
+];
+let rep=0,grade='A',yaw=0,pitch=.2,started=false,clockMinutes=5*60,day=0,dialogTask=null,phoneOpen=false,teacherNearby=false;const keys={};let toastTimer;
+function toast(s){const t=document.querySelector('#toast');t.textContent=s;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),1800)}
+function showDialog(title,txt,action,fn){document.querySelector('#dialogTitle').textContent=title;document.querySelector('#dialogText').textContent=txt;const b=document.querySelector('#dialogAction');b.textContent=action||'Continue';b.onclick=()=>{if(fn)fn();document.querySelector('#dialog').style.display='none'};document.querySelector('#dialogClose').onclick=()=>document.querySelector('#dialog').style.display='none';document.querySelector('#dialog').style.display='block'}
+const schoolTimetable=[['05:00','Wake-up & devotion'],['05:30','Dorm duties'],['06:00','Personal prep'],['06:30','Breakfast'],['07:15','Assembly'],['07:45','Period 1'],['08:35','Period 2'],['09:25','Break'],['09:45','Period 3'],['10:35','Period 4'],['11:25','Period 5'],['12:15','Lunch'],['13:00','Period 6'],['13:50','Period 7 / clubs'],['15:00','Sports & activities'],['17:00','Supper'],['19:00','Evening prep'],['21:00','Roll call & lights out']];
+function updateTimetable(){let active=-1;for(let i=0;i<schoolTimetable.length;i++){const m=Number(schoolTimetable[i][0].slice(0,2))*60+Number(schoolTimetable[i][0].slice(3));if(clockMinutes>=m)active=i}for(let i=0;i<18;i++){const el=document.querySelector('#slot'+i);if(el){el.textContent=schoolTimetable[i][0]+' · '+schoolTimetable[i][1];el.classList.toggle('current',i===active)}}}
+function updateHud(){document.querySelector('#rep').textContent=rep;document.querySelector('#grade').textContent=grade;document.querySelector('#time').textContent=String(Math.floor(clockMinutes/60)%24).padStart(2,'0')+':'+String(clockMinutes%60).padStart(2,'0');document.querySelector('#day').textContent=['MON','TUE','WED','THU','FRI'][day%5];updateTimetable();document.querySelector('#phoneClock').textContent=document.querySelector('#time').textContent;const done=tasks.filter(t=>t.done).length;document.querySelector('#missionTitle').textContent=done===tasks.length?'School day complete!':tasks.find(t=>!t.done).title;document.querySelector('#missionText').textContent=done===tasks.length?'You completed today’s activities. Explore campus, chat with classmates or enjoy the free time.':done+' of '+tasks.length+' activities complete. Find the next school activity and press E nearby.'}
+function finishTask(task){if(task.done){toast('You already completed this activity.');return}task.done=true;rep+=task.reward;grade=rep>=100?'A+':rep>=60?'A':rep>=30?'B+':'A';updateHud();toast('Activity complete · +'+task.reward+' reputation');}
+function interact(){if(document.querySelector('#dialog').style.display==='block')return;let nearest=null,dist=4.2;for(const t of tasks){const d=Math.hypot(player.position.x-t.x,player.position.z-t.z);if(d<dist){nearest=t;dist=d}}for(const n of npcs){const d=Math.hypot(player.position.x-n.x,player.position.z-n.z);if(d<dist){nearest=n;dist=d}}if(!nearest){toast('Walk closer to a school activity or classmate.');return}if(nearest.role){if(!nearest.done){nearest.done=true;rep+=5;updateHud();showDialog('Chat with '+nearest.name,nearest.name+' says: “Welcome to Ghana Boarding School! Be kind, stay curious and make the most of your school year.”','Nice to meet you!',null)}else showDialog(nearest.name,'“See you around campus!”','Close',null);return}if(nearest.done){showDialog(nearest.title,'You have already completed this activity. Keep exploring!','Got it',null);return}if(nearest.quiz){const math=nearest.id==='math';showDialog(nearest.title,nearest.desc,math?'Answer: 96':'Answer: courageous',()=>{finishTask(nearest)});return}showDialog(nearest.title,nearest.desc,'Complete activity',()=>finishTask(nearest))}
+addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault();if(e.key.toLowerCase()==='e'&&!e.repeat)interact()});addEventListener('keyup',e=>keys[e.key.toLowerCase()]=false);
+renderer.domElement.addEventListener('click',()=>{if(started&&document.pointerLockElement!==renderer.domElement)renderer.domElement.requestPointerLock?.()});addEventListener('mousemove',e=>{if(document.pointerLockElement===renderer.domElement){yaw-=e.movementX*.0024;pitch=Math.max(-.1,Math.min(.65,pitch+e.movementY*.0018))}});
+document.querySelectorAll('#mobile button').forEach(b=>{const k=b.dataset.key;b.addEventListener('pointerdown',e=>{e.preventDefault();if(b.dataset.action==='interact'){interact();return}keys[k]=true});['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>{if(k)keys[k]=false}))});
+let touchLook=null;renderer.domElement.addEventListener('touchstart',e=>{if(!started||e.target.closest('#mobile'))return;const p=e.touches[0];touchLook={x:p.clientX,y:p.clientY}},{passive:true});renderer.domElement.addEventListener('touchmove',e=>{if(!touchLook||!started)return;const p=e.touches[0];yaw-=(p.clientX-touchLook.x)*.006;pitch=THREE.MathUtils.clamp(pitch+(p.clientY-touchLook.y)*.003,-.1,.65);touchLook={x:p.clientX,y:p.clientY}},{passive:true});renderer.domElement.addEventListener('touchend',()=>touchLook=null,{passive:true});
+
+/* Prototype age gate. Production authentication must repeat this check server-side. */
+const authGate=document.querySelector('#authGate');
+const authMessage=document.querySelector('#authMessage');
+let authMode="signin";
+const authSwitch=document.querySelector("#authSwitch");
+function setAuthMode(mode){
+ authMode=mode;
+ document.querySelector(".auth-eyebrow").textContent=mode==="signup"?"AKWAABA · JOIN THE SCHOOL":"AKWAABA · WELCOME BACK";
+ document.querySelector(".auth-card h1").textContent=mode==="signup"?"Create your student account.":"Sign in to your school life.";
+ document.querySelector(".auth-intro").textContent=mode==="signup"?"Create a profile to begin your boarding-school journey. You must be at least 13 years old.":"Sign in to continue your boarding-school journey. Age eligibility is checked before access.";
+ document.querySelector(".auth-submit").textContent=mode==="signup"?"CREATE ACCOUNT":"SIGN IN";
+ authSwitch.textContent=mode==="signup"?"Already registered? Sign in":"New here? Create an account";
+ authMessage.textContent=mode==="signup"?"Registration preview only: secure account storage is not connected yet.":"";
+}
+authSwitch.addEventListener("click",()=>setAuthMode(authMode==="signup"?"signin":"signup"));
+function checkMinimumAge(){
+  const raw=document.querySelector('#authDob').value;
+  if(!raw){authMessage.textContent='Enter your date of birth to check age eligibility.';return false}
+  const dob=new Date(raw+'T00:00:00');
+  const today=new Date();
+  if(Number.isNaN(dob.getTime())||dob>today){authMessage.textContent='Enter a valid date of birth.';return false}
+  let age=today.getFullYear()-dob.getFullYear();
+  const month=today.getMonth()-dob.getMonth();
+  if(month<0||(month===0&&today.getDate()<dob.getDate()))age--;
+  if(age<13){authMessage.textContent='Access denied. You must be at least 13 years old to use Ghana Boarding Life.';return false}
+  authMessage.textContent=authMode==='signup'?'Age requirement met. Account creation still needs secure server-side registration.':'Age requirement met. Secure account sign-in is not connected in this prototype yet.';
+  return true;
+}
+function enterDemoAfterAgeCheck(){
+  if(!checkMinimumAge())return;
+  authGate.style.display='none';
+  document.querySelector('#start').style.display='grid';
+}
+document.querySelector('#authForm').addEventListener('submit',event=>{
+  event.preventDefault();
+  if(!checkMinimumAge())return;
+  authMessage.textContent=authMode==='signup'?'Your registration preview passed the age check. Secure account creation is not connected yet; use the demo to preview the school.':'Your age meets the minimum requirement. Secure account sign-in is still being connected; use the school demo to preview the game.';
+});
+document.querySelector('#authDemo').addEventListener('click',enterDemoAfterAgeCheck);
+
+document.querySelector('#play').onclick=()=>{document.querySelector('#start').style.display='none';started=true;renderer.domElement.requestPointerLock?.();showDialog('Welcome to Ghana Boarding School','Your first mission is to join morning devotion, help with dorm duties, meet your housemates and settle into boarding-school life. Walk near a location and press E to interact.','Let’s go!',null)};
+document.querySelector('#phoneToggle').onclick=()=>{phoneOpen=!phoneOpen;document.querySelector('#phonePanel').classList.toggle('open',phoneOpen)};
+document.querySelector('#phoneClose').onclick=()=>{phoneOpen=false;document.querySelector('#phonePanel').classList.remove('open')};
+document.querySelectorAll('[data-phone]').forEach(b=>b.onclick=()=>{const kind=b.dataset.phone,p=document.querySelector('#phonePage');const pages={Messages:'<b>Messages</b><p style="font-size:11px">Ama: See you after class!</p><p style="font-size:11px">Kojo: Good luck for the match.</p>',Notes:'<b>My Notes</b><p style="font-size:11px">Maths: revise fractions.<br>English: finish reading notes.</p>',Timetable:'<b>Today at school</b><p style="font-size:11px">07:45 Classes<br>09:25 Break<br>12:15 Lunch<br>19:00 Evening prep</p>',Clock:'<b>School clock</b><p style="font-size:20px;font-weight:900">'+document.querySelector('#time').textContent+'</p>'};p.innerHTML=pages[kind]||''});
+const campusMixers=[];const campusLoader=new GLTFLoader();fetch('./ghana-school-campus.glb.gz.b64').then(r=>{if(!r.ok)throw new Error('Campus asset unavailable');return r.text()}).then(encoded=>{const binary=atob(encoded.trim()),bytes=new Uint8Array(binary.length);for(let i=0;i<binary.length;i++)bytes[i]=binary.charCodeAt(i);return new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer()}).then(data=>campusLoader.parse(data,'',gltf=>{const campus=gltf.scene;campus.scale.setScalar(.7);campus.position.set(180,0,0);scene.add(campus);campus.updateMatrixWorld(true);const mixer=new THREE.AnimationMixer(campus);gltf.animations.forEach(clip=>mixer.clipAction(clip).play());campusMixers.push(mixer);campus.traverse(o=>{if(o.isMesh&&/wall/i.test(o.name)){const b=new THREE.Box3().setFromObject(o);dormWallBounds.push({x:(b.min.x+b.max.x)/2,z:(b.min.z+b.max.z)/2,w:b.max.x-b.min.x,d:b.max.z-b.min.z})}})},e=>console.warn('Campus model parse failed:',e))).catch(e=>console.warn('Campus model could not load:',e));
+const clock=new THREE.Clock(),forward=new THREE.Vector3(),right=new THREE.Vector3(),move=new THREE.Vector3(),velocity=new THREE.Vector3();
+function blockedAt(x,z){return buildingBounds.some(b=>Math.abs(x-b.x)<b.w/2+.65&&Math.abs(z-b.z)<b.d/2+.65)||dormWallBounds.some(b=>Math.abs(x-b.x)<b.w/2+.55&&Math.abs(z-b.z)<b.d/2+.55)}
+function tryMove(dx,dz){const nx=player.position.x+dx,nz=player.position.z+dz;if(!blockedAt(nx,player.position.z))player.position.x=nx;if(!blockedAt(player.position.x,nz))player.position.z=nz}
+function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.04),t=clock.elapsedTime;if(started){clockMinutes+=dt*1.5;updateHud();const f=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0),s=(keys.d||keys.arrowright?1:0)-(keys.a||keys.arrowleft?1:0);forward.set(-Math.sin(yaw),0,-Math.cos(yaw));right.set(Math.cos(yaw),0,-Math.sin(yaw));move.set(0,0,0).addScaledVector(forward,f).addScaledVector(right,s);if(move.lengthSq())move.normalize();velocity.lerp(move.multiplyScalar(keys.shift?15:9),1-Math.exp(-18*dt));if(!move.lengthSq())velocity.multiplyScalar(Math.exp(-10*dt));if(velocity.lengthSq()>.002){tryMove(velocity.x*dt,velocity.z*dt);player.rotation.y=Math.atan2(velocity.x,velocity.z)}player.position.x=THREE.MathUtils.clamp(player.position.x,-55,320);player.position.z=THREE.MathUtils.clamp(player.position.z,-140,140);const target=new THREE.Vector3(player.position.x+Math.sin(yaw)*10,player.position.y+5.2+pitch*4,player.position.z+Math.cos(yaw)*10);camera.position.lerp(target,1-Math.exp(-5*dt));camera.lookAt(player.position.x,1.2,player.position.z)}else{camera.position.set(58,52,70);camera.lookAt(0,3,0)}npcs.forEach((n,i)=>{n.mesh.position.y=Math.sin(t*2+i)*.025;if(n.role==='Teacher'){n.mesh.position.x=-24+Math.sin(t*.22)*9;n.mesh.position.z=4+Math.cos(t*.22)*3;teacherNearby=Math.hypot(player.position.x-n.mesh.position.x,player.position.z-n.mesh.position.z)<13;document.querySelector('#teacherAlert').classList.toggle('show',teacherNearby);if(teacherNearby&&phoneOpen){phoneOpen=false;document.querySelector('#phonePanel').classList.remove('open');toast('Teacher nearby — your in-game phone has closed.')}}});campusMixers.forEach(m=>m.update(dt));renderer.render(scene,camera)}
+camera.position.set(42,38,48);animate();addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});updateHud();
+</script>
+</body></html>
