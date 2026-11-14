@@ -102,8 +102,49 @@ function box(x,y,z,sx,sy,sz,m,cast=true){const o=new THREE.Mesh(new THREE.BoxGeo
 const ground=box(0,-.2,0,190,.3,190,grass,false);
 box(0,-.02,0,13,.12,150,road,false);box(0,-.01,0,110,.12,10,road,false);
 for(let z=-65;z<70;z+=10)box(0,.05,z,.16,.03,4,mat(0xe5d6a8),false);
-const buildingBounds=[];
-function building(x,z,w,d,h,color,windows=true){buildingBounds.push({x,z,w,d});box(x,h/2,z,w,h,d,mat(color));box(x,h+.18,z,w+.5,.35,d+.5,roof);if(windows)for(let y=2;y<h-1;y+=2.5)for(let xx=-w/2+1.5;xx<w/2-1;xx+=3)box(x+xx,y,z+d/2+.03,1.1,1.15,.08,glass,false)}
+const buildingBounds=[],dormWallBounds=[];
+function dormWall(x,z,sx,sz,h,color=0xe9d3ad){box(x,h/2,z,sx,h,sz,mat(color));dormWallBounds.push({x,z,w:sx,d:sz})}
+function dormBunk(x,z){
+ for(const y of [.62,2.42]){
+  box(x,y,z,3.1,.16,1.05,dark);box(x,y+.14,z,2.92,.22,.94,blue);box(x+.04,y+.27,z-.16,2.7,.035,.58,white);box(x+1.12,y+.32,z+.22,.48,.14,.46,white);
+ }
+ for(const dx of [-1.42,1.42])for(const dz of [-.42,.42])box(x+dx,1.52,z+dz,.1,2.9,.1,dark);
+ box(x-1.62,1.55,z-.48,.07,2.55,.08,dark);
+ for(const y of [.58,1.08,1.58,2.08,2.48])box(x-1.62,y,z-.5,.5,.07,.09,mat(0x9e8351));
+}
+function building(x,z,w,d,h,color,windows=true){
+ if(x===-36&&z===29){
+  box(x,.12,z,w,.24,d,mat(0xc9c2ad),false);
+  const front=z-d/2,back=z+d/2;
+  dormWall(x,back,w,.3,h,0xe9d3ad);dormWall(x-w/2,z,.3,d,h,0xe9d3ad);dormWall(x+w/2,z,.3,d,h,0xe9d3ad);
+  dormWall(x-6.3,front,5.4,.3,h,0xe9d3ad);dormWall(x+6.3,front,5.4,.3,h,0xe9d3ad);
+  box(x,6.65,front,7.2,.3,2.7,mat(0xe9d3ad));
+  // Open entrance and a clear route into the dorm.
+  box(x-1.8,1.5,front+.1,.16,3,.22,mat(0x31543d));box(x+1.8,1.5,front+.1,.16,3,.22,mat(0x31543d));
+  box(x-3.95,1.5,front+1.15,.1,3,2.5,wood);
+  // Four back-wall louvre windows.
+  for(const wx of [-5.8,-1.95,1.95,5.8]){
+   box(x+wx,4.55,back-.17,2.05,1.65,.08,dark,false);box(x+wx,4.55,back-.24,1.85,1.42,.04,glass,false);
+   for(const wy of [4.15,4.5,4.85])box(x+wx,wy,back-.28,1.8,.045,.05,white,false);
+  }
+  // Two rows of double-decker student bunks.
+  for(const dz of [-6.2,-1.4,3.4,8]){dormBunk(x-5.55,z+dz);dormBunk(x+5.55,z+dz)}
+  // Personal lockers along both side aisles.
+  for(const sx of [-8.05,8.05])for(const dz of [-5.8,-2,1.8,5.6]){
+   box(x+sx,1.08,z+dz,.62,2.05,.82,mat(0x244c37));box(x+sx,1.08,z+dz-.43,.54,1.93,.035,mat(0x315b43));box(x+sx+.18,1.08,z+dz-.47,.04,.13,.04,mat(0xd3ae60));
+  }
+  // Shared study tables and benches in the middle aisle.
+  for(const dz of [-4.8,1.8,7.2]){
+   box(x,1.05,z+dz,4.4,.14,1.2,wood);
+   for(const sx of [-1.85,1.85])for(const zz of [dz-.42,dz+.42])box(x+sx,.52,z+zz,.12,1,.12,dark);
+   for(const sx of [-1.35,0,1.35])box(x+sx,.55,z+dz-1.05,.95,.55,.36,wood);
+  }
+  for(const sx of [-5,0,5])for(const dz of [-6,2,8])box(x+sx,7.65,z+dz,1.2,.12,.35,white,false);
+  box(x,5.25,front-.18,4.5,.72,.12,mat(0x244c37),false);
+  return;
+ }
+ buildingBounds.push({x,z,w,d});box(x,h/2,z,w,h,d,mat(color));box(x,h+.18,z,w+.5,.35,d+.5,roof);if(windows)for(let y=2;y<h-1;y+=2.5)for(let xx=-w/2+1.5;xx<w/2-1;xx+=3)box(x+xx,y,z+d/2+.03,1.1,1.15,.08,glass,false)
+}
 // Main school block
 building(-25,-4,25,30,12,0xe9d3ad);building(25,-4,25,30,12,0xd9e0d4);building(0,-28,34,13,9,0xd9c49d);building(-36,29,18,22,8,0xd6b58d);building(36,29,18,22,8,0xc8d3c4);building(-19,62,25,12,7,0xe0c49b);
 box(0,.12,-4,12,.3,11,cream);box(0,6.2,11,14,1.4,.8,roof);
@@ -191,7 +232,7 @@ document.querySelector('#phoneToggle').onclick=()=>{phoneOpen=!phoneOpen;documen
 document.querySelector('#phoneClose').onclick=()=>{phoneOpen=false;document.querySelector('#phonePanel').classList.remove('open')};
 document.querySelectorAll('[data-phone]').forEach(b=>b.onclick=()=>{const kind=b.dataset.phone,p=document.querySelector('#phonePage');const pages={Messages:'<b>Messages</b><p style="font-size:11px">Ama: See you after class!</p><p style="font-size:11px">Kojo: Good luck for the match.</p>',Notes:'<b>My Notes</b><p style="font-size:11px">Maths: revise fractions.<br>English: finish reading notes.</p>',Timetable:'<b>Today at school</b><p style="font-size:11px">07:45 Classes<br>09:25 Break<br>12:15 Lunch<br>19:00 Evening prep</p>',Clock:'<b>School clock</b><p style="font-size:20px;font-weight:900">'+document.querySelector('#time').textContent+'</p>'};p.innerHTML=pages[kind]||''});
 const clock=new THREE.Clock(),forward=new THREE.Vector3(),right=new THREE.Vector3(),move=new THREE.Vector3(),velocity=new THREE.Vector3();
-function blockedAt(x,z){return buildingBounds.some(b=>Math.abs(x-b.x)<b.w/2+.65&&Math.abs(z-b.z)<b.d/2+.65)}
+function blockedAt(x,z){return buildingBounds.some(b=>Math.abs(x-b.x)<b.w/2+.65&&Math.abs(z-b.z)<b.d/2+.65)||dormWallBounds.some(b=>Math.abs(x-b.x)<b.w/2+.55&&Math.abs(z-b.z)<b.d/2+.55)}
 function tryMove(dx,dz){const nx=player.position.x+dx,nz=player.position.z+dz;if(!blockedAt(nx,player.position.z))player.position.x=nx;if(!blockedAt(player.position.x,nz))player.position.z=nz}
 function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.04),t=clock.elapsedTime;if(started){clockMinutes+=dt*1.5;updateHud();const f=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0),s=(keys.d||keys.arrowright?1:0)-(keys.a||keys.arrowleft?1:0);forward.set(-Math.sin(yaw),0,-Math.cos(yaw));right.set(Math.cos(yaw),0,-Math.sin(yaw));move.set(0,0,0).addScaledVector(forward,f).addScaledVector(right,s);if(move.lengthSq())move.normalize();velocity.lerp(move.multiplyScalar(keys.shift?15:9),1-Math.exp(-18*dt));if(!move.lengthSq())velocity.multiplyScalar(Math.exp(-10*dt));if(velocity.lengthSq()>.002){tryMove(velocity.x*dt,velocity.z*dt);player.rotation.y=Math.atan2(velocity.x,velocity.z)}player.position.x=THREE.MathUtils.clamp(player.position.x,-55,55);player.position.z=THREE.MathUtils.clamp(player.position.z,-70,70);const target=new THREE.Vector3(player.position.x+Math.sin(yaw)*10,player.position.y+5.2+pitch*4,player.position.z+Math.cos(yaw)*10);camera.position.lerp(target,1-Math.exp(-5*dt));camera.lookAt(player.position.x,1.2,player.position.z)}else{camera.position.set(58,52,70);camera.lookAt(0,3,0)}npcs.forEach((n,i)=>{n.mesh.position.y=Math.sin(t*2+i)*.025;if(n.role==='Teacher'){n.mesh.position.x=-24+Math.sin(t*.22)*9;n.mesh.position.z=4+Math.cos(t*.22)*3;teacherNearby=Math.hypot(player.position.x-n.mesh.position.x,player.position.z-n.mesh.position.z)<13;document.querySelector('#teacherAlert').classList.toggle('show',teacherNearby);if(teacherNearby&&phoneOpen){phoneOpen=false;document.querySelector('#phonePanel').classList.remove('open');toast('Teacher nearby — your in-game phone has closed.')}}});renderer.render(scene,camera)}
 camera.position.set(42,38,48);animate();addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});updateHud();
