@@ -11,9 +11,61 @@
 #phonePanel.open{display:block}.phone-screen{border:2px solid #4b5a55;border-radius:12px;padding:12px;background:#d0dfc9;min-height:220px}.phone-head{display:flex;justify-content:space-between;font-weight:900;font-size:12px}.phone-time{font-size:28px;font-weight:900;margin:14px 0}.phone-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.phone-grid button{padding:10px 3px;border:1px solid #718879;border-radius:8px;background:#edf2e4;color:#17252c;font-weight:800;font-size:11px}
 #teacherAlert{display:none;position:fixed;z-index:8;left:50%;top:72px;transform:translateX(-50%);background:#7d2828f2;border:1px solid #ffc3a9;border-radius:12px;padding:10px 14px;font-size:12px;font-weight:900}#teacherAlert.show{display:block}
 #mobile{position:fixed;z-index:6;bottom:18px;left:14px;display:none;grid-template-columns:repeat(3,52px);gap:6px;touch-action:none}#mobile button{height:52px;border:1px solid #ffffff55;border-radius:15px;background:#10243be8;color:white;font-size:20px;font-weight:800;touch-action:none;user-select:none}#mobile button:nth-child(1){grid-column:2}#mobile button:nth-child(2){grid-column:1;grid-row:2}#mobile button:nth-child(3){grid-column:2;grid-row:2}#mobile button:nth-child(4){grid-column:3;grid-row:2}#mobile button[data-action=interact]{grid-column:2;grid-row:3;background:#ffd477;color:#1b2936;font-size:13px}#mobile button:active{transform:scale(.96)}@media(max-width:720px){.schedule{top:auto;right:10px;bottom:15px;width:155px;font-size:9px;max-height:48vh;overflow-y:auto}#phoneToggle{top:150px;right:12px;bottom:auto}#phonePanel{top:198px;right:12px;bottom:auto;max-height:55vh;overflow:auto}.help{display:none}.stats{gap:8px;padding:8px}.stats b{font-size:13px}.mission{top:77px}.brand{padding:9px}.dialog{bottom:130px}#mobile{display:grid}}
+
+/* Original Ghana Boarding Life sign-in and age eligibility screen */
+#authGate{position:fixed;inset:0;z-index:30;display:grid;place-items:center;padding:22px;background:radial-gradient(ellipse at 78% 18%,#28566b 0%,transparent 42%),linear-gradient(145deg,#071523 0%,#102b3c 58%,#152e35 100%);overflow-y:auto}
+.auth-card{width:min(440px,100%);padding:clamp(22px,5vw,34px);border:1px solid #ffffff2b;border-radius:25px;background:rgba(7,20,33,.91);box-shadow:0 28px 90px #0008;backdrop-filter:blur(18px)}
+.auth-brand{display:flex;align-items:center;gap:13px;margin-bottom:27px}
+.auth-logo{width:54px;height:54px;display:grid;place-items:center;border-radius:16px;background:linear-gradient(145deg,#f5c96d,#a86d28);font-size:27px;box-shadow:0 8px 24px #e3a83b35}
+.auth-brand strong{display:block;font-size:13px;letter-spacing:.12em}
+.auth-brand small{display:block;margin-top:4px;color:#d9bd7d;font-size:10px;font-weight:800;letter-spacing:.19em}
+.auth-eyebrow{color:#ffd477;font-size:10px;font-weight:900;letter-spacing:.19em}
+.auth-card h1{font-size:clamp(28px,6vw,39px);line-height:1.04;margin:10px 0}
+.auth-intro{font-size:13px;line-height:1.6;color:#bdcbd6;margin:0 0 22px}
+.auth-form{display:grid;gap:13px}
+.auth-field{display:grid;gap:6px;color:#d9e3e9;font-size:11px;font-weight:800}
+.auth-field input{width:100%;min-height:45px;padding:11px 13px;border-radius:11px;border:1px solid #ffffff30;background:#102638;color:white;font:inherit;font-size:14px;outline:none}
+.auth-field input:focus{border-color:#ffd477;box-shadow:0 0 0 3px #ffd47720}
+.auth-submit,.auth-demo{width:100%;min-height:46px;border:0;border-radius:11px;font-weight:900;cursor:pointer}
+.auth-submit{margin-top:3px;background:linear-gradient(100deg,#ffd477,#e9b955);color:#192a35}
+.auth-demo{margin-top:10px;border:1px solid #ffffff35;background:#ffffff0c;color:#f3f6f8}
+.auth-age-note{margin:15px 0 0;color:#a9bbc8;font-size:10px;line-height:1.55}
+.auth-message{min-height:18px;margin-top:10px;color:#ffd477;font-size:12px;line-height:1.5}
+.auth-disclaimer{display:block;margin-top:13px;color:#8097a8;font-size:10px;line-height:1.5}
+@media(max-width:480px){#authGate{padding:14px}.auth-card{border-radius:20px}.auth-brand{margin-bottom:22px}}
+
 </style>
 </head>
 <body>
+
+<section id="authGate" aria-label="Ghana Boarding Life sign in">
+  <div class="auth-card">
+    <div class="auth-brand">
+      <div class="auth-logo" aria-hidden="true">🎓</div>
+      <div><strong>GHANA BOARDING LIFE</strong><small>HIGH SCHOOL EDITION</small></div>
+    </div>
+    <div class="auth-eyebrow">AKWAABA · WELCOME BACK</div>
+    <h1>Sign in to your school life.</h1>
+    <p class="auth-intro">Sign in to continue your boarding-school journey. Age eligibility is checked before access.</p>
+    <form class="auth-form" id="authForm">
+      <label class="auth-field">Username
+        <input id="authUsername" name="username" autocomplete="username" maxlength="24" placeholder="Enter your username" required>
+      </label>
+      <label class="auth-field">Password
+        <input id="authPassword" name="password" type="password" autocomplete="current-password" placeholder="Enter your password" required>
+      </label>
+      <label class="auth-field">Date of birth
+        <input id="authDob" name="birthDate" type="date" autocomplete="bday" required>
+      </label>
+      <button class="auth-submit" type="submit">SIGN IN</button>
+    </form>
+    <p class="auth-age-note">Minimum age: 13 years. Players under 13 cannot access the game. Your date of birth is checked for this prototype and is not saved.</p>
+    <div class="auth-message" id="authMessage" role="status" aria-live="polite"></div>
+    <button class="auth-demo" id="authDemo" type="button">TRY THE SCHOOL DEMO</button>
+    <small class="auth-disclaimer">Prototype notice: secure account sign-in and registration still need a server-side authentication service. Demo access does not create or save an account.</small>
+  </div>
+</section>
+
 <div id="game"></div>
 <div class="hud top"><div class="panel brand"><strong>GHANA BOARDING LIFE</strong><small>BOARDING SCHOOL DAYS · 3D SIMULATION</small></div><div class="stats"><div>DAY<b id="day">MON</b></div><div>TIME<b id="time">08:00</b></div><div>GRADE<b id="grade">A</b></div><div>REPUTATION<b id="rep">0</b></div></div></div>
 <section class="hud mission"><div class="eyebrow">TODAY'S MISSION</div><h2 id="missionTitle">Welcome to school!</h2><p id="missionText">Explore campus and meet your classmates. Walk up to a highlighted place or person and press E.</p></section>
@@ -72,6 +124,35 @@ addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;if(['ArrowUp','Arr
 renderer.domElement.addEventListener('click',()=>{if(started&&document.pointerLockElement!==renderer.domElement)renderer.domElement.requestPointerLock?.()});addEventListener('mousemove',e=>{if(document.pointerLockElement===renderer.domElement){yaw-=e.movementX*.0024;pitch=Math.max(-.1,Math.min(.65,pitch+e.movementY*.0018))}});
 document.querySelectorAll('#mobile button').forEach(b=>{const k=b.dataset.key;b.addEventListener('pointerdown',e=>{e.preventDefault();if(b.dataset.action==='interact'){interact();return}keys[k]=true});['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>{if(k)keys[k]=false}))});
 let touchLook=null;renderer.domElement.addEventListener('touchstart',e=>{if(!started||e.target.closest('#mobile'))return;const p=e.touches[0];touchLook={x:p.clientX,y:p.clientY}},{passive:true});renderer.domElement.addEventListener('touchmove',e=>{if(!touchLook||!started)return;const p=e.touches[0];yaw-=(p.clientX-touchLook.x)*.006;pitch=THREE.MathUtils.clamp(pitch+(p.clientY-touchLook.y)*.003,-.1,.65);touchLook={x:p.clientX,y:p.clientY}},{passive:true});renderer.domElement.addEventListener('touchend',()=>touchLook=null,{passive:true});
+
+/* Prototype age gate. Production authentication must repeat this check server-side. */
+const authGate=document.querySelector('#authGate');
+const authMessage=document.querySelector('#authMessage');
+function checkMinimumAge(){
+  const raw=document.querySelector('#authDob').value;
+  if(!raw){authMessage.textContent='Enter your date of birth to check age eligibility.';return false}
+  const dob=new Date(raw+'T00:00:00');
+  const today=new Date();
+  if(Number.isNaN(dob.getTime())||dob>today){authMessage.textContent='Enter a valid date of birth.';return false}
+  let age=today.getFullYear()-dob.getFullYear();
+  const month=today.getMonth()-dob.getMonth();
+  if(month<0||(month===0&&today.getDate()<dob.getDate()))age--;
+  if(age<13){authMessage.textContent='Access denied. You must be at least 13 years old to use Ghana Boarding Life.';return false}
+  authMessage.textContent='Age requirement met. Secure account sign-in is not connected in this prototype yet.';
+  return true;
+}
+function enterDemoAfterAgeCheck(){
+  if(!checkMinimumAge())return;
+  authGate.style.display='none';
+  document.querySelector('#start').style.display='grid';
+}
+document.querySelector('#authForm').addEventListener('submit',event=>{
+  event.preventDefault();
+  if(!checkMinimumAge())return;
+  authMessage.textContent='Your age meets the minimum requirement. Secure account sign-in is still being connected; use the school demo to preview the game.';
+});
+document.querySelector('#authDemo').addEventListener('click',enterDemoAfterAgeCheck);
+
 document.querySelector('#play').onclick=()=>{document.querySelector('#start').style.display='none';started=true;renderer.domElement.requestPointerLock?.();showDialog('Welcome to Ghana Boarding School','Your first mission is to join morning devotion, help with dorm duties, meet your housemates and settle into boarding-school life. Walk near a location and press E to interact.','Let’s go!',null)};
 document.querySelector('#phoneToggle').onclick=()=>{const phoneBreak=(clockMinutes>=565&&clockMinutes<585)||(clockMinutes>=735&&clockMinutes<780)||(clockMinutes>=900&&clockMinutes<1020);if(teacherNearby||!phoneBreak){toast('Phone time is limited to break, lunch and after-class free time.');return}phoneOpen=!phoneOpen;document.querySelector('#phonePanel').classList.toggle('open',phoneOpen)};
 document.querySelector('#phoneClose').onclick=()=>{phoneOpen=false;document.querySelector('#phonePanel').classList.remove('open')};
