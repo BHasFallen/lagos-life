@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>Lagos Life — 3D City Explorer</title>
+<style>
+:root{color-scheme:dark;--gold:#ffc45c;--glass:rgba(10,18,27,.78)}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#091522;font-family:Inter,system-ui,Arial,sans-serif;color:#fff}
+#game{position:fixed;inset:0}canvas{display:block}
+.hud{position:fixed;z-index:2;pointer-events:none}.top{top:18px;left:18px;right:18px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
+.brand,.stats,.mission,.help,.toast{background:var(--glass);border:1px solid #ffffff20;backdrop-filter:blur(14px);box-shadow:0 12px 40px #0004;border-radius:16px}
+.brand{padding:13px 17px}.brand strong{display:block;font-size:15px;letter-spacing:.13em}.brand small{color:#a9bac8;font-size:11px;letter-spacing:.08em}
+.stats{padding:11px 15px;display:flex;gap:18px;font-size:12px;color:#b8c7d3}.stats b{display:block;color:#fff;font-size:17px;margin-top:2px}
+.mission{left:18px;top:100px;padding:14px 16px;width:min(280px,calc(100vw - 36px))}.eyebrow{font-size:10px;letter-spacing:.15em;color:var(--gold);font-weight:800}.mission h2{font-size:16px;margin:6px 0}.mission p{font-size:12px;line-height:1.5;color:#b8c7d3;margin:0}
+.help{right:18px;bottom:18px;padding:12px 15px;color:#bdcbd6;font-size:11px;line-height:1.7;max-width:230px}.help b{color:#fff}
+.toast{left:50%;bottom:25px;transform:translateX(-50%);padding:11px 17px;font-size:13px;opacity:0;transition:opacity .25s;white-space:nowrap}.toast.show{opacity:1}
+#start{position:fixed;inset:0;z-index:5;display:grid;place-items:center;background:linear-gradient(130deg,rgba(4,13,23,.93),rgba(4,20,30,.68)),radial-gradient(circle at 70% 30%,#246b67 0,transparent 42%)}
+.panel{width:min(480px,calc(100vw - 32px));padding:30px;border:1px solid #ffffff24;border-radius:24px;background:#0b1724eF;box-shadow:0 30px 100px #0009}
+.kicker{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.18em}.panel h1{font-size:clamp(32px,7vw,54px);line-height:.98;margin:12px 0}.panel p{color:#b8c7d3;line-height:1.6;font-size:14px}.panel button{border:0;border-radius:12px;background:var(--gold);color:#17202a;font-weight:900;padding:14px 22px;font-size:14px;cursor:pointer;margin-top:10px}.panel button:hover{filter:brightness(1.08);transform:translateY(-1px)}
+#mobile{position:fixed;z-index:3;bottom:20px;left:18px;display:none;gap:7px;pointer-events:auto}
+#mobile button{width:48px;height:48px;border:1px solid #ffffff40;border-radius:14px;background:#0a172acc;color:white;font-size:19px;touch-action:none}
+@media(max-width:700px){.stats{gap:10px;padding:9px;font-size:10px}.stats b{font-size:14px}.mission{top:90px}.help{display:none}#mobile{display:grid;grid-template-columns:repeat(3,48px);grid-template-rows:repeat(2,48px)}#mobile button:nth-child(1){grid-column:2}#mobile button:nth-child(2){grid-column:1;grid-row:2}#mobile button:nth-child(3){grid-column:2;grid-row:2}#mobile button:nth-child(4){grid-column:3;grid-row:2}}
+</style>
+</head>
+<body>
+<div id="game"></div>
+<div class="hud top">
+ <div class="brand"><strong>LAGOS LIFE</strong><small>CITY EXPLORER · 3D PROTOTYPE</small></div>
+ <div class="stats"><div>WALLET<b id="wallet">₦0</b></div><div>DISCOVERIES<b id="found">0 / 8</b></div></div>
+</div>
+<section class="hud mission"><div class="eyebrow">YOUR FIRST DAY</div><h2>Explore the mainland</h2><p>Find the glowing golden tokens around the city. Walk close to each one to collect it and earn ₦500.</p></section>
+<div class="hud help"><b>MOVE</b> WASD / Arrow keys<br><b>LOOK</b> Move your mouse<br><b>SPRINT</b> Hold Shift<br><b>TIP</b> Explore the roads and waterfront</div>
+<div class="toast" id="toast">+₦500 · Token collected!</div>
+<div id="mobile"><button data-key="w">▲</button><button data-key="a">◀</button><button data-key="s">▼</button><button data-key="d">▶</button></div>
+<div id="start"><div class="panel"><div class="kicker">WELCOME TO YOUR CITY</div><h1>Make your<br>own Lagos story.</h1><p>Step into a bright, stylised 3D neighbourhood inspired by Lagos. Explore the streets, discover landmarks and collect your first pocket money. This is an original browser-game prototype.</p><button id="play">ENTER THE CITY →</button></div></div>
+<script type="importmap">
+{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js"}}
+</script>
+<script type="module">
+import * as THREE from 'three';
+const root=document.querySelector('#game');
+const scene=new THREE.Scene();scene.background=new THREE.Color(0x91c8d1);scene.fog=new THREE.Fog(0x91c8d1,65,190);
+const camera=new THREE.PerspectiveCamera(58,innerWidth/innerHeight,.1,400);
+const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;root.appendChild(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xd8f2ff,0x53604c,2.1));
+const sun=new THREE.DirectionalLight(0xffe1ae,3.1);sun.position.set(-35,55,28);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-75;sun.shadow.camera.right=75;sun.shadow.camera.top=75;sun.shadow.camera.bottom=-75;scene.add(sun);
+const mat=(color,roughness=.86)=>new THREE.MeshStandardMaterial({color,roughness});
+const grass=mat(0x5c9871),road=mat(0x303b43),sidewalk=mat(0xc5bca8),water= new THREE.MeshStandardMaterial({color:0x267e91,roughness:.25,metalness:.1}),white=mat(0xe8e0cc),dark=mat(0x28323a);
+const ground=new THREE.Mesh(new THREE.PlaneGeometry(260,260),grass);ground.rotation.x=-Math.PI/2;ground.position.y=-.12;ground.receiveShadow=true;scene.add(ground);
+function box(x,y,z,sx,sy,sz,material,cast=true){const m=new THREE.Mesh(new THREE.BoxGeometry(sx,sy,sz),material);m.position.set(x,y,z);m.castShadow=cast;m.receiveShadow=true;scene.add(m);return m}
+function roadStrip(x,z,w,d){box(x,-.035,z,w,.12,d,road,false);box(x,.025,z-d/2+.8,w,.08,1.6,sidewalk,false);box(x,.025,z+d/2-.8,w,.08,1.6,sidewalk,false)}
+roadStrip(0,0,18,210);roadStrip(-42,0,9,210);roadStrip(42,0,9,210);roadStrip(0,-40,100,8);roadStrip(0,38,100,8);
+for(let z=-96;z<=96;z+=10){box(0,.04,z, .18,.03,4,mat(0xe4d49b),false)}
+// lagoon and a bridge
+box(0,-.2,-117,260,.15,22,water,false);
+for(let x=-52;x<=52;x+=8){box(x,.15,-117,5,.25,1.4,mat(0xb6a58a),false)}
+box(0,1.4,-117,112,.45,7,mat(0xb8a78d));for(let x=-52;x<=52;x+=8)box(x,2.1,-117,.25,1.2,.25,white,false);
+// neighbourhood blocks
+const palettes=[0xe5ad72,0xd8d7c4,0x9fb7ad,0xd68f68,0xc9b8a0,0x83a9ad,0xe2c78d];
+function building(x,z,w,d,h,color,kind=0){const base=box(x,h/2,z,w,h,d,mat(color));if(kind%3===0){const roof=box(x,h+.22,z,w*.72,.45,d*.72,mat(0x6c4a39));roof.position.y=h+.22}
+ for(let yy=2;yy<h-1;yy+=2.5){for(let xx=-w*.34;xx<w*.35;xx+=2.3){const win=box(x+xx,yy,z+d/2+.015,.85,.95,.06,mat(0x3b6d78),false);win.castShadow=false}}
+ if(kind%2===1){box(x,h+.7,z,w*.38,.25,d*.38,mat(0xb45e40),false)}
+ return base}
+for(let bx of [-28,-15,15,28])for(let bz=-85;bz<92;bz+=22){if(Math.abs(bx)<20&&Math.abs(bz)<46)continue;const w=7+Math.random()*5,d=7+Math.random()*5,h=7+Math.random()*20;building(bx+(Math.random()-.5)*4,bz+(Math.random()-.5)*5,w,d,h,palettes[Math.floor(Math.random()*palettes.length)],Math.floor(Math.random()*4))}
+for(let x=-60;x<=60;x+=15){if(Math.abs(x)<12)continue;building(x,-65,10,10,22+Math.random()*16,palettes[Math.floor(Math.random()*palettes.length)],2)}
+// market stalls
+for(let x=-10;x<=10;x+=5){box(x,1.2,18,3.8,2.4,3,mat(0xb86e43));box(x,2.55,18,4.3,.25,3.5,mat(0x3f756d));}
+// palm trees
+function palm(x,z){const trunk=new THREE.Mesh(new THREE.CylinderGeometry(.22,.38,5,7),mat(0x896343));trunk.position.set(x,2.5,z);trunk.rotation.z=(Math.random()-.5)*.13;trunk.castShadow=true;scene.add(trunk);const crown=new THREE.Group();crown.position.set(x,5,z);for(let i=0;i<8;i++){const a=i*Math.PI/4;const leaf=new THREE.Mesh(new THREE.ConeGeometry(.42,4.2,5),mat(i%2?0x28754c:0x398456));leaf.position.set(Math.cos(a)*1.45,-.1,Math.sin(a)*1.45);leaf.rotation.z=-Math.cos(a)*.9;leaf.rotation.x=Math.sin(a)*.9;leaf.castShadow=true;crown.add(leaf)}scene.add(crown)}
+for(let z=-95;z<100;z+=13){palm(-10,z);palm(10,z);if(z%2===0){palm(-50,z);palm(50,z)}}
+// small cars along street
+function car(x,z,color){const c=new THREE.Group();const body=new THREE.Mesh(new THREE.BoxGeometry(2.5,.8,4.3),mat(color));body.position.y=.8;body.castShadow=true;c.add(body);const cabin=new THREE.Mesh(new THREE.BoxGeometry(1.8,.85,2),mat(0x8bb4bd));cabin.position.set(0,1.55,-.25);c.add(cabin);for(const wx of [-1.25,1.25])for(const wz of [-1.35,1.35]){const wheel=new THREE.Mesh(new THREE.CylinderGeometry(.42,.42,.22,12),dark);wheel.rotation.z=Math.PI/2;wheel.position.set(wx,.45,wz);c.add(wheel)}c.position.set(x,0,z);scene.add(c);return c}
+car(-5,-25,0xd59b35);car(5,55,0x397b83);car(-5,78,0xb44c3e);
+// Landmark signs
+function sign(label,x,z,color){const canvas=document.createElement('canvas');canvas.width=512;canvas.height=128;const ctx=canvas.getContext('2d');ctx.fillStyle='#102a35';ctx.fillRect(0,0,512,128);ctx.fillStyle=color;ctx.font='bold 54px Arial';ctx.textAlign='center';ctx.fillText(label,256,82);const tex=new THREE.CanvasTexture(canvas);const mesh=new THREE.Mesh(new THREE.PlaneGeometry(10,2.5),new THREE.MeshBasicMaterial({map:tex}));mesh.position.set(x,8,z);scene.add(mesh)}
+sign('YABA MARKET',-18,15,'#ffd17a');sign('LAGOS LAGOON',0,-101,'#75d7dc');sign('MAINLAND',-38,-7,'#f3b58a');
+// player
+const player=new THREE.Group();const torso=new THREE.Mesh(new THREE.CapsuleGeometry(.48,.9,5,10),mat(0x235c70));torso.position.y=1.25;torso.castShadow=true;player.add(torso);const head=new THREE.Mesh(new THREE.SphereGeometry(.34,16,12),mat(0x8b593e));head.position.y=2.12;head.castShadow=true;player.add(head);const legs=new THREE.Mesh(new THREE.BoxGeometry(.62,.7,.42),mat(0x26303c));legs.position.y=.45;player.add(legs);player.position.set(0,0,5);scene.add(player);
+// collectables
+const tokens=[];const gold=new THREE.MeshStandardMaterial({color:0xffc34d,metalness:.7,roughness:.22,emissive:0x7b4300,emissiveIntensity:.5});
+const spots=[[-32,-30], [32,-28],[-31,20],[31,22],[-48,65],[48,65],[-22,-82],[22,-82]];
+spots.forEach(([x,z],i)=>{const g=new THREE.Group();const ring=new THREE.Mesh(new THREE.TorusGeometry(.72,.16,10,24),gold);ring.rotation.x=Math.PI/2;ring.position.y=1.3;g.add(ring);const gem=new THREE.Mesh(new THREE.OctahedronGeometry(.43),gold);gem.position.y=1.3;g.add(gem);g.position.set(x,0,z);scene.add(g);tokens.push({group:g,active:true,index:i})});
+const keys={};let yaw=0, pitch=.18, wallet=0,found=0,started=false;const toast=document.querySelector('#toast');
+addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault()});
+addEventListener('keyup',e=>keys[e.key.toLowerCase()]=false);
+renderer.domElement.addEventListener('click',()=>{if(started&&document.pointerLockElement!==renderer.domElement)renderer.domElement.requestPointerLock?.()});
+addEventListener('mousemove',e=>{if(document.pointerLockElement===renderer.domElement){yaw-=e.movementX*.0024;pitch=Math.max(-.15,Math.min(.65,pitch+e.movementY*.0018))}});
+document.querySelectorAll('#mobile button').forEach(b=>{const k=b.dataset.key;b.addEventListener('pointerdown',e=>{e.preventDefault();keys[k]=true});['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>keys[k]=false))});
+document.querySelector('#play').addEventListener('click',()=>{document.querySelector('#start').style.display='none';started=true;renderer.domElement.requestPointerLock?.()});
+function say(t){toast.textContent=t;toast.classList.add('show');clearTimeout(say.timer);say.timer=setTimeout(()=>toast.classList.remove('show'),1600)}
+const clock=new THREE.Clock();const forward=new THREE.Vector3(),right=new THREE.Vector3(),move=new THREE.Vector3();
+function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.04);const t=clock.elapsedTime;
+ tokens.forEach(o=>{if(!o.active)return;o.group.rotation.y=t*.8;o.group.position.y=Math.sin(t*2+o.index)*.17;if(player.position.distanceTo(o.group.position)<2.1){o.active=false;scene.remove(o.group);wallet+=500;found++;document.querySelector('#wallet').textContent='₦'+wallet.toLocaleString('en-NG');document.querySelector('#found').textContent=found+' / 8';say(found===8?'All tokens found — you own the streets!':'+₦500 · Nice find!')}})
+ if(started){const f=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0),s=(keys.d||keys.arrowright?1:0)-(keys.a||keys.arrowleft?1:0);forward.set(-Math.sin(yaw),0,-Math.cos(yaw));right.set(Math.cos(yaw),0,-Math.sin(yaw));move.set(0,0,0).addScaledVector(forward,f).addScaledVector(right,s);if(move.lengthSq()>0){move.normalize();const speed=keys.shift?13:7.5;player.position.addScaledVector(move,speed*dt);player.rotation.y=Math.atan2(move.x,move.z)}player.position.x=THREE.MathUtils.clamp(player.position.x,-58,58);player.position.z=THREE.MathUtils.clamp(player.position.z,-105,96);
+ const target=new THREE.Vector3(player.position.x+Math.sin(yaw)*10,player.position.y+5.5+pitch*5,player.position.z+Math.cos(yaw)*10);camera.position.lerp(target,1-Math.exp(-5*dt));camera.lookAt(player.position.x,1.2,player.position.z)}
+ else{camera.position.set(35,35,45);camera.lookAt(0,0,0)}
+ renderer.render(scene,camera)}
+camera.position.set(35,35,45);animate();
+addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+</script>
+</body>
+</html>
