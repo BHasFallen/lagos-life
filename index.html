@@ -34,6 +34,7 @@
 .auth-disclaimer{display:block;margin-top:13px;color:#8097a8;font-size:10px;line-height:1.5}
 @media(max-width:480px){#authGate{padding:14px}.auth-card{border-radius:20px}.auth-brand{margin-bottom:22px}}
 
+ .auth-switch{width:100%;margin-top:8px;padding:10px;border:0;background:transparent;color:#ffd477;font-weight:800;cursor:pointer}
 </style>
 </head>
 <body>
@@ -62,6 +63,7 @@
     <p class="auth-age-note">Minimum age: 13 years. Players under 13 cannot access the game. Your date of birth is checked for this prototype and is not saved.</p>
     <div class="auth-message" id="authMessage" role="status" aria-live="polite"></div>
     <button class="auth-demo" id="authDemo" type="button">TRY THE SCHOOL DEMO</button>
+    <button class="auth-switch" id="authSwitch" type="button">New here? Create an account</button>
     <small class="auth-disclaimer">Prototype notice: secure account sign-in and registration still need a server-side authentication service. Demo access does not create or save an account.</small>
   </div>
 </section>
@@ -128,6 +130,18 @@ let touchLook=null;renderer.domElement.addEventListener('touchstart',e=>{if(!sta
 /* Prototype age gate. Production authentication must repeat this check server-side. */
 const authGate=document.querySelector('#authGate');
 const authMessage=document.querySelector('#authMessage');
+let authMode="signin";
+const authSwitch=document.querySelector("#authSwitch");
+function setAuthMode(mode){
+ authMode=mode;
+ document.querySelector(".auth-eyebrow").textContent=mode==="signup"?"AKWAABA · JOIN THE SCHOOL":"AKWAABA · WELCOME BACK";
+ document.querySelector(".auth-card h1").textContent=mode==="signup"?"Create your student account.":"Sign in to your school life.";
+ document.querySelector(".auth-intro").textContent=mode==="signup"?"Create a profile to begin your boarding-school journey. You must be at least 13 years old.":"Sign in to continue your boarding-school journey. Age eligibility is checked before access.";
+ document.querySelector(".auth-submit").textContent=mode==="signup"?"CREATE ACCOUNT":"SIGN IN";
+ authSwitch.textContent=mode==="signup"?"Already registered? Sign in":"New here? Create an account";
+ authMessage.textContent=mode==="signup"?"Registration preview only: secure account storage is not connected yet.":"";
+}
+authSwitch.addEventListener("click",()=>setAuthMode(authMode==="signup"?"signin":"signup"));
 function checkMinimumAge(){
   const raw=document.querySelector('#authDob').value;
   if(!raw){authMessage.textContent='Enter your date of birth to check age eligibility.';return false}
@@ -138,7 +152,7 @@ function checkMinimumAge(){
   const month=today.getMonth()-dob.getMonth();
   if(month<0||(month===0&&today.getDate()<dob.getDate()))age--;
   if(age<13){authMessage.textContent='Access denied. You must be at least 13 years old to use Ghana Boarding Life.';return false}
-  authMessage.textContent='Age requirement met. Secure account sign-in is not connected in this prototype yet.';
+  authMessage.textContent=authMode==='signup'?'Age requirement met. Account creation still needs secure server-side registration.':'Age requirement met. Secure account sign-in is not connected in this prototype yet.';
   return true;
 }
 function enterDemoAfterAgeCheck(){
@@ -149,7 +163,7 @@ function enterDemoAfterAgeCheck(){
 document.querySelector('#authForm').addEventListener('submit',event=>{
   event.preventDefault();
   if(!checkMinimumAge())return;
-  authMessage.textContent='Your age meets the minimum requirement. Secure account sign-in is still being connected; use the school demo to preview the game.';
+  authMessage.textContent=authMode==='signup'?'Your registration preview passed the age check. Secure account creation is not connected yet; use the demo to preview the school.':'Your age meets the minimum requirement. Secure account sign-in is still being connected; use the school demo to preview the game.';
 });
 document.querySelector('#authDemo').addEventListener('click',enterDemoAfterAgeCheck);
 
