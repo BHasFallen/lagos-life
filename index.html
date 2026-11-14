@@ -1,103 +1,72 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
-<title>Lagos Life — 3D City Explorer</title>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>Lagos Life: High School Days</title>
+<meta name="theme-color" content="#10243a">
 <style>
-:root{color-scheme:dark;--gold:#ffc45c;--glass:rgba(10,18,27,.78)}
-*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#091522;font-family:Inter,system-ui,Arial,sans-serif;color:#fff}
-#game{position:fixed;inset:0}canvas{display:block}
-.hud{position:fixed;z-index:2;pointer-events:none}.top{top:18px;left:18px;right:18px;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
-.brand,.stats,.mission,.help,.toast{background:var(--glass);border:1px solid #ffffff20;backdrop-filter:blur(14px);box-shadow:0 12px 40px #0004;border-radius:16px}
-.brand{padding:13px 17px}.brand strong{display:block;font-size:15px;letter-spacing:.13em}.brand small{color:#a9bac8;font-size:11px;letter-spacing:.08em}
-.stats{padding:11px 15px;display:flex;gap:18px;font-size:12px;color:#b8c7d3}.stats b{display:block;color:#fff;font-size:17px;margin-top:2px}
-.mission{left:18px;top:100px;padding:14px 16px;width:min(280px,calc(100vw - 36px))}.eyebrow{font-size:10px;letter-spacing:.15em;color:var(--gold);font-weight:800}.mission h2{font-size:16px;margin:6px 0}.mission p{font-size:12px;line-height:1.5;color:#b8c7d3;margin:0}
-.help{right:18px;bottom:18px;padding:12px 15px;color:#bdcbd6;font-size:11px;line-height:1.7;max-width:230px}.help b{color:#fff}
-.toast{left:50%;bottom:25px;transform:translateX(-50%);padding:11px 17px;font-size:13px;opacity:0;transition:opacity .25s;white-space:nowrap}.toast.show{opacity:1}
-#start{position:fixed;inset:0;z-index:5;display:grid;place-items:center;background:linear-gradient(130deg,rgba(4,13,23,.93),rgba(4,20,30,.68)),radial-gradient(circle at 70% 30%,#246b67 0,transparent 42%)}
-.panel{width:min(480px,calc(100vw - 32px));padding:30px;border:1px solid #ffffff24;border-radius:24px;background:#0b1724eF;box-shadow:0 30px 100px #0009}
-.kicker{color:var(--gold);font-size:11px;font-weight:800;letter-spacing:.18em}.panel h1{font-size:clamp(32px,7vw,54px);line-height:.98;margin:12px 0}.panel p{color:#b8c7d3;line-height:1.6;font-size:14px}.panel button{border:0;border-radius:12px;background:var(--gold);color:#17202a;font-weight:900;padding:14px 22px;font-size:14px;cursor:pointer;margin-top:10px}.panel button:hover{filter:brightness(1.08);transform:translateY(-1px)}
-#mobile{position:fixed;z-index:3;bottom:20px;left:18px;display:none;gap:7px;pointer-events:auto}
-#mobile button{width:48px;height:48px;border:1px solid #ffffff40;border-radius:14px;background:#0a172acc;color:white;font-size:19px;touch-action:none}
-@media(max-width:700px){.stats{gap:10px;padding:9px;font-size:10px}.stats b{font-size:14px}.mission{top:90px}.help{display:none}#mobile{display:grid;grid-template-columns:repeat(3,48px);grid-template-rows:repeat(2,48px)}#mobile button:nth-child(1){grid-column:2}#mobile button:nth-child(2){grid-column:1;grid-row:2}#mobile button:nth-child(3){grid-column:2;grid-row:2}#mobile button:nth-child(4){grid-column:3;grid-row:2}}
+:root{--gold:#ffd477;--glass:rgba(9,22,37,.86);--muted:#b8c8d7}*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#9bc9d0;color:#fff;font-family:Inter,system-ui,Arial,sans-serif}#game{position:fixed;inset:0}canvas{display:block}.hud{position:fixed;z-index:2;pointer-events:none}.top{top:14px;left:14px;right:14px;display:flex;justify-content:space-between;align-items:flex-start;gap:10px}.panel,.stats,.mission,.help,.dialog,.schedule{background:var(--glass);border:1px solid #ffffff25;backdrop-filter:blur(14px);box-shadow:0 12px 40px #0004;border-radius:15px}.brand{padding:11px 15px}.brand strong{display:block;font-size:14px;letter-spacing:.12em}.brand small{color:#b9c9d8;font-size:10px}.stats{padding:10px 13px;display:flex;gap:15px;font-size:10px;color:var(--muted)}.stats b{display:block;color:white;font-size:16px;margin-top:2px}.mission{left:14px;top:83px;padding:13px 15px;width:min(275px,calc(100vw - 28px))}.eyebrow{font-size:10px;letter-spacing:.15em;color:var(--gold);font-weight:900}.mission h2{font-size:15px;margin:5px 0}.mission p{font-size:11px;line-height:1.45;color:var(--muted);margin:0}.schedule{right:14px;top:83px;padding:12px 14px;width:205px;font-size:11px}.schedule strong{display:block;color:var(--gold);margin-bottom:6px}.schedule div{padding:4px 0;border-bottom:1px solid #ffffff13;color:#c5d3df}.schedule .current{color:#fff;font-weight:800}.help{right:14px;bottom:14px;padding:11px 13px;color:var(--muted);font-size:10px;line-height:1.65}.help b{color:#fff}.dialog{position:fixed;z-index:5;left:50%;bottom:22px;transform:translateX(-50%);width:min(440px,calc(100vw - 28px));padding:17px 19px;display:none;pointer-events:auto}.dialog h3{margin:0 0 7px;color:var(--gold)}.dialog p{font-size:13px;line-height:1.5;color:#d5e0e9;margin:0 0 12px}.dialog button,.start button{border:0;border-radius:10px;padding:11px 16px;background:var(--gold);color:#1b2936;font-weight:900;cursor:pointer}.dialog .secondary{background:#34485b;color:white;margin-left:7px}#start{position:fixed;inset:0;z-index:10;display:grid;place-items:center;background:linear-gradient(125deg,#071523ed,#0d3342b8),radial-gradient(circle at 75% 30%,#d39b55,transparent 42%)}.start{width:min(490px,calc(100vw - 30px));padding:28px;border:1px solid #ffffff2c;border-radius:23px;background:#0b1a2aef;box-shadow:0 30px 100px #0009}.start .tag{color:var(--gold);font-size:11px;font-weight:900;letter-spacing:.18em}.start h1{font-size:clamp(34px,7vw,55px);line-height:.98;margin:12px 0}.start p{color:#c0cfda;line-height:1.6;font-size:14px}.start small{display:block;color:#93a8b9;margin-top:13px}.toast{position:fixed;z-index:4;left:50%;top:18%;transform:translateX(-50%);background:#10283beF;border:1px solid #ffffff25;padding:10px 15px;border-radius:12px;font-size:12px;opacity:0;transition:opacity .2s;pointer-events:none}.toast.show{opacity:1}#mobile{position:fixed;z-index:3;bottom:15px;left:14px;display:none;grid-template-columns:repeat(3,46px);gap:5px}#mobile button{height:46px;border:1px solid #ffffff45;border-radius:12px;background:#10243bd9;color:white;font-size:18px;touch-action:none}#mobile button:nth-child(1){grid-column:2}#mobile button:nth-child(2){grid-column:1;grid-row:2}#mobile button:nth-child(3){grid-column:2;grid-row:2}#mobile button:nth-child(4){grid-column:3;grid-row:2}@media(max-width:720px){.schedule{top:auto;right:10px;bottom:15px;width:155px;font-size:9px}.help{display:none}.stats{gap:8px;padding:8px}.stats b{font-size:13px}.mission{top:77px}.brand{padding:9px}.dialog{bottom:130px}#mobile{display:grid}}
 </style>
 </head>
 <body>
 <div id="game"></div>
-<div class="hud top">
- <div class="brand"><strong>LAGOS LIFE</strong><small>CITY EXPLORER · 3D PROTOTYPE</small></div>
- <div class="stats"><div>WALLET<b id="wallet">₦0</b></div><div>DISCOVERIES<b id="found">0 / 8</b></div></div>
-</div>
-<section class="hud mission"><div class="eyebrow">YOUR FIRST DAY</div><h2>Explore the mainland</h2><p>Find the glowing golden tokens around the city. Walk close to each one to collect it and earn ₦500.</p></section>
-<div class="hud help"><b>MOVE</b> WASD / Arrow keys<br><b>LOOK</b> Move your mouse<br><b>SPRINT</b> Hold Shift<br><b>TIP</b> Explore the roads and waterfront</div>
-<div class="toast" id="toast">+₦500 · Token collected!</div>
+<div class="hud top"><div class="panel brand"><strong>LAGOS LIFE</strong><small>HIGH SCHOOL DAYS · 3D SIMULATION</small></div><div class="stats"><div>DAY<b id="day">MON</b></div><div>TIME<b id="time">08:00</b></div><div>GRADE<b id="grade">A</b></div><div>REPUTATION<b id="rep">0</b></div></div></div>
+<section class="hud mission"><div class="eyebrow">TODAY'S MISSION</div><h2 id="missionTitle">Welcome to school!</h2><p id="missionText">Explore campus and meet your classmates. Walk up to a highlighted place or person and press E.</p></section>
+<div class="hud schedule"><strong>MONDAY TIMETABLE</strong><div id="slot0" class="current">08:00 · Assembly</div><div id="slot1">09:00 · Mathematics</div><div id="slot2">10:00 · English</div><div id="slot3">11:00 · Break time</div><div id="slot4">12:00 · Science</div><div id="slot5">13:00 · Clubs & sports</div></div>
+<div class="hud help"><b>MOVE</b> WASD / arrows<br><b>INTERACT</b> E<br><b>SPRINT</b> Shift<br><b>LOOK</b> Mouse drag / mouse</div>
+<div id="toast" class="toast"></div><div id="dialog" class="dialog"><h3 id="dialogTitle">Welcome</h3><p id="dialogText"></p><button id="dialogAction">Continue</button><button id="dialogClose" class="secondary">Close</button></div>
 <div id="mobile"><button data-key="w">▲</button><button data-key="a">◀</button><button data-key="s">▼</button><button data-key="d">▶</button></div>
-<div id="start"><div class="panel"><div class="kicker">WELCOME TO YOUR CITY</div><h1>Make your<br>own Lagos story.</h1><p>Step into a bright, stylised 3D neighbourhood inspired by Lagos. Explore the streets, discover landmarks and collect your first pocket money. This is an original browser-game prototype.</p><button id="play">ENTER THE CITY →</button></div></div>
-<script type="importmap">
-{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js"}}
-</script>
+<div id="start"><div class="start"><div class="tag">YOUR NEW SCHOOL YEAR STARTS NOW</div><h1>Make friends.<br>Find your path.</h1><p>Welcome to Lagos High, a lively school campus inspired by the energy of Lagos. Attend lessons, explore the library, grab lunch, join clubs and make every school day count.</p><button id="play">ENTER THE SCHOOL →</button><small>Keyboard: WASD to move · E to interact · Shift to sprint. On mobile, use the direction pad.</small></div></div>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.161.0/build/three.module.js"}}</script>
 <script type="module">
 import * as THREE from 'three';
-const root=document.querySelector('#game');
-const scene=new THREE.Scene();scene.background=new THREE.Color(0x91c8d1);scene.fog=new THREE.Fog(0x91c8d1,65,190);
-const camera=new THREE.PerspectiveCamera(58,innerWidth/innerHeight,.1,400);
-const renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;root.appendChild(renderer.domElement);
-scene.add(new THREE.HemisphereLight(0xd8f2ff,0x53604c,2.1));
-const sun=new THREE.DirectionalLight(0xffe1ae,3.1);sun.position.set(-35,55,28);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);sun.shadow.camera.left=-75;sun.shadow.camera.right=75;sun.shadow.camera.top=75;sun.shadow.camera.bottom=-75;scene.add(sun);
-const mat=(color,roughness=.86)=>new THREE.MeshStandardMaterial({color,roughness});
-const grass=mat(0x5c9871),road=mat(0x303b43),sidewalk=mat(0xc5bca8),water= new THREE.MeshStandardMaterial({color:0x267e91,roughness:.25,metalness:.1}),white=mat(0xe8e0cc),dark=mat(0x28323a);
-const ground=new THREE.Mesh(new THREE.PlaneGeometry(260,260),grass);ground.rotation.x=-Math.PI/2;ground.position.y=-.12;ground.receiveShadow=true;scene.add(ground);
-function box(x,y,z,sx,sy,sz,material,cast=true){const m=new THREE.Mesh(new THREE.BoxGeometry(sx,sy,sz),material);m.position.set(x,y,z);m.castShadow=cast;m.receiveShadow=true;scene.add(m);return m}
-function roadStrip(x,z,w,d){box(x,-.035,z,w,.12,d,road,false);box(x,.025,z-d/2+.8,w,.08,1.6,sidewalk,false);box(x,.025,z+d/2-.8,w,.08,1.6,sidewalk,false)}
-roadStrip(0,0,18,210);roadStrip(-42,0,9,210);roadStrip(42,0,9,210);roadStrip(0,-40,100,8);roadStrip(0,38,100,8);
-for(let z=-96;z<=96;z+=10){box(0,.04,z, .18,.03,4,mat(0xe4d49b),false)}
-// lagoon and a bridge
-box(0,-.2,-117,260,.15,22,water,false);
-for(let x=-52;x<=52;x+=8){box(x,.15,-117,5,.25,1.4,mat(0xb6a58a),false)}
-box(0,1.4,-117,112,.45,7,mat(0xb8a78d));for(let x=-52;x<=52;x+=8)box(x,2.1,-117,.25,1.2,.25,white,false);
-// neighbourhood blocks
-const palettes=[0xe5ad72,0xd8d7c4,0x9fb7ad,0xd68f68,0xc9b8a0,0x83a9ad,0xe2c78d];
-function building(x,z,w,d,h,color,kind=0){const base=box(x,h/2,z,w,h,d,mat(color));if(kind%3===0){const roof=box(x,h+.22,z,w*.72,.45,d*.72,mat(0x6c4a39));roof.position.y=h+.22}
- for(let yy=2;yy<h-1;yy+=2.5){for(let xx=-w*.34;xx<w*.35;xx+=2.3){const win=box(x+xx,yy,z+d/2+.015,.85,.95,.06,mat(0x3b6d78),false);win.castShadow=false}}
- if(kind%2===1){box(x,h+.7,z,w*.38,.25,d*.38,mat(0xb45e40),false)}
- return base}
-for(let bx of [-28,-15,15,28])for(let bz=-85;bz<92;bz+=22){if(Math.abs(bx)<20&&Math.abs(bz)<46)continue;const w=7+Math.random()*5,d=7+Math.random()*5,h=7+Math.random()*20;building(bx+(Math.random()-.5)*4,bz+(Math.random()-.5)*5,w,d,h,palettes[Math.floor(Math.random()*palettes.length)],Math.floor(Math.random()*4))}
-for(let x=-60;x<=60;x+=15){if(Math.abs(x)<12)continue;building(x,-65,10,10,22+Math.random()*16,palettes[Math.floor(Math.random()*palettes.length)],2)}
-// market stalls
-for(let x=-10;x<=10;x+=5){box(x,1.2,18,3.8,2.4,3,mat(0xb86e43));box(x,2.55,18,4.3,.25,3.5,mat(0x3f756d));}
-// palm trees
-function palm(x,z){const trunk=new THREE.Mesh(new THREE.CylinderGeometry(.22,.38,5,7),mat(0x896343));trunk.position.set(x,2.5,z);trunk.rotation.z=(Math.random()-.5)*.13;trunk.castShadow=true;scene.add(trunk);const crown=new THREE.Group();crown.position.set(x,5,z);for(let i=0;i<8;i++){const a=i*Math.PI/4;const leaf=new THREE.Mesh(new THREE.ConeGeometry(.42,4.2,5),mat(i%2?0x28754c:0x398456));leaf.position.set(Math.cos(a)*1.45,-.1,Math.sin(a)*1.45);leaf.rotation.z=-Math.cos(a)*.9;leaf.rotation.x=Math.sin(a)*.9;leaf.castShadow=true;crown.add(leaf)}scene.add(crown)}
-for(let z=-95;z<100;z+=13){palm(-10,z);palm(10,z);if(z%2===0){palm(-50,z);palm(50,z)}}
-// small cars along street
-function car(x,z,color){const c=new THREE.Group();const body=new THREE.Mesh(new THREE.BoxGeometry(2.5,.8,4.3),mat(color));body.position.y=.8;body.castShadow=true;c.add(body);const cabin=new THREE.Mesh(new THREE.BoxGeometry(1.8,.85,2),mat(0x8bb4bd));cabin.position.set(0,1.55,-.25);c.add(cabin);for(const wx of [-1.25,1.25])for(const wz of [-1.35,1.35]){const wheel=new THREE.Mesh(new THREE.CylinderGeometry(.42,.42,.22,12),dark);wheel.rotation.z=Math.PI/2;wheel.position.set(wx,.45,wz);c.add(wheel)}c.position.set(x,0,z);scene.add(c);return c}
-car(-5,-25,0xd59b35);car(5,55,0x397b83);car(-5,78,0xb44c3e);
-// Landmark signs
-function sign(label,x,z,color){const canvas=document.createElement('canvas');canvas.width=512;canvas.height=128;const ctx=canvas.getContext('2d');ctx.fillStyle='#102a35';ctx.fillRect(0,0,512,128);ctx.fillStyle=color;ctx.font='bold 54px Arial';ctx.textAlign='center';ctx.fillText(label,256,82);const tex=new THREE.CanvasTexture(canvas);const mesh=new THREE.Mesh(new THREE.PlaneGeometry(10,2.5),new THREE.MeshBasicMaterial({map:tex}));mesh.position.set(x,8,z);scene.add(mesh)}
-sign('YABA MARKET',-18,15,'#ffd17a');sign('LAGOS LAGOON',0,-101,'#75d7dc');sign('MAINLAND',-38,-7,'#f3b58a');
-// player
-const player=new THREE.Group();const torso=new THREE.Mesh(new THREE.CapsuleGeometry(.48,.9,5,10),mat(0x235c70));torso.position.y=1.25;torso.castShadow=true;player.add(torso);const head=new THREE.Mesh(new THREE.SphereGeometry(.34,16,12),mat(0x8b593e));head.position.y=2.12;head.castShadow=true;player.add(head);const legs=new THREE.Mesh(new THREE.BoxGeometry(.62,.7,.42),mat(0x26303c));legs.position.y=.45;player.add(legs);player.position.set(0,0,5);scene.add(player);
-// collectables
-const tokens=[];const gold=new THREE.MeshStandardMaterial({color:0xffc34d,metalness:.7,roughness:.22,emissive:0x7b4300,emissiveIntensity:.5});
-const spots=[[-32,-30], [32,-28],[-31,20],[31,22],[-48,65],[48,65],[-22,-82],[22,-82]];
-spots.forEach(([x,z],i)=>{const g=new THREE.Group();const ring=new THREE.Mesh(new THREE.TorusGeometry(.72,.16,10,24),gold);ring.rotation.x=Math.PI/2;ring.position.y=1.3;g.add(ring);const gem=new THREE.Mesh(new THREE.OctahedronGeometry(.43),gold);gem.position.y=1.3;g.add(gem);g.position.set(x,0,z);scene.add(g);tokens.push({group:g,active:true,index:i})});
-const keys={};let yaw=0, pitch=.18, wallet=0,found=0,started=false;const toast=document.querySelector('#toast');
-addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault()});
-addEventListener('keyup',e=>keys[e.key.toLowerCase()]=false);
-renderer.domElement.addEventListener('click',()=>{if(started&&document.pointerLockElement!==renderer.domElement)renderer.domElement.requestPointerLock?.()});
-addEventListener('mousemove',e=>{if(document.pointerLockElement===renderer.domElement){yaw-=e.movementX*.0024;pitch=Math.max(-.15,Math.min(.65,pitch+e.movementY*.0018))}});
+const root=document.querySelector('#game'),scene=new THREE.Scene();scene.background=new THREE.Color(0x9acbd0);scene.fog=new THREE.Fog(0x9acbd0,65,175);
+const camera=new THREE.PerspectiveCamera(58,innerWidth/innerHeight,.1,350),renderer=new THREE.WebGLRenderer({antialias:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;root.appendChild(renderer.domElement);
+scene.add(new THREE.HemisphereLight(0xe1f6ff,0x52634f,2));const sun=new THREE.DirectionalLight(0xffe4bd,3);sun.position.set(-35,55,30);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);scene.add(sun);
+const mat=(c,r=.85)=>new THREE.MeshStandardMaterial({color:c,roughness:r});
+const grass=mat(0x65a078),road=mat(0x39464d),cream=mat(0xe6ddc8),wall=mat(0xe5c99c),roof=mat(0x9c5744),blue=mat(0x3e7892),dark=mat(0x263642),wood=mat(0x8b6245),glass=mat(0x6aa5b3,.35);
+function box(x,y,z,sx,sy,sz,m,cast=true){const o=new THREE.Mesh(new THREE.BoxGeometry(sx,sy,sz),m);o.position.set(x,y,z);o.castShadow=cast;o.receiveShadow=true;scene.add(o);return o}
+const ground=box(0,-.2,0,190,.3,190,grass,false);
+box(0,-.02,0,13,.12,150,road,false);box(0,-.01,0,110,.12,10,road,false);
+for(let z=-65;z<70;z+=10)box(0,.05,z,.16,.03,4,mat(0xe5d6a8),false);
+function building(x,z,w,d,h,color,windows=true){box(x,h/2,z,w,h,d,mat(color));box(x,h+.18,z,w+.5,.35,d+.5,roof);if(windows)for(let y=2;y<h-1;y+=2.5)for(let xx=-w/2+1.5;xx<w/2-1;xx+=3)box(x+xx,y,z+d/2+.03,1.1,1.15,.08,glass,false)}
+// Main school block
+building(-25,-4,25,30,12,0xe9d3ad);building(25,-4,25,30,12,0xd9e0d4);building(0,-28,34,13,9,0xd9c49d);
+box(0,.12,-4,12,.3,11,cream);box(0,6.2,11,14,1.4,.8,roof);
+function label(text,x,y,z,color='#16354a'){const c=document.createElement('canvas');c.width=512;c.height=128;const ctx=c.getContext('2d');ctx.fillStyle='#f2d7a6';ctx.fillRect(0,0,512,128);ctx.fillStyle=color;ctx.font='bold 48px Arial';ctx.textAlign='center';ctx.fillText(text,256,82);const t=new THREE.CanvasTexture(c);const m=new THREE.Mesh(new THREE.PlaneGeometry(10,2.5),new THREE.MeshBasicMaterial({map:t}));m.position.set(x,y,z);scene.add(m)}
+label('LAGOS HIGH SCHOOL',0,9,11);label('LIBRARY',-25,7,11);label('SCIENCE LAB',25,7,11);label('CAFETERIA',0,6,-19);
+function tree(x,z){const t=new THREE.Mesh(new THREE.CylinderGeometry(.2,.32,3,7),wood);t.position.set(x,1.5,z);t.castShadow=true;scene.add(t);const crown=new THREE.Mesh(new THREE.SphereGeometry(1.5,9,7),mat(0x347c50));crown.position.set(x,3.8,z);crown.castShadow=true;scene.add(crown)}
+for(let z=-65;z<=65;z+=13){tree(-49,z);tree(49,z)}for(let x=-40;x<=40;x+=13){tree(x,45);tree(x,-45)}
+// sports field and markings
+box(0,.01,53,43,.12,29,mat(0x4b9a62),false);for(let x=-18;x<=18;x+=36)box(x,.1,53,.3,.08,25,white,false);box(0,.12,53,0.25,.08,25,white,false);
+for(let x of [-17,17]){box(x,1,53,.3,2,.3,white,false);box(x,2,53,4,.25,.3,white,false)}
+// benches, tables, cafeteria
+for(let x of [-8,8]){box(x,.65,0,5,.3,1.5,wood);for(let z of [-.6,.6])box(x,.3,z,4.6,.5,.15,dark)}
+for(let x=-9;x<=9;x+=6){box(x,.7,-22,3,.3,2,wood);for(let z of [-22.7,-21.3])box(x,.35,z,2.7,.4,.15,dark)}
+// character creator
+function person(x,z,shirt=0x235c70,scale=1){const g=new THREE.Group();const body=new THREE.Mesh(new THREE.CapsuleGeometry(.38,.75,4,8),mat(shirt));body.position.y=1.05;body.castShadow=true;g.add(body);const head=new THREE.Mesh(new THREE.SphereGeometry(.29,12,10),mat(0x87583e));head.position.y=1.85;head.castShadow=true;g.add(head);const legs=new THREE.Mesh(new THREE.BoxGeometry(.48,.55,.35),mat(0x293846));legs.position.y=.28;g.add(legs);g.position.set(x,0,z);g.scale.setScalar(scale);scene.add(g);return g}
+const player=person(0,20,0x244e70,1);const npcs=[{name:'Amara',role:'Classmate',x:-9,z:6,shirt:0x9b5a7c,done:false},{name:'Tunde',role:'Classmate',x:9,z:6,shirt:0x3d8b78,done:false},{name:'Ms. Okafor',role:'Teacher',x:-24,z:4,shirt:0x8b6642,done:false},{name:'Coach Ade',role:'Coach',x:0,z:42,shirt:0x397a4b,done:false}];npcs.forEach(n=>{n.mesh=person(n.x,n.z,n.shirt,.95)});
+const tasks=[
+{id:'assembly',name:'Assembly ground',x:0,z:-4,title:'Morning assembly',desc:'The principal welcomes everyone to a new week. You hear reminders about kindness, curiosity and looking out for your classmates.',reward:10,done:false},
+{id:'math',name:'Mathematics classroom',x:-25,z:5,title:'Mathematics lesson',desc:'Quick class challenge: What is 12 × 8?',reward:20,done:false,quiz:true},
+{id:'english',name:'English classroom',x:25,z:5,title:'English lesson',desc:'Quick class challenge: Which word is a synonym for “brave”?',reward:20,done:false,quiz:true},
+{id:'library',name:'School library',x:-25,z:-5,title:'Quiet time in the library',desc:'You spend time reading and researching a topic for your next project. Knowledge grows one page at a time.',reward:15,done:false},
+{id:'lunch',name:'Cafeteria',x:0,z:-22,title:'Lunch break',desc:'You sit with other students, enjoy a snack and catch up on the day. Remember to keep the cafeteria tidy!',reward:10,done:false},
+{id:'science',name:'Science laboratory',x:25,z:-5,title:'Science practical',desc:'You explore a safe classroom experiment about plants and how sunlight helps them grow.',reward:20,done:false},
+{id:'sports',name:'Sports field',x:0,z:53,title:'After-class football',desc:'A friendly practice session helps your team work together. Great passing!',reward:15,done:false}
+];
+let rep=0,grade='A',yaw=0,pitch=.2,started=false,clockMinutes=8*60,day=0,dialogTask=null;const keys={};let toastTimer;
+function toast(s){const t=document.querySelector('#toast');t.textContent=s;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),1800)}
+function showDialog(title,txt,action,fn){document.querySelector('#dialogTitle').textContent=title;document.querySelector('#dialogText').textContent=txt;const b=document.querySelector('#dialogAction');b.textContent=action||'Continue';b.onclick=()=>{if(fn)fn();document.querySelector('#dialog').style.display='none'};document.querySelector('#dialogClose').onclick=()=>document.querySelector('#dialog').style.display='none';document.querySelector('#dialog').style.display='block'}
+function updateHud(){document.querySelector('#rep').textContent=rep;document.querySelector('#grade').textContent=grade;document.querySelector('#time').textContent=String(Math.floor(clockMinutes/60)%24).padStart(2,'0')+':'+String(clockMinutes%60).padStart(2,'0');document.querySelector('#day').textContent=['MON','TUE','WED','THU','FRI'][day%5];const done=tasks.filter(t=>t.done).length;document.querySelector('#missionTitle').textContent=done===tasks.length?'School day complete!':tasks.find(t=>!t.done).title;document.querySelector('#missionText').textContent=done===tasks.length?'You completed today’s activities. Explore campus, chat with classmates or enjoy the free time.':done+' of '+tasks.length+' activities complete. Find the next school activity and press E nearby.'}
+function finishTask(task){if(task.done){toast('You already completed this activity.');return}task.done=true;rep+=task.reward;grade=rep>=100?'A+':rep>=60?'A':rep>=30?'B+':'A';updateHud();toast('Activity complete · +'+task.reward+' reputation');}
+function interact(){if(document.querySelector('#dialog').style.display==='block')return;let nearest=null,dist=4.2;for(const t of tasks){const d=Math.hypot(player.position.x-t.x,player.position.z-t.z);if(d<dist){nearest=t;dist=d}}for(const n of npcs){const d=Math.hypot(player.position.x-n.x,player.position.z-n.z);if(d<dist){nearest=n;dist=d}}if(!nearest){toast('Walk closer to a school activity or classmate.');return}if(nearest.role){if(!nearest.done){nearest.done=true;rep+=5;updateHud();showDialog('Chat with '+nearest.name,nearest.name+' says: “Welcome to Lagos High! Be kind, stay curious and make the most of your school year.”','Nice to meet you!',null)}else showDialog(nearest.name,'“See you around campus!”','Close',null);return}if(nearest.done){showDialog(nearest.title,'You have already completed this activity. Keep exploring!','Got it',null);return}if(nearest.quiz){const math=nearest.id==='math';showDialog(nearest.title,nearest.desc,math?'Answer: 96':'Answer: courageous',()=>{finishTask(nearest)});return}showDialog(nearest.title,nearest.desc,'Complete activity',()=>finishTask(nearest))}
+addEventListener('keydown',e=>{keys[e.key.toLowerCase()]=true;if(['ArrowUp','ArrowDown','ArrowLeft','ArrowRight',' '].includes(e.key))e.preventDefault();if(e.key.toLowerCase()==='e'&&!e.repeat)interact()});addEventListener('keyup',e=>keys[e.key.toLowerCase()]=false);
+renderer.domElement.addEventListener('click',()=>{if(started&&document.pointerLockElement!==renderer.domElement)renderer.domElement.requestPointerLock?.()});addEventListener('mousemove',e=>{if(document.pointerLockElement===renderer.domElement){yaw-=e.movementX*.0024;pitch=Math.max(-.1,Math.min(.65,pitch+e.movementY*.0018))}});
 document.querySelectorAll('#mobile button').forEach(b=>{const k=b.dataset.key;b.addEventListener('pointerdown',e=>{e.preventDefault();keys[k]=true});['pointerup','pointerleave','pointercancel'].forEach(ev=>b.addEventListener(ev,()=>keys[k]=false))});
-document.querySelector('#play').addEventListener('click',()=>{document.querySelector('#start').style.display='none';started=true;renderer.domElement.requestPointerLock?.()});
-function say(t){toast.textContent=t;toast.classList.add('show');clearTimeout(say.timer);say.timer=setTimeout(()=>toast.classList.remove('show'),1600)}
-const clock=new THREE.Clock();const forward=new THREE.Vector3(),right=new THREE.Vector3(),move=new THREE.Vector3();
-function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.04);const t=clock.elapsedTime;
- tokens.forEach(o=>{if(!o.active)return;o.group.rotation.y=t*.8;o.group.position.y=Math.sin(t*2+o.index)*.17;if(player.position.distanceTo(o.group.position)<2.1){o.active=false;scene.remove(o.group);wallet+=500;found++;document.querySelector('#wallet').textContent='₦'+wallet.toLocaleString('en-NG');document.querySelector('#found').textContent=found+' / 8';say(found===8?'All tokens found — you own the streets!':'+₦500 · Nice find!')}})
- if(started){const f=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0),s=(keys.d||keys.arrowright?1:0)-(keys.a||keys.arrowleft?1:0);forward.set(-Math.sin(yaw),0,-Math.cos(yaw));right.set(Math.cos(yaw),0,-Math.sin(yaw));move.set(0,0,0).addScaledVector(forward,f).addScaledVector(right,s);if(move.lengthSq()>0){move.normalize();const speed=keys.shift?13:7.5;player.position.addScaledVector(move,speed*dt);player.rotation.y=Math.atan2(move.x,move.z)}player.position.x=THREE.MathUtils.clamp(player.position.x,-58,58);player.position.z=THREE.MathUtils.clamp(player.position.z,-105,96);
- const target=new THREE.Vector3(player.position.x+Math.sin(yaw)*10,player.position.y+5.5+pitch*5,player.position.z+Math.cos(yaw)*10);camera.position.lerp(target,1-Math.exp(-5*dt));camera.lookAt(player.position.x,1.2,player.position.z)}
- else{camera.position.set(35,35,45);camera.lookAt(0,0,0)}
- renderer.render(scene,camera)}
-camera.position.set(35,35,45);animate();
-addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});
+document.querySelector('#play').onclick=()=>{document.querySelector('#start').style.display='none';started=true;renderer.domElement.requestPointerLock?.();showDialog('Welcome to Lagos High','Your first mission is to explore the campus, meet classmates and attend your lessons. Walk near a location and press E to interact.','Let’s go!',null)};
+const clock=new THREE.Clock(),forward=new THREE.Vector3(),right=new THREE.Vector3(),move=new THREE.Vector3();
+function animate(){requestAnimationFrame(animate);const dt=Math.min(clock.getDelta(),.04),t=clock.elapsedTime;if(started){clockMinutes+=dt*1.5;updateHud();const f=(keys.w||keys.arrowup?1:0)-(keys.s||keys.arrowdown?1:0),s=(keys.d||keys.arrowright?1:0)-(keys.a||keys.arrowleft?1:0);forward.set(-Math.sin(yaw),0,-Math.cos(yaw));right.set(Math.cos(yaw),0,-Math.sin(yaw));move.set(0,0,0).addScaledVector(forward,f).addScaledVector(right,s);if(move.lengthSq()){move.normalize();player.position.addScaledVector(move,(keys.shift?12:7)*dt);player.rotation.y=Math.atan2(move.x,move.z)}player.position.x=THREE.MathUtils.clamp(player.position.x,-55,55);player.position.z=THREE.MathUtils.clamp(player.position.z,-70,70);const target=new THREE.Vector3(player.position.x+Math.sin(yaw)*10,player.position.y+5.2+pitch*4,player.position.z+Math.cos(yaw)*10);camera.position.lerp(target,1-Math.exp(-5*dt));camera.lookAt(player.position.x,1.2,player.position.z)}else{camera.position.set(42,38,48);camera.lookAt(0,0,0)}npcs.forEach((n,i)=>{n.mesh.position.y=Math.sin(t*2+i)*.025});renderer.render(scene,camera)}
+camera.position.set(42,38,48);animate();addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight)});updateHud();
 </script>
-</body>
-</html>
+</body></html>
